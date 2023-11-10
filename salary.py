@@ -19,9 +19,11 @@ class salary():
         teams = tbody.find_all('tr')
 
         for team in teams:
-            print(team.find('td', {'data-stat' : 'Salary'}).text.strip_all('$'))
+            row = {'team' : team.find('a').text, 'bat_salary' : team.find('td', {'data-stat' : 'Salary'}).text}
+            data = pd.concat([data, pd.DataFrame(data = row, index = [len(data) + 1])], ignore_index = True)
         
-
+        data['bat_salary'] = data['bat_salary'].str.replace(',', '')
+        print(data)
 
     def dummy():
         pass
