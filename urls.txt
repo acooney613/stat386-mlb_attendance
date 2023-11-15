@@ -2,4 +2,7 @@ https://www.baseball-reference.com/leagues/majors/2023-value-batting.shtml
 https://www.baseball-reference.com/leagues/majors/2023-value-pitching.shtml
 https://www.moving.com/tips/largest-cities-in-us/
 https://www.espn.com/mlb/attendance
-https://www.espn.com/mlb/attendance/_/year/2022
+https://www.mlb.com/team
+https://www.ballparksofbaseball.com/national-league/
+https://www.ballparksofbaseball.com/american-league/
+
