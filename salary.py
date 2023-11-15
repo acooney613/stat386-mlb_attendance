@@ -24,14 +24,18 @@ class attendance():
         df['TEAM'] = df['TEAM'].str.replace('Florida', 'Miami')
         df['TEAM'] = df['TEAM'].str.replace('Anaheim', 'LA Angels')
         df['TEAM'] = df['TEAM'].str.replace('Montreal', 'Washington')
+
         if self.data.empty:
             self.data = df
         else:
             self.data = pd.merge(self.data, df, on = 'TEAM', how = 'inner').rename_axis(None).reset_index(drop = True)
+
     def gather(self):
         dt = datetime.date.today()
         year = dt.year
         while year > 2002:
+            if year == 2020:
+                year -= 1
             if year == dt.year:
                 self.collect(self.base_url, year)
                 year -= 1
@@ -39,7 +43,6 @@ class attendance():
                 extend = f'/_/year/{year}'
                 self.collect(self.base_url + extend, year)
                 year -= 1
-        print(self.data)
 
 
 
