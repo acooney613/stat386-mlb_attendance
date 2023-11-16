@@ -5,11 +5,18 @@ import datetime
 import re
 import numpy as np
 
+POP2010 = 'Intercensal Estimates of the Resident Population for Incorporated Places and Minor Civil Divisions: April 1, 2000 to July 1, 2010'
+
 class population():
     def __init__(self, url_1, url_2, url_3, cities):
         # pass in a list of cities 
-        self.population_2022(url_1)
-        self.population_2019(url_2)
+        #self.population_2022(url_1)
+        #self.population_2019(url_2)
+        self.population_2010(url_3)
+        # need to combine these datasets
+        # maybe make the city name the row description and the year the column header
+        # select the list of cities that i want to look at
+        # once i have the list of cities we can just grab the population data
 
     def population_2022(self, url):
         r = requests.get(url)
@@ -53,6 +60,15 @@ class population():
         
         # select the cities we want to look at here
         self.pop_2019 = pop_2019
+    
+    def population_2010(self, url):
+        r = requests.get(url)
+        soup = BeautifulSoup(r.text, 'html.parser')
+        us = soup.find('a', {'name' : POP2010}, href = True)
+        new_url = 'https:' + us['href']
+        df = pd.read_csv(new_url, encoding = 'ISO-8859-1')
+        self.pop_2010 = df
+        print(self.pop_2010)
 
 class stadiums():
     def __init__(self, url_1, url_2, url_3):
@@ -145,8 +161,12 @@ class attendance():
     def __init__(self, base_url):
         self.base_url = base_url
         self.data = pd.DataFrame()
+
+    def get_data(self):
         self.gather()
-        
+        return self.data
+
+
     def collect(self, url, year):
         table = pd.read_html(url)
         df = table[0]
@@ -155,10 +175,9 @@ class attendance():
         df = df[[f'{year} Attendance', 'Home']]
         df.columns = df.iloc[0]
         df = df.iloc[1:].reset_index(drop = True)
-        df = df.rename(columns = {'GMS' : f'GMS_{year}', 'RK' : f'RK_{year}', 'TOTAL' : f'TOTAL_{year}',
-                         'AVG' : f'AVG_{year}' })
+        df = df.rename(columns = {'AVG' : f'{year}' })
         
-        df = df[['TEAM', f'RK_{year}', f'GMS_{year}', f'TOTAL_{year}', f'AVG_{year}']]
+        df = df[['TEAM', f'{year}']]
         df['TEAM'] = df['TEAM'].str.replace('Florida', 'Miami')
         df['TEAM'] = df['TEAM'].str.replace('Anaheim', 'LA Angels')
         df['TEAM'] = df['TEAM'].str.replace('Montreal', 'Washington')
@@ -256,13 +275,16 @@ class salary():
         data['salary'] = data['bat_salary'] + data['pitch_salary']
         self.data = data
 
-x = salary('https://www.baseball-reference.com/leagues/majors/2023-value-batting.shtml', 
-          'https://www.baseball-reference.com/leagues/majors/2023-value-pitching.shtml')
+#x = salary('https://www.baseball-reference.com/leagues/majors/2023-value-batting.shtml', 
+ #         'https://www.baseball-reference.com/leagues/majors/2023-value-pitching.shtml')
 
-df_salary = x.get_data()
-print(df_salary)
+#df_salary = x.get_data()
+#print(df_salary)
 
 #y = attendance('https://www.espn.com/mlb/attendance')
+
+#df_attendance = y.get_data()
+#print(df_attendance)
 
 #z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/',
  #            'https://www.ballparksofbaseball.com/past-ballparks/')
@@ -270,15 +292,8 @@ print(df_salary)
 #df_stadium = z.get_data()
 #print(df_stadium)
 
-#t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
-#              'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
- #              'https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-cities-and-towns.html')
+t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
+              'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
+              'https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-cities-and-towns.html',
+              'cities')
 
-# could check the change in salary relative to the change in the population size, or the average household income of
-# surrounding area
-
-# need past stadium data as well and then need to find a way to merge some of the things
-# need to also get the win-loss data from the teams too 
-
-## could change what i'm doing to see how the population change over the past several years affects fan attendance
-# or win loss percentage of a given team
