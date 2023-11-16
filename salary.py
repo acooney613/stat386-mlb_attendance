@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 import datetime
 import re
+import numpy as np
 
 class population():
     def __init__(self, url_1, url_2, url_3, cities):
@@ -56,11 +57,16 @@ class population():
 class stadiums():
     def __init__(self, url_1, url_2, url_3):
         self.data = pd.DataFrame(columns = ['team', 'location', 'stadium', 'capacity', 'opened', 'closed'])
-        self.stadium_data(url_1)
-        self.stadium_data(url_2)
-        self.past_stadium(url_3)
+        self.url_1 = url_1
+        self.url_2 = url_2
+        self.url_3 = url_3
+    
+    def get_data(self):
+        self.stadium_data(self.url_1)
+        self.stadium_data(self.url_2)
+        self.past_stadium(self.url_3)
         self.clean()
-        print(self.data)
+        return self.data
 
     def past_stadium(self, url):
         r = requests.get(url)
@@ -77,22 +83,22 @@ class stadiums():
             for x in info:
                 tmp = tmp + x.find('p').text + '\n'
             
-            #info = info.find('p').text
             team = re.search(r'(?:Tenant|Tenants):\s*(.*?)\n', tmp).group(1)
             capacity = re.search(r'Capacity:\s*(.*?)\n', tmp).group(1)
             opened = re.search(r'(?:Opened|Opening):\s*(.*?)\n', tmp).group(1)
             closed = re.search(r'Closed:\s*(.*?)\n', tmp)
             if closed == None:
                 closed = '-'
-                closed = self.data[self.data['location'] == location]['opened']
+                closed = self.data[self.data['location'] == location]['opened'].to_string()
                 
             else:
                 closed = closed.group(1)
-        
-            #team = re.search(r'(?:Tenant|Tenants):\s*(.*?)\n', tmp)
-            #print(team)
-            row = {'team' : team, 'location' : location, 'stadium' : name, 'capacity' : capacity, 'opened' : opened, 'closed' : closed}
-            self.data = pd.concat([self.data, pd.DataFrame(data = row, index = [len(self.data) + 1])], ignore_index = True)
+
+            closed = re.search(r',\s*(.*?)(?:,|\s*\(|$)', closed).group(1)
+            
+            if int(closed) > 2003:
+                row = {'team' : team, 'location' : location, 'stadium' : name, 'capacity' : capacity, 'opened' : opened, 'closed' : closed}
+                self.data = pd.concat([self.data, pd.DataFrame(data = row, index = [len(self.data) + 1])], ignore_index = True)
             tmp_r.close()
         r.close()
 
@@ -129,8 +135,6 @@ class stadiums():
         data['city'] = data['city'].replace(['Bronx', 'Queens'], 'New York City')
         data[['state']] = data['location'].str.extract(r',\s*(\w+)')
         data[['opened']] = data['opened'].str.extract(r',\s*(.*?)(?:,|\s*\(|$)')
-        data[['closed']] = data['closed'].str.extract(r',\s*(.*?)(?:,|\s*\(|$)')
-        data['closed'] = data['closed'].str.ljust(4, fillchar = '0')
         self.data = data[['team', 'city', 'state', 'stadium', 'capacity', 'opened', 'closed']]
 
         # need to merge on both the team and the year, to get the right stadium and location
@@ -239,6 +243,9 @@ class salary():
 
 z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/',
              'https://www.ballparksofbaseball.com/past-ballparks/')
+
+df_stadium = z.get_data()
+print(df_stadium)
 
 #t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
 #              'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
