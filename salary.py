@@ -3,6 +3,37 @@ from bs4 import BeautifulSoup
 import requests
 import datetime
 
+class population():
+    def __init__(self, url_1, url_2, url_3):
+        #self.population_2022(url_1)
+        self.population_2019(url_2)
+
+    def population_2022(self, url):
+        r = requests.get(url)
+        soup = BeautifulSoup(r.text, 'html.parser')
+        us = soup.find('li', class_ = 'uscb-list-attachment')
+        link = us.find('a', href = True)
+
+        pop_2023 = pd.read_excel('https:' + link['href']).dropna()
+        pop_2023.columns = ['geographic area', 'april 2020 base', '2020', '2021', '2022']
+        pop_2023[['city', 'state']] = pop_2023['geographic area'].str.extract(r'(.*?)\s(?:city|town),\s(\w+)')
+        pop_2023['2021'] = pop_2023['2021'].astype('int')
+        pop_2023['2022'] = pop_2023['2022'].astype('int')
+        pop_2023 = pop_2023[['city', 'state', '2020', '2021', '2022']].reset_index(drop = True)
+        #print(pop_2023)
+
+    def population_2019(self, url):
+        r = requests.get(url)
+        soup = BeautifulSoup(r.text, 'html.parser')
+        us = soup.find('li', class_ = 'uscb-list-attachment')
+        link = us.find('a', href = True)
+
+        pop_2019 = pd.read_excel('https:' + link['href']).dropna()
+        pop_2019.columns = ['location', 'census', 'estimate base', '2010', '2011', '2012', '2013', '2014', '2015',
+                             '2016', '2017', '2018', '2019']
+        
+        print(pop_2019)
+
 class stadiums():
     def __init__(self, url_1, url_2):
         self.data = pd.DataFrame(columns = ['team', 'location', 'stadium', 'capacity'])
@@ -35,13 +66,14 @@ class stadiums():
     
     def clean(self):
         data = self.data
-        data[['team']] = data['team'].str.extract(r'\s(\w+\s*\w+)')
+        data[['team']] = data['team'].str.extract(r'\w+:\s*(.*?)(?:,|\(|$)')
+        data['team'] = data['team'].str.strip()
         data['location'] = data['location'].str.strip()
-        self.data = data
-        
-
-        r"\[(.*?)\]"
-            
+        data['capacity'] = data['capacity'].str.replace(',', '')
+        data['capacity'] = data['capacity'].str.extract(r'\s(\d+)').astype('int')
+        data[['city']] = data['location'].str.extract(r'(.*?)(?:,)')
+        data[['state']] = data['location'].str.extract(r',\s*(\w+)')
+        self.data = data[['team', 'city', 'state', 'stadium', 'capacity']]
 
 
 class attendance():
@@ -139,16 +171,19 @@ class salary():
         data = pd.merge(bat, pitch, on = 'team', how = 'inner')
         data['salary'] = data['bat_salary'] + data['pitch_salary']
 
-    def dummy():
-        pass
-
 #x = salary('https://www.baseball-reference.com/leagues/majors/2023-value-batting.shtml', 
    #        'https://www.baseball-reference.com/leagues/majors/2023-value-pitching.shtml')
 
 #y = attendance('https://www.espn.com/mlb/attendance')
 
-z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/')
+#z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/')
 
+t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
+              'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
+               'https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-cities-and-towns.html')
 
 # could check the change in salary relative to the change in the population size, or the average household income of
 # surrounding area
+
+# need past stadium data as well and then need to find a way to merge some of the things
+# need to also get the win-loss data from the teams too 
