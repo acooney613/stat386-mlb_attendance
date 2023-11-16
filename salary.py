@@ -54,13 +54,49 @@ class population():
         self.pop_2019 = pop_2019
 
 class stadiums():
-    def __init__(self, url_1, url_2):
-        self.data = pd.DataFrame(columns = ['team', 'location', 'stadium', 'capacity', 'opened'])
+    def __init__(self, url_1, url_2, url_3):
+        self.data = pd.DataFrame(columns = ['team', 'location', 'stadium', 'capacity', 'opened', 'closed'])
         self.stadium_data(url_1)
         self.stadium_data(url_2)
+        self.past_stadium(url_3)
         self.clean()
         print(self.data)
 
+    def past_stadium(self, url):
+        r = requests.get(url)
+        soup = BeautifulSoup(r.text, 'html.parser')
+        ballparks = soup.find_all('a', class_ = 'stadium-item', href = True)
+
+        for ballpark in ballparks:
+            name = ballpark.find('div', class_ = 'title').text
+            location = ballpark.find('div', class_ = 'city').text.strip()
+            tmp_r = requests.get(ballpark['href'])
+            tmp_soup = BeautifulSoup(tmp_r.text, 'html.parser')
+            info = tmp_soup.find_all('div', class_ = 'facts-col')
+            tmp = ''
+            for x in info:
+                tmp = tmp + x.find('p').text + '\n'
+            
+            #info = info.find('p').text
+            team = re.search(r'(?:Tenant|Tenants):\s*(.*?)\n', tmp).group(1)
+            capacity = re.search(r'Capacity:\s*(.*?)\n', tmp).group(1)
+            opened = re.search(r'(?:Opened|Opening):\s*(.*?)\n', tmp).group(1)
+            closed = re.search(r'Closed:\s*(.*?)\n', tmp)
+            if closed == None:
+                closed = '-'
+                closed = self.data[self.data['location'] == location]['opened']
+                
+            else:
+                closed = closed.group(1)
+        
+            #team = re.search(r'(?:Tenant|Tenants):\s*(.*?)\n', tmp)
+            #print(team)
+            row = {'team' : team, 'location' : location, 'stadium' : name, 'capacity' : capacity, 'opened' : opened, 'closed' : closed}
+            self.data = pd.concat([self.data, pd.DataFrame(data = row, index = [len(self.data) + 1])], ignore_index = True)
+            tmp_r.close()
+        r.close()
+
+        
     def stadium_data(self, url):
         r = requests.get(url)
         soup = BeautifulSoup(r.text, 'html.parser')
@@ -77,7 +113,7 @@ class stadiums():
             capacity = re.search(r'-Capacity:\s*(.*?)\n', info).group(1)
             opened = re.search(r'-(?:Opened|Opening):\s*(.*?)\n', info).group(1)
 
-            row = {'team' : team, 'location' : location, 'stadium' : name, 'capacity' : capacity, 'opened' : opened}
+            row = {'team' : team, 'location' : location, 'stadium' : name, 'capacity' : capacity, 'opened' : opened, 'closed' : '-'}
             self.data = pd.concat([self.data, pd.DataFrame(data = row, index = [len(self.data) + 1])], ignore_index = True)
             tmp_r.close()
         r.close()
@@ -92,8 +128,10 @@ class stadiums():
         data[['city']] = data['location'].str.extract(r'(.*?)(?:,)')
         data['city'] = data['city'].replace(['Bronx', 'Queens'], 'New York City')
         data[['state']] = data['location'].str.extract(r',\s*(\w+)')
-        data[['opened']] = data['opened'].str.extract(r',\s*(.*?)(?:\s*\(|$)')
-        self.data = data[['team', 'city', 'state', 'stadium', 'capacity', 'opened']]
+        data[['opened']] = data['opened'].str.extract(r',\s*(.*?)(?:,|\s*\(|$)')
+        data[['closed']] = data['closed'].str.extract(r',\s*(.*?)(?:,|\s*\(|$)')
+        data['closed'] = data['closed'].str.ljust(4, fillchar = '0')
+        self.data = data[['team', 'city', 'state', 'stadium', 'capacity', 'opened', 'closed']]
 
         # need to merge on both the team and the year, to get the right stadium and location
         # need to add a year column to the attendance dataset or something
@@ -199,7 +237,8 @@ class salary():
 
 #y = attendance('https://www.espn.com/mlb/attendance')
 
-z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/')
+z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/',
+             'https://www.ballparksofbaseball.com/past-ballparks/')
 
 #t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
 #              'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
@@ -210,3 +249,6 @@ z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://ww
 
 # need past stadium data as well and then need to find a way to merge some of the things
 # need to also get the win-loss data from the teams too 
+
+## could change what i'm doing to see how the population change over the past several years affects fan attendance
+# or win loss percentage of a given team
