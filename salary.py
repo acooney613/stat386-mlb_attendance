@@ -7,8 +7,69 @@ import numpy as np
 
 POP2010 = 'Intercensal Estimates of the Resident Population for Incorporated Places and Minor Civil Divisions: April 1, 2000 to July 1, 2010'
 
+STATES = {
+        'AK': 'Alaska',
+        'AL': 'Alabama',
+        'AR': 'Arkansas',
+        'AS': 'American Samoa',
+        'AZ': 'Arizona',
+        'CA': 'California',
+        'CO': 'Colorado',
+        'CT': 'Connecticut',
+        'DC': 'District of Columbia',
+        'DE': 'Delaware',
+        'FL': 'Florida',
+        'GA': 'Georgia',
+        'GU': 'Guam',
+        'HI': 'Hawaii',
+        'IA': 'Iowa',
+        'ID': 'Idaho',
+        'IL': 'Illinois',
+        'IN': 'Indiana',
+        'KS': 'Kansas',
+        'KY': 'Kentucky',
+        'LA': 'Louisiana',
+        'MA': 'Massachusetts',
+        'MD': 'Maryland',
+        'ME': 'Maine',
+        'MI': 'Michigan',
+        'MN': 'Minnesota',
+        'MO': 'Missouri',
+        'MP': 'Northern Mariana Islands',
+        'MS': 'Mississippi',
+        'MT': 'Montana',
+        'NA': 'National',
+        'NC': 'North Carolina',
+        'ND': 'North Dakota',
+        'NE': 'Nebraska',
+        'NH': 'New Hampshire',
+        'NJ': 'New Jersey',
+        'NM': 'New Mexico',
+        'NV': 'Nevada',
+        'NY': 'New York',
+        'OH': 'Ohio',
+        'OK': 'Oklahoma',
+        'OR': 'Oregon',
+        'PA': 'Pennsylvania',
+        'PR': 'Puerto Rico',
+        'RI': 'Rhode Island',
+        'SC': 'South Carolina',
+        'SD': 'South Dakota',
+        'TN': 'Tennessee',
+        'TX': 'Texas',
+        'UT': 'Utah',
+        'VA': 'Virginia',
+        'VI': 'Virgin Islands',
+        'VT': 'Vermont',
+        'WA': 'Washington',
+        'WI': 'Wisconsin',
+        'WV': 'West Virginia',
+        'WY': 'Wyoming'
+}
+
 class population():
-    def __init__(self, url_1, url_2, url_3, cities):
+    def __init__(self, url_1, url_2, url_3, location):
+        self.location = location
         # pass in a list of cities 
         #self.population_2022(url_1)
         #self.population_2019(url_2)
@@ -67,7 +128,20 @@ class population():
         us = soup.find('a', {'name' : POP2010}, href = True)
         new_url = 'https:' + us['href']
         df = pd.read_csv(new_url, encoding = 'ISO-8859-1')
+        df = df[['NAME', 'STNAME', 'POPESTIMATE2003', 'POPESTIMATE2004', 'POPESTIMATE2005',
+                            'POPESTIMATE2006', 'POPESTIMATE2007', 'POPESTIMATE2008', 'POPESTIMATE2009',
+                            'POPESTIMATE2010']]
+        df.columns = ['NAME', 'STNAME', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010']
+        df[['location']] = df['NAME'].str.extract(r'(.*?)(?:\s*city)')
+        df = df.dropna()
+        df['location'] = df['location'] + ', ' + df['STNAME']
+        mask = df['location'].isin(self.location)
+        df = df[mask]
+        df = df[['location', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010']]
+        
+        df = df.drop_duplicates('location', keep = 'first').reset_index(drop = True)
         self.pop_2010 = df
+        self.pop_2010.to_csv('test.csv')
         print(self.pop_2010)
 
 class stadiums():
@@ -148,7 +222,7 @@ class stadiums():
         data['capacity'] = data['capacity'].str.replace(',', '')
         data['capacity'] = data['capacity'].str.extract(r'(\d+)').astype('int')
         data[['city']] = data['location'].str.extract(r'(.*?)(?:,)')
-        data['city'] = data['city'].replace(['Bronx', 'Queens'], 'New York City')
+        data['city'] = data['city'].replace(['Bronx', 'Queens', 'Flushing'], 'New York City')
         data[['state']] = data['location'].str.extract(r',\s*(\w+)')
         data[['opened']] = data['opened'].str.extract(r',\s*(.*?)(?:,|\s*\(|$)')
         self.data = data[['team', 'city', 'state', 'stadium', 'capacity', 'opened', 'closed']]
@@ -286,14 +360,23 @@ class salary():
 #df_attendance = y.get_data()
 #print(df_attendance)
 
-#z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/',
+#z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/', 
  #            'https://www.ballparksofbaseball.com/past-ballparks/')
 
 #df_stadium = z.get_data()
-#print(df_stadium)
+#df_stadium.to_csv('stadiums.csv')
+#cities = df_stadium['city']
 
+test = pd.read_csv('stadiums.csv')
+test[['city']] = test['city'].str.extract(r'(.*?)(?:\s*City|$)')
+cities = test['city']
+states = test['state'].map(STATES).dropna()
+
+location = cities + ', ' + states
+
+print(location)
 t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
               'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
               'https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-cities-and-towns.html',
-              'cities')
+              location)
 
