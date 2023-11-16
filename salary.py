@@ -186,34 +186,44 @@ class attendance():
 
 class salary():
     def __init__(self, bat, pitch):
+        # this website has a too many requests error
         self.url_bat = bat
         self.url_pitch = pitch
     
     def get_data(self):
+        self.data = pd.DataFrame(columns = ['team', 'bat_salary', 'year'])
         self.batter_data(self.url_bat)
-        self.pitcher_data(self.url_pitch)
-        self.combine()
+        self.clean()
+        #self.pitcher_data(self.url_pitch)
+        #self.combine()
         # only want the overall salary
         # need to get for different years !!!!
         return self.data
 
 
     def batter_data(self, url):
-        data = pd.DataFrame(columns = ['team', 'bat_salary'])
         r = requests.get(url)
         soup = BeautifulSoup(r.text, 'html.parser')
+    
+        year = soup.find('h1').text
+        year = re.search(r'(\d+)', year).group(1)
 
         table = soup.find('table', class_ = 'stats_table')
         tbody = table.find('tbody')
         teams = tbody.find_all('tr')
 
         for team in teams:
-            row = {'team' : team.find('a').text, 'bat_salary' : team.find('td', {'data-stat' : 'Salary'}).text}
-            data = pd.concat([data, pd.DataFrame(data = row, index = [len(data) + 1])], ignore_index = True)
-        
-        data['bat_salary'] = data['bat_salary'].str.replace(',', '')
-        data['bat_salary'] = data['bat_salary'].str.extract(r'(\d+)').astype('int')
-        self.data_bat = data
+            row = {'team' : team.find('a').text, 'bat_salary' : team.find('td', {'data-stat' : 'Salary'}).text, 'year' : year}
+            self.data = pd.concat([self.data, pd.DataFrame(data = row, index = [len(self.data) + 1])], ignore_index = True)
+
+        #self.data['bat_salary'] = self.data['bat_salary'].str.replace(',', '')
+        #self.data['bat_salary'] = self.data['bat_salary'].str.extract(r'(\d+)').astype('int')
+    
+        if int(year) > 2003:
+            base_url = 'https://www.baseball-reference.com'
+            prev_url = soup.find('a', href = True, class_ = 'button2 prev')
+            self.batter_data(base_url + prev_url['href'])
+
         r.close()
 
     def pitcher_data(self, url):
@@ -234,6 +244,10 @@ class salary():
         data['pitch_salary'] = data['pitch_salary'].str.extract(r'(\d+)').astype('int')
         self.data_pitch = data
         r.close()
+    
+    def clean(self):
+        self.data['bat_salary'] = self.data['bat_salary'].str.replace(',', '')
+        self.data['bat_salary'] = self.data['bat_salary'].str.extract(r'(\d+)').astype('int')
 
     def combine(self):
         bat = self.data_bat
