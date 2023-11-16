@@ -70,14 +70,28 @@ STATES = {
 class population():
     def __init__(self, url_1, url_2, url_3, location):
         self.location = location
+        self.url_1 = url_1
+        self.url_2 = url_2
+        self.url_3 = url_3
         # pass in a list of cities 
         #self.population_2022(url_1)
         #self.population_2019(url_2)
-        self.population_2010(url_3)
+        #self.population_2010(url_3)
         # need to combine these datasets
         # maybe make the city name the row description and the year the column header
         # select the list of cities that i want to look at
         # once i have the list of cities we can just grab the population data
+
+    def get_data(self):
+        self.population_2022(self.url_1)
+        self.population_2019(self.url_2)
+        self.population_2010(self.url_3)
+        self.combine()
+
+    def combine(self):
+        df = pd.merge(self.pop_2010, self.pop_2019, on = 'location')
+        df = pd.merge(df, self.pop_2023, on = 'location')
+        print(df.head())
 
     def population_2022(self, url):
         r = requests.get(url)
@@ -86,12 +100,13 @@ class population():
         link = us.find('a', href = True)
 
         pop_2023 = pd.read_excel('https:' + link['href']).dropna()
-        pop_2023.columns = ['geographic area', 'april 2020 base', '2020', '2021', '2022']
-        pop_2023[['city', 'state']] = pop_2023['geographic area'].str.extract(r'(.*?)\s(?:city|town),\s(\w+)')
+        pop_2023.columns = ['location', 'april 2020 base', '2020', '2021', '2022']
+        pop_2023['location'] = pop_2023['location'].str.replace(' city', '')
         pop_2023['2021'] = pop_2023['2021'].astype('int')
         pop_2023['2022'] = pop_2023['2022'].astype('int')
-        pop_2023 = pop_2023[['city', 'state', '2020', '2021', '2022']].reset_index(drop = True)
-        # need to select the cities we want to look at here
+        mask = pop_2023['location'].isin(self.location)
+        pop_2023 = pop_2023[mask]
+        pop_2023 = pop_2023[['location', '2020', '2021', '2022']].reset_index(drop = True)
         self.pop_2023 = pop_2023
 
     def population_2019(self, url):
@@ -104,6 +119,7 @@ class population():
         pop_2019.columns = ['location', 'census', 'estimate base', '2010', '2011', '2012', '2013', '2014', '2015',
                              '2016', '2017', '2018', '2019']
         
+        pop_2019['location'] = pop_2019['location'].str.replace(' city', '')
         pop_2019['2011'] = pop_2019['2011'].astype('int')
         pop_2019['2012'] = pop_2019['2012'].astype('int')
         pop_2019['2013'] = pop_2019['2013'].astype('int')
@@ -114,12 +130,12 @@ class population():
         pop_2019['2018'] = pop_2019['2018'].astype('int')
         pop_2019['2019'] = pop_2019['2019'].astype('int')
 
-        pop_2019[['city', 'state']] = pop_2019['location'].str.extract(r'(.*?)\s(?:city|town),\s(\w+)')
+        mask = pop_2019['location'].isin(self.location)
+        pop_2019 = pop_2019[mask]
 
-        pop_2019 = pop_2019[['city', 'state', '2010', '2011', '2012', '2013', '2014', '2015', '2016',
-                             '2017', '2018', '2019']]
+        pop_2019 = pop_2019[['location', '2010', '2011', '2012', '2013', '2014', '2015', '2016',
+                             '2017', '2018', '2019']].reset_index(drop = True)
         
-        # select the cities we want to look at here
         self.pop_2019 = pop_2019
     
     def population_2010(self, url):
@@ -141,8 +157,6 @@ class population():
         
         df = df.drop_duplicates('location', keep = 'first').reset_index(drop = True)
         self.pop_2010 = df
-        self.pop_2010.to_csv('test.csv')
-        print(self.pop_2010)
 
 class stadiums():
     def __init__(self, url_1, url_2, url_3):
@@ -350,7 +364,7 @@ class salary():
         self.data = data
 
 #x = salary('https://www.baseball-reference.com/leagues/majors/2023-value-batting.shtml', 
- #         'https://www.baseball-reference.com/leagues/majors/2023-value-pitching.shtml')
+ #        'https://www.baseball-reference.com/leagues/majors/2023-value-pitching.shtml')
 
 #df_salary = x.get_data()
 #print(df_salary)
@@ -374,9 +388,13 @@ states = test['state'].map(STATES).dropna()
 
 location = cities + ', ' + states
 
-print(location)
 t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
               'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
               'https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-cities-and-towns.html',
               location)
+df_pop = t.get_data()
 
+# when going to combine, we can first combine the stadium and slary data on team and year
+# in which case we should replicate the years for the stadiums
+# then we can merge the population data with the new locations and years as well for the complete and final dataset
+# attendance will be added also by team and year 
