@@ -188,12 +188,17 @@ class salary():
     def __init__(self, bat, pitch):
         self.url_bat = bat
         self.url_pitch = pitch
-        self.batter_data()
-        self.pitcher_data()
+    
+    def get_data(self):
+        self.batter_data(self.url_bat)
+        self.pitcher_data(self.url_pitch)
         self.combine()
+        # only want the overall salary
+        # need to get for different years !!!!
+        return self.data
 
-    def batter_data(self):
-        url = self.url_bat
+
+    def batter_data(self, url):
         data = pd.DataFrame(columns = ['team', 'bat_salary'])
         r = requests.get(url)
         soup = BeautifulSoup(r.text, 'html.parser')
@@ -211,8 +216,8 @@ class salary():
         self.data_bat = data
         r.close()
 
-    def pitcher_data(self):
-        url = self.url_pitch
+    def pitcher_data(self, url):
+        
         data = pd.DataFrame(columns = ['team', 'pitch_salary'])
         r = requests.get(url)
         soup = BeautifulSoup(r.text ,'html.parser')
@@ -235,17 +240,21 @@ class salary():
         pitch = self.data_pitch
         data = pd.merge(bat, pitch, on = 'team', how = 'inner')
         data['salary'] = data['bat_salary'] + data['pitch_salary']
+        self.data = data
 
-#x = salary('https://www.baseball-reference.com/leagues/majors/2023-value-batting.shtml', 
-   #        'https://www.baseball-reference.com/leagues/majors/2023-value-pitching.shtml')
+x = salary('https://www.baseball-reference.com/leagues/majors/2023-value-batting.shtml', 
+          'https://www.baseball-reference.com/leagues/majors/2023-value-pitching.shtml')
+
+df_salary = x.get_data()
+print(df_salary)
 
 #y = attendance('https://www.espn.com/mlb/attendance')
 
-z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/',
-             'https://www.ballparksofbaseball.com/past-ballparks/')
+#z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/',
+ #            'https://www.ballparksofbaseball.com/past-ballparks/')
 
-df_stadium = z.get_data()
-print(df_stadium)
+#df_stadium = z.get_data()
+#print(df_stadium)
 
 #t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
 #              'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
