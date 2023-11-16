@@ -2,10 +2,12 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import requests
 import datetime
+import re
 
 class population():
-    def __init__(self, url_1, url_2, url_3):
-        #self.population_2022(url_1)
+    def __init__(self, url_1, url_2, url_3, cities):
+        # pass in a list of cities 
+        self.population_2022(url_1)
         self.population_2019(url_2)
 
     def population_2022(self, url):
@@ -20,7 +22,8 @@ class population():
         pop_2023['2021'] = pop_2023['2021'].astype('int')
         pop_2023['2022'] = pop_2023['2022'].astype('int')
         pop_2023 = pop_2023[['city', 'state', '2020', '2021', '2022']].reset_index(drop = True)
-        #print(pop_2023)
+        # need to select the cities we want to look at here
+        self.pop_2023 = pop_2023
 
     def population_2019(self, url):
         r = requests.get(url)
@@ -28,15 +31,31 @@ class population():
         us = soup.find('li', class_ = 'uscb-list-attachment')
         link = us.find('a', href = True)
 
-        pop_2019 = pd.read_excel('https:' + link['href']).dropna()
+        pop_2019 = pd.read_excel('https:' + link['href']).dropna().reset_index(drop = True)
         pop_2019.columns = ['location', 'census', 'estimate base', '2010', '2011', '2012', '2013', '2014', '2015',
                              '2016', '2017', '2018', '2019']
         
-        print(pop_2019)
+        pop_2019['2011'] = pop_2019['2011'].astype('int')
+        pop_2019['2012'] = pop_2019['2012'].astype('int')
+        pop_2019['2013'] = pop_2019['2013'].astype('int')
+        pop_2019['2014'] = pop_2019['2014'].astype('int')
+        pop_2019['2015'] = pop_2019['2015'].astype('int')
+        pop_2019['2016'] = pop_2019['2016'].astype('int')
+        pop_2019['2017'] = pop_2019['2017'].astype('int')
+        pop_2019['2018'] = pop_2019['2018'].astype('int')
+        pop_2019['2019'] = pop_2019['2019'].astype('int')
+
+        pop_2019[['city', 'state']] = pop_2019['location'].str.extract(r'(.*?)\s(?:city|town),\s(\w+)')
+
+        pop_2019 = pop_2019[['city', 'state', '2010', '2011', '2012', '2013', '2014', '2015', '2016',
+                             '2017', '2018', '2019']]
+        
+        # select the cities we want to look at here
+        self.pop_2019 = pop_2019
 
 class stadiums():
     def __init__(self, url_1, url_2):
-        self.data = pd.DataFrame(columns = ['team', 'location', 'stadium', 'capacity'])
+        self.data = pd.DataFrame(columns = ['team', 'location', 'stadium', 'capacity', 'opened'])
         self.stadium_data(url_1)
         self.stadium_data(url_2)
         self.clean()
@@ -49,31 +68,35 @@ class stadiums():
 
         for ballpark in ballparks:
             name = ballpark.find('div', class_ = 'title').text
-            location = ballpark.find('div', class_ = 'city').text
+            location = ballpark.find('div', class_ = 'city').text.strip()
             tmp_r = requests.get(ballpark['href'])
             tmp_soup = BeautifulSoup(tmp_r.text, 'html.parser')
             info = tmp_soup.find('div', class_ = 'facts-col')
             info = info.find('p').text
-            info = info.splitlines()
-            team = info[0]
-            capacity = info[1]
+            team = re.search(r'-(?:Tenant|Tenants):\s*(.*?)\n', info).group(1)
+            capacity = re.search(r'-Capacity:\s*(.*?)\n', info).group(1)
+            opened = re.search(r'-(?:Opened|Opening):\s*(.*?)\n', info).group(1)
 
-            row = {'team' : team, 'location' : location, 'stadium' : name, 'capacity' : capacity}
+            row = {'team' : team, 'location' : location, 'stadium' : name, 'capacity' : capacity, 'opened' : opened}
             self.data = pd.concat([self.data, pd.DataFrame(data = row, index = [len(self.data) + 1])], ignore_index = True)
             tmp_r.close()
-
         r.close()
     
     def clean(self):
         data = self.data
-        data[['team']] = data['team'].str.extract(r'\w+:\s*(.*?)(?:,|\(|$)')
+        data[['team']] = data['team'].str.extract(r'\s*(.*?)(?:,|\(|$)')
         data['team'] = data['team'].str.strip()
         data['location'] = data['location'].str.strip()
         data['capacity'] = data['capacity'].str.replace(',', '')
-        data['capacity'] = data['capacity'].str.extract(r'\s(\d+)').astype('int')
+        data['capacity'] = data['capacity'].str.extract(r'(\d+)').astype('int')
         data[['city']] = data['location'].str.extract(r'(.*?)(?:,)')
+        data['city'] = data['city'].replace(['Bronx', 'Queens'], 'New York City')
         data[['state']] = data['location'].str.extract(r',\s*(\w+)')
-        self.data = data[['team', 'city', 'state', 'stadium', 'capacity']]
+        data[['opened']] = data['opened'].str.extract(r',\s*(.*?)(?:\s*\(|$)')
+        self.data = data[['team', 'city', 'state', 'stadium', 'capacity', 'opened']]
+
+        # need to merge on both the team and the year, to get the right stadium and location
+        # need to add a year column to the attendance dataset or something
 
 
 class attendance():
@@ -176,11 +199,11 @@ class salary():
 
 #y = attendance('https://www.espn.com/mlb/attendance')
 
-#z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/')
+z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/')
 
-t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
-              'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
-               'https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-cities-and-towns.html')
+#t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
+#              'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
+ #              'https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-cities-and-towns.html')
 
 # could check the change in salary relative to the change in the population size, or the average household income of
 # surrounding area
