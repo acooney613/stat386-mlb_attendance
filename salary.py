@@ -73,25 +73,23 @@ class population():
         self.url_1 = url_1
         self.url_2 = url_2
         self.url_3 = url_3
-        # pass in a list of cities 
-        #self.population_2022(url_1)
-        #self.population_2019(url_2)
-        #self.population_2010(url_3)
-        # need to combine these datasets
-        # maybe make the city name the row description and the year the column header
-        # select the list of cities that i want to look at
-        # once i have the list of cities we can just grab the population data
 
     def get_data(self):
         self.population_2022(self.url_1)
         self.population_2019(self.url_2)
-        self.population_2010(self.url_3)
+        self.population_2009(self.url_3)
         self.combine()
 
     def combine(self):
         df = pd.merge(self.pop_2010, self.pop_2019, on = 'location')
         df = pd.merge(df, self.pop_2023, on = 'location')
-        print(df.head())
+        print(df.columns)
+        df = df.melt(id_vars = 'location', 
+                     value_vars = ['2003', '2004', '2005', '2006', '2007', '2008', '2009',
+                                    '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017',
+                                    '2018', '2019', '2020', '2021', '2022'],
+                     value_name = 'population')
+        print(df)
 
     def population_2022(self, url):
         r = requests.get(url)
@@ -138,7 +136,7 @@ class population():
         
         self.pop_2019 = pop_2019
     
-    def population_2010(self, url):
+    def population_2009(self, url):
         r = requests.get(url)
         soup = BeautifulSoup(r.text, 'html.parser')
         us = soup.find('a', {'name' : POP2010}, href = True)
@@ -153,7 +151,7 @@ class population():
         df['location'] = df['location'] + ', ' + df['STNAME']
         mask = df['location'].isin(self.location)
         df = df[mask]
-        df = df[['location', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010']]
+        df = df[['location', '2003', '2004', '2005', '2006', '2007', '2008', '2009']]
         
         df = df.drop_duplicates('location', keep = 'first').reset_index(drop = True)
         self.pop_2010 = df
