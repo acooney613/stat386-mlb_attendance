@@ -67,6 +67,48 @@ STATES = {
         'WY': 'Wyoming'
 }
 
+class combine():
+    def __init__(self, salary, stadium, population, attendance):
+        self.stad_att(stadium, attendance)
+    
+    def stad_att(sel, df_stadium, df_attendance):
+        data = pd.DataFrame(columns = ['team', 'year', 'average attendance', 'stadium', 'location', 'capacity', 'opened', 'closed'])
+        for i in range(len(df_attendance)):
+            team_i = df_attendance.loc[i, 'TEAM']
+            team_i = team_i.replace('LA ', '')
+            team_i = team_i.replace('NY ', '')
+            year_i = df_attendance.loc[i, 'year']
+
+            for j in range(len(df_stadium)):
+                team_j = df_stadium.loc[j, 'team']
+                opened_j = df_stadium.loc[j, 'opened']
+                closed_j = df_stadium.loc[j, 'closed']
+
+                if team_i in team_j:
+                    if closed_j == '-':
+                        if opened_j <= year_i:
+                            row = {'team' : team_j, 'year' : year_i, 
+                                   'average attendance' : df_attendance.loc[i, 'average attendance'],
+                                   'stadium' : df_stadium.loc[j, 'stadium'], 
+                                   'location' : df_stadium.loc[j, 'location'], 
+                                   'capacity' : df_stadium.loc[j, 'capacity'],
+                                   'opened' : opened_j,
+                                   'closed' : closed_j}
+                            data = pd.concat([data, pd.DataFrame(data = row, index = [len(data) + 1])], ignore_index = True)
+                    
+                    else:
+                        if closed_j > year_i:
+                            row = {'team' : team_j, 'year' : year_i,
+                                   'average attendance' : df_attendance.loc[i, 'average attendance'],
+                                   'stadium' : df_stadium.loc[j, 'stadium'],
+                                   'location' : df_stadium.loc[j, 'location'],
+                                   'capacity' : df_stadium.loc[j, 'capacity'],
+                                   'opened' : opened_j,
+                                   'closed' : closed_j}
+                            data = pd.concat([data, pd.DataFrame(data = row, index = [len(data) + 1])], ignore_index = True)
+
+        print(data[0:20])
+
 class population():
     def __init__(self, url_1, url_2, url_3, location):
         self.location = location
@@ -88,7 +130,8 @@ class population():
                      value_vars = ['2003', '2004', '2005', '2006', '2007', '2008', '2009',
                                     '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017',
                                     '2018', '2019', '2020', '2021', '2022'],
-                     value_name = 'population')
+                     value_name = 'population',
+                     var_name = 'year')
         print(df)
 
     def population_2022(self, url):
@@ -237,7 +280,10 @@ class stadiums():
         data['city'] = data['city'].replace(['Bronx', 'Queens', 'Flushing'], 'New York City')
         data[['state']] = data['location'].str.extract(r',\s*(\w+)')
         data[['opened']] = data['opened'].str.extract(r',\s*(.*?)(?:,|\s*\(|$)')
-        self.data = data[['team', 'city', 'state', 'stadium', 'capacity', 'opened', 'closed']]
+        data[['city']] = data['city'].str.extract(r'(.*?)(?:\s*City|$)')
+        data['state'] = data['state'].map(STATES)
+        data['location'] = data['city'] + ', ' + data['state']
+        self.data = data[['team', 'location', 'stadium', 'capacity', 'opened', 'closed']].dropna().reset_index(drop = True)
 
         # need to merge on both the team and the year, to get the right stadium and location
         # need to add a year column to the attendance dataset or something
@@ -250,6 +296,14 @@ class attendance():
 
     def get_data(self):
         self.gather()
+        self.data = self.data.melt(id_vars = 'TEAM', 
+                                   value_vars = ['2023', '2022', '2021', '2019', '2018', '2017',
+                                                 '2016', '2015', '2014', '2013', '2012',
+                                                  '2011', '2010', '2009', '2008', '2007', '2006',
+                                                   '2005', '2004', '2003' ],
+                                    value_name = 'average attendance',
+                                    var_name = 'year')
+        
         return self.data
 
 
@@ -362,35 +416,31 @@ class salary():
         self.data = data
 
 #x = salary('https://www.baseball-reference.com/leagues/majors/2023-value-batting.shtml', 
- #        'https://www.baseball-reference.com/leagues/majors/2023-value-pitching.shtml')
+#         'https://www.baseball-reference.com/leagues/majors/2023-value-pitching.shtml')
 
 #df_salary = x.get_data()
 #print(df_salary)
 
-#y = attendance('https://www.espn.com/mlb/attendance')
+y = attendance('https://www.espn.com/mlb/attendance')
 
-#df_attendance = y.get_data()
+df_attendance = y.get_data()
 #print(df_attendance)
 
-#z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/', 
- #            'https://www.ballparksofbaseball.com/past-ballparks/')
+z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/', 
+            'https://www.ballparksofbaseball.com/past-ballparks/')
 
-#df_stadium = z.get_data()
-#df_stadium.to_csv('stadiums.csv')
-#cities = df_stadium['city']
+df_stadium = z.get_data()
 
-test = pd.read_csv('stadiums.csv')
-test[['city']] = test['city'].str.extract(r'(.*?)(?:\s*City|$)')
-cities = test['city']
-states = test['state'].map(STATES).dropna()
+s = combine(None, df_stadium, None, df_attendance)
 
-location = cities + ', ' + states
 
+'''
 t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
               'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
               'https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-cities-and-towns.html',
               location)
 df_pop = t.get_data()
+'''
 
 # when going to combine, we can first combine the stadium and slary data on team and year
 # in which case we should replicate the years for the stadiums
