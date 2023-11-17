@@ -71,16 +71,14 @@ STATES = {
 class combine():
     def __init__(self, salary, stadium, population, attendance):
         self.stad_att(stadium, attendance)
-        print(self.data['team'].unique())
         self.pop_stad_att(population)
         # deletes the royals ones why????
-        print(self.data['team'].unique())
         self.sal_pop_stad_att(salary)
 
     def sal_pop_stad_att(self, salary):
         data = self.data
         data = pd.merge(self.data, salary, on = ['team', 'year'])
-        print(data)
+        data.to_csv('test.csv')
     
     def pop_stad_att(self, population):
         data = self.data
@@ -111,7 +109,7 @@ class combine():
                             data = pd.concat([data, pd.DataFrame(data = row, index = [len(data) + 1])], ignore_index = True)
                     
                     else:
-                        if closed_j > year_i:
+                        if closed_j >= year_i:
                             row = {'team' : team_j, 'year' : year_i,
                                    'average attendance' : df_attendance.loc[i, 'average attendance'],
                                    'stadium' : df_stadium.loc[j, 'stadium'],
@@ -155,6 +153,7 @@ class population():
         pop_2023 = pd.read_excel('https:' + link['href']).dropna()
         pop_2023.columns = ['location', 'april 2020 base', '2020', '2021', '2022']
         pop_2023['location'] = pop_2023['location'].str.replace(' city', '')
+        pop_2023['location'] = pop_2023['location'].str.replace(' City', '')
         pop_2023['2021'] = pop_2023['2021'].astype('int')
         pop_2023['2022'] = pop_2023['2022'].astype('int')
         mask = pop_2023['location'].isin(self.location)
@@ -173,6 +172,7 @@ class population():
                              '2016', '2017', '2018', '2019']
         
         pop_2019['location'] = pop_2019['location'].str.replace(' city', '')
+        pop_2019['location'] = pop_2019['location'].str.replace(' City', '')
         pop_2019['2011'] = pop_2019['2011'].astype('int')
         pop_2019['2012'] = pop_2019['2012'].astype('int')
         pop_2019['2013'] = pop_2019['2013'].astype('int')
@@ -201,7 +201,7 @@ class population():
                             'POPESTIMATE2006', 'POPESTIMATE2007', 'POPESTIMATE2008', 'POPESTIMATE2009',
                             'POPESTIMATE2010']]
         df.columns = ['NAME', 'STNAME', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010']
-        df[['location']] = df['NAME'].str.extract(r'(.*?)(?:\s*city)')
+        df[['location']] = df['NAME'].str.extract(r'(.*?)(?:\s*city|\s*City)')
         df = df.dropna()
         df['location'] = df['location'] + ', ' + df['STNAME']
         mask = df['location'].isin(self.location)
@@ -245,13 +245,15 @@ class stadiums():
             opened = re.search(r'(?:Opened|Opening):\s*(.*?)\n', tmp).group(1)
             closed = re.search(r'Closed:\s*(.*?)\n', tmp)
             if closed == None:
-                closed = '-'
                 closed = self.data[self.data['location'] == location]['opened'].to_string()
+                closed = re.search(r',\s*(.*?)(?:,|\s*\(|$)', closed).group(1)
+                closed = int(closed) - 1
+                closed = f'{closed}'
+
                 
             else:
                 closed = closed.group(1)
-
-            closed = re.search(r',\s*(.*?)(?:,|\s*\(|$)', closed).group(1)
+                closed = re.search(r',\s*(.*?)(?:,|\s*\(|$)', closed).group(1)
             
             if int(closed) > 2003:
                 row = {'team' : team, 'location' : location, 'stadium' : name, 'capacity' : capacity, 'opened' : opened, 'closed' : closed}
@@ -286,6 +288,7 @@ class stadiums():
         data[['team']] = data['team'].str.extract(r'\s*(.*?)(?:,|\(|$)')
         data['team'] = data['team'].str.strip()
         data['team'] = data['team'].str.replace('Florida', 'Miami')
+        data['team'] = data['team'].str.replace('Indians', 'Guardians')
         data['location'] = data['location'].str.strip()
         data['capacity'] = data['capacity'].str.replace(',', '')
         data['capacity'] = data['capacity'].str.extract(r'(\d+)').astype('int')
@@ -435,8 +438,7 @@ class salary():
         bat = self.data_bat
         pitch = self.data_pitch
         data = pd.merge(bat, pitch, on = ['team', 'year'])
-        data['salary'] = data['bat_salary'] + data['pitch_salary']
-        print(self.data)
+        data['salary'] = data['bat_salary'] + data['pitch_salary'] 
         self.data = data
 
 class payroll():
@@ -456,6 +458,7 @@ class payroll():
         self.pay['team'] = self.pay['team'].str.replace('Florida', 'Miami')
         self.pay['team'] = self.pay['team'].str.replace('Montreal Expos', 'Washington Nationals')
         self.pay['team'] = self.pay['team'].str.replace('Oakland Athletics', 'Oakland A’s')
+        self.pay['team'] = self.pay['team'].str.replace('Indians', 'Guardians')
         return self.pay
 
     def payroll(self, year):
@@ -479,26 +482,23 @@ class payroll():
 
 x = payroll('https://www.thebaseballcube.com/page.asp?PT=payroll_year&ID=')
 df_payroll = x.get_data()
-print(df_payroll['team'].unique())
 
 y = attendance('https://www.espn.com/mlb/attendance')
-
 df_attendance = y.get_data()
-print(df_attendance['TEAM'].unique())
+
 
 z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/', 
             'https://www.ballparksofbaseball.com/past-ballparks/')
-
 df_stadium = z.get_data()
-print(df_stadium['team'].unique())
+
 t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
               'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
               'https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-cities-and-towns.html',
               df_stadium['location'])
-
 df_pop = t.get_data()
 
 s = combine(df_payroll, df_stadium, df_pop, df_attendance)
 
-# marlins, kansas city, a's do not have full numbers
-# need to check the naming in the merges to make sure we have them 
+
+# padres, phillies 2003
+
