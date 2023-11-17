@@ -72,7 +72,7 @@ class combine():
         self.stad_att(stadium, attendance)
     
     def stad_att(sel, df_stadium, df_attendance):
-        data = pd.DataFrame(columns = ['team', 'year', 'average attendance', 'stadium', 'location', 'capacity', 'opened', 'closed'])
+        data = pd.DataFrame(columns = ['team', 'year', 'average attendance', 'stadium', 'location', 'capacity'])
         for i in range(len(df_attendance)):
             team_i = df_attendance.loc[i, 'TEAM']
             team_i = team_i.replace('LA ', '')
@@ -91,9 +91,7 @@ class combine():
                                    'average attendance' : df_attendance.loc[i, 'average attendance'],
                                    'stadium' : df_stadium.loc[j, 'stadium'], 
                                    'location' : df_stadium.loc[j, 'location'], 
-                                   'capacity' : df_stadium.loc[j, 'capacity'],
-                                   'opened' : opened_j,
-                                   'closed' : closed_j}
+                                   'capacity' : df_stadium.loc[j, 'capacity']}
                             data = pd.concat([data, pd.DataFrame(data = row, index = [len(data) + 1])], ignore_index = True)
                     
                     else:
@@ -102,12 +100,10 @@ class combine():
                                    'average attendance' : df_attendance.loc[i, 'average attendance'],
                                    'stadium' : df_stadium.loc[j, 'stadium'],
                                    'location' : df_stadium.loc[j, 'location'],
-                                   'capacity' : df_stadium.loc[j, 'capacity'],
-                                   'opened' : opened_j,
-                                   'closed' : closed_j}
+                                   'capacity' : df_stadium.loc[j, 'capacity']}
                             data = pd.concat([data, pd.DataFrame(data = row, index = [len(data) + 1])], ignore_index = True)
 
-        print(data[0:20])
+        print(data)
 
 class population():
     def __init__(self, url_1, url_2, url_3, location):
