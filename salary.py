@@ -4,6 +4,7 @@ import requests
 import datetime
 import re
 import numpy as np
+import time
 
 POP2010 = 'Intercensal Estimates of the Resident Population for Incorporated Places and Minor Civil Divisions: April 1, 2000 to July 1, 2010'
 
@@ -65,13 +66,19 @@ STATES = {
         'WI': 'Wisconsin',
         'WV': 'West Virginia',
         'WY': 'Wyoming'
-}
+    }
 
 class combine():
     def __init__(self, salary, stadium, population, attendance):
         self.stad_att(stadium, attendance)
+        self.pop_stad_att(population)
     
-    def stad_att(sel, df_stadium, df_attendance):
+    def pop_stad_att(self, population):
+        data = self.data
+        data = pd.merge(self.data, population, on = ['location', 'year'])
+        data.to_csv('mlb_attendance.csv')
+    
+    def stad_att(self, df_stadium, df_attendance):
         data = pd.DataFrame(columns = ['team', 'year', 'average attendance', 'stadium', 'location', 'capacity'])
         for i in range(len(df_attendance)):
             team_i = df_attendance.loc[i, 'TEAM']
@@ -103,7 +110,7 @@ class combine():
                                    'capacity' : df_stadium.loc[j, 'capacity']}
                             data = pd.concat([data, pd.DataFrame(data = row, index = [len(data) + 1])], ignore_index = True)
 
-        print(data)
+        self.data = data
 
 class population():
     def __init__(self, url_1, url_2, url_3, location):
@@ -117,18 +124,18 @@ class population():
         self.population_2019(self.url_2)
         self.population_2009(self.url_3)
         self.combine()
+        return self.data
 
     def combine(self):
         df = pd.merge(self.pop_2010, self.pop_2019, on = 'location')
         df = pd.merge(df, self.pop_2023, on = 'location')
-        print(df.columns)
         df = df.melt(id_vars = 'location', 
                      value_vars = ['2003', '2004', '2005', '2006', '2007', '2008', '2009',
                                     '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017',
                                     '2018', '2019', '2020', '2021', '2022'],
                      value_name = 'population',
                      var_name = 'year')
-        print(df)
+        self.data = df
 
     def population_2022(self, url):
         r = requests.get(url)
@@ -346,8 +353,10 @@ class salary():
         self.url_pitch = pitch
     
     def get_data(self):
-        self.data = pd.DataFrame(columns = ['team', 'bat_salary', 'year'])
+        self.data_bat = pd.DataFrame(columns = ['team', 'bat_salary', 'year'])
+        self.data_pitch = pd.DataFrame(columns = ['team', 'pitch_salary', 'year'])
         self.batter_data(self.url_bat)
+        self.pitcher_data(self.url_pitch)
         self.clean()
         #self.pitcher_data(self.url_pitch)
         #self.combine()
@@ -357,19 +366,21 @@ class salary():
 
 
     def batter_data(self, url):
+        time.sleep(3)
         r = requests.get(url)
         soup = BeautifulSoup(r.text, 'html.parser')
     
         year = soup.find('h1').text
         year = re.search(r'(\d+)', year).group(1)
 
+        print(year)
         table = soup.find('table', class_ = 'stats_table')
         tbody = table.find('tbody')
         teams = tbody.find_all('tr')
 
         for team in teams:
             row = {'team' : team.find('a').text, 'bat_salary' : team.find('td', {'data-stat' : 'Salary'}).text, 'year' : year}
-            self.data = pd.concat([self.data, pd.DataFrame(data = row, index = [len(self.data) + 1])], ignore_index = True)
+            self.data_bat = pd.concat([self.data_bat, pd.DataFrame(data = row, index = [len(self.data_bat) + 1])], ignore_index = True)
 
         #self.data['bat_salary'] = self.data['bat_salary'].str.replace(',', '')
         #self.data['bat_salary'] = self.data['bat_salary'].str.extract(r'(\d+)').astype('int')
@@ -382,33 +393,40 @@ class salary():
         r.close()
 
     def pitcher_data(self, url):
-        
-        data = pd.DataFrame(columns = ['team', 'pitch_salary'])
+        time.sleep(3)
         r = requests.get(url)
         soup = BeautifulSoup(r.text ,'html.parser')
 
+        year = soup.find('h1').text
+        year = re.search(r'(\d+)', year).group(1)
         table = soup.find('table', class_ = 'stats_table')
         tbody = table.find('tbody')
         teams = tbody.find_all('tr')
 
         for team in teams:
-            row = {'team' : team.find('a').text, 'pitch_salary' : team.find('td', {'data-stat' : 'Salary'}).text}
-            data = pd.concat([data, pd.DataFrame(data = row, index = [len(data) + 1])], ignore_index = True)
+            row = {'team' : team.find('a').text, 'pitch_salary' : team.find('td', {'data-stat' : 'Salary'}).text, 'year' : year}
+            self.data_pitch = pd.concat([self.data_pitch, pd.DataFrame(data = row, index = [len(self.data_pitch) + 1])], ignore_index = True)
         
-        data['pitch_salary'] = data['pitch_salary'].str.replace(',', '')
-        data['pitch_salary'] = data['pitch_salary'].str.extract(r'(\d+)').astype('int')
-        self.data_pitch = data
+        #data['pitch_salary'] = data['pitch_salary'].str.replace(',', '')
+        #data['pitch_salary'] = data['pitch_salary'].str.extract(r'(\d+)').astype('int')
+        if int(year) > 2003:
+            base_url = 'https://www.baseball-reference.com'
+            prev_url = soup.find('a', href = True, class_ = 'button2 prev')
+            self.pitcher_data(base_url + prev_url['href'])
         r.close()
     
     def clean(self):
-        self.data['bat_salary'] = self.data['bat_salary'].str.replace(',', '')
-        self.data['bat_salary'] = self.data['bat_salary'].str.extract(r'(\d+)').astype('int')
+        self.data_bat['bat_salary'] = self.data_bat['bat_salary'].str.replace(',', '')
+        self.data_bat['bat_salary'] = self.data_bat['bat_salary'].str.extract(r'(\d+)').astype('int')
+        self.data_pitch['pitch_salary'] = self.data_pitch['pitch_salary'].str.replace(',', '')
+        self.data_pitch['pitch_salary'] = self.data_pitch['pitch_salary'].str.extract(r'(\d+)').astype('int')
 
     def combine(self):
         bat = self.data_bat
         pitch = self.data_pitch
-        data = pd.merge(bat, pitch, on = 'team', how = 'inner')
+        data = pd.merge(bat, pitch, on = ['team', 'year'])
         data['salary'] = data['bat_salary'] + data['pitch_salary']
+        print(self.data)
         self.data = data
 
 #x = salary('https://www.baseball-reference.com/leagues/majors/2023-value-batting.shtml', 
@@ -420,25 +438,19 @@ class salary():
 y = attendance('https://www.espn.com/mlb/attendance')
 
 df_attendance = y.get_data()
-#print(df_attendance)
 
 z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/', 
             'https://www.ballparksofbaseball.com/past-ballparks/')
 
 df_stadium = z.get_data()
 
-s = combine(None, df_stadium, None, df_attendance)
-
-
-'''
 t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
               'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
               'https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-cities-and-towns.html',
-              location)
-df_pop = t.get_data()
-'''
+              df_stadium['location'])
 
-# when going to combine, we can first combine the stadium and slary data on team and year
-# in which case we should replicate the years for the stadiums
-# then we can merge the population data with the new locations and years as well for the complete and final dataset
-# attendance will be added also by team and year 
+df_pop = t.get_data()
+
+s = combine(None, df_stadium, df_pop, df_attendance)
+
+
