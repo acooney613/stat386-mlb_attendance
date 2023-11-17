@@ -72,11 +72,17 @@ class combine():
     def __init__(self, salary, stadium, population, attendance):
         self.stad_att(stadium, attendance)
         self.pop_stad_att(population)
+        self.sal_pop_stad_att(salary)
+
+    def sal_pop_stad_att(self, salary):
+        data = self.data
+        data = pd.merge(self.data, salary, on = ['team', 'year'])
+        print(data)
     
     def pop_stad_att(self, population):
         data = self.data
         data = pd.merge(self.data, population, on = ['location', 'year'])
-        data.to_csv('mlb_attendance.csv')
+        self.data = data
     
     def stad_att(self, df_stadium, df_attendance):
         data = pd.DataFrame(columns = ['team', 'year', 'average attendance', 'stadium', 'location', 'capacity'])
@@ -429,11 +435,47 @@ class salary():
         print(self.data)
         self.data = data
 
+class payroll():
+    def __init__(self, base_url):
+        self.base_url = base_url
+        self.pay = pd.DataFrame(columns = ['Team Name', 'Team Payroll', 'year'])
+    
+    def get_data(self):
+        day = datetime.date.today()
+        year = day.year - 1
+        self.payroll(year)
+        self.pay.columns = ['team', 'payroll', 'year']
+        self.pay['team'] = self.pay['team'].str.replace(' Devil', '')
+        self.pay['team'] = self.pay['team'].str.replace('Los Angeles Angels of Anaheim', 'Los Angeles Angels')
+        self.pay['team'] = self.pay['team'].str.replace('Anaheim Angels', 'Los Angeles Angels')
+        self.pay['team'] = self.pay['team'].str.replace('Los Angeles Angels of Anaheim', 'Los Angeles Angels')
+        self.pay['team'] = self.pay['team'].str.replace('Florida', 'Miami')
+        self.pay['team'] = self.pay['team'].str.replace('Montreal Expos', 'Washington Nationals')
+        self.pay['team'] = self.pay['team'].str.replace('Oakland Athletics', 'Oakland A’s')
+        print(self.pay['team'].unique())
+        return self.pay
+
+    def payroll(self, year):
+        url = self.base_url + f'{year}'
+        df = pd.read_html(url)
+        pay = df[0]
+        pay = pay.iloc[:, [1, 5]]
+        pay.columns = pay.loc[0]
+        pay = pay.loc[1:30]
+        pay['year'] = f'{year}'
+        self.pay = pd.concat([self.pay, pay], ignore_index = True)
+        if year > 2003:
+            self.payroll(year - 1)
+
 #x = salary('https://www.baseball-reference.com/leagues/majors/2023-value-batting.shtml', 
-#         'https://www.baseball-reference.com/leagues/majors/2023-value-pitching.shtml')
+ #        'https://www.baseball-reference.com/leagues/majors/2023-value-pitching.shtml')
 
 #df_salary = x.get_data()
+#df_salary.to_csv('salary.csv')
 #print(df_salary)
+
+x = payroll('https://www.thebaseballcube.com/page.asp?PT=payroll_year&ID=')
+df_payroll = x.get_data()
 
 y = attendance('https://www.espn.com/mlb/attendance')
 
@@ -451,6 +493,7 @@ t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s
 
 df_pop = t.get_data()
 
-s = combine(None, df_stadium, df_pop, df_attendance)
+s = combine(df_payroll, df_stadium, df_pop, df_attendance)
 
-
+# marlins, kansas city, a's do not have full numbers
+# need to check the naming in the merges to make sure we have them 

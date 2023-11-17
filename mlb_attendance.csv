@@ -1,0 +1,515 @@
+,team,year,average attendance,stadium,location,capacity,population
+0,Los Angeles Dodgers,2022,47671,DODGER STADIUM,"Los Angeles, California",56000,3822238
+1,New York Yankees,2022,40207,YANKEE STADIUM,"New York, New York",50287,8335897
+2,New York Mets,2022,33308,CITI FIELD,"New York, New York",42000,8335897
+3,San Diego Padres,2022,36931,PETCO PARK,"San Diego, California",41164,1381162
+4,St. Louis Cardinals,2022,40994,BUSCH STADIUM,"St. Louis, Missouri",43975,286578
+5,Atlanta Braves,2022,38641,TRUIST PARK,"Atlanta, Georgia",41500,499127
+6,Philadelphia Phillies,2022,28459,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1567258
+7,Houston Astros,2022,33197,MINUTE MAID PARK,"Houston, Texas",40963,2302878
+8,Chicago Cubs,2022,32305,WRIGLEY FIELD,"Chicago, Illinois",41649,2665039
+9,Chicago White Sox,2022,24704,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2665039
+10,Seattle Mariners,2022,28590,T-MOBILE PARK,"Seattle, Washington",47574,749256
+11,Boston Red Sox,2022,32408,FENWAY PARK,"Boston, Massachusetts",37673,650706
+12,Los Angeles Angels,2022,30339,ANGEL STADIUM,"Anaheim, California",45050,344461
+13,Colorado Rockies,2022,32467,COORS FIELD,"Denver, Colorado",50398,713252
+14,Milwaukee Brewers,2022,30155,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,563305
+15,Texas Rangers,2022,24831,GLOBE LIFE FIELD,"Arlington, Texas",40300,394602
+16,San Francisco Giants,2022,30650,ORACLE PARK,"San Francisco, California",41915,808437
+17,Cincinnati Reds,2022,17447,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,309513
+18,Minnesota Twins,2022,22514,TARGET FIELD,"Minneapolis, Minnesota",39504,425096
+19,Arizona Diamondbacks,2022,19817,CHASE FIELD,"Phoenix, Arizona",48633,1644409
+20,Baltimore Orioles,2022,17543,CAMDEN YARDS,"Baltimore, Maryland",45971,569931
+21,Cleveland Guardians,2022,17050,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,361607
+22,Washington Nationals,2022,25017,NATIONALS PARK,"Washington, District of Columbia",41313,671803
+23,Detroit Tigers,2022,19634,COMERICA PARK,"Detroit, Michigan",41574,620376
+24,Pittsburgh Pirates,2022,15524,PNC PARK,"Pittsburgh, Pennsylvania",38362,302898
+25,Tampa Bay Rays,2022,13927,TROPICANA FIELD,"St. Petersburg, Florida",25025,261256
+26,Miami Marlins,2022,11203,LOANDEPOT PARK,"Miami, Florida",37442,449514
+27,Oakland A’s,2022,9973,OAKLAND COLISEUM,"Oakland, California",47170,430553
+28,Los Angeles Dodgers,2021,34625,DODGER STADIUM,"Los Angeles, California",56000,3837986
+29,New York Yankees,2021,24498,YANKEE STADIUM,"New York, New York",50287,8459001
+30,New York Mets,2021,20620,CITI FIELD,"New York, New York",42000,8459001
+31,San Diego Padres,2021,27061,PETCO PARK,"San Diego, California",41164,1374484
+32,St. Louis Cardinals,2021,26281,BUSCH STADIUM,"St. Louis, Missouri",43975,293562
+33,Atlanta Braves,2021,29490,TRUIST PARK,"Atlanta, Georgia",41500,492667
+34,Philadelphia Phillies,2021,19188,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1589480
+35,Houston Astros,2021,25537,MINUTE MAID PARK,"Houston, Texas",40963,2291655
+36,Chicago Cubs,2021,24431,WRIGLEY FIELD,"Chicago, Illinois",41649,2698029
+37,Chicago White Sox,2021,20466,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2698029
+38,Seattle Mariners,2021,15012,T-MOBILE PARK,"Seattle, Washington",47574,731507
+39,Boston Red Sox,2021,21300,FENWAY PARK,"Boston, Massachusetts",37673,654537
+40,Los Angeles Angels,2021,18667,ANGEL STADIUM,"Anaheim, California",45050,346174
+41,Colorado Rockies,2021,24854,COORS FIELD,"Denver, Colorado",50398,711323
+42,Milwaukee Brewers,2021,22522,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,565840
+43,Texas Rangers,2021,26052,GLOBE LIFE FIELD,"Arlington, Texas",40300,393278
+44,San Francisco Giants,2021,20734,ORACLE PARK,"San Francisco, California",41915,811253
+45,Cincinnati Reds,2021,18580,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,308685
+46,Minnesota Twins,2021,16377,TARGET FIELD,"Minneapolis, Minnesota",39504,424635
+47,Arizona Diamondbacks,2021,12876,CHASE FIELD,"Phoenix, Arizona",48633,1625356
+48,Baltimore Orioles,2021,10169,CAMDEN YARDS,"Baltimore, Maryland",45971,576981
+49,Cleveland Guardians,2021,14472,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,365389
+50,Washington Nationals,2021,18319,NATIONALS PARK,"Washington, District of Columbia",41313,668791
+51,Detroit Tigers,2021,13612,COMERICA PARK,"Detroit, Michigan",41574,628167
+52,Pittsburgh Pirates,2021,10611,PNC PARK,"Pittsburgh, Pennsylvania",38362,305441
+53,Tampa Bay Rays,2021,9513,TROPICANA FIELD,"St. Petersburg, Florida",25025,259083
+54,Miami Marlins,2021,7933,LOANDEPOT PARK,"Miami, Florida",37442,441999
+55,Oakland A’s,2021,8767,OAKLAND COLISEUM,"Oakland, California",47170,436291
+56,Los Angeles Dodgers,2019,49065,DODGER STADIUM,"Los Angeles, California",56000,3979576
+57,New York Yankees,2019,41827,YANKEE STADIUM,"New York, New York",50287,8336817
+58,New York Mets,2019,30531,CITI FIELD,"New York, New York",42000,8336817
+59,San Diego Padres,2019,29585,PETCO PARK,"San Diego, California",41164,1423851
+60,St. Louis Cardinals,2019,42967,BUSCH STADIUM,"St. Louis, Missouri",43975,300576
+61,Atlanta Braves,2019,32776,TRUIST PARK,"Atlanta, Georgia",41500,506811
+62,Philadelphia Phillies,2019,33671,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1584064
+63,Houston Astros,2019,35276,MINUTE MAID PARK,"Houston, Texas",40963,2320268
+64,Chicago Cubs,2019,38208,WRIGLEY FIELD,"Chicago, Illinois",41649,2693976
+65,Chicago White Sox,2019,21442,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2693976
+66,Seattle Mariners,2019,22122,T-MOBILE PARK,"Seattle, Washington",47574,753675
+67,Boston Red Sox,2019,36106,FENWAY PARK,"Boston, Massachusetts",37673,692600
+68,Los Angeles Angels,2019,37321,ANGEL STADIUM,"Anaheim, California",45050,350365
+69,Colorado Rockies,2019,36953,COORS FIELD,"Denver, Colorado",50398,727211
+70,Milwaukee Brewers,2019,36090,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,590157
+71,San Francisco Giants,2019,33429,ORACLE PARK,"San Francisco, California",41915,881549
+72,Cincinnati Reds,2019,22329,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,303940
+73,Minnesota Twins,2019,28322,TARGET FIELD,"Minneapolis, Minnesota",39504,429606
+74,Arizona Diamondbacks,2019,26364,CHASE FIELD,"Phoenix, Arizona",48633,1680992
+75,Baltimore Orioles,2019,16347,CAMDEN YARDS,"Baltimore, Maryland",45971,593490
+76,Cleveland Guardians,2019,22008,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,381009
+77,Washington Nationals,2019,27898,NATIONALS PARK,"Washington, District of Columbia",41313,705749
+78,Detroit Tigers,2019,18767,COMERICA PARK,"Detroit, Michigan",41574,670031
+79,Pittsburgh Pirates,2019,18412,PNC PARK,"Pittsburgh, Pennsylvania",38362,300286
+80,Tampa Bay Rays,2019,14734,TROPICANA FIELD,"St. Petersburg, Florida",25025,265351
+81,Miami Marlins,2019,10016,LOANDEPOT PARK,"Miami, Florida",37442,467963
+82,Oakland A’s,2019,20521,OAKLAND COLISEUM,"Oakland, California",47170,433031
+83,Los Angeles Dodgers,2018,47042,DODGER STADIUM,"Los Angeles, California",56000,3977596
+84,New York Yankees,2018,42998,YANKEE STADIUM,"New York, New York",50287,8390081
+85,New York Mets,2018,28164,CITI FIELD,"New York, New York",42000,8390081
+86,San Diego Padres,2018,26837,PETCO PARK,"San Diego, California",41164,1421917
+87,St. Louis Cardinals,2018,42019,BUSCH STADIUM,"St. Louis, Missouri",43975,303419
+88,Atlanta Braves,2018,31552,TRUIST PARK,"Atlanta, Georgia",41500,498183
+89,Philadelphia Phillies,2018,27318,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1583592
+90,Houston Astros,2018,36796,MINUTE MAID PARK,"Houston, Texas",40963,2318573
+91,Chicago Cubs,2018,38793,WRIGLEY FIELD,"Chicago, Illinois",41649,2701423
+92,Chicago White Sox,2018,20110,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2701423
+93,Seattle Mariners,2018,28388,T-MOBILE PARK,"Seattle, Washington",47574,742235
+94,Boston Red Sox,2018,35747,FENWAY PARK,"Boston, Massachusetts",37673,691147
+95,Los Angeles Angels,2018,37286,ANGEL STADIUM,"Anaheim, California",45050,350698
+96,Colorado Rockies,2018,37233,COORS FIELD,"Denver, Colorado",50398,716265
+97,Milwaukee Brewers,2018,35195,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,591375
+98,Texas Rangers,2018,26013,GLOBE LIFE PARK,"Arlington, Texas",48114,398123
+99,San Francisco Giants,2018,38965,ORACLE PARK,"San Francisco, California",41915,880696
+100,Cincinnati Reds,2018,20115,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,302277
+101,Minnesota Twins,2018,24489,TARGET FIELD,"Minneapolis, Minnesota",39504,424903
+102,Arizona Diamondbacks,2018,27687,CHASE FIELD,"Phoenix, Arizona",48633,1654675
+103,Baltimore Orioles,2018,20053,CAMDEN YARDS,"Baltimore, Maryland",45971,602443
+104,Cleveland Guardians,2018,24083,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,383214
+105,Washington Nationals,2018,31620,NATIONALS PARK,"Washington, District of Columbia",41313,701547
+106,Detroit Tigers,2018,23212,COMERICA PARK,"Detroit, Michigan",41574,672977
+107,Pittsburgh Pirates,2018,18786,PNC PARK,"Pittsburgh, Pennsylvania",38362,300570
+108,Tampa Bay Rays,2018,14258,TROPICANA FIELD,"St. Petersburg, Florida",25025,264466
+109,Miami Marlins,2018,10013,LOANDEPOT PARK,"Miami, Florida",37442,462819
+110,Oakland A’s,2018,19427,OAKLAND COLISEUM,"Oakland, California",47170,429056
+111,Los Angeles Dodgers,2017,46492,DODGER STADIUM,"Los Angeles, California",56000,3975788
+112,New York Yankees,2017,39835,YANKEE STADIUM,"New York, New York",50287,8437478
+113,New York Mets,2017,30757,CITI FIELD,"New York, New York",42000,8437478
+114,San Diego Padres,2017,26401,PETCO PARK,"San Diego, California",41164,1412621
+115,St. Louis Cardinals,2017,42567,BUSCH STADIUM,"St. Louis, Missouri",43975,308233
+116,Atlanta Braves,2017,30929,TRUIST PARK,"Atlanta, Georgia",41500,491670
+117,Philadelphia Phillies,2017,24118,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1580601
+118,Houston Astros,2017,29674,MINUTE MAID PARK,"Houston, Texas",40963,2316750
+119,Chicago Cubs,2017,39500,WRIGLEY FIELD,"Chicago, Illinois",41649,2711069
+120,Chicago White Sox,2017,20626,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2711069
+121,Seattle Mariners,2017,26363,T-MOBILE PARK,"Seattle, Washington",47574,728661
+122,Boston Red Sox,2017,36020,FENWAY PARK,"Boston, Massachusetts",37673,687788
+123,Los Angeles Angels,2017,37278,ANGEL STADIUM,"Anaheim, California",45050,350476
+124,Colorado Rockies,2017,36464,COORS FIELD,"Denver, Colorado",50398,704961
+125,Milwaukee Brewers,2017,31589,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,593725
+126,Texas Rangers,2017,30960,GLOBE LIFE PARK,"Arlington, Texas",48114,397173
+127,San Francisco Giants,2017,40785,ORACLE PARK,"San Francisco, California",41915,878040
+128,Cincinnati Reds,2017,22677,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,301587
+129,Minnesota Twins,2017,25640,TARGET FIELD,"Minneapolis, Minnesota",39504,420925
+130,Arizona Diamondbacks,2017,26350,CHASE FIELD,"Phoenix, Arizona",48633,1633560
+131,Baltimore Orioles,2017,25042,CAMDEN YARDS,"Baltimore, Maryland",45971,610481
+132,Cleveland Guardians,2017,25285,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,385252
+133,Washington Nationals,2017,31172,NATIONALS PARK,"Washington, District of Columbia",41313,694906
+134,Detroit Tigers,2017,28661,COMERICA PARK,"Detroit, Michigan",41574,674631
+135,Pittsburgh Pirates,2017,23696,PNC PARK,"Pittsburgh, Pennsylvania",38362,301494
+136,Tampa Bay Rays,2017,15670,TROPICANA FIELD,"St. Petersburg, Florida",25025,262588
+137,Miami Marlins,2017,20395,LOANDEPOT PARK,"Miami, Florida",37442,456617
+138,Oakland A’s,2017,18446,OAKLAND COLISEUM,"Oakland, California",47170,424382
+139,Los Angeles Dodgers,2016,45719,DODGER STADIUM,"Los Angeles, California",56000,3963226
+140,New York Yankees,2016,37819,YANKEE STADIUM,"New York, New York",50287,8469153
+141,New York Mets,2016,34870,CITI FIELD,"New York, New York",42000,8469153
+142,San Diego Padres,2016,29029,PETCO PARK,"San Diego, California",41164,1402089
+143,St. Louis Cardinals,2016,42524,BUSCH STADIUM,"St. Louis, Missouri",43975,312633
+144,Philadelphia Phillies,2016,23643,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1576051
+145,Houston Astros,2016,28476,MINUTE MAID PARK,"Houston, Texas",40963,2309544
+146,Chicago Cubs,2016,39906,WRIGLEY FIELD,"Chicago, Illinois",41649,2716723
+147,Chicago White Sox,2016,21828,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2716723
+148,Seattle Mariners,2016,27999,T-MOBILE PARK,"Seattle, Washington",47574,709631
+149,Boston Red Sox,2016,36486,FENWAY PARK,"Boston, Massachusetts",37673,679848
+150,Los Angeles Angels,2016,37236,ANGEL STADIUM,"Anaheim, California",45050,350013
+151,Colorado Rockies,2016,32129,COORS FIELD,"Denver, Colorado",50398,696159
+152,Milwaukee Brewers,2016,28575,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,596996
+153,Texas Rangers,2016,33461,GLOBE LIFE PARK,"Arlington, Texas",48114,394384
+154,San Francisco Giants,2016,41546,ORACLE PARK,"San Francisco, California",41915,871512
+155,Cincinnati Reds,2016,23383,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,299748
+156,Minnesota Twins,2016,24245,TARGET FIELD,"Minneapolis, Minnesota",39504,415079
+157,Arizona Diamondbacks,2016,25138,CHASE FIELD,"Phoenix, Arizona",48633,1612199
+158,Baltimore Orioles,2016,26819,CAMDEN YARDS,"Baltimore, Maryland",45971,616226
+159,Cleveland Guardians,2016,19650,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,387662
+160,Washington Nationals,2016,30641,NATIONALS PARK,"Washington, District of Columbia",41313,685815
+161,Detroit Tigers,2016,31173,COMERICA PARK,"Detroit, Michigan",41574,677143
+162,Pittsburgh Pirates,2016,28112,PNC PARK,"Pittsburgh, Pennsylvania",38362,304643
+163,Tampa Bay Rays,2016,15878,TROPICANA FIELD,"St. Petersburg, Florida",25025,259266
+164,Miami Marlins,2016,21405,LOANDEPOT PARK,"Miami, Florida",37442,449149
+165,Oakland A’s,2016,18784,OAKLAND COLISEUM,"Oakland, California",47170,420947
+166,Los Angeles Dodgers,2015,46479,DODGER STADIUM,"Los Angeles, California",56000,3938568
+167,New York Yankees,2015,39922,YANKEE STADIUM,"New York, New York",50287,8463049
+168,New York Mets,2015,31725,CITI FIELD,"New York, New York",42000,8463049
+169,San Diego Padres,2015,30367,PETCO PARK,"San Diego, California",41164,1387323
+170,St. Louis Cardinals,2015,43467,BUSCH STADIUM,"St. Louis, Missouri",43975,316010
+171,Atlanta Braves,2015,25017,TURNER FIELD,"Atlanta, Georgia",50096,468303
+172,Philadelphia Phillies,2015,23475,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1571065
+173,Houston Astros,2015,26587,MINUTE MAID PARK,"Houston, Texas",40963,2286908
+174,Chicago Cubs,2015,36540,WRIGLEY FIELD,"Chicago, Illinois",41649,2724344
+175,Chicago White Sox,2015,21947,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2724344
+176,Seattle Mariners,2015,27081,T-MOBILE PARK,"Seattle, Washington",47574,687386
+177,Boston Red Sox,2015,35564,FENWAY PARK,"Boston, Massachusetts",37673,670491
+178,Los Angeles Angels,2015,37194,ANGEL STADIUM,"Anaheim, California",45050,348251
+179,Colorado Rockies,2015,31334,COORS FIELD,"Denver, Colorado",50398,683285
+180,Milwaukee Brewers,2015,31389,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,600477
+181,Texas Rangers,2015,30763,GLOBE LIFE PARK,"Arlington, Texas",48114,388728
+182,San Francisco Giants,2015,41677,ORACLE PARK,"San Francisco, California",41915,863010
+183,Cincinnati Reds,2015,29870,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,299439
+184,Minnesota Twins,2015,27408,TARGET FIELD,"Minneapolis, Minnesota",39504,411030
+185,Arizona Diamondbacks,2015,25680,CHASE FIELD,"Phoenix, Arizona",48633,1583690
+186,Baltimore Orioles,2015,29374,CAMDEN YARDS,"Baltimore, Maryland",45971,622522
+187,Cleveland Guardians,2015,17806,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,389244
+188,Washington Nationals,2015,32343,NATIONALS PARK,"Washington, District of Columbia",41313,675400
+189,Detroit Tigers,2015,33654,COMERICA PARK,"Detroit, Michigan",41574,679410
+190,Pittsburgh Pirates,2015,30846,PNC PARK,"Pittsburgh, Pennsylvania",38362,304070
+191,Tampa Bay Rays,2015,15403,TROPICANA FIELD,"St. Petersburg, Florida",25025,255041
+192,Miami Marlins,2015,21632,LOANDEPOT PARK,"Miami, Florida",37442,434738
+193,Oakland A’s,2015,21829,OAKLAND COLISEUM,"Oakland, California",47170,418211
+194,Los Angeles Dodgers,2014,46695,DODGER STADIUM,"Los Angeles, California",56000,3909901
+195,New York Yankees,2014,42520,YANKEE STADIUM,"New York, New York",50287,8433806
+196,New York Mets,2014,26860,CITI FIELD,"New York, New York",42000,8433806
+197,San Diego Padres,2014,27103,PETCO PARK,"San Diego, California",41164,1375831
+198,St. Louis Cardinals,2014,43711,BUSCH STADIUM,"St. Louis, Missouri",43975,317399
+199,Atlanta Braves,2014,29065,TURNER FIELD,"Atlanta, Georgia",50096,461154
+200,Philadelphia Phillies,2014,29924,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1565460
+201,Houston Astros,2014,21627,MINUTE MAID PARK,"Houston, Texas",40963,2241826
+202,Chicago Cubs,2014,32742,WRIGLEY FIELD,"Chicago, Illinois",41649,2727066
+203,Chicago White Sox,2014,20896,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2727066
+204,Seattle Mariners,2014,25485,T-MOBILE PARK,"Seattle, Washington",47574,670109
+205,Boston Red Sox,2014,36494,FENWAY PARK,"Boston, Massachusetts",37673,662855
+206,Los Angeles Angels,2014,38221,ANGEL STADIUM,"Anaheim, California",45050,344604
+207,Colorado Rockies,2014,33090,COORS FIELD,"Denver, Colorado",50398,664582
+208,Milwaukee Brewers,2014,34535,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,600664
+209,Texas Rangers,2014,33564,GLOBE LIFE PARK,"Arlington, Texas",48114,382721
+210,San Francisco Giants,2014,41588,ORACLE PARK,"San Francisco, California",41915,850750
+211,Cincinnati Reds,2014,30576,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,298626
+212,Minnesota Twins,2014,27785,TARGET FIELD,"Minneapolis, Minnesota",39504,407067
+213,Arizona Diamondbacks,2014,25601,CHASE FIELD,"Phoenix, Arizona",48633,1555445
+214,Baltimore Orioles,2014,30805,CAMDEN YARDS,"Baltimore, Maryland",45971,623587
+215,Cleveland Guardians,2014,18428,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,390871
+216,Washington Nationals,2014,31844,NATIONALS PARK,"Washington, District of Columbia",41313,662328
+217,Detroit Tigers,2014,36014,COMERICA PARK,"Detroit, Michigan",41574,682609
+218,Pittsburgh Pirates,2014,30155,PNC PARK,"Pittsburgh, Pennsylvania",38362,305964
+219,Tampa Bay Rays,2014,17857,TROPICANA FIELD,"St. Petersburg, Florida",25025,252225
+220,Miami Marlins,2014,21386,LOANDEPOT PARK,"Miami, Florida",37442,425110
+221,Oakland A’s,2014,25045,OAKLAND COLISEUM,"Oakland, California",47170,412901
+222,Los Angeles Dodgers,2013,46216,DODGER STADIUM,"Los Angeles, California",56000,3881622
+223,New York Yankees,2013,40488,YANKEE STADIUM,"New York, New York",50287,8396091
+224,New York Mets,2013,26695,CITI FIELD,"New York, New York",42000,8396091
+225,San Diego Padres,2013,26749,PETCO PARK,"San Diego, California",41164,1355320
+226,St. Louis Cardinals,2013,41602,BUSCH STADIUM,"St. Louis, Missouri",43975,318476
+227,Atlanta Braves,2013,31465,TURNER FIELD,"Atlanta, Georgia",50096,453990
+228,Philadelphia Phillies,2013,37190,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1558313
+229,Houston Astros,2013,20393,MINUTE MAID PARK,"Houston, Texas",40963,2199391
+230,Chicago Cubs,2013,32625,WRIGLEY FIELD,"Chicago, Illinois",41649,2725731
+231,Chicago White Sox,2013,22105,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2725731
+232,Seattle Mariners,2013,21747,T-MOBILE PARK,"Seattle, Washington",47574,653588
+233,Boston Red Sox,2013,34979,FENWAY PARK,"Boston, Massachusetts",37673,653002
+234,Los Angeles Angels,2013,37277,ANGEL STADIUM,"Anaheim, California",45050,343832
+235,Colorado Rockies,2013,34491,COORS FIELD,"Denver, Colorado",50398,649391
+236,Milwaukee Brewers,2013,31248,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,599916
+237,Texas Rangers,2013,38759,GLOBE LIFE PARK,"Arlington, Texas",48114,378950
+238,San Francisco Giants,2013,41584,ORACLE PARK,"San Francisco, California",41915,839572
+239,Cincinnati Reds,2013,31288,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,297905
+240,Minnesota Twins,2013,30588,TARGET FIELD,"Minneapolis, Minnesota",39504,400070
+241,Arizona Diamondbacks,2013,26355,CHASE FIELD,"Phoenix, Arizona",48633,1526491
+242,Baltimore Orioles,2013,29105,CAMDEN YARDS,"Baltimore, Maryland",45971,622391
+243,Cleveland Guardians,2013,19661,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,391792
+244,Washington Nationals,2013,32745,NATIONALS PARK,"Washington, District of Columbia",41313,650581
+245,Detroit Tigers,2013,38066,COMERICA PARK,"Detroit, Michigan",41574,691868
+246,Pittsburgh Pirates,2013,28210,PNC PARK,"Pittsburgh, Pennsylvania",38362,306902
+247,Tampa Bay Rays,2013,18645,TROPICANA FIELD,"St. Petersburg, Florida",25025,248453
+248,Miami Marlins,2013,19584,LOANDEPOT PARK,"Miami, Florida",37442,415661
+249,Oakland A’s,2013,22337,OAKLAND COLISEUM,"Oakland, California",47170,406648
+250,Los Angeles Dodgers,2012,41040,DODGER STADIUM,"Los Angeles, California",56000,3851202
+251,New York Yankees,2012,43733,YANKEE STADIUM,"New York, New York",50287,8346693
+252,New York Mets,2012,28035,CITI FIELD,"New York, New York",42000,8346693
+253,San Diego Padres,2012,26218,PETCO PARK,"San Diego, California",41164,1336776
+254,St. Louis Cardinals,2012,40272,BUSCH STADIUM,"St. Louis, Missouri",43975,319416
+255,Atlanta Braves,2012,29878,TURNER FIELD,"Atlanta, Georgia",50096,449016
+256,Philadelphia Phillies,2012,44021,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1551824
+257,Houston Astros,2012,19848,MINUTE MAID PARK,"Houston, Texas",40963,2161593
+258,Chicago Cubs,2012,35589,WRIGLEY FIELD,"Chicago, Illinois",41649,2719141
+259,Chicago White Sox,2012,24271,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2719141
+260,Seattle Mariners,2012,21258,T-MOBILE PARK,"Seattle, Washington",47574,635928
+261,Boston Red Sox,2012,37567,FENWAY PARK,"Boston, Massachusetts",37673,642955
+262,Los Angeles Angels,2012,37799,ANGEL STADIUM,"Anaheim, California",45050,342071
+263,Colorado Rockies,2012,32474,COORS FIELD,"Denver, Colorado",50398,635163
+264,Milwaukee Brewers,2012,34955,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,598569
+265,Texas Rangers,2012,42719,GLOBE LIFE PARK,"Arlington, Texas",48114,375629
+266,San Francisco Giants,2012,41695,ORACLE PARK,"San Francisco, California",41915,828876
+267,Cincinnati Reds,2012,28978,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,296900
+268,Minnesota Twins,2012,34275,TARGET FIELD,"Minneapolis, Minnesota",39504,392768
+269,Arizona Diamondbacks,2012,26884,CHASE FIELD,"Phoenix, Arizona",48633,1499274
+270,Baltimore Orioles,2012,26610,CAMDEN YARDS,"Baltimore, Maryland",45971,622895
+271,Cleveland Guardians,2012,19797,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,391550
+272,Washington Nationals,2012,30010,NATIONALS PARK,"Washington, District of Columbia",41313,634924
+273,Detroit Tigers,2012,37383,COMERICA PARK,"Detroit, Michigan",41574,700183
+274,Pittsburgh Pirates,2012,26148,PNC PARK,"Pittsburgh, Pennsylvania",38362,306355
+275,Tampa Bay Rays,2012,19255,TROPICANA FIELD,"St. Petersburg, Florida",25025,246656
+276,Miami Marlins,2012,27400,LOANDEPOT PARK,"Miami, Florida",37442,411149
+277,Oakland A’s,2012,20728,OAKLAND COLISEUM,"Oakland, California",47170,401104
+278,Los Angeles Dodgers,2011,36236,DODGER STADIUM,"Los Angeles, California",56000,3820876
+279,New York Yankees,2011,45107,YANKEE STADIUM,"New York, New York",50287,8272948
+280,New York Mets,2011,30108,CITI FIELD,"New York, New York",42000,8272948
+281,San Diego Padres,2011,26457,PETCO PARK,"San Diego, California",41164,1319592
+282,St. Louis Cardinals,2011,38196,BUSCH STADIUM,"St. Louis, Missouri",43975,319344
+283,Atlanta Braves,2011,30037,TURNER FIELD,"Atlanta, Georgia",50096,437812
+284,Philadelphia Phillies,2011,45440,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1540466
+285,Houston Astros,2011,25518,MINUTE MAID PARK,"Houston, Texas",40963,2126032
+286,Chicago Cubs,2011,37258,WRIGLEY FIELD,"Chicago, Illinois",41649,2708114
+287,Chicago White Sox,2011,24705,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2708114
+288,Seattle Mariners,2011,23411,T-MOBILE PARK,"Seattle, Washington",47574,622694
+289,Boston Red Sox,2011,37703,FENWAY PARK,"Boston, Massachusetts",37673,630505
+290,Los Angeles Angels,2011,39090,ANGEL STADIUM,"Anaheim, California",45050,339831
+291,Colorado Rockies,2011,35923,COORS FIELD,"Denver, Colorado",50398,620530
+292,Milwaukee Brewers,2011,37918,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,597086
+293,Texas Rangers,2011,36382,GLOBE LIFE PARK,"Arlington, Texas",48114,370253
+294,San Francisco Giants,2011,41818,ORACLE PARK,"San Francisco, California",41915,815650
+295,Cincinnati Reds,2011,27327,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,296187
+296,Minnesota Twins,2011,39112,TARGET FIELD,"Minneapolis, Minnesota",39504,388052
+297,Arizona Diamondbacks,2011,25992,CHASE FIELD,"Phoenix, Arizona",48633,1469796
+298,Baltimore Orioles,2011,21943,CAMDEN YARDS,"Baltimore, Maryland",45971,620410
+299,Cleveland Guardians,2011,22726,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,392667
+300,Washington Nationals,2011,24877,NATIONALS PARK,"Washington, District of Columbia",41313,619800
+301,Detroit Tigers,2011,32617,COMERICA PARK,"Detroit, Michigan",41574,705118
+302,Pittsburgh Pirates,2011,24255,PNC PARK,"Pittsburgh, Pennsylvania",38362,306012
+303,Tampa Bay Rays,2011,18878,TROPICANA FIELD,"St. Petersburg, Florida",25025,245871
+304,Oakland A’s,2011,18232,OAKLAND COLISEUM,"Oakland, California",47170,396086
+305,Los Angeles Dodgers,2010,43979,DODGER STADIUM,"Los Angeles, California",56000,3795512
+306,New York Yankees,2010,46491,YANKEE STADIUM,"New York, New York",50287,8190209
+307,New York Mets,2010,32401,CITI FIELD,"New York, New York",42000,8190209
+308,San Diego Padres,2010,26318,PETCO PARK,"San Diego, California",41164,1305906
+309,St. Louis Cardinals,2010,40755,BUSCH STADIUM,"St. Louis, Missouri",43975,319336
+310,Atlanta Braves,2010,30989,TURNER FIELD,"Atlanta, Georgia",50096,429410
+311,Philadelphia Phillies,2010,45027,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1528283
+312,Houston Astros,2010,28783,MINUTE MAID PARK,"Houston, Texas",40963,2100280
+313,Chicago Cubs,2010,37814,WRIGLEY FIELD,"Chicago, Illinois",41649,2697477
+314,Chicago White Sox,2010,27091,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2697477
+315,Seattle Mariners,2010,25746,T-MOBILE PARK,"Seattle, Washington",47574,610630
+316,Boston Red Sox,2010,37610,FENWAY PARK,"Boston, Massachusetts",37673,621048
+317,Los Angeles Angels,2010,40133,ANGEL STADIUM,"Anaheim, California",45050,336760
+318,Colorado Rockies,2010,35940,COORS FIELD,"Denver, Colorado",50398,603359
+319,Milwaukee Brewers,2010,34278,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,594865
+320,Texas Rangers,2010,30928,GLOBE LIFE PARK,"Arlington, Texas",48114,365892
+321,San Francisco Giants,2010,37499,ORACLE PARK,"San Francisco, California",41915,805505
+322,Cincinnati Reds,2010,25438,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,296980
+323,Minnesota Twins,2010,39798,TARGET FIELD,"Minneapolis, Minnesota",39504,383067
+324,Arizona Diamondbacks,2010,25394,CHASE FIELD,"Phoenix, Arizona",48633,1449038
+325,Baltimore Orioles,2010,21662,CAMDEN YARDS,"Baltimore, Maryland",45971,620915
+326,Cleveland Guardians,2010,17435,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,395926
+327,Washington Nationals,2010,22568,NATIONALS PARK,"Washington, District of Columbia",41313,605226
+328,Detroit Tigers,2010,30385,COMERICA PARK,"Detroit, Michigan",41574,711131
+329,Pittsburgh Pirates,2010,19918,PNC PARK,"Pittsburgh, Pennsylvania",38362,305283
+330,Tampa Bay Rays,2010,22758,TROPICANA FIELD,"St. Petersburg, Florida",25025,245222
+331,Oakland A’s,2010,17511,OAKLAND COLISEUM,"Oakland, California",47170,391406
+332,Los Angeles Dodgers,2009,46440,DODGER STADIUM,"Los Angeles, California",56000,3781938
+333,New York Yankees,2009,45364,YANKEE STADIUM,"New York, New York",50287,8131574
+334,New York Mets,2009,38941,CITI FIELD,"New York, New York",42000,8131574
+335,San Diego Padres,2009,23735,PETCO PARK,"San Diego, California",41164,1295591
+336,St. Louis Cardinals,2009,41274,BUSCH STADIUM,"St. Louis, Missouri",43975,318842
+337,Atlanta Braves,2009,29304,TURNER FIELD,"Atlanta, Georgia",50096,417090
+338,Philadelphia Phillies,2009,44453,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1514694
+339,Houston Astros,2009,31124,MINUTE MAID PARK,"Houston, Texas",40963,2087334
+340,Chicago Cubs,2009,39610,WRIGLEY FIELD,"Chicago, Illinois",41649,2697006
+341,Chicago White Sox,2009,28199,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2697006
+342,Seattle Mariners,2009,27116,T-MOBILE PARK,"Seattle, Washington",47574,604189
+343,Boston Red Sox,2009,37811,FENWAY PARK,"Boston, Massachusetts",37673,612669
+344,Los Angeles Angels,2009,40004,ANGEL STADIUM,"Anaheim, California",45050,334429
+345,Colorado Rockies,2009,32902,COORS FIELD,"Denver, Colorado",50398,589011
+346,Milwaukee Brewers,2009,37499,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,592180
+347,Texas Rangers,2009,27641,GLOBE LIFE PARK,"Arlington, Texas",48114,363426
+348,San Francisco Giants,2009,35322,ORACLE PARK,"San Francisco, California",41915,801922
+349,Cincinnati Reds,2009,21579,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,298239
+350,Arizona Diamondbacks,2009,26281,CHASE FIELD,"Phoenix, Arizona",48633,1452679
+351,Baltimore Orioles,2009,23545,CAMDEN YARDS,"Baltimore, Maryland",45971,620509
+352,Cleveland Guardians,2009,22492,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,401770
+353,Washington Nationals,2009,22715,NATIONALS PARK,"Washington, District of Columbia",41313,592228
+354,Detroit Tigers,2009,31693,COMERICA PARK,"Detroit, Michigan",41574,731155
+355,Pittsburgh Pirates,2009,19479,PNC PARK,"Pittsburgh, Pennsylvania",38362,306570
+356,Tampa Bay Rays,2009,23147,TROPICANA FIELD,"St. Petersburg, Florida",25025,244646
+357,Oakland A’s,2009,17392,OAKLAND COLISEUM,"Oakland, California",47170,389613
+358,Los Angeles Dodgers,2008,46056,DODGER STADIUM,"Los Angeles, California",56000,3763566
+359,San Diego Padres,2008,29969,PETCO PARK,"San Diego, California",41164,1282692
+360,St. Louis Cardinals,2008,42353,BUSCH STADIUM,"St. Louis, Missouri",43975,317955
+361,Atlanta Braves,2008,31269,TURNER FIELD,"Atlanta, Georgia",50096,414233
+362,Philadelphia Phillies,2008,42254,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1499731
+363,Houston Astros,2008,34741,MINUTE MAID PARK,"Houston, Texas",40963,2060477
+364,Chicago Cubs,2008,40743,WRIGLEY FIELD,"Chicago, Illinois",41649,2697359
+365,Chicago White Sox,2008,30877,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2697359
+366,Seattle Mariners,2008,28761,T-MOBILE PARK,"Seattle, Washington",47574,593588
+367,Boston Red Sox,2008,37632,FENWAY PARK,"Boston, Massachusetts",37673,600685
+368,Los Angeles Angels,2008,41194,ANGEL STADIUM,"Anaheim, California",45050,332102
+369,Colorado Rockies,2008,33127,COORS FIELD,"Denver, Colorado",50398,575721
+370,Milwaukee Brewers,2008,37882,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,587858
+371,Texas Rangers,2008,24320,GLOBE LIFE PARK,"Arlington, Texas",48114,359679
+372,San Francisco Giants,2008,35356,ORACLE PARK,"San Francisco, California",41915,791152
+373,Cincinnati Reds,2008,25415,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,299145
+374,Minnesota Twins,2008,28425,METRODOME,"Minneapolis, Minnesota",56144,379185
+375,Arizona Diamondbacks,2008,30986,CHASE FIELD,"Phoenix, Arizona",48633,1456729
+376,Baltimore Orioles,2008,25000,CAMDEN YARDS,"Baltimore, Maryland",45971,620184
+377,Cleveland Guardians,2008,27122,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,408261
+378,Washington Nationals,2008,29005,NATIONALS PARK,"Washington, District of Columbia",41313,580236
+379,Detroit Tigers,2008,39538,COMERICA PARK,"Detroit, Michigan",41574,756383
+380,Pittsburgh Pirates,2008,20113,PNC PARK,"Pittsburgh, Pennsylvania",38362,307673
+381,Tampa Bay Rays,2008,22259,TROPICANA FIELD,"St. Petersburg, Florida",25025,245195
+382,Oakland A’s,2008,20558,OAKLAND COLISEUM,"Oakland, California",47170,386589
+383,Los Angeles Dodgers,2007,47617,DODGER STADIUM,"Los Angeles, California",56000,3751872
+384,New York Yankees,2007,52729,YANKEE STADIUM,"New York, New York",56937,8013775
+385,New York Mets,2007,47579,SHEA STADIUM,"New York, New York",57333,8013775
+386,San Diego Padres,2007,34445,PETCO PARK,"San Diego, California",41164,1266198
+387,St. Louis Cardinals,2007,43854,BUSCH STADIUM,"St. Louis, Missouri",43975,317959
+388,Atlanta Braves,2007,33891,TURNER FIELD,"Atlanta, Georgia",50096,410086
+389,Philadelphia Phillies,2007,38374,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1493309
+390,Houston Astros,2007,37288,MINUTE MAID PARK,"Houston, Texas",40963,2044612
+391,Chicago Cubs,2007,40153,WRIGLEY FIELD,"Chicago, Illinois",41649,2703991
+392,Chicago White Sox,2007,33140,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2703991
+393,Seattle Mariners,2007,32993,T-MOBILE PARK,"Seattle, Washington",47574,586956
+394,Boston Red Sox,2007,36679,FENWAY PARK,"Boston, Massachusetts",37673,593136
+395,Los Angeles Angels,2007,41551,ANGEL STADIUM,"Anaheim, California",45050,330178
+396,Colorado Rockies,2007,28978,COORS FIELD,"Denver, Colorado",50398,564395
+397,Milwaukee Brewers,2007,35421,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,586445
+398,Texas Rangers,2007,29795,GLOBE LIFE PARK,"Arlington, Texas",48114,355940
+399,San Francisco Giants,2007,39792,ORACLE PARK,"San Francisco, California",41915,778673
+400,Cincinnati Reds,2007,25414,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,301824
+401,Minnesota Twins,2007,28349,METRODOME,"Minneapolis, Minnesota",56144,377575
+402,Arizona Diamondbacks,2007,28708,CHASE FIELD,"Phoenix, Arizona",48633,1450901
+403,Baltimore Orioles,2007,27060,CAMDEN YARDS,"Baltimore, Maryland",45971,620306
+404,Cleveland Guardians,2007,28448,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,415865
+405,Detroit Tigers,2007,37619,COMERICA PARK,"Detroit, Michigan",41574,784998
+406,Pittsburgh Pirates,2007,22141,PNC PARK,"Pittsburgh, Pennsylvania",38362,308999
+407,Tampa Bay Rays,2007,17130,TROPICANA FIELD,"St. Petersburg, Florida",25025,246037
+408,Oakland A’s,2007,23726,OAKLAND COLISEUM,"Oakland, California",47170,383500
+409,Los Angeles Dodgers,2006,46401,DODGER STADIUM,"Los Angeles, California",56000,3767960
+410,New York Yankees,2006,52392,YANKEE STADIUM,"New York, New York",56937,7993906
+411,New York Mets,2006,43327,SHEA STADIUM,"New York, New York",57333,7993906
+412,San Diego Padres,2006,32836,PETCO PARK,"San Diego, California",41164,1257625
+413,St. Louis Cardinals,2006,42588,BUSCH STADIUM,"St. Louis, Missouri",43975,320131
+414,Atlanta Braves,2006,31881,TURNER FIELD,"Atlanta, Georgia",50096,403548
+415,Philadelphia Phillies,2006,34200,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1488710
+416,Houston Astros,2006,37318,MINUTE MAID PARK,"Houston, Texas",40963,2038721
+417,Chicago Cubs,2006,39040,WRIGLEY FIELD,"Chicago, Illinois",41649,2720181
+418,Chicago White Sox,2006,36511,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2720181
+419,Seattle Mariners,2006,30634,T-MOBILE PARK,"Seattle, Washington",47574,580609
+420,Boston Red Sox,2006,36189,FENWAY PARK,"Boston, Massachusetts",37673,587816
+421,Los Angeles Angels,2006,42059,ANGEL STADIUM,"Anaheim, California",45050,331261
+422,Colorado Rockies,2006,25979,COORS FIELD,"Denver, Colorado",50398,556895
+423,Milwaukee Brewers,2006,28835,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,586395
+424,Texas Rangers,2006,29490,GLOBE LIFE PARK,"Arlington, Texas",48114,350759
+425,San Francisco Giants,2006,38639,ORACLE PARK,"San Francisco, California",41915,768650
+426,Cincinnati Reds,2006,26353,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,304713
+427,Minnesota Twins,2006,28210,METRODOME,"Minneapolis, Minnesota",56144,376495
+428,Arizona Diamondbacks,2006,25829,CHASE FIELD,"Phoenix, Arizona",48633,1441241
+429,Baltimore Orioles,2006,26581,CAMDEN YARDS,"Baltimore, Maryland",45971,621109
+430,Cleveland Guardians,2006,24666,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,423831
+431,Washington Nationals,2006,26580,RFK STADIUM,"Washington, District of Columbia",46382,570681
+432,Detroit Tigers,2006,32048,COMERICA PARK,"Detroit, Michigan",41574,811922
+433,Pittsburgh Pirates,2006,23269,PNC PARK,"Pittsburgh, Pennsylvania",38362,311016
+434,Tampa Bay Rays,2006,16925,TROPICANA FIELD,"St. Petersburg, Florida",25025,247788
+435,Oakland A’s,2006,24402,OAKLAND COLISEUM,"Oakland, California",47170,383107
+436,Los Angeles Dodgers,2005,44489,DODGER STADIUM,"Los Angeles, California",56000,3788197
+437,New York Yankees,2005,50502,YANKEE STADIUM,"New York, New York",56937,8013368
+438,New York Mets,2005,35374,SHEA STADIUM,"New York, New York",57333,8013368
+439,San Diego Padres,2005,35429,PETCO PARK,"San Diego, California",41164,1257278
+440,Atlanta Braves,2005,31514,TURNER FIELD,"Atlanta, Georgia",50096,396311
+441,Philadelphia Phillies,2005,33316,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1490861
+442,Houston Astros,2005,34626,MINUTE MAID PARK,"Houston, Texas",40963,1995773
+443,Chicago Cubs,2005,38749,WRIGLEY FIELD,"Chicago, Illinois",41649,2752523
+444,Chicago White Sox,2005,28923,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2752523
+445,Seattle Mariners,2005,33648,T-MOBILE PARK,"Seattle, Washington",47574,573336
+446,Boston Red Sox,2005,35159,FENWAY PARK,"Boston, Massachusetts",37673,587260
+447,Los Angeles Angels,2005,42033,ANGEL STADIUM,"Anaheim, California",45050,333165
+448,Colorado Rockies,2005,23929,COORS FIELD,"Denver, Colorado",50398,551691
+449,Milwaukee Brewers,2005,27296,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,588565
+450,Texas Rangers,2005,31565,GLOBE LIFE PARK,"Arlington, Texas",48114,344472
+451,San Francisco Giants,2005,39271,ORACLE PARK,"San Francisco, California",41915,763016
+452,Cincinnati Reds,2005,23988,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,308398
+453,Minnesota Twins,2005,25114,METRODOME,"Minneapolis, Minnesota",56144,376937
+454,Arizona Diamondbacks,2005,25416,CHASE FIELD,"Phoenix, Arizona",48633,1417720
+455,Baltimore Orioles,2005,32404,CAMDEN YARDS,"Baltimore, Maryland",45971,621560
+456,Cleveland Guardians,2005,24861,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,433919
+457,Washington Nationals,2005,33728,RFK STADIUM,"Washington, District of Columbia",46382,567136
+458,Detroit Tigers,2005,25306,COMERICA PARK,"Detroit, Michigan",41574,837407
+459,Pittsburgh Pirates,2005,23003,PNC PARK,"Pittsburgh, Pennsylvania",38362,314412
+460,Tampa Bay Rays,2005,14232,TROPICANA FIELD,"St. Petersburg, Florida",25025,249457
+461,Oakland A’s,2005,26038,OAKLAND COLISEUM,"Oakland, California",47170,384931
+462,Los Angeles Dodgers,2004,43065,DODGER STADIUM,"Los Angeles, California",56000,3792650
+463,New York Yankees,2004,47788,YANKEE STADIUM,"New York, New York",56937,8043366
+464,New York Mets,2004,28979,SHEA STADIUM,"New York, New York",57333,8043366
+465,San Diego Padres,2004,37243,PETCO PARK,"San Diego, California",41164,1256969
+466,St. Louis Cardinals,2004,37634,BUSCH STADIUM,"St. Louis, Missouri",50345,330988
+467,Atlanta Braves,2004,29399,TURNER FIELD,"Atlanta, Georgia",50096,397365
+468,Philadelphia Phillies,2004,40626,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1492882
+469,Houston Astros,2004,38121,MINUTE MAID PARK,"Houston, Texas",40963,1991817
+470,Chicago Cubs,2004,39138,WRIGLEY FIELD,"Chicago, Illinois",41649,2786291
+471,Chicago White Sox,2004,24437,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2786291
+472,Seattle Mariners,2004,36305,T-MOBILE PARK,"Seattle, Washington",47574,568719
+473,Boston Red Sox,2004,35028,FENWAY PARK,"Boston, Massachusetts",37673,591166
+474,Los Angeles Angels,2004,41675,ANGEL STADIUM,"Anaheim, California",45050,334392
+475,Colorado Rockies,2004,29595,COORS FIELD,"Denver, Colorado",50398,550756
+476,Milwaukee Brewers,2004,25461,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,592008
+477,Texas Rangers,2004,31818,GLOBE LIFE PARK,"Arlington, Texas",48114,342162
+478,San Francisco Giants,2004,40208,ORACLE PARK,"San Francisco, California",41915,761325
+479,Cincinnati Reds,2004,28237,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,312648
+480,Minnesota Twins,2004,23597,METRODOME,"Minneapolis, Minnesota",56144,378749
+481,Arizona Diamondbacks,2004,31105,CHASE FIELD,"Phoenix, Arizona",48633,1386945
+482,Baltimore Orioles,2004,34344,CAMDEN YARDS,"Baltimore, Maryland",45971,624222
+483,Cleveland Guardians,2004,22400,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,443502
+484,Washington Nationals,2004,9356,RFK STADIUM,"Washington, District of Columbia",46382,567754
+485,Detroit Tigers,2004,23962,COMERICA PARK,"Detroit, Michigan",41574,861186
+486,Pittsburgh Pirates,2004,21107,PNC PARK,"Pittsburgh, Pennsylvania",38362,318960
+487,Tampa Bay Rays,2004,16139,TROPICANA FIELD,"St. Petersburg, Florida",25025,249423
+488,Oakland A’s,2004,27179,OAKLAND COLISEUM,"Oakland, California",47170,388633
+489,Los Angeles Dodgers,2003,38748,DODGER STADIUM,"Los Angeles, California",56000,3784279
+490,New York Yankees,2003,42785,YANKEE STADIUM,"New York, New York",56937,8068073
+491,New York Mets,2003,28406,SHEA STADIUM,"New York, New York",57333,8068073
+492,St. Louis Cardinals,2003,35930,BUSCH STADIUM,"St. Louis, Missouri",50345,334893
+493,Atlanta Braves,2003,30393,TURNER FIELD,"Atlanta, Georgia",50096,403080
+494,Houston Astros,2003,30299,MINUTE MAID PARK,"Houston, Texas",40963,1992464
+495,Chicago Cubs,2003,37032,WRIGLEY FIELD,"Chicago, Illinois",41649,2819117
+496,Chicago White Sox,2003,23945,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2819117
+497,Seattle Mariners,2003,40351,T-MOBILE PARK,"Seattle, Washington",47574,566751
+498,Boston Red Sox,2003,33631,FENWAY PARK,"Boston, Massachusetts",37673,595864
+499,Los Angeles Angels,2003,37791,ANGEL STADIUM,"Anaheim, California",45050,334029
+500,Colorado Rockies,2003,28815,COORS FIELD,"Denver, Colorado",50398,552588
+501,Milwaukee Brewers,2003,20992,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,594303
+502,Texas Rangers,2003,25856,GLOBE LIFE PARK,"Arlington, Texas",48114,340699
+503,San Francisco Giants,2003,40304,ORACLE PARK,"San Francisco, California",41915,766160
+504,Cincinnati Reds,2003,29077,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,317432
+505,Minnesota Twins,2003,24024,METRODOME,"Minneapolis, Minnesota",56144,380189
+506,Arizona Diamondbacks,2003,34636,CHASE FIELD,"Phoenix, Arizona",48633,1368806
+507,Baltimore Orioles,2003,30297,CAMDEN YARDS,"Baltimore, Maryland",45971,629033
+508,Cleveland Guardians,2003,21358,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,452228
+509,Washington Nationals,2003,12662,RFK STADIUM,"Washington, District of Columbia",46382,568502
+510,Detroit Tigers,2003,17103,COMERICA PARK,"Detroit, Michigan",41574,884411
+511,Pittsburgh Pirates,2003,20983,PNC PARK,"Pittsburgh, Pennsylvania",38362,323589
+512,Tampa Bay Rays,2003,13070,TROPICANA FIELD,"St. Petersburg, Florida",25025,249142
+513,Oakland A’s,2003,27365,OAKLAND COLISEUM,"Oakland, California",47170,393538
