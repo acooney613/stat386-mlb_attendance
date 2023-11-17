@@ -71,7 +71,10 @@ STATES = {
 class combine():
     def __init__(self, salary, stadium, population, attendance):
         self.stad_att(stadium, attendance)
+        print(self.data['team'].unique())
         self.pop_stad_att(population)
+        # deletes the royals ones why????
+        print(self.data['team'].unique())
         self.sal_pop_stad_att(salary)
 
     def sal_pop_stad_att(self, salary):
@@ -282,6 +285,7 @@ class stadiums():
         data = self.data
         data[['team']] = data['team'].str.extract(r'\s*(.*?)(?:,|\(|$)')
         data['team'] = data['team'].str.strip()
+        data['team'] = data['team'].str.replace('Florida', 'Miami')
         data['location'] = data['location'].str.strip()
         data['capacity'] = data['capacity'].str.replace(',', '')
         data['capacity'] = data['capacity'].str.extract(r'(\d+)').astype('int')
@@ -452,7 +456,6 @@ class payroll():
         self.pay['team'] = self.pay['team'].str.replace('Florida', 'Miami')
         self.pay['team'] = self.pay['team'].str.replace('Montreal Expos', 'Washington Nationals')
         self.pay['team'] = self.pay['team'].str.replace('Oakland Athletics', 'Oakland A’s')
-        print(self.pay['team'].unique())
         return self.pay
 
     def payroll(self, year):
@@ -476,16 +479,18 @@ class payroll():
 
 x = payroll('https://www.thebaseballcube.com/page.asp?PT=payroll_year&ID=')
 df_payroll = x.get_data()
+print(df_payroll['team'].unique())
 
 y = attendance('https://www.espn.com/mlb/attendance')
 
 df_attendance = y.get_data()
+print(df_attendance['TEAM'].unique())
 
 z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/', 
             'https://www.ballparksofbaseball.com/past-ballparks/')
 
 df_stadium = z.get_data()
-
+print(df_stadium['team'].unique())
 t = population('https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html',
               'https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html',
               'https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-cities-and-towns.html',
