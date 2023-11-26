@@ -69,7 +69,6 @@ STATES = {
 class combine():
     def __init__(self, salary, stadium, population, attendance):
         self.stad_att(stadium, attendance)
-        print(self.data[self.data['year'] == '2003'])
         self.pop_stad_att(population)
         # deletes the royals ones why????
         self.sal_pop_stad_att(salary)
