@@ -5,4 +5,7 @@ import plotly.express as px
 
 df = pd.read_csv('mlb_attendance.csv')
 
-st.dataframe(df)
+df['proportion of capacity filled'] = df['average attendance'] / df['capacity']
+fig = px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color = 'team')
+
+st.plotly_chart(fig)
