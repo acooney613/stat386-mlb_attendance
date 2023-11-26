@@ -3,10 +3,7 @@ import pandas as pd
 import seaborn as sns
 import plotly.express as px
 
-s1, s2, s3 = st.columns(3)
-
-with s2:
-    st.title('MLB Attendance')
+st.title('MLB Attendance')
 
 df = pd.read_csv('mlb_attendance.csv')
 
