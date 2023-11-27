@@ -23,7 +23,7 @@ st.plotly_chart(fig1)
 
 options = data['team'].unique()
 
-selected = st.multiselect('Select teams:', options = options, default = options)
+selected = st.multiselect('Select teams:', options = options, default = None)
 
 df2 = data[data['team'].isin(selected)]
 
