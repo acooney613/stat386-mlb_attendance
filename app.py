@@ -30,7 +30,8 @@ df2 = data[data['team'].isin(selected)]
 #fig2 = px.scatter(df2, x = 'population', y = 'average attendance', color = 'location', symbol = 'year')
 #fig2.update_layout(showlegend = False)
 fig2 = px.box(df2, y = 'team', x = 'average attendance')
-fig2.update_traces(hoverlabel=dict(namelength=10, font=dict(size=12)))
+#fig2.update_traces(hoverlabel=dict(namelength=10, font=dict(size=12)))
+fig2.update_traces(hoverinfo='y')
 st.plotly_chart(fig2)
 
 
