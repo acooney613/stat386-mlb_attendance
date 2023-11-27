@@ -19,4 +19,4 @@ st.plotly_chart(fig)
 test = sns.lmplot(data = df, y = 'proportion of capacity filled', x = 'population', lowess = False, legend = False)
 #test = plt.xscale('log')
 
-st.plotly_chart(test)
+#st.plotly_chart(test)
