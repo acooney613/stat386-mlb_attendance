@@ -32,7 +32,7 @@ df2 = data[data['team'].isin(selected)]
 fig2 = px.box(df2, y = 'team', x = 'average attendance')
 #fig2.update_traces(hoverlabel=dict(namelength=10, font=dict(size=12)))
 fig2.update_traces(hoverinfo='y')
-fig2.update_xaxes(range=[min(df2['average attendance']) - 5, max(df2['average attendance']) + 5])
+fig2.update_xaxes(range=[min(df2['average attendance']) - 10000, max(df2['average attendance']) + 10000])
 st.plotly_chart(fig2)
 
 
