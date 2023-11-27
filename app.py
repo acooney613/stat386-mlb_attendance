@@ -14,7 +14,7 @@ data['proportion of capacity filled'] = data['average attendance'] / data['capac
 df = data[data['year'] == year]
 fig = px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color = 'team')
 
-st.plotly_chart(fig)
+st.pyplot(fig)
 
 test = sns.lmplot(data = df, y = 'proportion of capacity filled', x = 'population', lowess = False, legend = False)
 #test = plt.xscale('log')
