@@ -22,7 +22,9 @@ fig1 = px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color 
 st.plotly_chart(fig1)
 
 fig2 = px.scatter(data, x = 'population', y = 'average attendance', color = 'year', symbol = 'location')
+fig2.update_layout(showlegend = False)
 st.plotly_chart(fig2)
+
 
 
 
