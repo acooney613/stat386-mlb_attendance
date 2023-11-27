@@ -17,6 +17,6 @@ fig = px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color =
 st.plotly_chart(fig)
 
 test = sns.lmplot(data = df, y = 'proportion of capacity filled', x = 'population', lowess = False, legend = False).set(title = 'portion of stadium capacity by population')
-test = plt.xscale('log')
+#test = plt.xscale('log')
 
 st.plotly_chart(test)
