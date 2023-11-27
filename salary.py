@@ -70,7 +70,6 @@ class combine():
     def __init__(self, salary, stadium, population, attendance):
         self.stad_att(stadium, attendance)
         self.pop_stad_att(population)
-        # deletes the royals ones why????
         self.sal_pop_stad_att(salary)
 
     def sal_pop_stad_att(self, salary):
