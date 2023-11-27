@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import seaborn as sns
 import plotly.express as px
+import matplotlib.pyplot as plt
 
 st.title('MLB Attendance')
 
@@ -14,3 +15,8 @@ df = data[data['year'] == year]
 fig = px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color = 'team')
 
 st.plotly_chart(fig)
+
+test = sns.lmplot(data = df, y = 'proportion of capacity filled', x = 'population', lowess = False, legend = False).set(title = 'portion of stadium capacity by population')
+test = plt.xscale('log')
+
+st.plotly_chart(test)
