@@ -17,6 +17,7 @@ if year != 2020:
                   trendline_scope = 'overall', trendline_color_override = 'orange')
     
 else:
+    st.write('Due to COVID-19 there is no MLB attendance numbers for the year 2020')
     fig1 = px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color = 'team')
 
 st.plotly_chart(fig1)
