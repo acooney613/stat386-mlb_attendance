@@ -21,7 +21,7 @@ fig1 = px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color 
 
 st.plotly_chart(fig1)
 
-fig2 = px.scatter(df, x = 'population', y = 'payroll', trendline = 'ols')
+fig2 = px.scatter(df, x = 'population', y = 'payroll', color = 'location')
 st.plotly_chart(fig2)
 
 
