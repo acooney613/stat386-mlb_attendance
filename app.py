@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-#import seaborn as sns
+import seaborn as sns
 import plotly.express as px
 import matplotlib.pyplot as plt
 
@@ -22,6 +22,7 @@ fig1 = px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color 
 st.plotly_chart(fig1)
 
 options = data['team'].unique()
+options.sort()
 
 selected = st.multiselect('Select teams:', options = options, default = None)
 
