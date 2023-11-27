@@ -10,7 +10,7 @@ year = st.text_input('Enter Year', '2022')
 
 data['proportion of capacity filled'] = data['average attendance'] / data['capacity']
 
-df = data[data['year' == year]]
+df = data[data['year'] == year]
 fig = px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color = 'team')
 
 st.plotly_chart(fig)
