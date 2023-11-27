@@ -5,10 +5,12 @@ import plotly.express as px
 
 st.title('MLB Attendance')
 
-df = pd.read_csv('mlb_attendance.csv')
-print(df)
+data = pd.read_csv('mlb_attendance.csv')
+year = st.text_input('Enter Year', '2022')
 
-df['proportion of capacity filled'] = df['average attendance'] / df['capacity']
+data['proportion of capacity filled'] = data['average attendance'] / data['capacity']
+
+df = data[data['year' == year]]
 fig = px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color = 'team')
 
 st.plotly_chart(fig)
