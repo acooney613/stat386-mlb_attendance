@@ -27,8 +27,9 @@ selected = st.multiselect('Select teams:', options = options, default = options)
 
 df2 = data[data['team'].isin(selected)]
 
-fig2 = px.scatter(df2, x = 'population', y = 'average attendance', color = 'location', symbol = 'year')
-fig2.update_layout(showlegend = False)
+#fig2 = px.scatter(df2, x = 'population', y = 'average attendance', color = 'location', symbol = 'year')
+#fig2.update_layout(showlegend = False)
+fig2 = px.box(df2, x = 'team', y = 'average attendance')
 st.plotly_chart(fig2)
 
 
