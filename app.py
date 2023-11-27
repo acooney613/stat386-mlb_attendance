@@ -21,7 +21,13 @@ fig1 = px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color 
 
 st.plotly_chart(fig1)
 
-fig2 = px.scatter(data, x = 'population', y = 'average attendance', color = 'location', symbol = 'year')
+options = data['team'].unique()
+
+selected = st.multiselect('Select teams:', options = options, default = options)
+
+df2 = data[data['team'].isin(selected)]
+
+fig2 = px.scatter(df2, x = 'population', y = 'average attendance', color = 'location', symbol = 'year')
 fig2.update_layout(showlegend = False)
 st.plotly_chart(fig2)
 
