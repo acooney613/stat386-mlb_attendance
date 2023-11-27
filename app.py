@@ -18,7 +18,7 @@ if year != 2020:
     
 else:
     str1 = 'Due to COVID-19 there is no MLB attendance numbers for the year 2020'
-    st.markdown(f"<span style = 'color:red'>{str1}</span>")
+    st.markdown(f"<span style = 'color:red'>{str1}</span>", unsafe_allow_html = True)
     #st.write('Due to COVID-19 there is no MLB attendance numbers for the year 2020')
     fig1 = px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color = 'team')
 
