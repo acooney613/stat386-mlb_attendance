@@ -25,3 +25,6 @@ px.scatter(df, x = 'payroll', y = 'proportion of capacity filled', color = 'team
 sns.lmplot(data = df, y = 'proportion of capacity filled', x = 'population', lowess = False, legend = False).set(title = 'portion of stadium capacity by population')
 plt.xscale('log')
 # %%
+sns.lmplot(data = df, y = 'proportion of capacity filled', x = 'payroll', lowess = False, legend = False, ci = None).set(title = 'portion of stadium capacity by population')
+plt.xscale('log')
+# %%
