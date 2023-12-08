@@ -1,0 +1,601 @@
+,team,payroll,year
+0,Los Angeles Dodgers,285508333,2022
+1,New York Mets,255919999,2022
+2,New York Yankees,240290714,2022
+3,Philadelphia Phillies,221738462,2022
+4,San Diego Padres,202172618,2022
+5,Boston Red Sox,201616000,2022
+6,Chicago White Sox,190760734,2022
+7,Los Angeles Angels,187613094,2022
+8,Atlanta Braves,175335000,2022
+9,Houston Astros,171639599,2022
+10,Toronto Blue Jays,164470905,2022
+11,St. Louis Cardinals,150746666,2022
+12,San Francisco Giants,142292500,2022
+13,Chicago Cubs,141810000,2022
+14,Colorado Rockies,137852166,2022
+15,Texas Rangers,134961333,2022
+16,Minnesota Twins,130984524,2022
+17,Detroit Tigers,128640000,2022
+18,Milwaukee Brewers,128581128,2022
+19,Washington Nationals,114623095,2022
+20,Cincinnati Reds,113580000,2022
+21,Seattle Mariners,92745714,2022
+22,Kansas City Royals,84610000,2022
+23,Miami Marlins,79500000,2022
+24,Arizona Diamondbacks,77393333,2022
+25,Tampa Bay Rays,75347813,2022
+26,Cleveland Guardians,57710000,2022
+27,Baltimore Orioles,41421166,2022
+28,Pittsburgh Pirates,38575000,2022
+29,Oakland A’s,32548334,2022
+30,Los Angeles Dodgers,241372403,2021
+31,New York Yankees,201074956,2021
+32,New York Mets,186001814,2021
+33,Los Angeles Angels,180609676,2021
+34,Washington Nationals,179557685,2021
+35,Boston Red Sox,179540260,2021
+36,Houston Astros,176495417,2021
+37,San Diego Padres,175713986,2021
+38,Philadelphia Phillies,174808832,2021
+39,St. Louis Cardinals,164972833,2021
+40,Chicago Cubs,156481585,2021
+41,San Francisco Giants,149937613,2021
+42,Toronto Blue Jays,139646569,2021
+43,Atlanta Braves,132458375,2021
+44,Chicago White Sox,127148334,2021
+45,Minnesota Twins,125153166,2021
+46,Cincinnati Reds,123575488,2021
+47,Colorado Rockies,110309500,2021
+48,Texas Rangers,97796971,2021
+49,Arizona Diamondbacks,94394792,2021
+50,Milwaukee Brewers,93818038,2021
+51,Kansas City Royals,89496700,2021
+52,Seattle Mariners,83603100,2021
+53,Oakland A’s,82983674,2021
+54,Detroit Tigers,80866200,2021
+55,Tampa Bay Rays,66820709,2021
+56,Miami Marlins,57481750,2021
+57,Baltimore Orioles,56158500,2021
+58,Cleveland Guardians,51269100,2021
+59,Pittsburgh Pirates,45599000,2021
+60,New York Yankees,214291339,2020
+61,Houston Astros,212321933,2020
+62,Los Angeles Dodgers,189065000,2020
+63,Chicago Cubs,188959500,2020
+64,Los Angeles Angels,176329344,2020
+65,St. Louis Cardinals,160781766,2020
+66,Washington Nationals,159242411,2020
+67,Philadelphia Phillies,152877962,2020
+68,Atlanta Braves,149466875,2020
+69,San Francisco Giants,144994027,2020
+70,Cincinnati Reds,143143673,2020
+71,New York Mets,142288337,2020
+72,San Diego Padres,140317600,2020
+73,Texas Rangers,137834500,2020
+74,Colorado Rockies,136399833,2020
+75,Minnesota Twins,127610333,2020
+76,Chicago White Sox,120898499,2020
+77,Boston Red Sox,120361000,2020
+78,Milwaukee Brewers,97535926,2020
+79,Detroit Tigers,96832300,2020
+80,Oakland A’s,94318433,2020
+81,Toronto Blue Jays,92582371,2020
+82,Cleveland Guardians,89004234,2020
+83,Arizona Diamondbacks,86471066,2020
+84,Kansas City Royals,83278225,2020
+85,Seattle Mariners,70343800,2020
+86,Tampa Bay Rays,65812166,2020
+87,Baltimore Orioles,52415682,2020
+88,Miami Marlins,47861700,2020
+89,Pittsburgh Pirates,42119000,2020
+90,Boston Red Sox,222171123,2019
+91,Chicago Cubs,210358488,2019
+92,New York Yankees,208084848,2019
+93,Los Angeles Dodgers,196729548,2019
+94,San Francisco Giants,178286222,2019
+95,St. Louis Cardinals,162830430,2019
+96,Washington Nationals,161877935,2019
+97,Houston Astros,160774666,2019
+98,Los Angeles Angels,159378583,2019
+99,New York Mets,158999270,2019
+100,Seattle Mariners,150906143,2019
+101,Colorado Rockies,147433009,2019
+102,Philadelphia Phillies,140711962,2019
+103,Texas Rangers,127660652,2019
+104,Cincinnati Reds,126423214,2019
+105,Milwaukee Brewers,124755400,2019
+106,Arizona Diamondbacks,123932983,2019
+107,Minnesota Twins,121276933,2019
+108,Cleveland Guardians,119241701,2019
+109,Detroit Tigers,116478400,2019
+110,Atlanta Braves,113778369,2019
+111,Toronto Blue Jays,112037006,2019
+112,Kansas City Royals,100658316,2019
+113,San Diego Padres,99205017,2019
+114,Oakland A’s,92318333,2019
+115,Chicago White Sox,89354534,2019
+116,Pittsburgh Pirates,76589154,2019
+117,Baltimore Orioles,72722906,2019
+118,Miami Marlins,72449404,2019
+119,Tampa Bay Rays,60444931,2019
+120,Boston Red Sox,235649368,2018
+121,San Francisco Giants,208509901,2018
+122,Los Angeles Dodgers,186138211,2018
+123,Chicago Cubs,183463459,2018
+124,Washington Nationals,181586759,2018
+125,Los Angeles Angels,174592209,2018
+126,New York Yankees,168541038,2018
+127,Toronto Blue Jays,162664502,2018
+128,Seattle Mariners,162480174,2018
+129,St. Louis Cardinals,161005146,2018
+130,Houston Astros,159529730,2018
+131,New York Mets,155765125,2018
+132,Texas Rangers,144498078,2018
+133,Baltimore Orioles,143600045,2018
+134,Colorado Rockies,141339833,2018
+135,Cleveland Guardians,137346173,2018
+136,Arizona Diamondbacks,132495446,2018
+137,Minnesota Twins,131374996,2018
+138,Kansas City Royals,129967987,2018
+139,Detroit Tigers,129917192,2018
+140,Atlanta Braves,120542785,2018
+141,Cincinnati Reds,101185579,2018
+142,Miami Marlins,98826644,2018
+143,Philadelphia Phillies,96848371,2018
+144,San Diego Padres,96131798,2018
+145,Milwaukee Brewers,90237112,2018
+146,Pittsburgh Pirates,87860654,2018
+147,Tampa Bay Rays,78231049,2018
+148,Chicago White Sox,72177640,2018
+149,Oakland A’s,68534631,2018
+150,Los Angeles Dodgers,187989811,2017
+151,Detroit Tigers,180250600,2017
+152,Texas Rangers,178431396,2017
+153,San Francisco Giants,176531278,2017
+154,New York Mets,176284679,2017
+155,Boston Red Sox,174287098,2017
+156,New York Yankees,170389199,2017
+157,Chicago Cubs,170088502,2017
+158,Washington Nationals,162742157,2017
+159,Toronto Blue Jays,162353367,2017
+160,Baltimore Orioles,161684185,2017
+161,Seattle Mariners,155207720,2017
+162,St. Louis Cardinals,146630000,2017
+163,Los Angeles Angels,143965833,2017
+164,Atlanta Braves,137339527,2017
+165,Kansas City Royals,132091916,2017
+166,Houston Astros,127443900,2017
+167,Cleveland Guardians,115991166,2017
+168,Miami Marlins,115348302,2017
+169,Chicago White Sox,109591167,2017
+170,Colorado Rockies,101513571,2017
+171,Minnesota Twins,100787500,2017
+172,Pittsburgh Pirates,94637833,2017
+173,Arizona Diamondbacks,90730499,2017
+174,Philadelphia Phillies,87418378,2017
+175,Cincinnati Reds,82375785,2017
+176,Oakland A’s,70601667,2017
+177,Tampa Bay Rays,69982520,2017
+178,Milwaukee Brewers,61020089,2017
+179,San Diego Padres,34574400,2017
+180,Los Angeles Dodgers,253639162,2016
+181,New York Yankees,227854349,2016
+182,Boston Red Sox,199864178,2016
+183,Detroit Tigers,199525500,2016
+184,San Francisco Giants,171464943,2016
+185,Chicago Cubs,167444167,2016
+186,Los Angeles Angels,166831190,2016
+187,Texas Rangers,161246720,2016
+188,St. Louis Cardinals,149186000,2016
+189,Baltimore Orioles,147943713,2016
+190,Washington Nationals,146686385,2016
+191,Seattle Mariners,144996858,2016
+192,Toronto Blue Jays,140582027,2016
+193,Kansas City Royals,137606125,2016
+194,New York Mets,130612115,2016
+195,Chicago White Sox,115998667,2016
+196,Colorado Rockies,113242571,2016
+197,Minnesota Twins,104591200,2016
+198,Philadelphia Phillies,103346668,2016
+199,San Diego Padres,100547000,2016
+200,Pittsburgh Pirates,99960499,2016
+201,Arizona Diamondbacks,98657436,2016
+202,Cleveland Guardians,98006899,2016
+203,Houston Astros,96643000,2016
+204,Cincinnati Reds,93171452,2016
+205,Oakland A’s,85823390,2016
+206,Atlanta Braves,84821541,2016
+207,Miami Marlins,70464500,2016
+208,Tampa Bay Rays,64120323,2016
+209,Milwaukee Brewers,62964319,2016
+210,Los Angeles Dodgers,230352402,2015
+211,New York Yankees,213472857,2015
+212,Washington Nationals,174510977,2015
+213,Detroit Tigers,172792250,2015
+214,Boston Red Sox,168691914,2015
+215,San Francisco Giants,166495942,2015
+216,Los Angeles Angels,146449583,2015
+217,Texas Rangers,144816873,2015
+218,Philadelphia Phillies,133048000,2015
+219,San Diego Padres,126619628,2015
+220,Seattle Mariners,123225842,2015
+221,St. Louis Cardinals,120301957,2015
+222,Baltimore Orioles,118862632,2015
+223,Cincinnati Reds,117732284,2015
+224,Chicago Cubs,117164522,2015
+225,Toronto Blue Jays,116415800,2015
+226,Kansas City Royals,112914525,2015
+227,Chicago White Sox,110712866,2015
+228,Minnesota Twins,108262000,2015
+229,New York Mets,100133953,2015
+230,Milwaukee Brewers,98683035,2015
+231,Colorado Rockies,98261171,2015
+232,Atlanta Braves,89622648,2015
+233,Cleveland Guardians,87746766,2015
+234,Pittsburgh Pirates,85885832,2015
+235,Miami Marlins,84637500,2015
+236,Oakland A’s,80786666,2015
+237,Tampa Bay Rays,74849584,2015
+238,Houston Astros,69064200,2015
+239,Arizona Diamondbacks,65770333,2015
+240,Los Angeles Dodgers,235295219,2014
+241,New York Yankees,203812506,2014
+242,Philadelphia Phillies,180052723,2014
+243,Boston Red Sox,162817411,2014
+244,Detroit Tigers,162228527,2014
+245,Los Angeles Angels,155692000,2014
+246,San Francisco Giants,154185878,2014
+247,Texas Rangers,136036172,2014
+248,Washington Nationals,134704437,2014
+249,Toronto Blue Jays,132628700,2014
+250,Arizona Diamondbacks,112688666,2014
+251,Cincinnati Reds,112390772,2014
+252,St. Louis Cardinals,111020360,2014
+253,Atlanta Braves,110897341,2014
+254,Baltimore Orioles,107406623,2014
+255,Milwaukee Brewers,103844806,2014
+256,Colorado Rockies,95832071,2014
+257,Seattle Mariners,92081943,2014
+258,Kansas City Royals,92034345,2014
+259,Chicago White Sox,91159254,2014
+260,San Diego Padres,90094196,2014
+261,New York Mets,89051758,2014
+262,Chicago Cubs,89007857,2014
+263,Minnesota Twins,85776500,2014
+264,Oakland A’s,83401400,2014
+265,Cleveland Guardians,82534800,2014
+266,Pittsburgh Pirates,78111667,2014
+267,Tampa Bay Rays,77062891,2014
+268,Miami Marlins,47565400,2014
+269,Houston Astros,44544174,2014
+270,New York Yankees,228995945,2013
+271,Los Angeles Dodgers,216302909,2013
+272,Philadelphia Phillies,159578214,2013
+273,Boston Red Sox,158967286,2013
+274,Detroit Tigers,149046844,2013
+275,San Francisco Giants,142180333,2013
+276,Los Angeles Angels,142165250,2013
+277,Texas Rangers,127197575,2013
+278,Chicago White Sox,124065277,2013
+279,Toronto Blue Jays,118244039,2013
+280,St. Louis Cardinals,116702085,2013
+281,Washington Nationals,112431770,2013
+282,Cincinnati Reds,110565728,2013
+283,Chicago Cubs,104150726,2013
+284,Baltimore Orioles,91793333,2013
+285,Milwaukee Brewers,91003366,2013
+286,Arizona Diamondbacks,90158500,2013
+287,Atlanta Braves,89288193,2013
+288,New York Mets,88877033,2013
+289,Seattle Mariners,84295952,2013
+290,Cleveland Guardians,82517300,2013
+291,Kansas City Royals,80491725,2013
+292,Minnesota Twins,75562500,2013
+293,Colorado Rockies,75449071,2013
+294,San Diego Padres,71689900,2013
+295,Oakland A’s,68577000,2013
+296,Pittsburgh Pirates,66289524,2013
+297,Tampa Bay Rays,57030272,2013
+298,Miami Marlins,39621900,2013
+299,Houston Astros,24328538,2013
+300,New York Yankees,197962289,2012
+301,Philadelphia Phillies,174538938,2012
+302,Boston Red Sox,173186617,2012
+303,Los Angeles Angels,154485166,2012
+304,Detroit Tigers,132300000,2012
+305,Texas Rangers,120510974,2012
+306,Miami Marlins,118078000,2012
+307,Seattle Mariners,117620683,2012
+308,St. Louis Cardinals,110300862,2012
+309,Milwaukee Brewers,97653944,2012
+310,Chicago White Sox,96919500,2012
+311,Los Angeles Dodgers,95143575,2012
+312,Minnesota Twins,94085000,2012
+313,New York Mets,93353983,2012
+314,Chicago Cubs,88197033,2012
+315,Atlanta Braves,83309942,2012
+316,Cincinnati Reds,82203616,2012
+317,San Francisco Giants,81978100,2012
+318,Baltimore Orioles,81428999,2012
+319,Washington Nationals,81336143,2012
+320,Cleveland Guardians,78430300,2012
+321,Colorado Rockies,78069571,2012
+322,Toronto Blue Jays,75489200,2012
+323,Arizona Diamondbacks,74284833,2012
+324,Tampa Bay Rays,64173500,2012
+325,Pittsburgh Pirates,63431999,2012
+326,Kansas City Royals,60916225,2012
+327,Houston Astros,60651000,2012
+328,Oakland A’s,55372500,2012
+329,San Diego Padres,55244700,2012
+330,New York Yankees,202689028,2011
+331,Philadelphia Phillies,172976379,2011
+332,Boston Red Sox,161762475,2011
+333,Los Angeles Angels,138543166,2011
+334,Chicago White Sox,127789000,2011
+335,Chicago Cubs,125047329,2011
+336,New York Mets,118847309,2011
+337,San Francisco Giants,118198333,2011
+338,Minnesota Twins,112737000,2011
+339,Detroit Tigers,105700231,2011
+340,St. Louis Cardinals,105433572,2011
+341,Los Angeles Dodgers,104188999,2011
+342,Texas Rangers,92299264,2011
+343,Colorado Rockies,88148071,2011
+344,Atlanta Braves,87002692,2011
+345,Seattle Mariners,86524600,2011
+346,Milwaukee Brewers,85497333,2011
+347,Baltimore Orioles,85304038,2011
+348,Cincinnati Reds,75947134,2011
+349,Houston Astros,70694000,2011
+350,Oakland A’s,66536500,2011
+351,Washington Nationals,63856928,2011
+352,Toronto Blue Jays,62567800,2011
+353,Miami Marlins,56944000,2011
+354,Arizona Diamondbacks,53639833,2011
+355,Cleveland Guardians,49190566,2011
+356,San Diego Padres,45869140,2011
+357,Pittsburgh Pirates,45047000,2011
+358,Tampa Bay Rays,41053571,2011
+359,Kansas City Royals,36126000,2011
+360,New York Yankees,206333389,2010
+361,Boston Red Sox,162747333,2010
+362,Chicago Cubs,146859000,2010
+363,Philadelphia Phillies,141927381,2010
+364,New York Mets,132701445,2010
+365,Detroit Tigers,122864929,2010
+366,Chicago White Sox,108273197,2010
+367,Los Angeles Angels,105013667,2010
+368,Seattle Mariners,98376667,2010
+369,San Francisco Giants,97828833,2010
+370,Minnesota Twins,97559167,2010
+371,Los Angeles Dodgers,94945517,2010
+372,St. Louis Cardinals,93540753,2010
+373,Houston Astros,92355500,2010
+374,Atlanta Braves,84423667,2010
+375,Colorado Rockies,84227000,2010
+376,Baltimore Orioles,81612500,2010
+377,Milwaukee Brewers,81108279,2010
+378,Cincinnati Reds,72386544,2010
+379,Kansas City Royals,72267710,2010
+380,Tampa Bay Rays,71923471,2010
+381,Toronto Blue Jays,62689357,2010
+382,Washington Nationals,61425000,2010
+383,Cleveland Guardians,61203967,2010
+384,Arizona Diamondbacks,60718167,2010
+385,Miami Marlins,55641500,2010
+386,Texas Rangers,55250545,2010
+387,Oakland A’s,51654900,2010
+388,San Diego Padres,37799300,2010
+389,Pittsburgh Pirates,34943000,2010
+390,New York Yankees,201449189,2009
+391,New York Mets,149373987,2009
+392,Chicago Cubs,134809000,2009
+393,Boston Red Sox,121745999,2009
+394,Detroit Tigers,115085145,2009
+395,Los Angeles Angels,113709000,2009
+396,Philadelphia Phillies,113004046,2009
+397,Houston Astros,102996414,2009
+398,Los Angeles Dodgers,100414592,2009
+399,Seattle Mariners,98904166,2009
+400,Atlanta Braves,96726166,2009
+401,Chicago White Sox,96068500,2009
+402,San Francisco Giants,82616450,2009
+403,Cleveland Guardians,81579166,2009
+404,Toronto Blue Jays,80538300,2009
+405,Milwaukee Brewers,80182502,2009
+406,St. Louis Cardinals,77605109,2009
+407,Colorado Rockies,75201000,2009
+408,Cincinnati Reds,73558500,2009
+409,Arizona Diamondbacks,73516666,2009
+410,Kansas City Royals,70519333,2009
+411,Texas Rangers,68178798,2009
+412,Baltimore Orioles,67101666,2009
+413,Minnesota Twins,65299266,2009
+414,Tampa Bay Rays,63313034,2009
+415,Oakland A’s,62310000,2009
+416,Washington Nationals,60328000,2009
+417,Pittsburgh Pirates,48693000,2009
+418,San Diego Padres,43734200,2009
+419,Miami Marlins,36834000,2009
+420,New York Yankees,209081577,2008
+421,New York Mets,137793376,2008
+422,Detroit Tigers,137685196,2008
+423,Boston Red Sox,133390035,2008
+424,Chicago White Sox,121189332,2008
+425,Los Angeles Angels,119216333,2008
+426,Los Angeles Dodgers,118588536,2008
+427,Chicago Cubs,118345833,2008
+428,Seattle Mariners,117666482,2008
+429,Atlanta Braves,102365683,2008
+430,St. Louis Cardinals,99624449,2008
+431,Philadelphia Phillies,98269880,2008
+432,Toronto Blue Jays,97793900,2008
+433,Houston Astros,88930414,2008
+434,Milwaukee Brewers,80937499,2008
+435,Cleveland Guardians,78970066,2008
+436,San Francisco Giants,76594500,2008
+437,Cincinnati Reds,74117695,2008
+438,San Diego Padres,73677616,2008
+439,Colorado Rockies,68655500,2008
+440,Texas Rangers,67712326,2008
+441,Baltimore Orioles,67196246,2008
+442,Arizona Diamondbacks,66202712,2008
+443,Kansas City Royals,58245500,2008
+444,Minnesota Twins,56932766,2008
+445,Washington Nationals,54961000,2008
+446,Pittsburgh Pirates,48689783,2008
+447,Oakland A’s,47967126,2008
+448,Tampa Bay Rays,43820597,2008
+449,Miami Marlins,21811500,2008
+450,New York Yankees,189259045,2007
+451,Boston Red Sox,143026214,2007
+452,New York Mets,115231663,2007
+453,Los Angeles Angels,109251333,2007
+454,Chicago White Sox,108671833,2007
+455,Los Angeles Dodgers,108454524,2007
+456,Seattle Mariners,106460833,2007
+457,Chicago Cubs,99670332,2007
+458,Detroit Tigers,94800369,2007
+459,Baltimore Orioles,93174808,2007
+460,St. Louis Cardinals,90286823,2007
+461,San Francisco Giants,90219056,2007
+462,Philadelphia Phillies,89428213,2007
+463,Houston Astros,87759000,2007
+464,Atlanta Braves,87290833,2007
+465,Toronto Blue Jays,81942800,2007
+466,Oakland A’s,79366940,2007
+467,Minnesota Twins,71439500,2007
+468,Milwaukee Brewers,70986500,2007
+469,Cincinnati Reds,68524980,2007
+470,Texas Rangers,68318675,2007
+471,Kansas City Royals,67116500,2007
+472,Cleveland Guardians,61673267,2007
+473,San Diego Padres,58110567,2007
+474,Colorado Rockies,54041000,2007
+475,Arizona Diamondbacks,52067546,2007
+476,Pittsburgh Pirates,38537833,2007
+477,Washington Nationals,36947500,2007
+478,Miami Marlins,30507000,2007
+479,Tampa Bay Rays,24123500,2007
+480,New York Yankees,194663079,2006
+481,Boston Red Sox,120099824,2006
+482,Los Angeles Angels,103472000,2006
+483,Chicago White Sox,102750667,2006
+484,New York Mets,101084963,2006
+485,Los Angeles Dodgers,98447187,2006
+486,Chicago Cubs,94424499,2006
+487,Houston Astros,92551503,2006
+488,Atlanta Braves,90156876,2006
+489,San Francisco Giants,90056419,2006
+490,St. Louis Cardinals,88891371,2006
+491,Philadelphia Phillies,88273333,2006
+492,Seattle Mariners,87959833,2006
+493,Detroit Tigers,82612866,2006
+494,Baltimore Orioles,72585582,2006
+495,Toronto Blue Jays,71915000,2006
+496,San Diego Padres,69896141,2006
+497,Texas Rangers,68228662,2006
+498,Minnesota Twins,63396006,2006
+499,Washington Nationals,63143000,2006
+500,Oakland A’s,62243079,2006
+501,Cincinnati Reds,60909519,2006
+502,Arizona Diamondbacks,59684226,2006
+503,Milwaukee Brewers,57568333,2006
+504,Cleveland Guardians,56031500,2006
+505,Kansas City Royals,47294000,2006
+506,Pittsburgh Pirates,46717750,2006
+507,Colorado Rockies,41233000,2006
+508,Tampa Bay Rays,35417967,2006
+509,Miami Marlins,14998500,2006
+510,New York Yankees,208306817,2005
+511,Boston Red Sox,123505125,2005
+512,New York Mets,101305821,2005
+513,Los Angeles Angels,97725322,2005
+514,Philadelphia Phillies,95522000,2005
+515,St. Louis Cardinals,92106833,2005
+516,San Francisco Giants,90199500,2005
+517,Seattle Mariners,87754334,2005
+518,Chicago Cubs,87032933,2005
+519,Atlanta Braves,86457302,2005
+520,Los Angeles Dodgers,83039000,2005
+521,Houston Astros,76779000,2005
+522,Chicago White Sox,75178000,2005
+523,Baltimore Orioles,73914333,2005
+524,Detroit Tigers,69092000,2005
+525,San Diego Padres,63290833,2005
+526,Arizona Diamondbacks,62329166,2005
+527,Cincinnati Reds,61892583,2005
+528,Miami Marlins,60408834,2005
+529,Minnesota Twins,56186000,2005
+530,Texas Rangers,55849000,2005
+531,Oakland A’s,55425762,2005
+532,Washington Nationals,48581500,2005
+533,Colorado Rockies,48155000,2005
+534,Toronto Blue Jays,45719500,2005
+535,Cleveland Guardians,41502500,2005
+536,Milwaukee Brewers,39934833,2005
+537,Pittsburgh Pirates,38133000,2005
+538,Kansas City Royals,36881000,2005
+539,Tampa Bay Rays,29679067,2005
+540,New York Yankees,184193950,2004
+541,Boston Red Sox,127298500,2004
+542,Los Angeles Angels,100534667,2004
+543,New York Mets,96660970,2004
+544,Philadelphia Phillies,93219167,2004
+545,Los Angeles Dodgers,92902001,2004
+546,Chicago Cubs,90560000,2004
+547,Atlanta Braves,90182500,2004
+548,St. Louis Cardinals,83228333,2004
+549,San Francisco Giants,82019166,2004
+550,Seattle Mariners,81515834,2004
+551,Houston Astros,75397000,2004
+552,Arizona Diamondbacks,69780750,2004
+553,Colorado Rockies,65445167,2004
+554,Chicago White Sox,65212500,2004
+555,Oakland A’s,59425667,2004
+556,San Diego Padres,55384833,2004
+557,Texas Rangers,55050417,2004
+558,Minnesota Twins,53585000,2004
+559,Baltimore Orioles,51623333,2004
+560,Toronto Blue Jays,50017000,2004
+561,Kansas City Royals,47609000,2004
+562,Detroit Tigers,46832000,2004
+563,Cincinnati Reds,46615250,2004
+564,Miami Marlins,42143042,2004
+565,Montreal Expos,41197500,2004
+566,Cleveland Guardians,34319300,2004
+567,Pittsburgh Pirates,32227929,2004
+568,Tampa Bay Rays,29556667,2004
+569,Milwaukee Brewers,27528500,2004
+570,New York Yankees,152749814,2003
+571,New York Mets,117176429,2003
+572,Atlanta Braves,106243667,2003
+573,Los Angeles Dodgers,105872620,2003
+574,Texas Rangers,103491667,2003
+575,Boston Red Sox,99946500,2003
+576,Seattle Mariners,86959167,2003
+577,St. Louis Cardinals,83486666,2003
+578,San Francisco Giants,82852167,2003
+579,Arizona Diamondbacks,80640333,2003
+580,Chicago Cubs,79868333,2003
+581,Los Angeles Angels,79031667,2003
+582,Baltimore Orioles,73877500,2003
+583,Houston Astros,71040000,2003
+584,Philadelphia Phillies,70780000,2003
+585,Colorado Rockies,67179667,2003
+586,Cincinnati Reds,59355667,2003
+587,Minnesota Twins,55505000,2003
+588,Pittsburgh Pirates,54812429,2003
+589,Montreal Expos,51948500,2003
+590,Toronto Blue Jays,51269000,2003
+591,Chicago White Sox,51010000,2003
+592,Oakland A’s,50260834,2003
+593,Detroit Tigers,49168000,2003
+594,Miami Marlins,49050000,2003
+595,San Diego Padres,47928000,2003
+596,Cleveland Guardians,45584834,2003
+597,Milwaukee Brewers,40627000,2003
+598,Kansas City Royals,40518000,2003
+599,Tampa Bay Rays,19630000,2003
