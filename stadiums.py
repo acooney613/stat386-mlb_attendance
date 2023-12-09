@@ -161,4 +161,4 @@ class stadiums():
 z = stadiums('https://www.ballparksofbaseball.com/american-league/', 'https://www.ballparksofbaseball.com/national-league/', 
             'https://www.ballparksofbaseball.com/past-ballparks/')
 df_stadium = z.get_data()
-df_stadium.to_csv('stadiums.csv')
+df_stadium.to_csv('stadiums.csv', index = False)

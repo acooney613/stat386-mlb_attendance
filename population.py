@@ -22,6 +22,7 @@ class population():
         self.canadian_data(self.url_4, 'Toronto')
         self.canadian_data(self.url_5, 'Montreal')
         self.combine()
+        self.data.to_csv('population.csv', index = False)
         return self.data
 
     def combine(self):
@@ -39,7 +40,6 @@ class population():
         df = df[df['year'] > 2002]
         df = df[df['year'] < 2023].reset_index(drop = True)
         self.data = df
-        df.to_csv('population.csv')
 
     def canadian_data(self, url, city):
         r = requests.get(url)

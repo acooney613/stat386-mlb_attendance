@@ -15,8 +15,8 @@ class attendance():
                                                    '2005', '2004', '2003' ],
                                     value_name = 'average attendance',
                                     var_name = 'year')
-        
-        self.data.to_csv('attendance.csv')
+        self.data = self.data.dropna()
+        self.data.to_csv('attendance.csv', index = False)
         return self.data
 
 
@@ -34,7 +34,6 @@ class attendance():
         df['TEAM'] = df['TEAM'].str.replace('Florida', 'Miami')
         df['TEAM'] = df['TEAM'].str.replace('Anaheim', 'LA Angels')
         #df['TEAM'] = df['TEAM'].str.replace('Montreal', 'Washington')
-        print(df)
         if self.data.empty:
             self.data = df
         else:
