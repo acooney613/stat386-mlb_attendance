@@ -10,7 +10,7 @@ class seasons():
     def merge(self):
         
         season = pd.merge(self.standings, self.result, how = 'outer', on = ['team', 'year'])
-        season = season.fillna('Missed Postseason')
+        season['series'] = season['series'].fillna('Missed Postseason')
 
         season['team'] = season['team'].str.replace('Los Angeles Angels of Anaheim', 'Los Angeles Angels')
         season['team'] = season['team'].str.replace('Anaheim Angels', 'Los Angeles Angels')
