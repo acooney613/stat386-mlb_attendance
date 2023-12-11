@@ -35,8 +35,18 @@ made_world_average = f'${df[df["code"] == 4]["payroll"].mean():,.2f}'
 missed_average = f'${df[df["code"] == 0]["payroll"].mean():,.2f}'
 made_conference_avg = f'${df[df["code"] >= 3]["payroll"].mean():,.2f}'
 made_division_avg = f'${df[df["code"] >= 2]["payroll"].mean():,.2f}'
-data = [['Season Result', 'Average Payroll (2003 - 2022)']]
-plt.table(cellText = )
+data = [['Season Result', 'Average Payroll (2003 - 2022)'],
+        ['Made World Series', made_world_average],
+        ['Made NLCS or ALCS', made_conference_avg],
+        ['Made ALDS or NLDS', made_division_avg],
+        ['Missed Playoffs', missed_average]]
+fig, ax = plt.subplots()
+table = plt.table(cellText = data, cellLoc='center', loc='center')
+ax.axis('off')
+table.auto_set_font_size(False)
+table.set_fontsize(12)
+table.scale(1.2, 1.2)
+plt.show()
 
 
 
