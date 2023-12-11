@@ -8,8 +8,10 @@ class combine():
         self.combine_season(df, season)
 
     def combine_season(self, data, season):
+        data['team'] = data['team'].str.replace('A’s', 'Athletics')
         data = pd.merge(data, season, on = ['team', 'year'])
         data.to_csv('test2.csv')
+
 
     def combine_payroll(self, data, payroll):
         data = pd.merge(data, payroll, on = ['team', 'year'])
@@ -54,14 +56,10 @@ class combine():
 
         return data
 
-
-    def dummy(self):
-        pass
-
-df_payroll = pd.read_csv('payroll.csv')
-df_stadium = pd.read_csv('stadiums.csv')
-df_pop = pd.read_csv('population.csv')
-df_attendance = pd.read_csv('attendance.csv')
-season = pd.read_csv('season.csv')
+df_payroll = pd.read_csv('DATA/payroll.csv')
+df_stadium = pd.read_csv('DATA/stadiums.csv')
+df_pop = pd.read_csv('DATA/population.csv')
+df_attendance = pd.read_csv('DATA/attendance.csv')
+season = pd.read_csv('DATA/season.csv')
 
 comb = combine(df_payroll, df_attendance, df_stadium, df_pop, season)

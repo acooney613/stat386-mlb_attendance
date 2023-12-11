@@ -17,7 +17,9 @@ class seasons():
         season['team'] = season['team'].str.replace('Los Angeles Angels of Anaheim', 'Los Angeles Angels')
         season['team'] = season['team'].str.replace('Anaheim Angels', 'Los Angeles Angels')
         season['team'] = season['team'].str.replace('Indians', 'Guardians')
-        season.to_csv('season.csv', index = False)
+        season['team'] = season['team'].str.replace(' Devil', '')
+        season['team'] = season['team'].str.replace('Florida', 'Miami')
+        season.to_csv('DATA/season.csv', index = False)
 
 
     def get_standings(self):
