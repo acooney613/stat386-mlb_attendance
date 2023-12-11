@@ -10,6 +10,7 @@ class combine():
     def combine_season(self, data, season):
         data['team'] = data['team'].str.replace('A’s', 'Athletics')
         data = pd.merge(data, season, on = ['team', 'year'])
+
         data.to_csv('mlb_attendance.csv')
 
 
@@ -23,7 +24,6 @@ class combine():
 
     def attendance_stadium(self, attendance, stadium):
         data = pd.DataFrame(columns = ['team', 'year', 'average attendance', 'stadium', 'location', 'capacity'])
-        
         for i in range(len(attendance)):
             team_i = attendance.loc[i, 'TEAM']
             team_i = team_i.replace('LA ', '')
@@ -53,7 +53,6 @@ class combine():
                                    'location' : df_stadium.loc[j, 'location'],
                                    'capacity' : df_stadium.loc[j, 'capacity']}
                             data = pd.concat([data, pd.DataFrame(data = row, index = [len(data) + 1])], ignore_index = True)
-
         return data
 
 df_payroll = pd.read_csv('DATA/payroll.csv')
