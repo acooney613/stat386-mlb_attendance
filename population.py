@@ -22,7 +22,7 @@ class population():
         self.canadian_data(self.url_4, 'Toronto')
         self.canadian_data(self.url_5, 'Montreal')
         self.combine()
-        self.data.to_csv('population.csv', index = False)
+        self.data.to_csv('DATA/population.csv', index = False)
         return self.data
 
     def combine(self):

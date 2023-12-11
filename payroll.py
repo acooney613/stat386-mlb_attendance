@@ -19,7 +19,7 @@ class payroll():
         #self.pay['team'] = self.pay['team'].str.replace('Montreal Expos', 'Washington Nationals')
         self.pay['team'] = self.pay['team'].str.replace('Oakland Athletics', 'Oakland A’s')
         self.pay['team'] = self.pay['team'].str.replace('Indians', 'Guardians')
-        self.pay.to_csv('payroll.csv', index = False)
+        self.pay.to_csv('DATA/payroll.csv', index = False)
         return self.pay
 
     def payroll(self, year):
