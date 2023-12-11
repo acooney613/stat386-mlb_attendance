@@ -10,7 +10,7 @@ class combine():
     def combine_season(self, data, season):
         data['team'] = data['team'].str.replace('A’s', 'Athletics')
         data = pd.merge(data, season, on = ['team', 'year'])
-        data.to_csv('test2.csv')
+        data.to_csv('mlb_attendance.csv')
 
 
     def combine_payroll(self, data, payroll):

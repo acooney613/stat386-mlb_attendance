@@ -5,6 +5,8 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 
 st.title('MLB Attendance')
+st.info('NOTE: The Montreal Expos moved to Washington D.C. in 2005 and became the Washington Nationals')
+#st.subheader('NOTE: The Montreal Expos moved in 2005 and became the Washington Nationals')
 
 data = pd.read_csv('mlb_attendance.csv')
 year = st.number_input('Enter Year', value = None, placeholder = 'enter year between 2003 and 2022', min_value = 2003, 
