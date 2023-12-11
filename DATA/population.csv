@@ -1,0 +1,581 @@
+location,year,population
+"Phoenix, Arizona",2003,1368806
+"Anaheim, California",2003,334029
+"Los Angeles, California",2003,3784279
+"Oakland, California",2003,393538
+"San Diego, California",2003,1254603
+"San Francisco, California",2003,766160
+"Denver, Colorado",2003,552588
+"Washington, District of Columbia",2003,568502
+"Miami, Florida",2003,374387
+"St. Petersburg, Florida",2003,249142
+"Atlanta, Georgia",2003,403080
+"Chicago, Illinois",2003,2819117
+"Baltimore, Maryland",2003,629033
+"Boston, Massachusetts",2003,595864
+"Detroit, Michigan",2003,884411
+"Minneapolis, Minnesota",2003,380189
+"Kansas, Missouri",2003,445623
+"St. Louis, Missouri",2003,334893
+"New York, New York",2003,8068073
+"Cincinnati, Ohio",2003,317432
+"Cleveland, Ohio",2003,452228
+"Philadelphia, Pennsylvania",2003,1493802
+"Pittsburgh, Pennsylvania",2003,323589
+"Arlington, Texas",2003,340699
+"Houston, Texas",2003,1992464
+"Seattle, Washington",2003,566751
+"Milwaukee, Wisconsin",2003,594303
+"Phoenix, Arizona",2004,1386945
+"Anaheim, California",2004,334392
+"Los Angeles, California",2004,3792650
+"Oakland, California",2004,388633
+"San Diego, California",2004,1256969
+"San Francisco, California",2004,761325
+"Denver, Colorado",2004,550756
+"Washington, District of Columbia",2004,567754
+"Miami, Florida",2004,377924
+"St. Petersburg, Florida",2004,249423
+"Atlanta, Georgia",2004,397365
+"Chicago, Illinois",2004,2786291
+"Baltimore, Maryland",2004,624222
+"Boston, Massachusetts",2004,591166
+"Detroit, Michigan",2004,861186
+"Minneapolis, Minnesota",2004,378749
+"Kansas, Missouri",2004,445928
+"St. Louis, Missouri",2004,330988
+"New York, New York",2004,8043366
+"Cincinnati, Ohio",2004,312648
+"Cleveland, Ohio",2004,443502
+"Philadelphia, Pennsylvania",2004,1492882
+"Pittsburgh, Pennsylvania",2004,318960
+"Arlington, Texas",2004,342162
+"Houston, Texas",2004,1991817
+"Seattle, Washington",2004,568719
+"Milwaukee, Wisconsin",2004,592008
+"Phoenix, Arizona",2005,1417720
+"Anaheim, California",2005,333165
+"Los Angeles, California",2005,3788197
+"Oakland, California",2005,384931
+"San Diego, California",2005,1257278
+"San Francisco, California",2005,763016
+"Denver, Colorado",2005,551691
+"Washington, District of Columbia",2005,567136
+"Miami, Florida",2005,382198
+"St. Petersburg, Florida",2005,249457
+"Atlanta, Georgia",2005,396311
+"Chicago, Illinois",2005,2752523
+"Baltimore, Maryland",2005,621560
+"Boston, Massachusetts",2005,587260
+"Detroit, Michigan",2005,837407
+"Minneapolis, Minnesota",2005,376937
+"Kansas, Missouri",2005,447015
+"St. Louis, Missouri",2005,324945
+"New York, New York",2005,8013368
+"Cincinnati, Ohio",2005,308398
+"Cleveland, Ohio",2005,433919
+"Philadelphia, Pennsylvania",2005,1490861
+"Pittsburgh, Pennsylvania",2005,314412
+"Arlington, Texas",2005,344472
+"Houston, Texas",2005,1995773
+"Seattle, Washington",2005,573336
+"Milwaukee, Wisconsin",2005,588565
+"Phoenix, Arizona",2006,1441241
+"Anaheim, California",2006,331261
+"Los Angeles, California",2006,3767960
+"Oakland, California",2006,383107
+"San Diego, California",2006,1257625
+"San Francisco, California",2006,768650
+"Denver, Colorado",2006,556895
+"Washington, District of Columbia",2006,570681
+"Miami, Florida",2006,385314
+"St. Petersburg, Florida",2006,247788
+"Atlanta, Georgia",2006,403548
+"Chicago, Illinois",2006,2720181
+"Baltimore, Maryland",2006,621109
+"Boston, Massachusetts",2006,587816
+"Detroit, Michigan",2006,811922
+"Minneapolis, Minnesota",2006,376495
+"Kansas, Missouri",2006,449652
+"St. Louis, Missouri",2006,320131
+"New York, New York",2006,7993906
+"Cincinnati, Ohio",2006,304713
+"Cleveland, Ohio",2006,423831
+"Philadelphia, Pennsylvania",2006,1488710
+"Pittsburgh, Pennsylvania",2006,311016
+"Arlington, Texas",2006,350759
+"Houston, Texas",2006,2038721
+"Seattle, Washington",2006,580609
+"Milwaukee, Wisconsin",2006,586395
+"Phoenix, Arizona",2007,1450901
+"Anaheim, California",2007,330178
+"Los Angeles, California",2007,3751872
+"Oakland, California",2007,383500
+"San Diego, California",2007,1266198
+"San Francisco, California",2007,778673
+"Denver, Colorado",2007,564395
+"Washington, District of Columbia",2007,574404
+"Miami, Florida",2007,386814
+"St. Petersburg, Florida",2007,246037
+"Atlanta, Georgia",2007,410086
+"Chicago, Illinois",2007,2703991
+"Baltimore, Maryland",2007,620306
+"Boston, Massachusetts",2007,593136
+"Detroit, Michigan",2007,784998
+"Minneapolis, Minnesota",2007,377575
+"Kansas, Missouri",2007,452322
+"St. Louis, Missouri",2007,317959
+"New York, New York",2007,8013775
+"Cincinnati, Ohio",2007,301824
+"Cleveland, Ohio",2007,415865
+"Philadelphia, Pennsylvania",2007,1493309
+"Pittsburgh, Pennsylvania",2007,308999
+"Arlington, Texas",2007,355940
+"Houston, Texas",2007,2044612
+"Seattle, Washington",2007,586956
+"Milwaukee, Wisconsin",2007,586445
+"Phoenix, Arizona",2008,1456729
+"Anaheim, California",2008,332102
+"Los Angeles, California",2008,3763566
+"Oakland, California",2008,386589
+"San Diego, California",2008,1282692
+"San Francisco, California",2008,791152
+"Denver, Colorado",2008,575721
+"Washington, District of Columbia",2008,580236
+"Miami, Florida",2008,389996
+"St. Petersburg, Florida",2008,245195
+"Atlanta, Georgia",2008,414233
+"Chicago, Illinois",2008,2697359
+"Baltimore, Maryland",2008,620184
+"Boston, Massachusetts",2008,600685
+"Detroit, Michigan",2008,756383
+"Minneapolis, Minnesota",2008,379185
+"Kansas, Missouri",2008,454348
+"St. Louis, Missouri",2008,317955
+"New York, New York",2008,8068195
+"Cincinnati, Ohio",2008,299145
+"Cleveland, Ohio",2008,408261
+"Philadelphia, Pennsylvania",2008,1499731
+"Pittsburgh, Pennsylvania",2008,307673
+"Arlington, Texas",2008,359679
+"Houston, Texas",2008,2060477
+"Seattle, Washington",2008,593588
+"Milwaukee, Wisconsin",2008,587858
+"Phoenix, Arizona",2009,1452679
+"Anaheim, California",2009,334429
+"Los Angeles, California",2009,3781938
+"Oakland, California",2009,389613
+"San Diego, California",2009,1295591
+"San Francisco, California",2009,801922
+"Denver, Colorado",2009,589011
+"Washington, District of Columbia",2009,592228
+"Miami, Florida",2009,394347
+"St. Petersburg, Florida",2009,244646
+"Atlanta, Georgia",2009,417090
+"Chicago, Illinois",2009,2697006
+"Baltimore, Maryland",2009,620509
+"Boston, Massachusetts",2009,612669
+"Detroit, Michigan",2009,731155
+"Minneapolis, Minnesota",2009,381638
+"Kansas, Missouri",2009,457897
+"St. Louis, Missouri",2009,318842
+"New York, New York",2009,8131574
+"Cincinnati, Ohio",2009,298239
+"Cleveland, Ohio",2009,401770
+"Philadelphia, Pennsylvania",2009,1514694
+"Pittsburgh, Pennsylvania",2009,306570
+"Arlington, Texas",2009,363426
+"Houston, Texas",2009,2087334
+"Seattle, Washington",2009,604189
+"Milwaukee, Wisconsin",2009,592180
+"Phoenix, Arizona",2010,1449038
+"Anaheim, California",2010,336760
+"Los Angeles, California",2010,3795512
+"Oakland, California",2010,391406
+"San Diego, California",2010,1305906
+"San Francisco, California",2010,805505
+"Denver, Colorado",2010,603359
+"Washington, District of Columbia",2010,605226
+"Miami, Florida",2010,400779
+"St. Petersburg, Florida",2010,245222
+"Atlanta, Georgia",2010,429410
+"Chicago, Illinois",2010,2697477
+"Baltimore, Maryland",2010,620915
+"Boston, Massachusetts",2010,621048
+"Detroit, Michigan",2010,711131
+"Minneapolis, Minnesota",2010,383067
+"Kansas, Missouri",2010,460697
+"St. Louis, Missouri",2010,319336
+"New York, New York",2010,8190209
+"Cincinnati, Ohio",2010,296980
+"Cleveland, Ohio",2010,395926
+"Philadelphia, Pennsylvania",2010,1528283
+"Pittsburgh, Pennsylvania",2010,305283
+"Arlington, Texas",2010,365892
+"Houston, Texas",2010,2100280
+"Seattle, Washington",2010,610630
+"Milwaukee, Wisconsin",2010,594865
+"Phoenix, Arizona",2011,1469796
+"Anaheim, California",2011,339831
+"Los Angeles, California",2011,3820876
+"Oakland, California",2011,396086
+"San Diego, California",2011,1319592
+"San Francisco, California",2011,815650
+"Denver, Colorado",2011,620530
+"Washington, District of Columbia",2011,619800
+"Miami, Florida",2011,406593
+"St. Petersburg, Florida",2011,245871
+"Atlanta, Georgia",2011,437812
+"Chicago, Illinois",2011,2708114
+"Baltimore, Maryland",2011,620410
+"Boston, Massachusetts",2011,630505
+"Detroit, Michigan",2011,705118
+"Minneapolis, Minnesota",2011,388052
+"Kansas, Missouri",2011,462368
+"St. Louis, Missouri",2011,319344
+"New York, New York",2011,8272948
+"Cincinnati, Ohio",2011,296187
+"Cleveland, Ohio",2011,392667
+"Philadelphia, Pennsylvania",2011,1540466
+"Pittsburgh, Pennsylvania",2011,306012
+"Arlington, Texas",2011,370253
+"Houston, Texas",2011,2126032
+"Seattle, Washington",2011,622694
+"Milwaukee, Wisconsin",2011,597086
+"Phoenix, Arizona",2012,1499274
+"Anaheim, California",2012,342071
+"Los Angeles, California",2012,3851202
+"Oakland, California",2012,401104
+"San Diego, California",2012,1336776
+"San Francisco, California",2012,828876
+"Denver, Colorado",2012,635163
+"Washington, District of Columbia",2012,634924
+"Miami, Florida",2012,411149
+"St. Petersburg, Florida",2012,246656
+"Atlanta, Georgia",2012,449016
+"Chicago, Illinois",2012,2719141
+"Baltimore, Maryland",2012,622895
+"Boston, Massachusetts",2012,642955
+"Detroit, Michigan",2012,700183
+"Minneapolis, Minnesota",2012,392768
+"Kansas, Missouri",2012,464595
+"St. Louis, Missouri",2012,319416
+"New York, New York",2012,8346693
+"Cincinnati, Ohio",2012,296900
+"Cleveland, Ohio",2012,391550
+"Philadelphia, Pennsylvania",2012,1551824
+"Pittsburgh, Pennsylvania",2012,306355
+"Arlington, Texas",2012,375629
+"Houston, Texas",2012,2161593
+"Seattle, Washington",2012,635928
+"Milwaukee, Wisconsin",2012,598569
+"Phoenix, Arizona",2013,1526491
+"Anaheim, California",2013,343832
+"Los Angeles, California",2013,3881622
+"Oakland, California",2013,406648
+"San Diego, California",2013,1355320
+"San Francisco, California",2013,839572
+"Denver, Colorado",2013,649391
+"Washington, District of Columbia",2013,650581
+"Miami, Florida",2013,415661
+"St. Petersburg, Florida",2013,248453
+"Atlanta, Georgia",2013,453990
+"Chicago, Illinois",2013,2725731
+"Baltimore, Maryland",2013,622391
+"Boston, Massachusetts",2013,653002
+"Detroit, Michigan",2013,691868
+"Minneapolis, Minnesota",2013,400070
+"Kansas, Missouri",2013,467213
+"St. Louis, Missouri",2013,318476
+"New York, New York",2013,8396091
+"Cincinnati, Ohio",2013,297905
+"Cleveland, Ohio",2013,391792
+"Philadelphia, Pennsylvania",2013,1558313
+"Pittsburgh, Pennsylvania",2013,306902
+"Arlington, Texas",2013,378950
+"Houston, Texas",2013,2199391
+"Seattle, Washington",2013,653588
+"Milwaukee, Wisconsin",2013,599916
+"Phoenix, Arizona",2014,1555445
+"Anaheim, California",2014,344604
+"Los Angeles, California",2014,3909901
+"Oakland, California",2014,412901
+"San Diego, California",2014,1375831
+"San Francisco, California",2014,850750
+"Denver, Colorado",2014,664582
+"Washington, District of Columbia",2014,662328
+"Miami, Florida",2014,425110
+"St. Petersburg, Florida",2014,252225
+"Atlanta, Georgia",2014,461154
+"Chicago, Illinois",2014,2727066
+"Baltimore, Maryland",2014,623587
+"Boston, Massachusetts",2014,662855
+"Detroit, Michigan",2014,682609
+"Minneapolis, Minnesota",2014,407067
+"Kansas, Missouri",2014,470629
+"St. Louis, Missouri",2014,317399
+"New York, New York",2014,8433806
+"Cincinnati, Ohio",2014,298626
+"Cleveland, Ohio",2014,390871
+"Philadelphia, Pennsylvania",2014,1565460
+"Pittsburgh, Pennsylvania",2014,305964
+"Arlington, Texas",2014,382721
+"Houston, Texas",2014,2241826
+"Seattle, Washington",2014,670109
+"Milwaukee, Wisconsin",2014,600664
+"Phoenix, Arizona",2015,1583690
+"Anaheim, California",2015,348251
+"Los Angeles, California",2015,3938568
+"Oakland, California",2015,418211
+"San Diego, California",2015,1387323
+"San Francisco, California",2015,863010
+"Denver, Colorado",2015,683285
+"Washington, District of Columbia",2015,675400
+"Miami, Florida",2015,434738
+"St. Petersburg, Florida",2015,255041
+"Atlanta, Georgia",2015,468303
+"Chicago, Illinois",2015,2724344
+"Baltimore, Maryland",2015,622522
+"Boston, Massachusetts",2015,670491
+"Detroit, Michigan",2015,679410
+"Minneapolis, Minnesota",2015,411030
+"Kansas, Missouri",2015,475073
+"St. Louis, Missouri",2015,316010
+"New York, New York",2015,8463049
+"Cincinnati, Ohio",2015,299439
+"Cleveland, Ohio",2015,389244
+"Philadelphia, Pennsylvania",2015,1571065
+"Pittsburgh, Pennsylvania",2015,304070
+"Arlington, Texas",2015,388728
+"Houston, Texas",2015,2286908
+"Seattle, Washington",2015,687386
+"Milwaukee, Wisconsin",2015,600477
+"Phoenix, Arizona",2016,1612199
+"Anaheim, California",2016,350013
+"Los Angeles, California",2016,3963226
+"Oakland, California",2016,420947
+"San Diego, California",2016,1402089
+"San Francisco, California",2016,871512
+"Denver, Colorado",2016,696159
+"Washington, District of Columbia",2016,685815
+"Miami, Florida",2016,449149
+"St. Petersburg, Florida",2016,259266
+"Atlanta, Georgia",2016,479174
+"Chicago, Illinois",2016,2716723
+"Baltimore, Maryland",2016,616226
+"Boston, Massachusetts",2016,679848
+"Detroit, Michigan",2016,677143
+"Minneapolis, Minnesota",2016,415079
+"Kansas, Missouri",2016,481670
+"St. Louis, Missouri",2016,312633
+"New York, New York",2016,8469153
+"Cincinnati, Ohio",2016,299748
+"Cleveland, Ohio",2016,387662
+"Philadelphia, Pennsylvania",2016,1576051
+"Pittsburgh, Pennsylvania",2016,304643
+"Arlington, Texas",2016,394384
+"Houston, Texas",2016,2309544
+"Seattle, Washington",2016,709631
+"Milwaukee, Wisconsin",2016,596996
+"Phoenix, Arizona",2017,1633560
+"Anaheim, California",2017,350476
+"Los Angeles, California",2017,3975788
+"Oakland, California",2017,424382
+"San Diego, California",2017,1412621
+"San Francisco, California",2017,878040
+"Denver, Colorado",2017,704961
+"Washington, District of Columbia",2017,694906
+"Miami, Florida",2017,456617
+"St. Petersburg, Florida",2017,262588
+"Atlanta, Georgia",2017,491670
+"Chicago, Illinois",2017,2711069
+"Baltimore, Maryland",2017,610481
+"Boston, Massachusetts",2017,687788
+"Detroit, Michigan",2017,674631
+"Minneapolis, Minnesota",2017,420925
+"Kansas, Missouri",2017,488329
+"St. Louis, Missouri",2017,308233
+"New York, New York",2017,8437478
+"Cincinnati, Ohio",2017,301587
+"Cleveland, Ohio",2017,385252
+"Philadelphia, Pennsylvania",2017,1580601
+"Pittsburgh, Pennsylvania",2017,301494
+"Arlington, Texas",2017,397173
+"Houston, Texas",2017,2316750
+"Seattle, Washington",2017,728661
+"Milwaukee, Wisconsin",2017,593725
+"Phoenix, Arizona",2018,1654675
+"Anaheim, California",2018,350698
+"Los Angeles, California",2018,3977596
+"Oakland, California",2018,429056
+"San Diego, California",2018,1421917
+"San Francisco, California",2018,880696
+"Denver, Colorado",2018,716265
+"Washington, District of Columbia",2018,701547
+"Miami, Florida",2018,462819
+"St. Petersburg, Florida",2018,264466
+"Atlanta, Georgia",2018,498183
+"Chicago, Illinois",2018,2701423
+"Baltimore, Maryland",2018,602443
+"Boston, Massachusetts",2018,691147
+"Detroit, Michigan",2018,672977
+"Minneapolis, Minnesota",2018,424903
+"Kansas, Missouri",2018,492012
+"St. Louis, Missouri",2018,303419
+"New York, New York",2018,8390081
+"Cincinnati, Ohio",2018,302277
+"Cleveland, Ohio",2018,383214
+"Philadelphia, Pennsylvania",2018,1583592
+"Pittsburgh, Pennsylvania",2018,300570
+"Arlington, Texas",2018,398123
+"Houston, Texas",2018,2318573
+"Seattle, Washington",2018,742235
+"Milwaukee, Wisconsin",2018,591375
+"Phoenix, Arizona",2019,1680992
+"Anaheim, California",2019,350365
+"Los Angeles, California",2019,3979576
+"Oakland, California",2019,433031
+"San Diego, California",2019,1423851
+"San Francisco, California",2019,881549
+"Denver, Colorado",2019,727211
+"Washington, District of Columbia",2019,705749
+"Miami, Florida",2019,467963
+"St. Petersburg, Florida",2019,265351
+"Atlanta, Georgia",2019,506811
+"Chicago, Illinois",2019,2693976
+"Baltimore, Maryland",2019,593490
+"Boston, Massachusetts",2019,692600
+"Detroit, Michigan",2019,670031
+"Minneapolis, Minnesota",2019,429606
+"Kansas, Missouri",2019,495327
+"St. Louis, Missouri",2019,300576
+"New York, New York",2019,8336817
+"Cincinnati, Ohio",2019,303940
+"Cleveland, Ohio",2019,381009
+"Philadelphia, Pennsylvania",2019,1584064
+"Pittsburgh, Pennsylvania",2019,300286
+"Arlington, Texas",2019,398854
+"Houston, Texas",2019,2320268
+"Seattle, Washington",2019,753675
+"Milwaukee, Wisconsin",2019,590157
+"Phoenix, Arizona",2020,1612337
+"Anaheim, California",2020,347105
+"Los Angeles, California",2020,3895836
+"Oakland, California",2020,440873
+"San Diego, California",2020,1386872
+"San Francisco, California",2020,870393
+"Denver, Colorado",2020,717556
+"Washington, District of Columbia",2020,670868
+"Miami, Florida",2020,442799
+"St. Petersburg, Florida",2020,258997
+"Atlanta, Georgia",2020,499868
+"Chicago, Illinois",2020,2740076
+"Baltimore, Maryland",2020,583139
+"Boston, Massachusetts",2020,671570
+"Detroit, Michigan",2020,637342
+"Minneapolis, Minnesota",2020,430684
+"Kansas, Missouri",2020,508183
+"St. Louis, Missouri",2020,300483
+"New York, New York",2020,8740647
+"Cincinnati, Ohio",2020,309574
+"Cleveland, Ohio",2020,371817
+"Philadelphia, Pennsylvania",2020,1600600
+"Pittsburgh, Pennsylvania",2020,302762
+"Arlington, Texas",2020,394212
+"Houston, Texas",2020,2299867
+"Seattle, Washington",2020,740520
+"Milwaukee, Wisconsin",2020,576511
+"Phoenix, Arizona",2021,1625356
+"Anaheim, California",2021,346174
+"Los Angeles, California",2021,3837986
+"Oakland, California",2021,436291
+"San Diego, California",2021,1374484
+"San Francisco, California",2021,811253
+"Denver, Colorado",2021,711323
+"Washington, District of Columbia",2021,668791
+"Miami, Florida",2021,441999
+"St. Petersburg, Florida",2021,259083
+"Atlanta, Georgia",2021,492667
+"Chicago, Illinois",2021,2698029
+"Baltimore, Maryland",2021,576981
+"Boston, Massachusetts",2021,654537
+"Detroit, Michigan",2021,628167
+"Minneapolis, Minnesota",2021,424635
+"Kansas, Missouri",2021,508949
+"St. Louis, Missouri",2021,293562
+"New York, New York",2021,8459001
+"Cincinnati, Ohio",2021,308685
+"Cleveland, Ohio",2021,365389
+"Philadelphia, Pennsylvania",2021,1589480
+"Pittsburgh, Pennsylvania",2021,305441
+"Arlington, Texas",2021,393278
+"Houston, Texas",2021,2291655
+"Seattle, Washington",2021,731507
+"Milwaukee, Wisconsin",2021,565840
+"Phoenix, Arizona",2022,1644409
+"Anaheim, California",2022,344461
+"Los Angeles, California",2022,3822238
+"Oakland, California",2022,430553
+"San Diego, California",2022,1381162
+"San Francisco, California",2022,808437
+"Denver, Colorado",2022,713252
+"Washington, District of Columbia",2022,671803
+"Miami, Florida",2022,449514
+"St. Petersburg, Florida",2022,261256
+"Atlanta, Georgia",2022,499127
+"Chicago, Illinois",2022,2665039
+"Baltimore, Maryland",2022,569931
+"Boston, Massachusetts",2022,650706
+"Detroit, Michigan",2022,620376
+"Minneapolis, Minnesota",2022,425096
+"Kansas, Missouri",2022,509297
+"St. Louis, Missouri",2022,286578
+"New York, New York",2022,8335897
+"Cincinnati, Ohio",2022,309513
+"Cleveland, Ohio",2022,361607
+"Philadelphia, Pennsylvania",2022,1567258
+"Pittsburgh, Pennsylvania",2022,302898
+"Arlington, Texas",2022,394602
+"Houston, Texas",2022,2302878
+"Seattle, Washington",2022,749256
+"Milwaukee, Wisconsin",2022,563305
+"Toronto, Canada",2003,4861366
+"Toronto, Canada",2004,4947655
+"Toronto, Canada",2005,5035232
+"Toronto, Canada",2006,5124530
+"Toronto, Canada",2007,5215742
+"Toronto, Canada",2008,5308706
+"Toronto, Canada",2009,5403064
+"Toronto, Canada",2010,5499233
+"Toronto, Canada",2011,5592607
+"Toronto, Canada",2012,5660142
+"Toronto, Canada",2013,5728303
+"Toronto, Canada",2014,5797381
+"Toronto, Canada",2015,5867292
+"Toronto, Canada",2016,5938144
+"Toronto, Canada",2017,6009852
+"Toronto, Canada",2018,6082425
+"Toronto, Canada",2019,6139404
+"Toronto, Canada",2020,6196731
+"Toronto, Canada",2021,6254571
+"Toronto, Canada",2022,6312974
+"Montreal, Canada",2003,3564175
+"Montreal, Canada",2004,3618746
+"Montreal, Canada",2005,3674000
+"Montreal, Canada",2006,3728243
+"Montreal, Canada",2007,3769718
+"Montreal, Canada",2008,3811712
+"Montreal, Canada",2009,3854057
+"Montreal, Canada",2010,3896932
+"Montreal, Canada",2011,3938680
+"Montreal, Canada",2012,3971182
+"Montreal, Canada",2013,4003862
+"Montreal, Canada",2014,4036856
+"Montreal, Canada",2015,4070122
+"Montreal, Canada",2016,4103709
+"Montreal, Canada",2017,4137573
+"Montreal, Canada",2018,4171716
+"Montreal, Canada",2019,4195523
+"Montreal, Canada",2020,4220566
+"Montreal, Canada",2021,4247446
+"Montreal, Canada",2022,4276526

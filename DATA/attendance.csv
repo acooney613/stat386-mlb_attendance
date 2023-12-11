@@ -1,0 +1,601 @@
+TEAM,year,average attendance
+LA Dodgers,2023,47371
+NY Yankees,2023,40862
+San Diego,2023,40389
+St. Louis,2023,40013
+Atlanta,2023,39401
+Philadelphia,2023,38157
+Houston,2023,37683
+Toronto,2023,37307
+Chicago Cubs,2023,34261
+Seattle,2023,33215
+NY Mets,2023,32994
+Boston,2023,32989
+LA Angels,2023,32599
+Colorado,2023,32196
+Milwaukee,2023,31497
+Texas,2023,31272
+San Francisco,2023,30866
+Cincinnati,2023,25164
+Minnesota,2023,24371
+Arizona,2023,24212
+Baltimore,2023,23911
+Cleveland,2023,23513
+Washington,2023,23034
+Chicago White Sox,2023,21405
+Detroit,2023,20946
+Pittsburgh,2023,20131
+Tampa Bay,2023,17781
+Kansas City,2023,16136
+Miami,2023,14355
+Oakland,2023,10275
+LA Dodgers,2022,47671
+NY Yankees,2022,40207
+San Diego,2022,36931
+St. Louis,2022,40994
+Atlanta,2022,38641
+Philadelphia,2022,28459
+Houston,2022,33197
+Toronto,2022,32763
+Chicago Cubs,2022,32305
+Seattle,2022,28590
+NY Mets,2022,33308
+Boston,2022,32408
+LA Angels,2022,30339
+Colorado,2022,32467
+Milwaukee,2022,30155
+Texas,2022,24831
+San Francisco,2022,30650
+Cincinnati,2022,17447
+Minnesota,2022,22514
+Arizona,2022,19817
+Baltimore,2022,17543
+Cleveland,2022,17050
+Washington,2022,25017
+Chicago White Sox,2022,24704
+Detroit,2022,19634
+Pittsburgh,2022,15524
+Tampa Bay,2022,13927
+Kansas City,2022,15974
+Miami,2022,11203
+Oakland,2022,9973
+LA Dodgers,2021,34625
+NY Yankees,2021,24498
+San Diego,2021,27061
+St. Louis,2021,26281
+Atlanta,2021,29490
+Philadelphia,2021,19188
+Houston,2021,25537
+Toronto,2021,10119
+Chicago Cubs,2021,24431
+Seattle,2021,15012
+NY Mets,2021,20620
+Boston,2021,21300
+LA Angels,2021,18667
+Colorado,2021,24854
+Milwaukee,2021,22522
+Texas,2021,26052
+San Francisco,2021,20734
+Cincinnati,2021,18580
+Minnesota,2021,16377
+Arizona,2021,12876
+Baltimore,2021,10169
+Cleveland,2021,14472
+Washington,2021,18319
+Chicago White Sox,2021,20466
+Detroit,2021,13612
+Pittsburgh,2021,10611
+Tampa Bay,2021,9513
+Kansas City,2021,14316
+Miami,2021,7933
+Oakland,2021,8767
+LA Dodgers,2019,49065
+NY Yankees,2019,41827
+San Diego,2019,29585
+St. Louis,2019,42967
+Atlanta,2019,32776
+Philadelphia,2019,33671
+Houston,2019,35276
+Toronto,2019,21606
+Chicago Cubs,2019,38208
+Seattle,2019,22122
+NY Mets,2019,30531
+Boston,2019,36106
+LA Angels,2019,37321
+Colorado,2019,36953
+Milwaukee,2019,36090
+Texas,2019,26333
+San Francisco,2019,33429
+Cincinnati,2019,22329
+Minnesota,2019,28322
+Arizona,2019,26364
+Baltimore,2019,16347
+Cleveland,2019,22008
+Washington,2019,27898
+Chicago White Sox,2019,21442
+Detroit,2019,18767
+Pittsburgh,2019,18412
+Tampa Bay,2019,14734
+Kansas City,2019,18495
+Miami,2019,10016
+Oakland,2019,20521
+LA Dodgers,2018,47042
+NY Yankees,2018,42998
+San Diego,2018,26837
+St. Louis,2018,42019
+Atlanta,2018,31552
+Philadelphia,2018,27318
+Houston,2018,36796
+Toronto,2018,29066
+Chicago Cubs,2018,38793
+Seattle,2018,28388
+NY Mets,2018,28164
+Boston,2018,35747
+LA Angels,2018,37286
+Colorado,2018,37233
+Milwaukee,2018,35195
+Texas,2018,26013
+San Francisco,2018,38965
+Cincinnati,2018,20115
+Minnesota,2018,24489
+Arizona,2018,27687
+Baltimore,2018,20053
+Cleveland,2018,24083
+Washington,2018,31620
+Chicago White Sox,2018,20110
+Detroit,2018,23212
+Pittsburgh,2018,18786
+Tampa Bay,2018,14258
+Kansas City,2018,20556
+Miami,2018,10013
+Oakland,2018,19427
+LA Dodgers,2017,46492
+NY Yankees,2017,39835
+San Diego,2017,26401
+St. Louis,2017,42567
+Atlanta,2017,30929
+Philadelphia,2017,24118
+Houston,2017,29674
+Toronto,2017,39554
+Chicago Cubs,2017,39500
+Seattle,2017,26363
+NY Mets,2017,30757
+Boston,2017,36020
+LA Angels,2017,37278
+Colorado,2017,36464
+Milwaukee,2017,31589
+Texas,2017,30960
+San Francisco,2017,40785
+Cincinnati,2017,22677
+Minnesota,2017,25640
+Arizona,2017,26350
+Baltimore,2017,25042
+Cleveland,2017,25285
+Washington,2017,31172
+Chicago White Sox,2017,20626
+Detroit,2017,28661
+Pittsburgh,2017,23696
+Tampa Bay,2017,15670
+Kansas City,2017,27754
+Miami,2017,20395
+Oakland,2017,18446
+LA Dodgers,2016,45719
+NY Yankees,2016,37819
+San Diego,2016,29029
+St. Louis,2016,42524
+Atlanta,2016,24949
+Philadelphia,2016,23643
+Houston,2016,28476
+Toronto,2016,41880
+Chicago Cubs,2016,39906
+Seattle,2016,27999
+NY Mets,2016,34870
+Boston,2016,36486
+LA Angels,2016,37236
+Colorado,2016,32129
+Milwaukee,2016,28575
+Texas,2016,33461
+San Francisco,2016,41546
+Cincinnati,2016,23383
+Minnesota,2016,24245
+Arizona,2016,25138
+Baltimore,2016,26819
+Cleveland,2016,19650
+Washington,2016,30641
+Chicago White Sox,2016,21828
+Detroit,2016,31173
+Pittsburgh,2016,28112
+Tampa Bay,2016,15878
+Kansas City,2016,31576
+Miami,2016,21405
+Oakland,2016,18784
+LA Dodgers,2015,46479
+NY Yankees,2015,39922
+San Diego,2015,30367
+St. Louis,2015,43467
+Atlanta,2015,25017
+Philadelphia,2015,23475
+Houston,2015,26587
+Toronto,2015,34504
+Chicago Cubs,2015,36540
+Seattle,2015,27081
+NY Mets,2015,31725
+Boston,2015,35564
+LA Angels,2015,37194
+Colorado,2015,31334
+Milwaukee,2015,31389
+Texas,2015,30763
+San Francisco,2015,41677
+Cincinnati,2015,29870
+Minnesota,2015,27408
+Arizona,2015,25680
+Baltimore,2015,29374
+Cleveland,2015,17806
+Washington,2015,32343
+Chicago White Sox,2015,21947
+Detroit,2015,33654
+Pittsburgh,2015,30846
+Tampa Bay,2015,15403
+Kansas City,2015,33438
+Miami,2015,21632
+Oakland,2015,21829
+LA Dodgers,2014,46695
+NY Yankees,2014,42520
+San Diego,2014,27103
+St. Louis,2014,43711
+Atlanta,2014,29065
+Philadelphia,2014,29924
+Houston,2014,21627
+Toronto,2014,29327
+Chicago Cubs,2014,32742
+Seattle,2014,25485
+NY Mets,2014,26860
+Boston,2014,36494
+LA Angels,2014,38221
+Colorado,2014,33090
+Milwaukee,2014,34535
+Texas,2014,33564
+San Francisco,2014,41588
+Cincinnati,2014,30576
+Minnesota,2014,27785
+Arizona,2014,25601
+Baltimore,2014,30805
+Cleveland,2014,18428
+Washington,2014,31844
+Chicago White Sox,2014,20896
+Detroit,2014,36014
+Pittsburgh,2014,30155
+Tampa Bay,2014,17857
+Kansas City,2014,24154
+Miami,2014,21386
+Oakland,2014,25045
+LA Dodgers,2013,46216
+NY Yankees,2013,40488
+San Diego,2013,26749
+St. Louis,2013,41602
+Atlanta,2013,31465
+Philadelphia,2013,37190
+Houston,2013,20393
+Toronto,2013,31315
+Chicago Cubs,2013,32625
+Seattle,2013,21747
+NY Mets,2013,26695
+Boston,2013,34979
+LA Angels,2013,37277
+Colorado,2013,34491
+Milwaukee,2013,31248
+Texas,2013,38759
+San Francisco,2013,41584
+Cincinnati,2013,31288
+Minnesota,2013,30588
+Arizona,2013,26355
+Baltimore,2013,29105
+Cleveland,2013,19661
+Washington,2013,32745
+Chicago White Sox,2013,22105
+Detroit,2013,38066
+Pittsburgh,2013,28210
+Tampa Bay,2013,18645
+Kansas City,2013,21614
+Miami,2013,19584
+Oakland,2013,22337
+LA Dodgers,2012,41040
+NY Yankees,2012,43733
+San Diego,2012,26218
+St. Louis,2012,40272
+Atlanta,2012,29878
+Philadelphia,2012,44021
+Houston,2012,19848
+Toronto,2012,25921
+Chicago Cubs,2012,35589
+Seattle,2012,21258
+NY Mets,2012,28035
+Boston,2012,37567
+LA Angels,2012,37799
+Colorado,2012,32474
+Milwaukee,2012,34955
+Texas,2012,42719
+San Francisco,2012,41695
+Cincinnati,2012,28978
+Minnesota,2012,34275
+Arizona,2012,26884
+Baltimore,2012,26610
+Cleveland,2012,19797
+Washington,2012,30010
+Chicago White Sox,2012,24271
+Detroit,2012,37383
+Pittsburgh,2012,26148
+Tampa Bay,2012,19255
+Kansas City,2012,21748
+Miami,2012,27400
+Oakland,2012,20728
+LA Dodgers,2011,36236
+NY Yankees,2011,45107
+San Diego,2011,26457
+St. Louis,2011,38196
+Atlanta,2011,30037
+Philadelphia,2011,45440
+Houston,2011,25518
+Toronto,2011,22445
+Chicago Cubs,2011,37258
+Seattle,2011,23411
+NY Mets,2011,30108
+Boston,2011,37703
+LA Angels,2011,39090
+Colorado,2011,35923
+Milwaukee,2011,37918
+Texas,2011,36382
+San Francisco,2011,41818
+Cincinnati,2011,27327
+Minnesota,2011,39112
+Arizona,2011,25992
+Baltimore,2011,21943
+Cleveland,2011,22726
+Washington,2011,24877
+Chicago White Sox,2011,24705
+Detroit,2011,32617
+Pittsburgh,2011,24255
+Tampa Bay,2011,18878
+Kansas City,2011,21289
+Miami,2011,19007
+Oakland,2011,18232
+LA Dodgers,2010,43979
+NY Yankees,2010,46491
+San Diego,2010,26318
+St. Louis,2010,40755
+Atlanta,2010,30989
+Philadelphia,2010,45027
+Houston,2010,28783
+Toronto,2010,20068
+Chicago Cubs,2010,37814
+Seattle,2010,25746
+NY Mets,2010,32401
+Boston,2010,37610
+LA Angels,2010,40133
+Colorado,2010,35940
+Milwaukee,2010,34278
+Texas,2010,30928
+San Francisco,2010,37499
+Cincinnati,2010,25438
+Minnesota,2010,39798
+Arizona,2010,25394
+Baltimore,2010,21662
+Cleveland,2010,17435
+Washington,2010,22568
+Chicago White Sox,2010,27091
+Detroit,2010,30385
+Pittsburgh,2010,19918
+Tampa Bay,2010,22758
+Kansas City,2010,20191
+Miami,2010,18953
+Oakland,2010,17511
+LA Dodgers,2009,46440
+NY Yankees,2009,45364
+San Diego,2009,23735
+St. Louis,2009,41274
+Atlanta,2009,29304
+Philadelphia,2009,44453
+Houston,2009,31124
+Toronto,2009,23162
+Chicago Cubs,2009,39610
+Seattle,2009,27116
+NY Mets,2009,38941
+Boston,2009,37811
+LA Angels,2009,40004
+Colorado,2009,32902
+Milwaukee,2009,37499
+Texas,2009,27641
+San Francisco,2009,35322
+Cincinnati,2009,21579
+Minnesota,2009,29466
+Arizona,2009,26281
+Baltimore,2009,23545
+Cleveland,2009,22492
+Washington,2009,22715
+Chicago White Sox,2009,28199
+Detroit,2009,31693
+Pittsburgh,2009,19479
+Tampa Bay,2009,23147
+Kansas City,2009,22473
+Miami,2009,18770
+Oakland,2009,17392
+LA Dodgers,2008,46056
+NY Yankees,2008,53069
+San Diego,2008,29969
+St. Louis,2008,42353
+Atlanta,2008,31269
+Philadelphia,2008,42254
+Houston,2008,34741
+Toronto,2008,29626
+Chicago Cubs,2008,40743
+Seattle,2008,28761
+NY Mets,2008,51165
+Boston,2008,37632
+LA Angels,2008,41194
+Colorado,2008,33127
+Milwaukee,2008,37882
+Texas,2008,24320
+San Francisco,2008,35356
+Cincinnati,2008,25415
+Minnesota,2008,28425
+Arizona,2008,30986
+Baltimore,2008,25000
+Cleveland,2008,27122
+Washington,2008,29005
+Chicago White Sox,2008,30877
+Detroit,2008,39538
+Pittsburgh,2008,20113
+Tampa Bay,2008,22259
+Kansas City,2008,19986
+Miami,2008,16688
+Oakland,2008,20558
+LA Dodgers,2007,47617
+NY Yankees,2007,52729
+San Diego,2007,34445
+St. Louis,2007,43854
+Atlanta,2007,33891
+Philadelphia,2007,38374
+Houston,2007,37288
+Toronto,2007,29143
+Chicago Cubs,2007,40153
+Seattle,2007,32993
+NY Mets,2007,47579
+Boston,2007,36679
+LA Angels,2007,41551
+Colorado,2007,28978
+Milwaukee,2007,35421
+Texas,2007,29795
+San Francisco,2007,39792
+Cincinnati,2007,25414
+Minnesota,2007,28349
+Arizona,2007,28708
+Baltimore,2007,27060
+Cleveland,2007,28448
+Washington,2007,24217
+Chicago White Sox,2007,33140
+Detroit,2007,37619
+Pittsburgh,2007,22141
+Tampa Bay,2007,17130
+Kansas City,2007,19961
+Miami,2007,16919
+Oakland,2007,23726
+LA Dodgers,2006,46401
+NY Yankees,2006,52392
+San Diego,2006,32836
+St. Louis,2006,42588
+Atlanta,2006,31881
+Philadelphia,2006,34200
+Houston,2006,37318
+Toronto,2006,28422
+Chicago Cubs,2006,39040
+Seattle,2006,30634
+NY Mets,2006,43327
+Boston,2006,36189
+LA Angels,2006,42059
+Colorado,2006,25979
+Milwaukee,2006,28835
+Texas,2006,29490
+San Francisco,2006,38639
+Cincinnati,2006,26353
+Minnesota,2006,28210
+Arizona,2006,25829
+Baltimore,2006,26581
+Cleveland,2006,24666
+Washington,2006,26580
+Chicago White Sox,2006,36511
+Detroit,2006,32048
+Pittsburgh,2006,23269
+Tampa Bay,2006,16925
+Kansas City,2006,17157
+Miami,2006,14372
+Oakland,2006,24402
+LA Dodgers,2005,44489
+NY Yankees,2005,50502
+San Diego,2005,35429
+St. Louis,2005,43691
+Atlanta,2005,31514
+Philadelphia,2005,33316
+Houston,2005,34626
+Toronto,2005,24876
+Chicago Cubs,2005,38749
+Seattle,2005,33648
+NY Mets,2005,35374
+Boston,2005,35159
+LA Angels,2005,42033
+Colorado,2005,23929
+Milwaukee,2005,27296
+Texas,2005,31565
+San Francisco,2005,39271
+Cincinnati,2005,23988
+Minnesota,2005,25114
+Arizona,2005,25416
+Baltimore,2005,32404
+Cleveland,2005,24861
+Washington,2005,33728
+Chicago White Sox,2005,28923
+Detroit,2005,25306
+Pittsburgh,2005,23003
+Tampa Bay,2005,14232
+Kansas City,2005,17356
+Miami,2005,22871
+Oakland,2005,26038
+LA Dodgers,2004,43065
+NY Yankees,2004,47788
+San Diego,2004,37243
+St. Louis,2004,37634
+Atlanta,2004,29399
+Philadelphia,2004,40626
+Houston,2004,38121
+Toronto,2004,23457
+Chicago Cubs,2004,39138
+Seattle,2004,36305
+NY Mets,2004,28979
+Boston,2004,35028
+LA Angels,2004,41675
+Colorado,2004,29595
+Milwaukee,2004,25461
+Texas,2004,31818
+San Francisco,2004,40208
+Cincinnati,2004,28237
+Minnesota,2004,23597
+Arizona,2004,31105
+Baltimore,2004,34344
+Cleveland,2004,22400
+Chicago White Sox,2004,24437
+Detroit,2004,23962
+Pittsburgh,2004,21107
+Tampa Bay,2004,16139
+Kansas City,2004,21031
+Miami,2004,22091
+Oakland,2004,27179
+Montreal,2004,9356
+LA Dodgers,2003,38748
+NY Yankees,2003,42785
+San Diego,2003,25024
+St. Louis,2003,35930
+Atlanta,2003,30393
+Philadelphia,2003,28973
+Houston,2003,30299
+Toronto,2003,22215
+Chicago Cubs,2003,37032
+Seattle,2003,40351
+NY Mets,2003,28406
+Boston,2003,33631
+LA Angels,2003,37791
+Colorado,2003,28815
+Milwaukee,2003,20992
+Texas,2003,25856
+San Francisco,2003,40304
+Cincinnati,2003,29077
+Minnesota,2003,24024
+Arizona,2003,34636
+Baltimore,2003,30297
+Cleveland,2003,21358
+Chicago White Sox,2003,23945
+Detroit,2003,17103
+Pittsburgh,2003,20983
+Tampa Bay,2003,13070
+Kansas City,2003,22732
+Miami,2003,16290
+Oakland,2003,27365
+Montreal,2003,12662

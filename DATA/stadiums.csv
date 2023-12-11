@@ -1,0 +1,42 @@
+team,location,stadium,capacity,opened,closed
+Baltimore Orioles,"Baltimore, Maryland",CAMDEN YARDS,45971,1992,-
+Boston Red Sox,"Boston, Massachusetts",FENWAY PARK,37673,1912,-
+Toronto Blue Jays,"Toronto, Canada",ROGERS CENTRE,41500,1989,-
+Tampa Bay Rays,"St. Petersburg, Florida",TROPICANA FIELD,25025,1998,-
+New York Yankees,"New York, New York",YANKEE STADIUM,50287,2009,-
+Detroit Tigers,"Detroit, Michigan",COMERICA PARK,41574,2000,-
+Chicago White Sox,"Chicago, Illinois",GUARANTEED RATE FIELD,40615,1991,-
+Kansas City Royals,"Kansas, Missouri",KAUFFMAN STADIUM,40793,1973,-
+Cleveland Guardians,"Cleveland, Ohio",PROGRESSIVE FIELD,35041,1994,-
+Minnesota Twins,"Minneapolis, Minnesota",TARGET FIELD,39504,2010,-
+Los Angeles Angels,"Anaheim, California",ANGEL STADIUM,45050,1966,-
+Texas Rangers,"Arlington, Texas",GLOBE LIFE FIELD,40300,2020,-
+Houston Astros,"Houston, Texas",MINUTE MAID PARK,40963,2000,-
+Oakland A’s,"Oakland, California",OAKLAND COLISEUM,47170,1968,-
+Seattle Mariners,"Seattle, Washington",T-MOBILE PARK,47574,1999,-
+New York Mets,"New York, New York",CITI FIELD,42000,2009,-
+Philadelphia Phillies,"Philadelphia, Pennsylvania",CITIZENS BANK PARK,43035,2004,-
+Miami Marlins,"Miami, Florida",LOANDEPOT PARK,37442,2012,-
+Washington Nationals,"Washington, District of Columbia",NATIONALS PARK,41313,2008,-
+Atlanta Braves,"Atlanta, Georgia",TRUIST PARK,41500,2017,-
+Milwaukee Brewers,"Milwaukee, Wisconsin",AMERICAN FAMILY FIELD,41900,2001,-
+St. Louis Cardinals,"St. Louis, Missouri",BUSCH STADIUM,43975,2006,-
+Cincinnati Reds,"Cincinnati, Ohio",GREAT AMERICAN BALL PARK,42271,2003,-
+Pittsburgh Pirates,"Pittsburgh, Pennsylvania",PNC PARK,38362,2001,-
+Chicago Cubs,"Chicago, Illinois",WRIGLEY FIELD,41649,1914,-
+Arizona Diamondbacks,"Phoenix, Arizona",CHASE FIELD,48633,1998,-
+Colorado Rockies,"Denver, Colorado",COORS FIELD,50398,1995,-
+Los Angeles Dodgers,"Los Angeles, California",DODGER STADIUM,56000,1962,-
+San Francisco Giants,"San Francisco, California",ORACLE PARK,41915,2000,-
+San Diego Padres,"San Diego, California",PETCO PARK,41164,2004,-
+St. Louis Cardinals,"St. Louis, Missouri",BUSCH STADIUM,50345,1966,2005
+Texas Rangers,"Arlington, Texas",GLOBE LIFE PARK,48114,1994,2019
+San Diego Padres,"San Diego, California",JACK MURPHY STADIUM,47972,1969,2003
+Minnesota Twins,"Minneapolis, Minnesota",METRODOME,56144,1982,2009
+New York Yankees,"New York, New York",YANKEE STADIUM,56937,1923,2008
+Montreal Expos,"Montreal, Canada",OLYMPIC STADIUM,46500,1977,2004
+Washington Nationals,"Washington, District of Columbia",RFK STADIUM,46382,2005,2007
+New York Mets,"New York, New York",SHEA STADIUM,57333,1964,2008
+Miami Marlins,"Miami, Florida",SUN LIFE STADIUM,36331,1993,2011
+Atlanta Braves,"Atlanta, Georgia",TURNER FIELD,50096,1997,2016
+Philadelphia Phillies,"Philadelphia, Pennsylvania",VETERANS STADIUM,62623,1971,2003
