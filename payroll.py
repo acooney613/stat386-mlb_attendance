@@ -16,7 +16,6 @@ class payroll():
         self.pay['team'] = self.pay['team'].str.replace('Anaheim Angels', 'Los Angeles Angels')
         self.pay['team'] = self.pay['team'].str.replace('Los Angeles Angels of Anaheim', 'Los Angeles Angels')
         self.pay['team'] = self.pay['team'].str.replace('Florida', 'Miami')
-        #self.pay['team'] = self.pay['team'].str.replace('Montreal Expos', 'Washington Nationals')
         self.pay['team'] = self.pay['team'].str.replace('Oakland Athletics', 'Oakland A’s')
         self.pay['team'] = self.pay['team'].str.replace('Indians', 'Guardians')
         self.pay.to_csv('DATA/payroll.csv', index = False)

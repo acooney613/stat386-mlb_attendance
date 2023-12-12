@@ -28,3 +28,12 @@ plt.xscale('log')
 sns.lmplot(data = df, y = 'proportion of capacity filled', x = 'payroll', lowess = False, legend = False, ci = None).set(title = 'portion of stadium capacity by population')
 plt.xscale('log')
 # %%
+sns.lmplot(data = df, x = 'w-l%', y = 'average attendance', lowess = True, legend = False)
+# %%
+df['series_result'] = df['result'] + ' ' + df['series']
+df['series_result'] = df['series_result'].fillna('missed postseason')
+px.scatter(df, x = 'wins', y = 'proportion of capacity filled', color = 'team', hover_data = ['year', 'series_result'])
+#fig.update_traces(customdata = df['year'])
+#fig.update_traces(hovertemplate='X: %{x}<br>Y: %{y}<br>Custom Data: %{customdata}')
+
+# %%
