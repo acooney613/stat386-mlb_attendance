@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 st.title('MLB Attendance Data Exploration')
-text = 'This app uses data that was collected and scraped from several different webpages using code found in [this repo](https://github.com/acooney613/stat386-mlb_attendance)' +' It is also important to note that due to COVID-19 there are no MLB attendance numbers for the year 2020.' + ' Have fun exploring this dataset and feel free to take a look at my repo and [blog](https://acooney613.github.io/) to see how the data was collected and used'
+text = 'This app uses data that was collected and scraped from several different webpages using code found in [this repo](https://github.com/acooney613/stat386-mlb_attendance).' +' It is also important to note that due to COVID-19 there are no MLB attendance numbers for the year 2020.' + ' Have fun exploring this dataset and feel free to take a look at my repo and [blog](https://acooney613.github.io/) to see how the data was collected and used.'
 st.markdown(text, unsafe_allow_html=True)
 data = pd.read_csv('mlb_attendance.csv')
 numbering = {'World Series' : 4, 'NLCS' : 3, 'ALCS' : 3, 'ALDS' : 2, 'NLDS' : 2, 'NLWC' : 1, 'ALWC' : 1, 'Missed Postseason' : 0}
