@@ -56,7 +56,8 @@ else:
 fig2.update_layout(
     xaxis_title='Attendance',
     yaxis_title='Teams Selected',
-    title='Attendence Plots For Teams Selected'
+    title='Attendence Plots For Teams Selected',
+    title_x = 0.5
 )
 
 st.plotly_chart(fig2)
