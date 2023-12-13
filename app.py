@@ -62,6 +62,6 @@ fig2.update_layout(
 
 st.plotly_chart(fig2)
 
-fig3 = sns.catplot(data, kind = 'bar', x = 'year', y = 'proportion', hue = 'team', palettee = 'husl', legend = False)
+fig3 = sns.catplot(data, kind = 'bar', x = 'year', y = 'proportion', hue = 'team', palette = 'husl', legend = False)
 
 st.plotly_chart(fig3)
