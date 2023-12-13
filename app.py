@@ -28,7 +28,13 @@ if year == 2020:
     str1 = 'Due to COVID-19 there is no MLB attendance numbers for the year 2020'
     st.markdown(f"<span style = 'color:red'>{str1}</span>", unsafe_allow_html = True)
     
-fig1 = px.scatter(df, x = 'payroll', y = 'proportion', color = 'team')
+fig1 = px.scatter(df, x = 'payroll', y = 'proportion', color = 'team', hover_data = ['series_result', 'wins'],
+                  lablels = {
+                      'wins' : 'Total Wins',
+                      'series_result' : 'Season Result',
+                      'payroll' : 'Team Payroll',
+                      'proportion' : 'Stadium Proportion'
+                  })
 
 fig1.update_layout(
     xaxis_title='Team Payroll',
@@ -61,6 +67,3 @@ fig2.update_layout(
 )
 
 st.plotly_chart(fig2)
-
-fig3 = sns.catplot(data, kind = 'bar', x = 'year', y = 'proportion', hue = 'team', palette = 'husl', legend = False)
-st.pyplot(fig3)
