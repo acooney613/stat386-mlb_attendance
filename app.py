@@ -42,7 +42,8 @@ fig1.update_layout(
     xaxis_title='Team Payroll',
     yaxis_title='Proportion of Stadium Capacity Filled',
     title='Attendance by Payroll',
-    title_x = 0.4
+    title_x = 0.4,
+    modebar = dict(visible = False)
 )
 
 st.plotly_chart(fig1)
