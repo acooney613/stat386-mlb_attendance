@@ -23,12 +23,12 @@ fig = px.scatter(df, x = 'wins', y = 'proportion', color = 'team', hover_data = 
                       'year' : 'Year'})
 
 fig.update_layout(showlegend = False)
-fig.show()
+#fig.show()
 
 # scatterplot for payroll and proportion colored by postseason
 fig = px.scatter(df, x = 'payroll', y = 'proportion', trendline = 'ols', color = 'made postseason',
                  hover_data = ['year', 'team', 'series_result'])
-fig.show()
+#fig.show()
 
 # table to see the average payroll for each postseason category
 made_world_average = f'${df[df["postseason"] == 4]["payroll"].mean():,.2f}'
@@ -48,7 +48,7 @@ ax.axis('off')
 table.auto_set_font_size(False)
 table.set_fontsize(12)
 table.scale(1.2, 1.2)
-plt.show()
+#plt.show()
 plt.close()
 ax.axis('on')
 
@@ -58,7 +58,7 @@ plt.xlabel('Win Loss Percentage')
 plt.ylabel('Proportion of Stadium Filled (on Average)')
 plt.tight_layout()
 #plt.savefig('proportion.png')
-plt.show()
+#plt.show()
 plt.close()
 
 # scatterplot with lm line for proportoin and payroll
@@ -69,26 +69,29 @@ plt.legend(loc = 'upper left', bbox_to_anchor = (0, 1), title = 'Postseason')
 plt.xlabel('Log of Team Payroll')
 plt.ylabel('Proportion of Stadium Filled (on Average)')
 #plt.savefig('postseason.png')
-plt.show()
+#plt.show()
 plt.close()
 
 # barplot for series result by proportion
-fig = sns.barplot(df, y = 'series_result', x = 'proportion', palette = 'husl', errorbar = None)
+df_agg = df.groupby(['series_result'])['proportion'].mean().reset_index().sort_values('proportion', ascending = False)
+fig = sns.barplot(df, y = 'series_result', x = 'proportion', palette = 'husl', errorbar = None, order = df_agg['series_result'])
 plt.xlabel('Proportion of Stadium Filled')
 plt.ylabel('End of Season Result')
 plt.title('Effects of Fan Attendance on Season Result')
 plt.tight_layout()
 #plt.savefig('result.png')
-
+plt.show()
 plt.close()
 
 # barplot of series result by payroll
-fig = sns.barplot(df, y = 'series_result', x = 'payroll', palette = 'husl', errorbar = None)
+#order = ['won World Series', 'lost World Series', 'lost ALCS', 'lost NLCS', 'lost ALDS', 'lost NLDS', 'lost ALWC', 'lost NLWC', 'missed postseason']
+df_agg = df.groupby(['series_result'])['payroll'].mean().reset_index().sort_values('payroll', ascending = False)
+fig = sns.barplot(df, y = 'series_result', x = 'payroll', palette = 'husl', errorbar = None, order = df_agg['series_result'])
 plt.xlabel('Average Team Payroll')
 plt.ylabel('End of Season Result')
 plt.title('Effects of Payroll on Season Result')
 plt.tight_layout()
-plt.show()
+#plt.show()
 #plt.savefig('barchart.png')
 plt.close()
 
@@ -97,7 +100,7 @@ sns.heatmap(df[['proportion', 'population', 'payroll', 'w-l%', 'postseason']].dr
 plt.title('Correlation Matrix')
 plt.tight_layout()
 #plt.savefig('heatmap.png')
-plt.show()
+#plt.show()
 plt.close()
 
 # bar chart for world series winner and loser stadium proportion
@@ -109,7 +112,7 @@ plt.title("Season Attendance By Winner and Loser of WS")
 plt.legend(loc = 'upper right', title = 'Result')
 plt.tight_layout()
 #plt.savefig('winner.png')
-plt.show()
+#plt.show()
 plt.close()
 
 # lm plot payroll by win loss 
@@ -119,5 +122,5 @@ plt.ylabel('Win-Loss Percentage For Season')
 plt.title('Wins by Payroll')
 plt.tight_layout()
 plt.savefig('wins_payroll.png')
-plt.show()
+#plt.show()
 plt.close()
