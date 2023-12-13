@@ -46,7 +46,7 @@ fig1.update_layout(
     modebar = dict(visible = False)
 )
 
-st.plotly_chart(fig1)
+st.plotly_chart(fig1, config = {'displayModeBar': False})
 
 options = data['team'].unique()
 options.sort()
