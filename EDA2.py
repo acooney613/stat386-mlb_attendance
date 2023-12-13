@@ -24,7 +24,6 @@ fig = px.scatter(df, x = 'wins', y = 'proportion', color = 'team', hover_data = 
                       'year' : 'Year'})
 
 fig.update_layout(showlegend = False)
-fig.write_html('wins_by_proportion.html')
 #fig.show()
 
 # Question 2: Does spending more lead to more success and fans?
@@ -59,7 +58,24 @@ fig = sns.barplot(df, y = 'series_result', x = 'payroll', errorbar = None)
 plt.tight_layout()
 plt.xlabel('Average Team Payroll')
 plt.ylabel('End of Season Result')
+#plt.savefig('barchart.png')
 #plt.show()
+plt.close()
 
+# Question 5: Affects of Payroll on Attendance
+sns.lmplot(data = df, y = 'proportion', x = 'wins', lowess = False, legend = False, ci = None).set(title = 'Proportion of Stadium Capacity By Population')
+plt.tight_layout()
+#plt.savefig('proportion.png')
+#plt.show()
+plt.close()
+
+sns.lmplot(data = df, y = 'proportion', x = 'payroll', hue = 'postseason', palette = 'husl', lowess = False, legend = False, ci = None).set(title = 'Proportion of Stadium Capacity By Population')
+plt.tight_layout()
+plt.xscale('log')
+plt.legend(loc = 'upper left', bbox_to_anchor = (0, 1), title = 'Postseason')
+plt.xlabel('Log of Team Payroll')
+plt.ylabel('Proportion of Stadium Filled (on Average)')
+plt.savefig('postseason.png')
+plt.show()
 
 
