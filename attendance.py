@@ -35,7 +35,6 @@ class attendance():
         df = df[['TEAM', f'{year}']]
         df['TEAM'] = df['TEAM'].str.replace('Florida', 'Miami')
         df['TEAM'] = df['TEAM'].str.replace('Anaheim', 'LA Angels')
-        #df['TEAM'] = df['TEAM'].str.replace('Montreal', 'Washington')
         if self.data.empty:
             self.data = df
         else:
@@ -57,3 +56,7 @@ class attendance():
 
 y = attendance('https://www.espn.com/mlb/attendance')
 df_attendance = y.get_data()
+
+# check to see if the previous years teams that made the playoffs saw an increase in fan attendance
+# world series winners or something maybe 
+# check population change too 

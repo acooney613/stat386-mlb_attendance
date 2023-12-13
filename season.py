@@ -69,5 +69,3 @@ class seasons():
         self.result = data
 
 t = seasons()
-
-# toronto population data https://www.macrotrends.net/cities/20402/toronto/population https://www.macrotrends.net/cities/20384/montreal/population
