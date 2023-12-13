@@ -36,6 +36,8 @@ fig1 = px.scatter(df, x = 'payroll', y = 'proportion', color = 'team', hover_dat
                       'proportion' : 'Stadium Proportion'
                   })
 
+fig1.update_traces(showlegend = False)
+
 fig1.update_layout(
     xaxis_title='Team Payroll',
     yaxis_title='Proportion of Stadium Capacity Filled',
