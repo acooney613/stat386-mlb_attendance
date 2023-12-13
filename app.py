@@ -29,7 +29,7 @@ if year == 2020:
     st.markdown(f"<span style = 'color:red'>{str1}</span>", unsafe_allow_html = True)
     
 fig1 = px.scatter(df, x = 'payroll', y = 'proportion', color = 'team', hover_data = ['series_result', 'wins'],
-                  lablels = {
+                  labels = {
                       'wins' : 'Total Wins',
                       'series_result' : 'Season Result',
                       'payroll' : 'Team Payroll',
