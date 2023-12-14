@@ -141,7 +141,7 @@ with col2:
     options.remove('team')
     options.remove('result')
     options.remove('series')
-    options.sort()
+    options = options.sort()
     selected = st.multiselect('Select columns:', options = options, default = None)
     select = ['team'] + selected
     df3 = df3[select]
