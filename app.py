@@ -93,7 +93,11 @@ selected = st.multiselect('Select teams:', options = options, default = None)
 cols = st.columns(2)
 df2 = data[data['team'].isin(selected)]
 
-fig2 = px.box(df2, y = 'team', x = 'average attendance')
+fig2 = px.box(df2, y = 'team', x = 'average attendance',
+              labels = {
+                  'team' : 'Team',
+                  'average attendance' : 'Average Attendance'
+              })
 if df2.empty:
     pass
 else:
