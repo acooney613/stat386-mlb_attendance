@@ -52,14 +52,20 @@ fig1 = px.scatter(df, x = 'payroll', y = 'proportion', color = 'team', hover_dat
                       'wins' : 'Total Wins',
                       'series_result' : 'Season Result',
                       'payroll' : 'Team Payroll',
-                      'proportion' : 'Stadium Proportion'
+                      'proportion' : 'Stadium Proportion',
+                      'team' : 'Team',
                   })
  
 df['avg'] = df['made postseason']
 curr_avg = df.groupby('made postseason').mean('average attendance')[['average attendance']].reset_index()
 curr_avg['year'] = f'Current ({year})'
 tmp = pd.concat([curr_avg, avg], ignore_index=True)
-test = px.bar(tmp, x = 'made postseason', y = 'average attendance', color = 'year')
+test = px.bar(tmp, x = 'made postseason', y = 'average attendance', color = 'year',
+              labels = {
+                  'made postseason' : 'Made Postseason',
+                  'average attendance' : 'Average Attendance',
+                  'year' : 'Year'
+              })
 test.update_layout(title=f'{year} vs Overall Attendance', barmode='group', xaxis_title='Made The Postseason (Yes or No)', yaxis_title='Average Attendance', title_x = 0.2)
 
 fig1.update_traces(showlegend = False)
