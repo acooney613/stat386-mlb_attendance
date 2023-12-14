@@ -139,6 +139,9 @@ with col2:
     options = list(data.columns)
     options.remove('year')
     options.remove('team')
+    options.remove('result')
+    options.remove('series')
+    
     selected = st.multiselect('Select columns:', options = options, default = None)
     select = ['team'] + selected
     df3 = df3[select]
