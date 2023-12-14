@@ -4,10 +4,14 @@ import plotly.express as px
 import numpy as np
 
 st.set_page_config(layout="wide")
+title = """
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <h1>MLB Attendance Data</h1>
+    </div>
+"""
 
-col = st.columns(3)
+st.markdown(title, unsafe_allow_html=True)
 
-col[1].title('MLB Attendance Data')
 text = 'This app is designed to help you explore data that contains information about MLB teams from 2003 to 2022.'
 text2 = '\n\nIt is important to note that for the year 2020, the MLB did not have any attendance data due to COVID-19.'
 text3 = '\n\nIf you would like to learn more about this data and how it was collected I would encourage you to loop through my'
