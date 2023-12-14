@@ -12,6 +12,8 @@ title = """
 
 st.markdown(title, unsafe_allow_html=True)
 
+cols = st.columns([1, 3, 1])
+
 text = 'This app is designed to help you explore data that contains information about MLB teams from 2003 to 2022.'
 text2 = '\n\nIt is important to note that for the year 2020, the MLB did not have any attendance data due to COVID-19.'
 text3 = '\n\nIf you would like to learn more about this data and how it was collected I would encourage you to loop through my'
@@ -19,7 +21,7 @@ text4 = ' [repo](https://github.com/acooney613/stat386-mlb_attendance) as well a
 text5 = ' and [data visualization blog](https://acooney613.github.io/2023/12/12/post-dataviz.html).'
 text6 = '\n\nHave fun exploring the data below!!'
 
-st.markdown(text+text2+text3+text4+text5+text6, unsafe_allow_html=True)
+cols[1].markdown(text+text2+text3+text4+text5+text6, unsafe_allow_html=True)
 
 data = pd.read_csv('mlb_attendance.csv')
 numbering = {'World Series' : 4, 'NLCS' : 3, 'ALCS' : 3, 'ALDS' : 2, 'NLDS' : 2, 'NLWC' : 1, 'ALWC' : 1, 'Missed Postseason' : 0}
