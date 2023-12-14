@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 import plotly.express as px
-import matplotlib.pyplot as plt
 import numpy as np
 
 st.set_page_config(layout="wide")
@@ -10,8 +8,14 @@ st.set_page_config(layout="wide")
 col = st.columns(3)
 
 col[1].title('MLB Attendance Data')
-text = 'This app uses data that was collected and scraped from several different webpages using code found in [this repo](https://github.com/acooney613/stat386-mlb_attendance).' +' It is also important to note that due to COVID-19 there are no MLB attendance numbers for the year 2020.' + ' Have fun exploring this dataset and feel free to take a look at my repo and [blog](https://acooney613.github.io/) to see how the data was collected and used.'
-st.markdown(text, unsafe_allow_html=True)
+text = 'This app is designed to help you explore data that contains information about MLB teams from 2003 to 2022.'
+text2 = '\n\nIt is important to note that for the year 2020, the MLB did not have any attendance data due to COVID-19.'
+text3 = '\n\nIf you would like to learn more about this data and how it was collected I would encourage you to loop through my'
+text4 = '[repo](https://github.com/acooney613/stat386-mlb_attendance) as well as explore my [data collection blog](https://acooney613.github.io/2023/12/10/post-dataclean.html)'
+text5 = ' and [data visualization blog](https://acooney613.github.io/2023/12/12/post-dataviz.html).'
+text6 = '\n\nHave fun exploring the data below!!'
+
+st.markdown(text+text2+text3+text4+text5+text6, unsafe_allow_html=True)
 
 data = pd.read_csv('mlb_attendance.csv')
 numbering = {'World Series' : 4, 'NLCS' : 3, 'ALCS' : 3, 'ALDS' : 2, 'NLDS' : 2, 'NLWC' : 1, 'ALWC' : 1, 'Missed Postseason' : 0}
@@ -121,3 +125,31 @@ fig3.update_layout(
 )
 
 cols[1].plotly_chart(fig3)
+
+st.subheader('Filter Dataset')
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    years = data['year'].unique()
+    year = st.selectbox('Select Year To Look At: ', options = years, index = None)
+    df3 = data[data['year'] == year]
+    df3.drop(columns = 'year')
+
+with col2:
+    options = list(data.columns)
+    options.remove('year')
+    options.remove('team')
+    selected = st.multiselect('Select columns:', options = options, default = None)
+    select = ['team'] + selected
+    df3 = df3[select]
+
+with col3:
+    column = st.selectbox('Column To Sort By: ', list(df3.columns), index = 0)
+
+value = not st.checkbox('Sort Highest To Lowest', value = True)
+df3 = df3.sort_values(by = column, ascending = value)
+
+df3 = df3.fillna('COVID-19')
+df3 = df3.reset_index(drop = True)
+
+st.table(df3)
