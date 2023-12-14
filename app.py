@@ -60,7 +60,7 @@ curr_avg = df.groupby('made postseason').mean('average attendance')[['average at
 curr_avg['year'] = f'Current ({year})'
 tmp = pd.concat([curr_avg, avg], ignore_index=True)
 test = px.bar(tmp, x = 'made postseason', y = 'average attendance', color = 'year')
-test.update_layout(title=f'{year} vs Overall', barmode='group', xaxis_title='Made The Postseason (Yes or No)', yaxis_title='Average Attendance', title_x = 0.3)
+test.update_layout(title=f'{year} vs Overall Attendance', barmode='group', xaxis_title='Made The Postseason (Yes or No)', yaxis_title='Average Attendance', title_x = 0.3)
 
 fig1.update_traces(showlegend = False)
 
