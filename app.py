@@ -11,7 +11,7 @@ col[1].title('MLB Attendance Data')
 text = 'This app is designed to help you explore data that contains information about MLB teams from 2003 to 2022.'
 text2 = '\n\nIt is important to note that for the year 2020, the MLB did not have any attendance data due to COVID-19.'
 text3 = '\n\nIf you would like to learn more about this data and how it was collected I would encourage you to loop through my'
-text4 = '[repo](https://github.com/acooney613/stat386-mlb_attendance) as well as explore my [data collection blog](https://acooney613.github.io/2023/12/10/post-dataclean.html)'
+text4 = ' [repo](https://github.com/acooney613/stat386-mlb_attendance) as well as explore my [data collection blog](https://acooney613.github.io/2023/12/10/post-dataclean.html)'
 text5 = ' and [data visualization blog](https://acooney613.github.io/2023/12/12/post-dataviz.html).'
 text6 = '\n\nHave fun exploring the data below!!'
 
