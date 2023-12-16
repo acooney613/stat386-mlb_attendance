@@ -47,7 +47,7 @@ plt.close()
 ax.axis('on')
 
 # scatterplot with lm line for proportion and win-loss
-sns.lmplot(data = df, y = 'proportion', x = 'w-l%', palette = 'husl', lowess = False, legend = False, ci = None).set(title = 'Proportion of Stadium Capacity By Record')
+sns.lmplot(data = df, y = 'proportion', x = 'record', palette = 'husl', lowess = False, legend = False, ci = None).set(title = 'Proportion of Stadium Capacity By Record')
 plt.xlabel('Win Loss Percentage')
 plt.ylabel('Proportion of Stadium Filled (on Average)')
 plt.tight_layout()
@@ -91,7 +91,7 @@ plt.close()
 
 # heatmap of correlation values
 labels = ['Proportion', 'Population', 'Payroll', 'Record', 'Postseason']
-sns.heatmap(df[['proportion', 'population', 'payroll', 'w-l%', 'postseason']].dropna().corr(), 
+sns.heatmap(df[['proportion', 'population', 'payroll', 'record', 'postseason']].dropna().corr(), 
             xticklabels = labels, cmap = 'rocket_r', yticklabels = labels,
             annot = True)
 plt.title('Correlation Matrix')
@@ -113,7 +113,7 @@ plt.tight_layout()
 plt.close()
 
 # lm plot payroll by win loss 
-sns.lmplot(df, x = 'payroll', y = 'w-l%', ci = None, palette = 'husl')
+sns.lmplot(df, x = 'payroll', y = 'record', ci = None, palette = 'husl')
 plt.xlabel('Team Payroll')
 plt.ylabel('Win-Loss Percentage For Season')
 plt.title('Wins by Payroll')

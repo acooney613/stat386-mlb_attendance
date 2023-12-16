@@ -3,6 +3,11 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 
+data = pd.read_csv('mlb_attendance.csv')
+order = ['Missed Postseason', 'Lost NLWC', 'Lost ALWC', 'Lost NLDS', 'Lost ALDS', 'Lost NLCS', 'Lost ALCS', 'Lost World Series', 'Won World Series']
+#order = ['Won World Series', 'Lost World Series', 'Lost ALCS', 'Lost NLCS', 'Lost ALDS', 'Lost NLDS', 'Lost ALWC', 'Lost NLWC', 'Missed Postseason']
+data['series result'] = pd.Categorical(data['series result'], categories=order, ordered=True)
+
 st.set_page_config(layout="wide")
 title = """
     <div style="display: flex; justify-content: center; align-items: center;">
@@ -22,8 +27,6 @@ text5 = ' and [data visualization blog](https://acooney613.github.io/2023/12/12/
 text6 = '\n\nHave fun exploring the data below!!'
 
 cols[1].markdown(text+text2+text3+text4+text5+text6, unsafe_allow_html=True)
-
-data = pd.read_csv('mlb_attendance.csv')
 
 avg = data.groupby('made postseason').mean('average attendance')[['average attendance']].reset_index()
 avg['year'] = 'Overall'
@@ -161,11 +164,11 @@ with col2:
     df3 = df3[select]
 
 with col3:
-    column = st.selectbox('Column To Sort By: ', list(df3.columns), index = 0)
+    column = st.selectbox('Column To Sort By: ', list(df3.columns), index = None)
 
 value = not st.checkbox('Sort Highest To Lowest', value = True)
-
-df3 = df3.sort_values(by = column, ascending = value)
+if column:
+    df3 = df3.sort_values(by = column, ascending = value)
 
 df3 = df3.fillna('COVID-19')
 df3 = df3.reset_index(drop = True)

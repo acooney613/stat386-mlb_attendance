@@ -1,4 +1,4 @@
-team,year,average attendance,stadium,location,capacity,population,payroll,wins,losses,w-l%,series,result,proportion,series result,made postseason,postseason
+team,year,average attendance,stadium,location,capacity,population,payroll,wins,losses,record,series,result,proportion,series result,made postseason,postseason
 Los Angeles Dodgers,2022,47671.0,DODGER STADIUM,"Los Angeles, California",56000,3822238,285508333,111,51,0.685,NLDS,Lost,0.8512678571428571,Lost NLDS,Yes,2
 New York Yankees,2022,40207.0,YANKEE STADIUM,"New York, New York",50287,8335897,240290714,99,63,0.611,ALCS,Lost,0.7995505796726788,Lost ALCS,Yes,3
 New York Mets,2022,33308.0,CITI FIELD,"New York, New York",42000,8335897,255919999,101,61,0.623,NLWC,Lost,0.793047619047619,Lost NLWC,Yes,1
