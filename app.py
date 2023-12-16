@@ -41,7 +41,7 @@ if year == 2020:
     str1 = 'Due to COVID-19 there is no MLB attendance numbers for the year 2020'
     st.markdown(f"<span style = 'color:red'>{str1}</span>", unsafe_allow_html = True)
     
-fig1 = px.scatter(df, x = 'payroll', y = 'proportion', color = 'team', hover_data = ['series_result', 'wins'],
+fig1 = px.scatter(df, x = 'payroll', y = 'proportion', color = 'team', hover_data = ['series result', 'wins'],
                   labels = {
                       'wins' : 'Total Wins',
                       'series_result' : 'Season Result',
@@ -117,7 +117,7 @@ if not selected:
                       'proportion' : '% Of Total Stadium Capacity'})
 
 else:
-    fig3 = px.scatter(df2, x = 'wins', y = 'proportion', color = 'team', color_continuous_scale='Viridis', hover_data = ['year', 'series_result'], trendline = 'lowess', 
+    fig3 = px.scatter(df2, x = 'wins', y = 'proportion', color = 'team', color_continuous_scale='Viridis', hover_data = ['year', 'series result'], trendline = 'lowess', 
                   labels = {
                       'wins' : 'Total Wins',
                       'team' : 'Team',
@@ -164,6 +164,7 @@ with col3:
     column = st.selectbox('Column To Sort By: ', list(df3.columns), index = 0)
 
 value = not st.checkbox('Sort Highest To Lowest', value = True)
+
 df3 = df3.sort_values(by = column, ascending = value)
 
 df3 = df3.fillna('COVID-19')

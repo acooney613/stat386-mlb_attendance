@@ -21,7 +21,7 @@ fig.update_layout(showlegend = False)
 
 # scatterplot for payroll and proportion colored by postseason
 fig = px.scatter(df, x = 'payroll', y = 'proportion', trendline = 'ols', color = 'made postseason',
-                 hover_data = ['year', 'team', 'series result'])
+                 hover_data = ['year', 'team', "series result"])
 #fig.show()
 
 # table to see the average payroll for each postseason category
