@@ -73,8 +73,8 @@ plt.xlabel('Proportion of Stadium Filled')
 plt.ylabel('End of Season Result')
 plt.title('Effects of Fan Attendance on Season Result')
 plt.tight_layout()
-#plt.savefig('result.png')
-#plt.show()
+plt.savefig('result.png')
+plt.show()
 plt.close()
 
 # barplot of series result by payroll
@@ -90,7 +90,10 @@ plt.tight_layout()
 plt.close()
 
 # heatmap of correlation values
-sns.heatmap(df[['proportion', 'population', 'payroll', 'w-l%', 'postseason']].dropna().corr(), cmap = 'rocket_r', annot = True)
+labels = ['Proportion', 'Population', 'Payroll', 'Record', 'Postseason']
+sns.heatmap(df[['proportion', 'population', 'payroll', 'w-l%', 'postseason']].dropna().corr(), 
+            xticklabels = labels, cmap = 'rocket_r', yticklabels = labels,
+            annot = True)
 plt.title('Correlation Matrix')
 plt.tight_layout()
 #plt.savefig('heatmap.png')
@@ -115,6 +118,6 @@ plt.xlabel('Team Payroll')
 plt.ylabel('Win-Loss Percentage For Season')
 plt.title('Wins by Payroll')
 plt.tight_layout()
-plt.savefig('wins_payroll.png')
+#plt.savefig('wins_payroll.png')
 #plt.show()
 plt.close()
