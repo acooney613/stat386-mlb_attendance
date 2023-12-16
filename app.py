@@ -47,7 +47,7 @@ if year == 2020:
 fig1 = px.scatter(df, x = 'payroll', y = 'proportion', color = 'team', hover_data = ['series result', 'wins'],
                   labels = {
                       'wins' : 'Total Wins',
-                      'series_result' : 'Season Result',
+                      'series result' : 'Season Result',
                       'payroll' : 'Team Payroll',
                       'proportion' : 'Stadium Proportion',
                       'team' : 'Team',
