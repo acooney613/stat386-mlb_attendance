@@ -8,594 +8,594 @@ Atlanta Braves,2022,38641.0,TRUIST PARK,"Atlanta, Georgia",41500,499127,17533500
 Philadelphia Phillies,2022,28459.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1567258,221738462,87,75,0.537,World Series,Lost,0.6612989427210411,Lost World Series,Yes,4
 Houston Astros,2022,33197.0,MINUTE MAID PARK,"Houston, Texas",40963,2302878,171639599,106,56,0.654,World Series,Won,0.8104142762981227,Won World Series,Yes,4
 Toronto Blue Jays,2022,32763.0,ROGERS CENTRE,"Toronto, Canada",41500,6312974,164470905,92,70,0.568,ALWC,Lost,0.7894698795180722,Lost ALWC,Yes,1
-Chicago Cubs,2022,32305.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2665039,141810000,74,88,0.457,Missed Postseason,,0.7756488751230521,missed postseason,No,0
-Chicago White Sox,2022,24704.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2665039,190760734,81,81,0.5,Missed Postseason,,0.6082481841684106,missed postseason,No,0
+Chicago Cubs,2022,32305.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2665039,141810000,74,88,0.457,Missed Postseason,,0.7756488751230521,Missed Postseason,No,0
+Chicago White Sox,2022,24704.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2665039,190760734,81,81,0.5,Missed Postseason,,0.6082481841684106,Missed Postseason,No,0
 Seattle Mariners,2022,28590.0,T-MOBILE PARK,"Seattle, Washington",47574,749256,92745714,90,72,0.556,ALDS,Lost,0.600958506747383,Lost ALDS,Yes,2
-Boston Red Sox,2022,32408.0,FENWAY PARK,"Boston, Massachusetts",37673,650706,201616000,78,84,0.481,Missed Postseason,,0.8602447376104903,missed postseason,No,0
-Los Angeles Angels,2022,30339.0,ANGEL STADIUM,"Anaheim, California",45050,344461,187613094,73,89,0.451,Missed Postseason,,0.6734517203107658,missed postseason,No,0
-Colorado Rockies,2022,32467.0,COORS FIELD,"Denver, Colorado",50398,713252,137852166,68,94,0.42,Missed Postseason,,0.6442120719076154,missed postseason,No,0
-Milwaukee Brewers,2022,30155.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,563305,128581128,86,76,0.531,Missed Postseason,,0.7196897374701671,missed postseason,No,0
-Texas Rangers,2022,24831.0,GLOBE LIFE FIELD,"Arlington, Texas",40300,394602,134961333,68,94,0.42,Missed Postseason,,0.6161538461538462,missed postseason,No,0
-San Francisco Giants,2022,30650.0,ORACLE PARK,"San Francisco, California",41915,808437,142292500,81,81,0.5,Missed Postseason,,0.731241798878683,missed postseason,No,0
-Cincinnati Reds,2022,17447.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,309513,113580000,62,100,0.383,Missed Postseason,,0.4127415958931655,missed postseason,No,0
-Minnesota Twins,2022,22514.0,TARGET FIELD,"Minneapolis, Minnesota",39504,425096,130984524,78,84,0.481,Missed Postseason,,0.5699169704333739,missed postseason,No,0
-Arizona Diamondbacks,2022,19817.0,CHASE FIELD,"Phoenix, Arizona",48633,1644409,77393333,74,88,0.457,Missed Postseason,,0.40748051734419016,missed postseason,No,0
-Baltimore Orioles,2022,17543.0,CAMDEN YARDS,"Baltimore, Maryland",45971,569931,41421166,83,79,0.512,Missed Postseason,,0.3816101455265276,missed postseason,No,0
+Boston Red Sox,2022,32408.0,FENWAY PARK,"Boston, Massachusetts",37673,650706,201616000,78,84,0.481,Missed Postseason,,0.8602447376104903,Missed Postseason,No,0
+Los Angeles Angels,2022,30339.0,ANGEL STADIUM,"Anaheim, California",45050,344461,187613094,73,89,0.451,Missed Postseason,,0.6734517203107658,Missed Postseason,No,0
+Colorado Rockies,2022,32467.0,COORS FIELD,"Denver, Colorado",50398,713252,137852166,68,94,0.42,Missed Postseason,,0.6442120719076154,Missed Postseason,No,0
+Milwaukee Brewers,2022,30155.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,563305,128581128,86,76,0.531,Missed Postseason,,0.7196897374701671,Missed Postseason,No,0
+Texas Rangers,2022,24831.0,GLOBE LIFE FIELD,"Arlington, Texas",40300,394602,134961333,68,94,0.42,Missed Postseason,,0.6161538461538462,Missed Postseason,No,0
+San Francisco Giants,2022,30650.0,ORACLE PARK,"San Francisco, California",41915,808437,142292500,81,81,0.5,Missed Postseason,,0.731241798878683,Missed Postseason,No,0
+Cincinnati Reds,2022,17447.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,309513,113580000,62,100,0.383,Missed Postseason,,0.4127415958931655,Missed Postseason,No,0
+Minnesota Twins,2022,22514.0,TARGET FIELD,"Minneapolis, Minnesota",39504,425096,130984524,78,84,0.481,Missed Postseason,,0.5699169704333739,Missed Postseason,No,0
+Arizona Diamondbacks,2022,19817.0,CHASE FIELD,"Phoenix, Arizona",48633,1644409,77393333,74,88,0.457,Missed Postseason,,0.40748051734419016,Missed Postseason,No,0
+Baltimore Orioles,2022,17543.0,CAMDEN YARDS,"Baltimore, Maryland",45971,569931,41421166,83,79,0.512,Missed Postseason,,0.3816101455265276,Missed Postseason,No,0
 Cleveland Guardians,2022,17050.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,361607,57710000,92,70,0.568,ALDS,Lost,0.48657287177877345,Lost ALDS,Yes,2
-Washington Nationals,2022,25017.0,NATIONALS PARK,"Washington, District of Columbia",41313,671803,114623095,55,107,0.34,Missed Postseason,,0.6055478904945175,missed postseason,No,0
-Detroit Tigers,2022,19634.0,COMERICA PARK,"Detroit, Michigan",41574,620376,128640000,66,96,0.407,Missed Postseason,,0.4722663202963391,missed postseason,No,0
-Pittsburgh Pirates,2022,15524.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,302898,38575000,62,100,0.383,Missed Postseason,,0.4046712892966999,missed postseason,No,0
+Washington Nationals,2022,25017.0,NATIONALS PARK,"Washington, District of Columbia",41313,671803,114623095,55,107,0.34,Missed Postseason,,0.6055478904945175,Missed Postseason,No,0
+Detroit Tigers,2022,19634.0,COMERICA PARK,"Detroit, Michigan",41574,620376,128640000,66,96,0.407,Missed Postseason,,0.4722663202963391,Missed Postseason,No,0
+Pittsburgh Pirates,2022,15524.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,302898,38575000,62,100,0.383,Missed Postseason,,0.4046712892966999,Missed Postseason,No,0
 Tampa Bay Rays,2022,13927.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,261256,75347813,86,76,0.531,ALWC,Lost,0.5565234765234766,Lost ALWC,Yes,1
-Kansas City Royals,2022,15974.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,509297,84610000,65,97,0.401,Missed Postseason,,0.39158679185154316,missed postseason,No,0
-Miami Marlins,2022,11203.0,LOANDEPOT PARK,"Miami, Florida",37442,449514,79500000,69,93,0.426,Missed Postseason,,0.29920944393996046,missed postseason,No,0
-Oakland Athletics,2022,9973.0,OAKLAND COLISEUM,"Oakland, California",47170,430553,32548334,60,102,0.37,Missed Postseason,,0.21142675429298283,missed postseason,No,0
+Kansas City Royals,2022,15974.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,509297,84610000,65,97,0.401,Missed Postseason,,0.39158679185154316,Missed Postseason,No,0
+Miami Marlins,2022,11203.0,LOANDEPOT PARK,"Miami, Florida",37442,449514,79500000,69,93,0.426,Missed Postseason,,0.29920944393996046,Missed Postseason,No,0
+Oakland Athletics,2022,9973.0,OAKLAND COLISEUM,"Oakland, California",47170,430553,32548334,60,102,0.37,Missed Postseason,,0.21142675429298283,Missed Postseason,No,0
 Los Angeles Dodgers,2021,34625.0,DODGER STADIUM,"Los Angeles, California",56000,3837986,241372403,106,56,0.654,NLCS,Lost,0.6183035714285714,Lost NLCS,Yes,3
 New York Yankees,2021,24498.0,YANKEE STADIUM,"New York, New York",50287,8459001,201074956,92,70,0.568,ALWC,Lost,0.48716368047407876,Lost ALWC,Yes,1
-New York Mets,2021,20620.0,CITI FIELD,"New York, New York",42000,8459001,186001814,77,85,0.475,Missed Postseason,,0.490952380952381,missed postseason,No,0
-San Diego Padres,2021,27061.0,PETCO PARK,"San Diego, California",41164,1374484,175713986,79,83,0.488,Missed Postseason,,0.6573948109999028,missed postseason,No,0
+New York Mets,2021,20620.0,CITI FIELD,"New York, New York",42000,8459001,186001814,77,85,0.475,Missed Postseason,,0.490952380952381,Missed Postseason,No,0
+San Diego Padres,2021,27061.0,PETCO PARK,"San Diego, California",41164,1374484,175713986,79,83,0.488,Missed Postseason,,0.6573948109999028,Missed Postseason,No,0
 St. Louis Cardinals,2021,26281.0,BUSCH STADIUM,"St. Louis, Missouri",43975,293562,164972833,90,72,0.556,NLWC,Lost,0.5976350198976691,Lost NLWC,Yes,1
 Atlanta Braves,2021,29490.0,TRUIST PARK,"Atlanta, Georgia",41500,492667,132458375,88,73,0.547,World Series,Won,0.7106024096385543,Won World Series,Yes,4
-Philadelphia Phillies,2021,19188.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1589480,174808832,82,80,0.506,Missed Postseason,,0.44586964098989196,missed postseason,No,0
+Philadelphia Phillies,2021,19188.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1589480,174808832,82,80,0.506,Missed Postseason,,0.44586964098989196,Missed Postseason,No,0
 Houston Astros,2021,25537.0,MINUTE MAID PARK,"Houston, Texas",40963,2291655,176495417,95,67,0.586,World Series,Lost,0.6234162536923565,Lost World Series,Yes,4
-Toronto Blue Jays,2021,10119.0,ROGERS CENTRE,"Toronto, Canada",41500,6254571,139646569,91,71,0.562,Missed Postseason,,0.24383132530120483,missed postseason,No,0
-Chicago Cubs,2021,24431.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2698029,156481585,71,91,0.438,Missed Postseason,,0.586592715311292,missed postseason,No,0
+Toronto Blue Jays,2021,10119.0,ROGERS CENTRE,"Toronto, Canada",41500,6254571,139646569,91,71,0.562,Missed Postseason,,0.24383132530120483,Missed Postseason,No,0
+Chicago Cubs,2021,24431.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2698029,156481585,71,91,0.438,Missed Postseason,,0.586592715311292,Missed Postseason,No,0
 Chicago White Sox,2021,20466.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2698029,127148334,93,69,0.574,ALDS,Lost,0.5039024990766958,Lost ALDS,Yes,2
-Seattle Mariners,2021,15012.0,T-MOBILE PARK,"Seattle, Washington",47574,731507,83603100,90,72,0.556,Missed Postseason,,0.3155505107832009,missed postseason,No,0
+Seattle Mariners,2021,15012.0,T-MOBILE PARK,"Seattle, Washington",47574,731507,83603100,90,72,0.556,Missed Postseason,,0.3155505107832009,Missed Postseason,No,0
 Boston Red Sox,2021,21300.0,FENWAY PARK,"Boston, Massachusetts",37673,654537,179540260,92,70,0.568,ALCS,Lost,0.5653916598094125,Lost ALCS,Yes,3
-Los Angeles Angels,2021,18667.0,ANGEL STADIUM,"Anaheim, California",45050,346174,180609676,77,85,0.475,Missed Postseason,,0.414361820199778,missed postseason,No,0
-Colorado Rockies,2021,24854.0,COORS FIELD,"Denver, Colorado",50398,711323,110309500,74,87,0.46,Missed Postseason,,0.4931544902575499,missed postseason,No,0
+Los Angeles Angels,2021,18667.0,ANGEL STADIUM,"Anaheim, California",45050,346174,180609676,77,85,0.475,Missed Postseason,,0.414361820199778,Missed Postseason,No,0
+Colorado Rockies,2021,24854.0,COORS FIELD,"Denver, Colorado",50398,711323,110309500,74,87,0.46,Missed Postseason,,0.4931544902575499,Missed Postseason,No,0
 Milwaukee Brewers,2021,22522.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,565840,93818038,95,67,0.586,NLDS,Lost,0.5375178997613366,Lost NLDS,Yes,2
-Texas Rangers,2021,26052.0,GLOBE LIFE FIELD,"Arlington, Texas",40300,393278,97796971,60,102,0.37,Missed Postseason,,0.6464516129032258,missed postseason,No,0
+Texas Rangers,2021,26052.0,GLOBE LIFE FIELD,"Arlington, Texas",40300,393278,97796971,60,102,0.37,Missed Postseason,,0.6464516129032258,Missed Postseason,No,0
 San Francisco Giants,2021,20734.0,ORACLE PARK,"San Francisco, California",41915,811253,149937613,107,55,0.66,NLDS,Lost,0.49466778003101514,Lost NLDS,Yes,2
-Cincinnati Reds,2021,18580.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,308685,123575488,83,79,0.512,Missed Postseason,,0.4395448416171844,missed postseason,No,0
-Minnesota Twins,2021,16377.0,TARGET FIELD,"Minneapolis, Minnesota",39504,424635,125153166,73,89,0.451,Missed Postseason,,0.4145656136087485,missed postseason,No,0
-Arizona Diamondbacks,2021,12876.0,CHASE FIELD,"Phoenix, Arizona",48633,1625356,94394792,52,110,0.321,Missed Postseason,,0.26475849731663686,missed postseason,No,0
-Baltimore Orioles,2021,10169.0,CAMDEN YARDS,"Baltimore, Maryland",45971,576981,56158500,52,110,0.321,Missed Postseason,,0.22120467251093082,missed postseason,No,0
-Cleveland Guardians,2021,14472.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,365389,51269100,80,82,0.494,Missed Postseason,,0.4130019120458891,missed postseason,No,0
-Washington Nationals,2021,18319.0,NATIONALS PARK,"Washington, District of Columbia",41313,668791,179557685,65,97,0.401,Missed Postseason,,0.44341974681093116,missed postseason,No,0
-Detroit Tigers,2021,13612.0,COMERICA PARK,"Detroit, Michigan",41574,628167,80866200,77,85,0.475,Missed Postseason,,0.32741617357001973,missed postseason,No,0
-Pittsburgh Pirates,2021,10611.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,305441,45599000,61,101,0.377,Missed Postseason,,0.2766018455763516,missed postseason,No,0
+Cincinnati Reds,2021,18580.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,308685,123575488,83,79,0.512,Missed Postseason,,0.4395448416171844,Missed Postseason,No,0
+Minnesota Twins,2021,16377.0,TARGET FIELD,"Minneapolis, Minnesota",39504,424635,125153166,73,89,0.451,Missed Postseason,,0.4145656136087485,Missed Postseason,No,0
+Arizona Diamondbacks,2021,12876.0,CHASE FIELD,"Phoenix, Arizona",48633,1625356,94394792,52,110,0.321,Missed Postseason,,0.26475849731663686,Missed Postseason,No,0
+Baltimore Orioles,2021,10169.0,CAMDEN YARDS,"Baltimore, Maryland",45971,576981,56158500,52,110,0.321,Missed Postseason,,0.22120467251093082,Missed Postseason,No,0
+Cleveland Guardians,2021,14472.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,365389,51269100,80,82,0.494,Missed Postseason,,0.4130019120458891,Missed Postseason,No,0
+Washington Nationals,2021,18319.0,NATIONALS PARK,"Washington, District of Columbia",41313,668791,179557685,65,97,0.401,Missed Postseason,,0.44341974681093116,Missed Postseason,No,0
+Detroit Tigers,2021,13612.0,COMERICA PARK,"Detroit, Michigan",41574,628167,80866200,77,85,0.475,Missed Postseason,,0.32741617357001973,Missed Postseason,No,0
+Pittsburgh Pirates,2021,10611.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,305441,45599000,61,101,0.377,Missed Postseason,,0.2766018455763516,Missed Postseason,No,0
 Tampa Bay Rays,2021,9513.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,259083,66820709,100,62,0.617,ALDS,Lost,0.3801398601398601,Lost ALDS,Yes,2
-Kansas City Royals,2021,14316.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,508949,89496700,74,88,0.457,Missed Postseason,,0.3509425636751403,missed postseason,No,0
-Miami Marlins,2021,7933.0,LOANDEPOT PARK,"Miami, Florida",37442,441999,57481750,67,95,0.414,Missed Postseason,,0.21187436568559373,missed postseason,No,0
-Oakland Athletics,2021,8767.0,OAKLAND COLISEUM,"Oakland, California",47170,436291,82983674,86,76,0.531,Missed Postseason,,0.18585965656137377,missed postseason,No,0
+Kansas City Royals,2021,14316.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,508949,89496700,74,88,0.457,Missed Postseason,,0.3509425636751403,Missed Postseason,No,0
+Miami Marlins,2021,7933.0,LOANDEPOT PARK,"Miami, Florida",37442,441999,57481750,67,95,0.414,Missed Postseason,,0.21187436568559373,Missed Postseason,No,0
+Oakland Athletics,2021,8767.0,OAKLAND COLISEUM,"Oakland, California",47170,436291,82983674,86,76,0.531,Missed Postseason,,0.18585965656137377,Missed Postseason,No,0
 Los Angeles Dodgers,2020,,DODGER STADIUM,"Los Angeles, California",56000,3895836,189065000,43,17,0.717,World Series,Won,,Won World Series,Yes,4
 New York Yankees,2020,,YANKEE STADIUM,"New York, New York",50287,8740647,214291339,33,27,0.55,ALDS,Lost,,Lost ALDS,Yes,2
-New York Mets,2020,,CITI FIELD,"New York, New York",42000,8740647,142288337,26,34,0.433,Missed Postseason,,,missed postseason,No,0
+New York Mets,2020,,CITI FIELD,"New York, New York",42000,8740647,142288337,26,34,0.433,Missed Postseason,,,Missed Postseason,No,0
 San Diego Padres,2020,,PETCO PARK,"San Diego, California",41164,1386872,140317600,37,23,0.617,NLDS,Lost,,Lost NLDS,Yes,2
 St. Louis Cardinals,2020,,BUSCH STADIUM,"St. Louis, Missouri",43975,300483,160781766,30,28,0.517,NLWC,Lost,,Lost NLWC,Yes,1
 Atlanta Braves,2020,,TRUIST PARK,"Atlanta, Georgia",41500,499868,149466875,35,25,0.583,NLCS,Lost,,Lost NLCS,Yes,3
-Philadelphia Phillies,2020,,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1600600,152877962,28,32,0.467,Missed Postseason,,,missed postseason,No,0
+Philadelphia Phillies,2020,,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1600600,152877962,28,32,0.467,Missed Postseason,,,Missed Postseason,No,0
 Houston Astros,2020,,MINUTE MAID PARK,"Houston, Texas",40963,2299867,212321933,29,31,0.483,ALCS,Lost,,Lost ALCS,Yes,3
 Toronto Blue Jays,2020,,ROGERS CENTRE,"Toronto, Canada",41500,6196731,92582371,32,28,0.533,ALWC,Lost,,Lost ALWC,Yes,1
 Chicago Cubs,2020,,WRIGLEY FIELD,"Chicago, Illinois",41649,2740076,188959500,34,26,0.567,NLWC,Lost,,Lost NLWC,Yes,1
 Chicago White Sox,2020,,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2740076,120898499,35,25,0.583,ALWC,Lost,,Lost ALWC,Yes,1
-Seattle Mariners,2020,,T-MOBILE PARK,"Seattle, Washington",47574,740520,70343800,27,33,0.45,Missed Postseason,,,missed postseason,No,0
-Boston Red Sox,2020,,FENWAY PARK,"Boston, Massachusetts",37673,671570,120361000,24,36,0.4,Missed Postseason,,,missed postseason,No,0
-Los Angeles Angels,2020,,ANGEL STADIUM,"Anaheim, California",45050,347105,176329344,26,34,0.433,Missed Postseason,,,missed postseason,No,0
-Colorado Rockies,2020,,COORS FIELD,"Denver, Colorado",50398,717556,136399833,26,34,0.433,Missed Postseason,,,missed postseason,No,0
+Seattle Mariners,2020,,T-MOBILE PARK,"Seattle, Washington",47574,740520,70343800,27,33,0.45,Missed Postseason,,,Missed Postseason,No,0
+Boston Red Sox,2020,,FENWAY PARK,"Boston, Massachusetts",37673,671570,120361000,24,36,0.4,Missed Postseason,,,Missed Postseason,No,0
+Los Angeles Angels,2020,,ANGEL STADIUM,"Anaheim, California",45050,347105,176329344,26,34,0.433,Missed Postseason,,,Missed Postseason,No,0
+Colorado Rockies,2020,,COORS FIELD,"Denver, Colorado",50398,717556,136399833,26,34,0.433,Missed Postseason,,,Missed Postseason,No,0
 Milwaukee Brewers,2020,,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,576511,97535926,29,31,0.483,NLWC,Lost,,Lost NLWC,Yes,1
-Texas Rangers,2020,,GLOBE LIFE FIELD,"Arlington, Texas",40300,394212,137834500,22,38,0.367,Missed Postseason,,,missed postseason,No,0
-San Francisco Giants,2020,,ORACLE PARK,"San Francisco, California",41915,870393,144994027,29,31,0.483,Missed Postseason,,,missed postseason,No,0
+Texas Rangers,2020,,GLOBE LIFE FIELD,"Arlington, Texas",40300,394212,137834500,22,38,0.367,Missed Postseason,,,Missed Postseason,No,0
+San Francisco Giants,2020,,ORACLE PARK,"San Francisco, California",41915,870393,144994027,29,31,0.483,Missed Postseason,,,Missed Postseason,No,0
 Cincinnati Reds,2020,,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,309574,143143673,31,29,0.517,NLWC,Lost,,Lost NLWC,Yes,1
 Minnesota Twins,2020,,TARGET FIELD,"Minneapolis, Minnesota",39504,430684,127610333,36,24,0.6,ALWC,Lost,,Lost ALWC,Yes,1
-Arizona Diamondbacks,2020,,CHASE FIELD,"Phoenix, Arizona",48633,1612337,86471066,25,35,0.417,Missed Postseason,,,missed postseason,No,0
-Baltimore Orioles,2020,,CAMDEN YARDS,"Baltimore, Maryland",45971,583139,52415682,25,35,0.417,Missed Postseason,,,missed postseason,No,0
+Arizona Diamondbacks,2020,,CHASE FIELD,"Phoenix, Arizona",48633,1612337,86471066,25,35,0.417,Missed Postseason,,,Missed Postseason,No,0
+Baltimore Orioles,2020,,CAMDEN YARDS,"Baltimore, Maryland",45971,583139,52415682,25,35,0.417,Missed Postseason,,,Missed Postseason,No,0
 Cleveland Guardians,2020,,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,371817,89004234,35,25,0.583,ALWC,Lost,,Lost ALWC,Yes,1
-Washington Nationals,2020,,NATIONALS PARK,"Washington, District of Columbia",41313,670868,159242411,26,34,0.433,Missed Postseason,,,missed postseason,No,0
-Detroit Tigers,2020,,COMERICA PARK,"Detroit, Michigan",41574,637342,96832300,23,35,0.397,Missed Postseason,,,missed postseason,No,0
-Pittsburgh Pirates,2020,,PNC PARK,"Pittsburgh, Pennsylvania",38362,302762,42119000,19,41,0.317,Missed Postseason,,,missed postseason,No,0
+Washington Nationals,2020,,NATIONALS PARK,"Washington, District of Columbia",41313,670868,159242411,26,34,0.433,Missed Postseason,,,Missed Postseason,No,0
+Detroit Tigers,2020,,COMERICA PARK,"Detroit, Michigan",41574,637342,96832300,23,35,0.397,Missed Postseason,,,Missed Postseason,No,0
+Pittsburgh Pirates,2020,,PNC PARK,"Pittsburgh, Pennsylvania",38362,302762,42119000,19,41,0.317,Missed Postseason,,,Missed Postseason,No,0
 Tampa Bay Rays,2020,,TROPICANA FIELD,"St. Petersburg, Florida",25025,258997,65812166,40,20,0.667,World Series,Lost,,Lost World Series,Yes,4
-Kansas City Royals,2020,,KAUFFMAN STADIUM,"Kansas, Missouri",40793,508183,83278225,26,34,0.433,Missed Postseason,,,missed postseason,No,0
+Kansas City Royals,2020,,KAUFFMAN STADIUM,"Kansas, Missouri",40793,508183,83278225,26,34,0.433,Missed Postseason,,,Missed Postseason,No,0
 Miami Marlins,2020,,LOANDEPOT PARK,"Miami, Florida",37442,442799,47861700,31,29,0.517,NLDS,Lost,,Lost NLDS,Yes,2
 Oakland Athletics,2020,,OAKLAND COLISEUM,"Oakland, California",47170,440873,94318433,36,24,0.6,ALDS,Lost,,Lost ALDS,Yes,2
 Los Angeles Dodgers,2019,49065.0,DODGER STADIUM,"Los Angeles, California",56000,3979576,196729548,106,56,0.654,NLDS,Lost,0.8761607142857143,Lost NLDS,Yes,2
 New York Yankees,2019,41827.0,YANKEE STADIUM,"New York, New York",50287,8336817,208084848,103,59,0.636,ALCS,Lost,0.8317656650824269,Lost ALCS,Yes,3
-New York Mets,2019,30531.0,CITI FIELD,"New York, New York",42000,8336817,158999270,86,76,0.531,Missed Postseason,,0.7269285714285715,missed postseason,No,0
-San Diego Padres,2019,29585.0,PETCO PARK,"San Diego, California",41164,1423851,99205017,70,92,0.432,Missed Postseason,,0.718710523758624,missed postseason,No,0
+New York Mets,2019,30531.0,CITI FIELD,"New York, New York",42000,8336817,158999270,86,76,0.531,Missed Postseason,,0.7269285714285715,Missed Postseason,No,0
+San Diego Padres,2019,29585.0,PETCO PARK,"San Diego, California",41164,1423851,99205017,70,92,0.432,Missed Postseason,,0.718710523758624,Missed Postseason,No,0
 St. Louis Cardinals,2019,42967.0,BUSCH STADIUM,"St. Louis, Missouri",43975,300576,162830430,91,71,0.562,NLCS,Lost,0.9770778851620239,Lost NLCS,Yes,3
 Atlanta Braves,2019,32776.0,TRUIST PARK,"Atlanta, Georgia",41500,506811,113778369,97,65,0.599,NLDS,Lost,0.7897831325301204,Lost NLDS,Yes,2
-Philadelphia Phillies,2019,33671.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1584064,140711962,81,81,0.5,Missed Postseason,,0.7824096665504822,missed postseason,No,0
+Philadelphia Phillies,2019,33671.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1584064,140711962,81,81,0.5,Missed Postseason,,0.7824096665504822,Missed Postseason,No,0
 Houston Astros,2019,35276.0,MINUTE MAID PARK,"Houston, Texas",40963,2320268,160774666,107,55,0.66,World Series,Lost,0.861167394966189,Lost World Series,Yes,4
-Toronto Blue Jays,2019,21606.0,ROGERS CENTRE,"Toronto, Canada",41500,6139404,112037006,67,95,0.414,Missed Postseason,,0.5206265060240964,missed postseason,No,0
-Chicago Cubs,2019,38208.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2693976,210358488,84,78,0.519,Missed Postseason,,0.9173809695310812,missed postseason,No,0
-Chicago White Sox,2019,21442.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2693976,89354534,72,89,0.447,Missed Postseason,,0.5279330296688416,missed postseason,No,0
-Seattle Mariners,2019,22122.0,T-MOBILE PARK,"Seattle, Washington",47574,753675,150906143,68,94,0.42,Missed Postseason,,0.46500189178963297,missed postseason,No,0
-Boston Red Sox,2019,36106.0,FENWAY PARK,"Boston, Massachusetts",37673,692600,222171123,84,78,0.519,Missed Postseason,,0.9584052239004062,missed postseason,No,0
-Los Angeles Angels,2019,37321.0,ANGEL STADIUM,"Anaheim, California",45050,350365,159378583,72,90,0.444,Missed Postseason,,0.8284350721420644,missed postseason,No,0
-Colorado Rockies,2019,36953.0,COORS FIELD,"Denver, Colorado",50398,727211,147433009,71,91,0.438,Missed Postseason,,0.7332235406166911,missed postseason,No,0
+Toronto Blue Jays,2019,21606.0,ROGERS CENTRE,"Toronto, Canada",41500,6139404,112037006,67,95,0.414,Missed Postseason,,0.5206265060240964,Missed Postseason,No,0
+Chicago Cubs,2019,38208.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2693976,210358488,84,78,0.519,Missed Postseason,,0.9173809695310812,Missed Postseason,No,0
+Chicago White Sox,2019,21442.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2693976,89354534,72,89,0.447,Missed Postseason,,0.5279330296688416,Missed Postseason,No,0
+Seattle Mariners,2019,22122.0,T-MOBILE PARK,"Seattle, Washington",47574,753675,150906143,68,94,0.42,Missed Postseason,,0.46500189178963297,Missed Postseason,No,0
+Boston Red Sox,2019,36106.0,FENWAY PARK,"Boston, Massachusetts",37673,692600,222171123,84,78,0.519,Missed Postseason,,0.9584052239004062,Missed Postseason,No,0
+Los Angeles Angels,2019,37321.0,ANGEL STADIUM,"Anaheim, California",45050,350365,159378583,72,90,0.444,Missed Postseason,,0.8284350721420644,Missed Postseason,No,0
+Colorado Rockies,2019,36953.0,COORS FIELD,"Denver, Colorado",50398,727211,147433009,71,91,0.438,Missed Postseason,,0.7332235406166911,Missed Postseason,No,0
 Milwaukee Brewers,2019,36090.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,590157,124755400,89,73,0.549,NLWC,Lost,0.8613365155131265,Lost NLWC,Yes,1
-Texas Rangers,2019,26333.0,GLOBE LIFE PARK,"Arlington, Texas",48114,398854,127660652,78,84,0.481,Missed Postseason,,0.5473043189092571,missed postseason,No,0
-San Francisco Giants,2019,33429.0,ORACLE PARK,"San Francisco, California",41915,881549,178286222,77,85,0.475,Missed Postseason,,0.7975426458308481,missed postseason,No,0
-Cincinnati Reds,2019,22329.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,303940,126423214,75,87,0.463,Missed Postseason,,0.5282344870005441,missed postseason,No,0
+Texas Rangers,2019,26333.0,GLOBE LIFE PARK,"Arlington, Texas",48114,398854,127660652,78,84,0.481,Missed Postseason,,0.5473043189092571,Missed Postseason,No,0
+San Francisco Giants,2019,33429.0,ORACLE PARK,"San Francisco, California",41915,881549,178286222,77,85,0.475,Missed Postseason,,0.7975426458308481,Missed Postseason,No,0
+Cincinnati Reds,2019,22329.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,303940,126423214,75,87,0.463,Missed Postseason,,0.5282344870005441,Missed Postseason,No,0
 Minnesota Twins,2019,28322.0,TARGET FIELD,"Minneapolis, Minnesota",39504,429606,121276933,101,61,0.623,ALDS,Lost,0.7169400567031187,Lost ALDS,Yes,2
-Arizona Diamondbacks,2019,26364.0,CHASE FIELD,"Phoenix, Arizona",48633,1680992,123932983,85,77,0.525,Missed Postseason,,0.5421010425020049,missed postseason,No,0
-Baltimore Orioles,2019,16347.0,CAMDEN YARDS,"Baltimore, Maryland",45971,593490,72722906,54,108,0.333,Missed Postseason,,0.3555937438820126,missed postseason,No,0
-Cleveland Guardians,2019,22008.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,381009,119241701,93,69,0.574,Missed Postseason,,0.6280642675722725,missed postseason,No,0
+Arizona Diamondbacks,2019,26364.0,CHASE FIELD,"Phoenix, Arizona",48633,1680992,123932983,85,77,0.525,Missed Postseason,,0.5421010425020049,Missed Postseason,No,0
+Baltimore Orioles,2019,16347.0,CAMDEN YARDS,"Baltimore, Maryland",45971,593490,72722906,54,108,0.333,Missed Postseason,,0.3555937438820126,Missed Postseason,No,0
+Cleveland Guardians,2019,22008.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,381009,119241701,93,69,0.574,Missed Postseason,,0.6280642675722725,Missed Postseason,No,0
 Washington Nationals,2019,27898.0,NATIONALS PARK,"Washington, District of Columbia",41313,705749,161877935,93,69,0.574,World Series,Won,0.675283808970542,Won World Series,Yes,4
-Detroit Tigers,2019,18767.0,COMERICA PARK,"Detroit, Michigan",41574,670031,116478400,47,114,0.292,Missed Postseason,,0.4514119401549045,missed postseason,No,0
-Pittsburgh Pirates,2019,18412.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,300286,76589154,69,93,0.426,Missed Postseason,,0.479954121265836,missed postseason,No,0
+Detroit Tigers,2019,18767.0,COMERICA PARK,"Detroit, Michigan",41574,670031,116478400,47,114,0.292,Missed Postseason,,0.4514119401549045,Missed Postseason,No,0
+Pittsburgh Pirates,2019,18412.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,300286,76589154,69,93,0.426,Missed Postseason,,0.479954121265836,Missed Postseason,No,0
 Tampa Bay Rays,2019,14734.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,265351,60444931,96,66,0.593,ALDS,Lost,0.5887712287712288,Lost ALDS,Yes,2
-Kansas City Royals,2019,18495.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,495327,100658316,59,103,0.364,Missed Postseason,,0.453386610447871,missed postseason,No,0
-Miami Marlins,2019,10016.0,LOANDEPOT PARK,"Miami, Florida",37442,467963,72449404,57,105,0.352,Missed Postseason,,0.26750707761337533,missed postseason,No,0
+Kansas City Royals,2019,18495.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,495327,100658316,59,103,0.364,Missed Postseason,,0.453386610447871,Missed Postseason,No,0
+Miami Marlins,2019,10016.0,LOANDEPOT PARK,"Miami, Florida",37442,467963,72449404,57,105,0.352,Missed Postseason,,0.26750707761337533,Missed Postseason,No,0
 Oakland Athletics,2019,20521.0,OAKLAND COLISEUM,"Oakland, California",47170,433031,92318333,97,65,0.599,ALWC,Lost,0.4350434598261607,Lost ALWC,Yes,1
 Los Angeles Dodgers,2018,47042.0,DODGER STADIUM,"Los Angeles, California",56000,3977596,186138211,92,71,0.564,World Series,Lost,0.8400357142857143,Lost World Series,Yes,4
 New York Yankees,2018,42998.0,YANKEE STADIUM,"New York, New York",50287,8390081,168541038,100,62,0.617,ALDS,Lost,0.855052001511325,Lost ALDS,Yes,2
-New York Mets,2018,28164.0,CITI FIELD,"New York, New York",42000,8390081,155765125,77,85,0.475,Missed Postseason,,0.6705714285714286,missed postseason,No,0
-San Diego Padres,2018,26837.0,PETCO PARK,"San Diego, California",41164,1421917,96131798,66,96,0.407,Missed Postseason,,0.6519531629579244,missed postseason,No,0
-St. Louis Cardinals,2018,42019.0,BUSCH STADIUM,"St. Louis, Missouri",43975,303419,161005146,88,74,0.543,Missed Postseason,,0.9555201819215463,missed postseason,No,0
+New York Mets,2018,28164.0,CITI FIELD,"New York, New York",42000,8390081,155765125,77,85,0.475,Missed Postseason,,0.6705714285714286,Missed Postseason,No,0
+San Diego Padres,2018,26837.0,PETCO PARK,"San Diego, California",41164,1421917,96131798,66,96,0.407,Missed Postseason,,0.6519531629579244,Missed Postseason,No,0
+St. Louis Cardinals,2018,42019.0,BUSCH STADIUM,"St. Louis, Missouri",43975,303419,161005146,88,74,0.543,Missed Postseason,,0.9555201819215463,Missed Postseason,No,0
 Atlanta Braves,2018,31552.0,TRUIST PARK,"Atlanta, Georgia",41500,498183,120542785,90,72,0.556,NLDS,Lost,0.760289156626506,Lost NLDS,Yes,2
-Philadelphia Phillies,2018,27318.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1583592,96848371,80,82,0.494,Missed Postseason,,0.6347856395956779,missed postseason,No,0
+Philadelphia Phillies,2018,27318.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1583592,96848371,80,82,0.494,Missed Postseason,,0.6347856395956779,Missed Postseason,No,0
 Houston Astros,2018,36796.0,MINUTE MAID PARK,"Houston, Texas",40963,2318573,159529730,103,59,0.636,ALCS,Lost,0.8982740521934429,Lost ALCS,Yes,3
-Toronto Blue Jays,2018,29066.0,ROGERS CENTRE,"Toronto, Canada",41500,6082425,162664502,73,89,0.451,Missed Postseason,,0.7003855421686747,missed postseason,No,0
+Toronto Blue Jays,2018,29066.0,ROGERS CENTRE,"Toronto, Canada",41500,6082425,162664502,73,89,0.451,Missed Postseason,,0.7003855421686747,Missed Postseason,No,0
 Chicago Cubs,2018,38793.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2701423,183463459,95,68,0.583,NLWC,Lost,0.9314269250162068,Lost NLWC,Yes,1
-Chicago White Sox,2018,20110.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2701423,72177640,62,100,0.383,Missed Postseason,,0.4951372645574295,missed postseason,No,0
-Seattle Mariners,2018,28388.0,T-MOBILE PARK,"Seattle, Washington",47574,742235,162480174,89,73,0.549,Missed Postseason,,0.5967124900155547,missed postseason,No,0
+Chicago White Sox,2018,20110.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2701423,72177640,62,100,0.383,Missed Postseason,,0.4951372645574295,Missed Postseason,No,0
+Seattle Mariners,2018,28388.0,T-MOBILE PARK,"Seattle, Washington",47574,742235,162480174,89,73,0.549,Missed Postseason,,0.5967124900155547,Missed Postseason,No,0
 Boston Red Sox,2018,35747.0,FENWAY PARK,"Boston, Massachusetts",37673,691147,235649368,108,54,0.667,World Series,Won,0.9488758527327263,Won World Series,Yes,4
-Los Angeles Angels,2018,37286.0,ANGEL STADIUM,"Anaheim, California",45050,350698,174592209,80,82,0.494,Missed Postseason,,0.8276581576026637,missed postseason,No,0
+Los Angeles Angels,2018,37286.0,ANGEL STADIUM,"Anaheim, California",45050,350698,174592209,80,82,0.494,Missed Postseason,,0.8276581576026637,Missed Postseason,No,0
 Colorado Rockies,2018,37233.0,COORS FIELD,"Denver, Colorado",50398,716265,141339833,91,72,0.558,NLDS,Lost,0.7387793166395492,Lost NLDS,Yes,2
 Milwaukee Brewers,2018,35195.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,591375,90237112,96,67,0.589,NLCS,Lost,0.8399761336515513,Lost NLCS,Yes,3
-Texas Rangers,2018,26013.0,GLOBE LIFE PARK,"Arlington, Texas",48114,398123,144498078,67,95,0.414,Missed Postseason,,0.5406534480608555,missed postseason,No,0
-San Francisco Giants,2018,38965.0,ORACLE PARK,"San Francisco, California",41915,880696,208509901,73,89,0.451,Missed Postseason,,0.9296194679708935,missed postseason,No,0
-Cincinnati Reds,2018,20115.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,302277,101185579,67,95,0.414,Missed Postseason,,0.4758581533439001,missed postseason,No,0
-Minnesota Twins,2018,24489.0,TARGET FIELD,"Minneapolis, Minnesota",39504,424903,131374996,78,84,0.481,Missed Postseason,,0.619911907654921,missed postseason,No,0
-Arizona Diamondbacks,2018,27687.0,CHASE FIELD,"Phoenix, Arizona",48633,1654675,132495446,82,80,0.506,Missed Postseason,,0.5693047930417617,missed postseason,No,0
-Baltimore Orioles,2018,20053.0,CAMDEN YARDS,"Baltimore, Maryland",45971,602443,143600045,47,115,0.29,Missed Postseason,,0.43620978442931413,missed postseason,No,0
+Texas Rangers,2018,26013.0,GLOBE LIFE PARK,"Arlington, Texas",48114,398123,144498078,67,95,0.414,Missed Postseason,,0.5406534480608555,Missed Postseason,No,0
+San Francisco Giants,2018,38965.0,ORACLE PARK,"San Francisco, California",41915,880696,208509901,73,89,0.451,Missed Postseason,,0.9296194679708935,Missed Postseason,No,0
+Cincinnati Reds,2018,20115.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,302277,101185579,67,95,0.414,Missed Postseason,,0.4758581533439001,Missed Postseason,No,0
+Minnesota Twins,2018,24489.0,TARGET FIELD,"Minneapolis, Minnesota",39504,424903,131374996,78,84,0.481,Missed Postseason,,0.619911907654921,Missed Postseason,No,0
+Arizona Diamondbacks,2018,27687.0,CHASE FIELD,"Phoenix, Arizona",48633,1654675,132495446,82,80,0.506,Missed Postseason,,0.5693047930417617,Missed Postseason,No,0
+Baltimore Orioles,2018,20053.0,CAMDEN YARDS,"Baltimore, Maryland",45971,602443,143600045,47,115,0.29,Missed Postseason,,0.43620978442931413,Missed Postseason,No,0
 Cleveland Guardians,2018,24083.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,383214,137346173,91,71,0.562,ALDS,Lost,0.6872806141377243,Lost ALDS,Yes,2
-Washington Nationals,2018,31620.0,NATIONALS PARK,"Washington, District of Columbia",41313,701547,181586759,82,80,0.506,Missed Postseason,,0.7653765158666763,missed postseason,No,0
-Detroit Tigers,2018,23212.0,COMERICA PARK,"Detroit, Michigan",41574,672977,129917192,64,98,0.395,Missed Postseason,,0.5583297253090874,missed postseason,No,0
-Pittsburgh Pirates,2018,18786.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,300570,87860654,82,79,0.509,Missed Postseason,,0.4897033522756895,missed postseason,No,0
-Tampa Bay Rays,2018,14258.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,264466,78231049,90,72,0.556,Missed Postseason,,0.5697502497502498,missed postseason,No,0
-Kansas City Royals,2018,20556.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,492012,129967987,58,104,0.358,Missed Postseason,,0.5039099845561739,missed postseason,No,0
-Miami Marlins,2018,10013.0,LOANDEPOT PARK,"Miami, Florida",37442,462819,98826644,63,98,0.391,Missed Postseason,,0.2674269536883713,missed postseason,No,0
+Washington Nationals,2018,31620.0,NATIONALS PARK,"Washington, District of Columbia",41313,701547,181586759,82,80,0.506,Missed Postseason,,0.7653765158666763,Missed Postseason,No,0
+Detroit Tigers,2018,23212.0,COMERICA PARK,"Detroit, Michigan",41574,672977,129917192,64,98,0.395,Missed Postseason,,0.5583297253090874,Missed Postseason,No,0
+Pittsburgh Pirates,2018,18786.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,300570,87860654,82,79,0.509,Missed Postseason,,0.4897033522756895,Missed Postseason,No,0
+Tampa Bay Rays,2018,14258.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,264466,78231049,90,72,0.556,Missed Postseason,,0.5697502497502498,Missed Postseason,No,0
+Kansas City Royals,2018,20556.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,492012,129967987,58,104,0.358,Missed Postseason,,0.5039099845561739,Missed Postseason,No,0
+Miami Marlins,2018,10013.0,LOANDEPOT PARK,"Miami, Florida",37442,462819,98826644,63,98,0.391,Missed Postseason,,0.2674269536883713,Missed Postseason,No,0
 Oakland Athletics,2018,19427.0,OAKLAND COLISEUM,"Oakland, California",47170,429056,68534631,97,65,0.599,ALWC,Lost,0.4118507525969896,Lost ALWC,Yes,1
 Los Angeles Dodgers,2017,46492.0,DODGER STADIUM,"Los Angeles, California",56000,3975788,187989811,104,58,0.642,World Series,Lost,0.8302142857142857,Lost World Series,Yes,4
 New York Yankees,2017,39835.0,YANKEE STADIUM,"New York, New York",50287,8437478,170389199,91,71,0.562,ALCS,Lost,0.7921530415415515,Lost ALCS,Yes,3
-New York Mets,2017,30757.0,CITI FIELD,"New York, New York",42000,8437478,176284679,70,92,0.432,Missed Postseason,,0.7323095238095239,missed postseason,No,0
-San Diego Padres,2017,26401.0,PETCO PARK,"San Diego, California",41164,1412621,34574400,71,91,0.438,Missed Postseason,,0.6413613837333593,missed postseason,No,0
-St. Louis Cardinals,2017,42567.0,BUSCH STADIUM,"St. Louis, Missouri",43975,308233,146630000,83,79,0.512,Missed Postseason,,0.9679818078453667,missed postseason,No,0
-Atlanta Braves,2017,30929.0,TRUIST PARK,"Atlanta, Georgia",41500,491670,137339527,72,90,0.444,Missed Postseason,,0.745277108433735,missed postseason,No,0
-Philadelphia Phillies,2017,24118.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1580601,87418378,66,96,0.407,Missed Postseason,,0.5604275589636343,missed postseason,No,0
+New York Mets,2017,30757.0,CITI FIELD,"New York, New York",42000,8437478,176284679,70,92,0.432,Missed Postseason,,0.7323095238095239,Missed Postseason,No,0
+San Diego Padres,2017,26401.0,PETCO PARK,"San Diego, California",41164,1412621,34574400,71,91,0.438,Missed Postseason,,0.6413613837333593,Missed Postseason,No,0
+St. Louis Cardinals,2017,42567.0,BUSCH STADIUM,"St. Louis, Missouri",43975,308233,146630000,83,79,0.512,Missed Postseason,,0.9679818078453667,Missed Postseason,No,0
+Atlanta Braves,2017,30929.0,TRUIST PARK,"Atlanta, Georgia",41500,491670,137339527,72,90,0.444,Missed Postseason,,0.745277108433735,Missed Postseason,No,0
+Philadelphia Phillies,2017,24118.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1580601,87418378,66,96,0.407,Missed Postseason,,0.5604275589636343,Missed Postseason,No,0
 Houston Astros,2017,29674.0,MINUTE MAID PARK,"Houston, Texas",40963,2316750,127443900,101,61,0.623,World Series,Won,0.7244098332641652,Won World Series,Yes,4
-Toronto Blue Jays,2017,39554.0,ROGERS CENTRE,"Toronto, Canada",41500,6009852,162353367,76,86,0.469,Missed Postseason,,0.9531084337349398,missed postseason,No,0
+Toronto Blue Jays,2017,39554.0,ROGERS CENTRE,"Toronto, Canada",41500,6009852,162353367,76,86,0.469,Missed Postseason,,0.9531084337349398,Missed Postseason,No,0
 Chicago Cubs,2017,39500.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2711069,170088502,92,70,0.568,NLCS,Lost,0.9484021224999399,Lost NLCS,Yes,3
-Chicago White Sox,2017,20626.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2711069,109591167,67,95,0.414,Missed Postseason,,0.5078419303213099,missed postseason,No,0
-Seattle Mariners,2017,26363.0,T-MOBILE PARK,"Seattle, Washington",47574,728661,155207720,78,84,0.481,Missed Postseason,,0.5541472232732164,missed postseason,No,0
+Chicago White Sox,2017,20626.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2711069,109591167,67,95,0.414,Missed Postseason,,0.5078419303213099,Missed Postseason,No,0
+Seattle Mariners,2017,26363.0,T-MOBILE PARK,"Seattle, Washington",47574,728661,155207720,78,84,0.481,Missed Postseason,,0.5541472232732164,Missed Postseason,No,0
 Boston Red Sox,2017,36020.0,FENWAY PARK,"Boston, Massachusetts",37673,687788,174287098,93,69,0.574,ALDS,Lost,0.9561224218936639,Lost ALDS,Yes,2
-Los Angeles Angels,2017,37278.0,ANGEL STADIUM,"Anaheim, California",45050,350476,143965833,80,82,0.494,Missed Postseason,,0.827480577136515,missed postseason,No,0
+Los Angeles Angels,2017,37278.0,ANGEL STADIUM,"Anaheim, California",45050,350476,143965833,80,82,0.494,Missed Postseason,,0.827480577136515,Missed Postseason,No,0
 Colorado Rockies,2017,36464.0,COORS FIELD,"Denver, Colorado",50398,704961,101513571,87,75,0.537,NLWC,Lost,0.7235207746339141,Lost NLWC,Yes,1
-Milwaukee Brewers,2017,31589.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,593725,61020089,86,76,0.531,Missed Postseason,,0.7539140811455848,missed postseason,No,0
-Texas Rangers,2017,30960.0,GLOBE LIFE PARK,"Arlington, Texas",48114,397173,178431396,78,84,0.481,Missed Postseason,,0.6434717545828657,missed postseason,No,0
-San Francisco Giants,2017,40785.0,ORACLE PARK,"San Francisco, California",41915,878040,176531278,64,98,0.395,Missed Postseason,,0.9730406775617321,missed postseason,No,0
-Cincinnati Reds,2017,22677.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,301587,82375785,68,94,0.42,Missed Postseason,,0.5364670814506399,missed postseason,No,0
+Milwaukee Brewers,2017,31589.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,593725,61020089,86,76,0.531,Missed Postseason,,0.7539140811455848,Missed Postseason,No,0
+Texas Rangers,2017,30960.0,GLOBE LIFE PARK,"Arlington, Texas",48114,397173,178431396,78,84,0.481,Missed Postseason,,0.6434717545828657,Missed Postseason,No,0
+San Francisco Giants,2017,40785.0,ORACLE PARK,"San Francisco, California",41915,878040,176531278,64,98,0.395,Missed Postseason,,0.9730406775617321,Missed Postseason,No,0
+Cincinnati Reds,2017,22677.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,301587,82375785,68,94,0.42,Missed Postseason,,0.5364670814506399,Missed Postseason,No,0
 Minnesota Twins,2017,25640.0,TARGET FIELD,"Minneapolis, Minnesota",39504,420925,100787500,85,77,0.525,ALWC,Lost,0.6490481976508709,Lost ALWC,Yes,1
 Arizona Diamondbacks,2017,26350.0,CHASE FIELD,"Phoenix, Arizona",48633,1633560,90730499,93,69,0.574,NLDS,Lost,0.5418131721259227,Lost NLDS,Yes,2
-Baltimore Orioles,2017,25042.0,CAMDEN YARDS,"Baltimore, Maryland",45971,610481,161684185,75,87,0.463,Missed Postseason,,0.5447347240651715,missed postseason,No,0
+Baltimore Orioles,2017,25042.0,CAMDEN YARDS,"Baltimore, Maryland",45971,610481,161684185,75,87,0.463,Missed Postseason,,0.5447347240651715,Missed Postseason,No,0
 Cleveland Guardians,2017,25285.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,385252,115991166,102,60,0.63,ALDS,Lost,0.7215832881481693,Lost ALDS,Yes,2
 Washington Nationals,2017,31172.0,NATIONALS PARK,"Washington, District of Columbia",41313,694906,162742157,97,65,0.599,NLDS,Lost,0.754532471619103,Lost NLDS,Yes,2
-Detroit Tigers,2017,28661.0,COMERICA PARK,"Detroit, Michigan",41574,674631,180250600,64,98,0.395,Missed Postseason,,0.6893972194159811,missed postseason,No,0
-Pittsburgh Pirates,2017,23696.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,301494,94637833,75,87,0.463,Missed Postseason,,0.6176945936082582,missed postseason,No,0
-Tampa Bay Rays,2017,15670.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,262588,69982520,80,82,0.494,Missed Postseason,,0.6261738261738262,missed postseason,No,0
-Kansas City Royals,2017,27754.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,488329,132091916,80,82,0.494,Missed Postseason,,0.680361826784007,missed postseason,No,0
-Miami Marlins,2017,20395.0,LOANDEPOT PARK,"Miami, Florida",37442,456617,115348302,77,85,0.475,Missed Postseason,,0.5447091501522354,missed postseason,No,0
-Oakland Athletics,2017,18446.0,OAKLAND COLISEUM,"Oakland, California",47170,424382,70601667,75,87,0.463,Missed Postseason,,0.3910536357854569,missed postseason,No,0
+Detroit Tigers,2017,28661.0,COMERICA PARK,"Detroit, Michigan",41574,674631,180250600,64,98,0.395,Missed Postseason,,0.6893972194159811,Missed Postseason,No,0
+Pittsburgh Pirates,2017,23696.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,301494,94637833,75,87,0.463,Missed Postseason,,0.6176945936082582,Missed Postseason,No,0
+Tampa Bay Rays,2017,15670.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,262588,69982520,80,82,0.494,Missed Postseason,,0.6261738261738262,Missed Postseason,No,0
+Kansas City Royals,2017,27754.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,488329,132091916,80,82,0.494,Missed Postseason,,0.680361826784007,Missed Postseason,No,0
+Miami Marlins,2017,20395.0,LOANDEPOT PARK,"Miami, Florida",37442,456617,115348302,77,85,0.475,Missed Postseason,,0.5447091501522354,Missed Postseason,No,0
+Oakland Athletics,2017,18446.0,OAKLAND COLISEUM,"Oakland, California",47170,424382,70601667,75,87,0.463,Missed Postseason,,0.3910536357854569,Missed Postseason,No,0
 Los Angeles Dodgers,2016,45719.0,DODGER STADIUM,"Los Angeles, California",56000,3963226,253639162,91,71,0.562,NLCS,Lost,0.8164107142857143,Lost NLCS,Yes,3
-New York Yankees,2016,37819.0,YANKEE STADIUM,"New York, New York",50287,8469153,227854349,84,78,0.519,Missed Postseason,,0.7520631574760872,missed postseason,No,0
+New York Yankees,2016,37819.0,YANKEE STADIUM,"New York, New York",50287,8469153,227854349,84,78,0.519,Missed Postseason,,0.7520631574760872,Missed Postseason,No,0
 New York Mets,2016,34870.0,CITI FIELD,"New York, New York",42000,8469153,130612115,87,75,0.537,NLWC,Lost,0.8302380952380952,Lost NLWC,Yes,1
-San Diego Padres,2016,29029.0,PETCO PARK,"San Diego, California",41164,1402089,100547000,68,94,0.42,Missed Postseason,,0.7052035759401418,missed postseason,No,0
-St. Louis Cardinals,2016,42524.0,BUSCH STADIUM,"St. Louis, Missouri",43975,312633,149186000,86,76,0.531,Missed Postseason,,0.967003979533826,missed postseason,No,0
-Atlanta Braves,2016,24949.0,TURNER FIELD,"Atlanta, Georgia",50096,479174,84821541,68,93,0.422,Missed Postseason,,0.49802379431491534,missed postseason,No,0
-Philadelphia Phillies,2016,23643.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1576051,103346668,71,91,0.438,Missed Postseason,,0.5493900313698152,missed postseason,No,0
-Houston Astros,2016,28476.0,MINUTE MAID PARK,"Houston, Texas",40963,2309544,96643000,84,78,0.519,Missed Postseason,,0.6951639284232112,missed postseason,No,0
+San Diego Padres,2016,29029.0,PETCO PARK,"San Diego, California",41164,1402089,100547000,68,94,0.42,Missed Postseason,,0.7052035759401418,Missed Postseason,No,0
+St. Louis Cardinals,2016,42524.0,BUSCH STADIUM,"St. Louis, Missouri",43975,312633,149186000,86,76,0.531,Missed Postseason,,0.967003979533826,Missed Postseason,No,0
+Atlanta Braves,2016,24949.0,TURNER FIELD,"Atlanta, Georgia",50096,479174,84821541,68,93,0.422,Missed Postseason,,0.49802379431491534,Missed Postseason,No,0
+Philadelphia Phillies,2016,23643.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1576051,103346668,71,91,0.438,Missed Postseason,,0.5493900313698152,Missed Postseason,No,0
+Houston Astros,2016,28476.0,MINUTE MAID PARK,"Houston, Texas",40963,2309544,96643000,84,78,0.519,Missed Postseason,,0.6951639284232112,Missed Postseason,No,0
 Toronto Blue Jays,2016,41880.0,ROGERS CENTRE,"Toronto, Canada",41500,5938144,140582027,89,73,0.549,ALCS,Lost,1.0091566265060241,Lost ALCS,Yes,3
 Chicago Cubs,2016,39906.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2716723,167444167,103,58,0.64,World Series,Won,0.9581502557084204,Won World Series,Yes,4
-Chicago White Sox,2016,21828.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2716723,115998667,78,84,0.481,Missed Postseason,,0.537436907546473,missed postseason,No,0
-Seattle Mariners,2016,27999.0,T-MOBILE PARK,"Seattle, Washington",47574,709631,144996858,86,76,0.531,Missed Postseason,,0.5885357548240636,missed postseason,No,0
+Chicago White Sox,2016,21828.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2716723,115998667,78,84,0.481,Missed Postseason,,0.537436907546473,Missed Postseason,No,0
+Seattle Mariners,2016,27999.0,T-MOBILE PARK,"Seattle, Washington",47574,709631,144996858,86,76,0.531,Missed Postseason,,0.5885357548240636,Missed Postseason,No,0
 Boston Red Sox,2016,36486.0,FENWAY PARK,"Boston, Massachusetts",37673,679848,199864178,93,69,0.574,ALDS,Lost,0.9684920234650811,Lost ALDS,Yes,2
-Los Angeles Angels,2016,37236.0,ANGEL STADIUM,"Anaheim, California",45050,350013,166831190,74,88,0.457,Missed Postseason,,0.8265482796892342,missed postseason,No,0
-Colorado Rockies,2016,32129.0,COORS FIELD,"Denver, Colorado",50398,696159,113242571,75,87,0.463,Missed Postseason,,0.6375054565657368,missed postseason,No,0
-Milwaukee Brewers,2016,28575.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,596996,62964319,73,89,0.451,Missed Postseason,,0.681980906921241,missed postseason,No,0
+Los Angeles Angels,2016,37236.0,ANGEL STADIUM,"Anaheim, California",45050,350013,166831190,74,88,0.457,Missed Postseason,,0.8265482796892342,Missed Postseason,No,0
+Colorado Rockies,2016,32129.0,COORS FIELD,"Denver, Colorado",50398,696159,113242571,75,87,0.463,Missed Postseason,,0.6375054565657368,Missed Postseason,No,0
+Milwaukee Brewers,2016,28575.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,596996,62964319,73,89,0.451,Missed Postseason,,0.681980906921241,Missed Postseason,No,0
 Texas Rangers,2016,33461.0,GLOBE LIFE PARK,"Arlington, Texas",48114,394384,161246720,95,67,0.586,ALDS,Lost,0.6954524670574054,Lost ALDS,Yes,2
 San Francisco Giants,2016,41546.0,ORACLE PARK,"San Francisco, California",41915,871512,171464943,87,75,0.537,NLDS,Lost,0.9911964690444948,Lost NLDS,Yes,2
-Cincinnati Reds,2016,23383.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,299748,93171452,68,94,0.42,Missed Postseason,,0.5531688391568688,missed postseason,No,0
-Minnesota Twins,2016,24245.0,TARGET FIELD,"Minneapolis, Minnesota",39504,415079,104591200,59,103,0.364,Missed Postseason,,0.6137353179424868,missed postseason,No,0
-Arizona Diamondbacks,2016,25138.0,CHASE FIELD,"Phoenix, Arizona",48633,1612199,98657436,69,93,0.426,Missed Postseason,,0.5168918224251023,missed postseason,No,0
+Cincinnati Reds,2016,23383.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,299748,93171452,68,94,0.42,Missed Postseason,,0.5531688391568688,Missed Postseason,No,0
+Minnesota Twins,2016,24245.0,TARGET FIELD,"Minneapolis, Minnesota",39504,415079,104591200,59,103,0.364,Missed Postseason,,0.6137353179424868,Missed Postseason,No,0
+Arizona Diamondbacks,2016,25138.0,CHASE FIELD,"Phoenix, Arizona",48633,1612199,98657436,69,93,0.426,Missed Postseason,,0.5168918224251023,Missed Postseason,No,0
 Baltimore Orioles,2016,26819.0,CAMDEN YARDS,"Baltimore, Maryland",45971,616226,147943713,89,73,0.549,ALWC,Lost,0.5833895281808097,Lost ALWC,Yes,1
 Cleveland Guardians,2016,19650.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,387662,98006899,94,67,0.584,World Series,Lost,0.5607716674752433,Lost World Series,Yes,4
 Washington Nationals,2016,30641.0,NATIONALS PARK,"Washington, District of Columbia",41313,685815,146686385,95,67,0.586,NLDS,Lost,0.7416793745310193,Lost NLDS,Yes,2
-Detroit Tigers,2016,31173.0,COMERICA PARK,"Detroit, Michigan",41574,677143,199525500,86,75,0.534,Missed Postseason,,0.7498195987877039,missed postseason,No,0
-Pittsburgh Pirates,2016,28112.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,304643,99960499,78,83,0.484,Missed Postseason,,0.7328085084197904,missed postseason,No,0
-Tampa Bay Rays,2016,15878.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,259266,64120323,68,94,0.42,Missed Postseason,,0.6344855144855145,missed postseason,No,0
-Kansas City Royals,2016,31576.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,481670,137606125,81,81,0.5,Missed Postseason,,0.7740543720736401,missed postseason,No,0
-Miami Marlins,2016,21405.0,LOANDEPOT PARK,"Miami, Florida",37442,449149,70464500,79,82,0.491,Missed Postseason,,0.5716842049035842,missed postseason,No,0
-Oakland Athletics,2016,18784.0,OAKLAND COLISEUM,"Oakland, California",47170,420947,85823390,69,93,0.426,Missed Postseason,,0.3982192071231715,missed postseason,No,0
+Detroit Tigers,2016,31173.0,COMERICA PARK,"Detroit, Michigan",41574,677143,199525500,86,75,0.534,Missed Postseason,,0.7498195987877039,Missed Postseason,No,0
+Pittsburgh Pirates,2016,28112.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,304643,99960499,78,83,0.484,Missed Postseason,,0.7328085084197904,Missed Postseason,No,0
+Tampa Bay Rays,2016,15878.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,259266,64120323,68,94,0.42,Missed Postseason,,0.6344855144855145,Missed Postseason,No,0
+Kansas City Royals,2016,31576.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,481670,137606125,81,81,0.5,Missed Postseason,,0.7740543720736401,Missed Postseason,No,0
+Miami Marlins,2016,21405.0,LOANDEPOT PARK,"Miami, Florida",37442,449149,70464500,79,82,0.491,Missed Postseason,,0.5716842049035842,Missed Postseason,No,0
+Oakland Athletics,2016,18784.0,OAKLAND COLISEUM,"Oakland, California",47170,420947,85823390,69,93,0.426,Missed Postseason,,0.3982192071231715,Missed Postseason,No,0
 Los Angeles Dodgers,2015,46479.0,DODGER STADIUM,"Los Angeles, California",56000,3938568,230352402,92,70,0.568,NLDS,Lost,0.8299821428571429,Lost NLDS,Yes,2
 New York Yankees,2015,39922.0,YANKEE STADIUM,"New York, New York",50287,8463049,213472857,87,75,0.537,ALWC,Lost,0.7938831109431861,Lost ALWC,Yes,1
 New York Mets,2015,31725.0,CITI FIELD,"New York, New York",42000,8463049,100133953,90,72,0.556,World Series,Lost,0.7553571428571428,Lost World Series,Yes,4
-San Diego Padres,2015,30367.0,PETCO PARK,"San Diego, California",41164,1387323,126619628,74,88,0.457,Missed Postseason,,0.7377077057623166,missed postseason,No,0
+San Diego Padres,2015,30367.0,PETCO PARK,"San Diego, California",41164,1387323,126619628,74,88,0.457,Missed Postseason,,0.7377077057623166,Missed Postseason,No,0
 St. Louis Cardinals,2015,43467.0,BUSCH STADIUM,"St. Louis, Missouri",43975,316010,120301957,100,62,0.617,NLDS,Lost,0.9884479818078453,Lost NLDS,Yes,2
-Atlanta Braves,2015,25017.0,TURNER FIELD,"Atlanta, Georgia",50096,468303,89622648,67,95,0.414,Missed Postseason,,0.4993811881188119,missed postseason,No,0
-Philadelphia Phillies,2015,23475.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1571065,133048000,63,99,0.389,Missed Postseason,,0.5454862321366329,missed postseason,No,0
+Atlanta Braves,2015,25017.0,TURNER FIELD,"Atlanta, Georgia",50096,468303,89622648,67,95,0.414,Missed Postseason,,0.4993811881188119,Missed Postseason,No,0
+Philadelphia Phillies,2015,23475.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1571065,133048000,63,99,0.389,Missed Postseason,,0.5454862321366329,Missed Postseason,No,0
 Houston Astros,2015,26587.0,MINUTE MAID PARK,"Houston, Texas",40963,2286908,69064200,86,76,0.531,ALDS,Lost,0.6490491419085517,Lost ALDS,Yes,2
 Toronto Blue Jays,2015,34504.0,ROGERS CENTRE,"Toronto, Canada",41500,5867292,116415800,93,69,0.574,ALCS,Lost,0.8314216867469879,Lost ALCS,Yes,3
 Chicago Cubs,2015,36540.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2724344,117164522,97,65,0.599,NLCS,Lost,0.8773319887632356,Lost NLCS,Yes,3
-Chicago White Sox,2015,21947.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2724344,110712866,76,86,0.469,Missed Postseason,,0.5403668595346547,missed postseason,No,0
-Seattle Mariners,2015,27081.0,T-MOBILE PARK,"Seattle, Washington",47574,687386,123225842,76,86,0.469,Missed Postseason,,0.5692395005675369,missed postseason,No,0
-Boston Red Sox,2015,35564.0,FENWAY PARK,"Boston, Massachusetts",37673,670491,168691914,78,84,0.481,Missed Postseason,,0.9440182624160539,missed postseason,No,0
-Los Angeles Angels,2015,37194.0,ANGEL STADIUM,"Anaheim, California",45050,348251,146449583,85,77,0.525,Missed Postseason,,0.8256159822419534,missed postseason,No,0
-Colorado Rockies,2015,31334.0,COORS FIELD,"Denver, Colorado",50398,683285,98261171,68,94,0.42,Missed Postseason,,0.6217310210722647,missed postseason,No,0
-Milwaukee Brewers,2015,31389.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,600477,98683035,68,94,0.42,Missed Postseason,,0.7491408114558472,missed postseason,No,0
+Chicago White Sox,2015,21947.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2724344,110712866,76,86,0.469,Missed Postseason,,0.5403668595346547,Missed Postseason,No,0
+Seattle Mariners,2015,27081.0,T-MOBILE PARK,"Seattle, Washington",47574,687386,123225842,76,86,0.469,Missed Postseason,,0.5692395005675369,Missed Postseason,No,0
+Boston Red Sox,2015,35564.0,FENWAY PARK,"Boston, Massachusetts",37673,670491,168691914,78,84,0.481,Missed Postseason,,0.9440182624160539,Missed Postseason,No,0
+Los Angeles Angels,2015,37194.0,ANGEL STADIUM,"Anaheim, California",45050,348251,146449583,85,77,0.525,Missed Postseason,,0.8256159822419534,Missed Postseason,No,0
+Colorado Rockies,2015,31334.0,COORS FIELD,"Denver, Colorado",50398,683285,98261171,68,94,0.42,Missed Postseason,,0.6217310210722647,Missed Postseason,No,0
+Milwaukee Brewers,2015,31389.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,600477,98683035,68,94,0.42,Missed Postseason,,0.7491408114558472,Missed Postseason,No,0
 Texas Rangers,2015,30763.0,GLOBE LIFE PARK,"Arlington, Texas",48114,388728,144816873,88,74,0.543,ALDS,Lost,0.6393773122168184,Lost ALDS,Yes,2
-San Francisco Giants,2015,41677.0,ORACLE PARK,"San Francisco, California",41915,863010,166495942,84,78,0.519,Missed Postseason,,0.9943218418227365,missed postseason,No,0
-Cincinnati Reds,2015,29870.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,299439,117732284,64,98,0.395,Missed Postseason,,0.7066310236332237,missed postseason,No,0
-Minnesota Twins,2015,27408.0,TARGET FIELD,"Minneapolis, Minnesota",39504,411030,108262000,83,79,0.512,Missed Postseason,,0.6938031591737546,missed postseason,No,0
-Arizona Diamondbacks,2015,25680.0,CHASE FIELD,"Phoenix, Arizona",48633,1583690,65770333,79,83,0.488,Missed Postseason,,0.528036518413423,missed postseason,No,0
-Baltimore Orioles,2015,29374.0,CAMDEN YARDS,"Baltimore, Maryland",45971,622522,118862632,81,81,0.5,Missed Postseason,,0.6389680450718932,missed postseason,No,0
-Cleveland Guardians,2015,17806.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,389244,87746766,81,80,0.503,Missed Postseason,,0.5081475985274393,missed postseason,No,0
-Washington Nationals,2015,32343.0,NATIONALS PARK,"Washington, District of Columbia",41313,675400,174510977,83,79,0.512,Missed Postseason,,0.7828770604894343,missed postseason,No,0
-Detroit Tigers,2015,33654.0,COMERICA PARK,"Detroit, Michigan",41574,679410,172792250,74,87,0.46,Missed Postseason,,0.8094963198152691,missed postseason,No,0
+San Francisco Giants,2015,41677.0,ORACLE PARK,"San Francisco, California",41915,863010,166495942,84,78,0.519,Missed Postseason,,0.9943218418227365,Missed Postseason,No,0
+Cincinnati Reds,2015,29870.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,299439,117732284,64,98,0.395,Missed Postseason,,0.7066310236332237,Missed Postseason,No,0
+Minnesota Twins,2015,27408.0,TARGET FIELD,"Minneapolis, Minnesota",39504,411030,108262000,83,79,0.512,Missed Postseason,,0.6938031591737546,Missed Postseason,No,0
+Arizona Diamondbacks,2015,25680.0,CHASE FIELD,"Phoenix, Arizona",48633,1583690,65770333,79,83,0.488,Missed Postseason,,0.528036518413423,Missed Postseason,No,0
+Baltimore Orioles,2015,29374.0,CAMDEN YARDS,"Baltimore, Maryland",45971,622522,118862632,81,81,0.5,Missed Postseason,,0.6389680450718932,Missed Postseason,No,0
+Cleveland Guardians,2015,17806.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,389244,87746766,81,80,0.503,Missed Postseason,,0.5081475985274393,Missed Postseason,No,0
+Washington Nationals,2015,32343.0,NATIONALS PARK,"Washington, District of Columbia",41313,675400,174510977,83,79,0.512,Missed Postseason,,0.7828770604894343,Missed Postseason,No,0
+Detroit Tigers,2015,33654.0,COMERICA PARK,"Detroit, Michigan",41574,679410,172792250,74,87,0.46,Missed Postseason,,0.8094963198152691,Missed Postseason,No,0
 Pittsburgh Pirates,2015,30846.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,304070,85885832,98,64,0.605,NLWC,Lost,0.8040769511495751,Lost NLWC,Yes,1
-Tampa Bay Rays,2015,15403.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,255041,74849584,80,82,0.494,Missed Postseason,,0.6155044955044955,missed postseason,No,0
+Tampa Bay Rays,2015,15403.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,255041,74849584,80,82,0.494,Missed Postseason,,0.6155044955044955,Missed Postseason,No,0
 Kansas City Royals,2015,33438.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,475073,112914525,95,67,0.586,World Series,Won,0.8196994582403844,Won World Series,Yes,4
-Miami Marlins,2015,21632.0,LOANDEPOT PARK,"Miami, Florida",37442,434738,84637500,71,91,0.438,Missed Postseason,,0.5777469152288873,missed postseason,No,0
-Oakland Athletics,2015,21829.0,OAKLAND COLISEUM,"Oakland, California",47170,418211,80786666,68,94,0.42,Missed Postseason,,0.46277294890820436,missed postseason,No,0
+Miami Marlins,2015,21632.0,LOANDEPOT PARK,"Miami, Florida",37442,434738,84637500,71,91,0.438,Missed Postseason,,0.5777469152288873,Missed Postseason,No,0
+Oakland Athletics,2015,21829.0,OAKLAND COLISEUM,"Oakland, California",47170,418211,80786666,68,94,0.42,Missed Postseason,,0.46277294890820436,Missed Postseason,No,0
 Los Angeles Dodgers,2014,46695.0,DODGER STADIUM,"Los Angeles, California",56000,3909901,235295219,94,68,0.58,NLDS,Lost,0.8338392857142857,Lost NLDS,Yes,2
-New York Yankees,2014,42520.0,YANKEE STADIUM,"New York, New York",50287,8433806,203812506,84,78,0.519,Missed Postseason,,0.8455465627299302,missed postseason,No,0
-New York Mets,2014,26860.0,CITI FIELD,"New York, New York",42000,8433806,89051758,79,83,0.488,Missed Postseason,,0.6395238095238095,missed postseason,No,0
-San Diego Padres,2014,27103.0,PETCO PARK,"San Diego, California",41164,1375831,90094196,77,85,0.475,Missed Postseason,,0.6584151200077738,missed postseason,No,0
+New York Yankees,2014,42520.0,YANKEE STADIUM,"New York, New York",50287,8433806,203812506,84,78,0.519,Missed Postseason,,0.8455465627299302,Missed Postseason,No,0
+New York Mets,2014,26860.0,CITI FIELD,"New York, New York",42000,8433806,89051758,79,83,0.488,Missed Postseason,,0.6395238095238095,Missed Postseason,No,0
+San Diego Padres,2014,27103.0,PETCO PARK,"San Diego, California",41164,1375831,90094196,77,85,0.475,Missed Postseason,,0.6584151200077738,Missed Postseason,No,0
 St. Louis Cardinals,2014,43711.0,BUSCH STADIUM,"St. Louis, Missouri",43975,317399,111020360,90,72,0.556,NLCS,Lost,0.9939965889710063,Lost NLCS,Yes,3
-Atlanta Braves,2014,29065.0,TURNER FIELD,"Atlanta, Georgia",50096,461154,110897341,79,83,0.488,Missed Postseason,,0.5801860427978281,missed postseason,No,0
-Philadelphia Phillies,2014,29924.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1565460,180052723,73,89,0.451,Missed Postseason,,0.6953410015103985,missed postseason,No,0
-Houston Astros,2014,21627.0,MINUTE MAID PARK,"Houston, Texas",40963,2241826,44544174,70,92,0.432,Missed Postseason,,0.5279642604301443,missed postseason,No,0
-Toronto Blue Jays,2014,29327.0,ROGERS CENTRE,"Toronto, Canada",41500,5797381,132628700,83,79,0.512,Missed Postseason,,0.7066746987951807,missed postseason,No,0
-Chicago Cubs,2014,32742.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2727066,89007857,73,89,0.451,Missed Postseason,,0.7861413239213426,missed postseason,No,0
-Chicago White Sox,2014,20896.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2727066,91159254,73,89,0.451,Missed Postseason,,0.514489720546596,missed postseason,No,0
-Seattle Mariners,2014,25485.0,T-MOBILE PARK,"Seattle, Washington",47574,670109,92081943,87,75,0.537,Missed Postseason,,0.535691764409131,missed postseason,No,0
-Boston Red Sox,2014,36494.0,FENWAY PARK,"Boston, Massachusetts",37673,662855,162817411,71,91,0.438,Missed Postseason,,0.9687043771401269,missed postseason,No,0
+Atlanta Braves,2014,29065.0,TURNER FIELD,"Atlanta, Georgia",50096,461154,110897341,79,83,0.488,Missed Postseason,,0.5801860427978281,Missed Postseason,No,0
+Philadelphia Phillies,2014,29924.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1565460,180052723,73,89,0.451,Missed Postseason,,0.6953410015103985,Missed Postseason,No,0
+Houston Astros,2014,21627.0,MINUTE MAID PARK,"Houston, Texas",40963,2241826,44544174,70,92,0.432,Missed Postseason,,0.5279642604301443,Missed Postseason,No,0
+Toronto Blue Jays,2014,29327.0,ROGERS CENTRE,"Toronto, Canada",41500,5797381,132628700,83,79,0.512,Missed Postseason,,0.7066746987951807,Missed Postseason,No,0
+Chicago Cubs,2014,32742.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2727066,89007857,73,89,0.451,Missed Postseason,,0.7861413239213426,Missed Postseason,No,0
+Chicago White Sox,2014,20896.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2727066,91159254,73,89,0.451,Missed Postseason,,0.514489720546596,Missed Postseason,No,0
+Seattle Mariners,2014,25485.0,T-MOBILE PARK,"Seattle, Washington",47574,670109,92081943,87,75,0.537,Missed Postseason,,0.535691764409131,Missed Postseason,No,0
+Boston Red Sox,2014,36494.0,FENWAY PARK,"Boston, Massachusetts",37673,662855,162817411,71,91,0.438,Missed Postseason,,0.9687043771401269,Missed Postseason,No,0
 Los Angeles Angels,2014,38221.0,ANGEL STADIUM,"Anaheim, California",45050,344604,155692000,98,64,0.605,ALDS,Lost,0.8484128745837958,Lost ALDS,Yes,2
-Colorado Rockies,2014,33090.0,COORS FIELD,"Denver, Colorado",50398,664582,95832071,66,96,0.407,Missed Postseason,,0.6565736735584745,missed postseason,No,0
-Milwaukee Brewers,2014,34535.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,600664,103844806,82,80,0.506,Missed Postseason,,0.8242243436754176,missed postseason,No,0
-Texas Rangers,2014,33564.0,GLOBE LIFE PARK,"Arlington, Texas",48114,382721,136036172,67,95,0.414,Missed Postseason,,0.6975932161117346,missed postseason,No,0
+Colorado Rockies,2014,33090.0,COORS FIELD,"Denver, Colorado",50398,664582,95832071,66,96,0.407,Missed Postseason,,0.6565736735584745,Missed Postseason,No,0
+Milwaukee Brewers,2014,34535.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,600664,103844806,82,80,0.506,Missed Postseason,,0.8242243436754176,Missed Postseason,No,0
+Texas Rangers,2014,33564.0,GLOBE LIFE PARK,"Arlington, Texas",48114,382721,136036172,67,95,0.414,Missed Postseason,,0.6975932161117346,Missed Postseason,No,0
 San Francisco Giants,2014,41588.0,ORACLE PARK,"San Francisco, California",41915,850750,154185878,88,74,0.543,World Series,Won,0.9921984969581296,Won World Series,Yes,4
-Cincinnati Reds,2014,30576.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,298626,112390772,76,86,0.469,Missed Postseason,,0.7233327813394526,missed postseason,No,0
-Minnesota Twins,2014,27785.0,TARGET FIELD,"Minneapolis, Minnesota",39504,407067,85776500,70,92,0.432,Missed Postseason,,0.7033464965573106,missed postseason,No,0
-Arizona Diamondbacks,2014,25601.0,CHASE FIELD,"Phoenix, Arizona",48633,1555445,112688666,64,98,0.395,Missed Postseason,,0.5264121070055312,missed postseason,No,0
+Cincinnati Reds,2014,30576.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,298626,112390772,76,86,0.469,Missed Postseason,,0.7233327813394526,Missed Postseason,No,0
+Minnesota Twins,2014,27785.0,TARGET FIELD,"Minneapolis, Minnesota",39504,407067,85776500,70,92,0.432,Missed Postseason,,0.7033464965573106,Missed Postseason,No,0
+Arizona Diamondbacks,2014,25601.0,CHASE FIELD,"Phoenix, Arizona",48633,1555445,112688666,64,98,0.395,Missed Postseason,,0.5264121070055312,Missed Postseason,No,0
 Baltimore Orioles,2014,30805.0,CAMDEN YARDS,"Baltimore, Maryland",45971,623587,107406623,96,66,0.593,ALCS,Lost,0.6700963650997368,Lost ALCS,Yes,3
-Cleveland Guardians,2014,18428.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,390871,82534800,85,77,0.525,Missed Postseason,,0.5258982334979024,missed postseason,No,0
+Cleveland Guardians,2014,18428.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,390871,82534800,85,77,0.525,Missed Postseason,,0.5258982334979024,Missed Postseason,No,0
 Washington Nationals,2014,31844.0,NATIONALS PARK,"Washington, District of Columbia",41313,662328,134704437,96,66,0.593,NLDS,Lost,0.770798537990463,Lost NLDS,Yes,2
 Detroit Tigers,2014,36014.0,COMERICA PARK,"Detroit, Michigan",41574,682609,162228527,90,72,0.556,ALDS,Lost,0.8662625679511233,Lost ALDS,Yes,2
 Pittsburgh Pirates,2014,30155.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,305964,78111667,88,74,0.543,NLWC,Lost,0.78606433449768,Lost NLWC,Yes,1
-Tampa Bay Rays,2014,17857.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,252225,77062891,77,85,0.475,Missed Postseason,,0.7135664335664336,missed postseason,No,0
+Tampa Bay Rays,2014,17857.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,252225,77062891,77,85,0.475,Missed Postseason,,0.7135664335664336,Missed Postseason,No,0
 Kansas City Royals,2014,24154.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,470629,92034345,89,73,0.549,World Series,Lost,0.5921113916603339,Lost World Series,Yes,4
-Miami Marlins,2014,21386.0,LOANDEPOT PARK,"Miami, Florida",37442,425110,47565400,77,85,0.475,Missed Postseason,,0.5711767533785589,missed postseason,No,0
+Miami Marlins,2014,21386.0,LOANDEPOT PARK,"Miami, Florida",37442,425110,47565400,77,85,0.475,Missed Postseason,,0.5711767533785589,Missed Postseason,No,0
 Oakland Athletics,2014,25045.0,OAKLAND COLISEUM,"Oakland, California",47170,412901,83401400,88,74,0.543,ALWC,Lost,0.5309518761924952,Lost ALWC,Yes,1
 Los Angeles Dodgers,2013,46216.0,DODGER STADIUM,"Los Angeles, California",56000,3881622,216302909,92,70,0.568,NLCS,Lost,0.8252857142857143,Lost NLCS,Yes,3
-New York Yankees,2013,40488.0,YANKEE STADIUM,"New York, New York",50287,8396091,228995945,85,77,0.525,Missed Postseason,,0.8051385049814067,missed postseason,No,0
-New York Mets,2013,26695.0,CITI FIELD,"New York, New York",42000,8396091,88877033,74,88,0.457,Missed Postseason,,0.6355952380952381,missed postseason,No,0
-San Diego Padres,2013,26749.0,PETCO PARK,"San Diego, California",41164,1355320,71689900,76,86,0.469,Missed Postseason,,0.6498153726557185,missed postseason,No,0
+New York Yankees,2013,40488.0,YANKEE STADIUM,"New York, New York",50287,8396091,228995945,85,77,0.525,Missed Postseason,,0.8051385049814067,Missed Postseason,No,0
+New York Mets,2013,26695.0,CITI FIELD,"New York, New York",42000,8396091,88877033,74,88,0.457,Missed Postseason,,0.6355952380952381,Missed Postseason,No,0
+San Diego Padres,2013,26749.0,PETCO PARK,"San Diego, California",41164,1355320,71689900,76,86,0.469,Missed Postseason,,0.6498153726557185,Missed Postseason,No,0
 St. Louis Cardinals,2013,41602.0,BUSCH STADIUM,"St. Louis, Missouri",43975,318476,116702085,97,65,0.599,World Series,Lost,0.9460375213189313,Lost World Series,Yes,4
 Atlanta Braves,2013,31465.0,TURNER FIELD,"Atlanta, Georgia",50096,453990,89288193,96,66,0.593,NLDS,Lost,0.6280940594059405,Lost NLDS,Yes,2
-Philadelphia Phillies,2013,37190.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1558313,159578214,73,89,0.451,Missed Postseason,,0.8641803183455327,missed postseason,No,0
-Houston Astros,2013,20393.0,MINUTE MAID PARK,"Houston, Texas",40963,2199391,24328538,51,111,0.315,Missed Postseason,,0.49783951370749213,missed postseason,No,0
-Toronto Blue Jays,2013,31315.0,ROGERS CENTRE,"Toronto, Canada",41500,5728303,118244039,74,88,0.457,Missed Postseason,,0.7545783132530121,missed postseason,No,0
-Chicago Cubs,2013,32625.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2725731,104150726,66,96,0.407,Missed Postseason,,0.7833321328243175,missed postseason,No,0
-Chicago White Sox,2013,22105.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2725731,124065277,63,99,0.389,Missed Postseason,,0.5442570478887111,missed postseason,No,0
-Seattle Mariners,2013,21747.0,T-MOBILE PARK,"Seattle, Washington",47574,653588,84295952,71,91,0.438,Missed Postseason,,0.4571194349854963,missed postseason,No,0
+Philadelphia Phillies,2013,37190.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1558313,159578214,73,89,0.451,Missed Postseason,,0.8641803183455327,Missed Postseason,No,0
+Houston Astros,2013,20393.0,MINUTE MAID PARK,"Houston, Texas",40963,2199391,24328538,51,111,0.315,Missed Postseason,,0.49783951370749213,Missed Postseason,No,0
+Toronto Blue Jays,2013,31315.0,ROGERS CENTRE,"Toronto, Canada",41500,5728303,118244039,74,88,0.457,Missed Postseason,,0.7545783132530121,Missed Postseason,No,0
+Chicago Cubs,2013,32625.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2725731,104150726,66,96,0.407,Missed Postseason,,0.7833321328243175,Missed Postseason,No,0
+Chicago White Sox,2013,22105.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2725731,124065277,63,99,0.389,Missed Postseason,,0.5442570478887111,Missed Postseason,No,0
+Seattle Mariners,2013,21747.0,T-MOBILE PARK,"Seattle, Washington",47574,653588,84295952,71,91,0.438,Missed Postseason,,0.4571194349854963,Missed Postseason,No,0
 Boston Red Sox,2013,34979.0,FENWAY PARK,"Boston, Massachusetts",37673,653002,158967286,97,65,0.599,World Series,Won,0.9284898999283306,Won World Series,Yes,4
-Los Angeles Angels,2013,37277.0,ANGEL STADIUM,"Anaheim, California",45050,343832,142165250,78,84,0.481,Missed Postseason,,0.8274583795782464,missed postseason,No,0
-Colorado Rockies,2013,34491.0,COORS FIELD,"Denver, Colorado",50398,649391,75449071,74,88,0.457,Missed Postseason,,0.6843723957299893,missed postseason,No,0
-Milwaukee Brewers,2013,31248.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,599916,91003366,74,88,0.457,Missed Postseason,,0.7457756563245823,missed postseason,No,0
-Texas Rangers,2013,38759.0,GLOBE LIFE PARK,"Arlington, Texas",48114,378950,127197575,91,72,0.558,Missed Postseason,,0.8055659475412562,missed postseason,No,0
-San Francisco Giants,2013,41584.0,ORACLE PARK,"San Francisco, California",41915,839572,142180333,76,86,0.469,Missed Postseason,,0.9921030657282596,missed postseason,No,0
+Los Angeles Angels,2013,37277.0,ANGEL STADIUM,"Anaheim, California",45050,343832,142165250,78,84,0.481,Missed Postseason,,0.8274583795782464,Missed Postseason,No,0
+Colorado Rockies,2013,34491.0,COORS FIELD,"Denver, Colorado",50398,649391,75449071,74,88,0.457,Missed Postseason,,0.6843723957299893,Missed Postseason,No,0
+Milwaukee Brewers,2013,31248.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,599916,91003366,74,88,0.457,Missed Postseason,,0.7457756563245823,Missed Postseason,No,0
+Texas Rangers,2013,38759.0,GLOBE LIFE PARK,"Arlington, Texas",48114,378950,127197575,91,72,0.558,Missed Postseason,,0.8055659475412562,Missed Postseason,No,0
+San Francisco Giants,2013,41584.0,ORACLE PARK,"San Francisco, California",41915,839572,142180333,76,86,0.469,Missed Postseason,,0.9921030657282596,Missed Postseason,No,0
 Cincinnati Reds,2013,31288.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,297905,110565728,90,72,0.556,NLWC,Lost,0.7401764803293038,Lost NLWC,Yes,1
-Minnesota Twins,2013,30588.0,TARGET FIELD,"Minneapolis, Minnesota",39504,400070,75562500,66,96,0.407,Missed Postseason,,0.7743013365735115,missed postseason,No,0
-Arizona Diamondbacks,2013,26355.0,CHASE FIELD,"Phoenix, Arizona",48633,1526491,90158500,81,81,0.5,Missed Postseason,,0.5419159829745235,missed postseason,No,0
-Baltimore Orioles,2013,29105.0,CAMDEN YARDS,"Baltimore, Maryland",45971,622391,91793333,85,77,0.525,Missed Postseason,,0.6331165299862958,missed postseason,No,0
+Minnesota Twins,2013,30588.0,TARGET FIELD,"Minneapolis, Minnesota",39504,400070,75562500,66,96,0.407,Missed Postseason,,0.7743013365735115,Missed Postseason,No,0
+Arizona Diamondbacks,2013,26355.0,CHASE FIELD,"Phoenix, Arizona",48633,1526491,90158500,81,81,0.5,Missed Postseason,,0.5419159829745235,Missed Postseason,No,0
+Baltimore Orioles,2013,29105.0,CAMDEN YARDS,"Baltimore, Maryland",45971,622391,91793333,85,77,0.525,Missed Postseason,,0.6331165299862958,Missed Postseason,No,0
 Cleveland Guardians,2013,19661.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,391792,82517300,92,70,0.568,ALWC,Lost,0.561085585457036,Lost ALWC,Yes,1
-Washington Nationals,2013,32745.0,NATIONALS PARK,"Washington, District of Columbia",41313,650581,112431770,86,76,0.531,Missed Postseason,,0.7926076537651586,missed postseason,No,0
+Washington Nationals,2013,32745.0,NATIONALS PARK,"Washington, District of Columbia",41313,650581,112431770,86,76,0.531,Missed Postseason,,0.7926076537651586,Missed Postseason,No,0
 Detroit Tigers,2013,38066.0,COMERICA PARK,"Detroit, Michigan",41574,691868,149046844,93,69,0.574,ALCS,Lost,0.9156203396353491,Lost ALCS,Yes,3
 Pittsburgh Pirates,2013,28210.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,306902,66289524,94,68,0.58,NLDS,Lost,0.7353631197539231,Lost NLDS,Yes,2
 Tampa Bay Rays,2013,18645.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,248453,57030272,92,71,0.564,ALDS,Lost,0.7450549450549451,Lost ALDS,Yes,2
-Kansas City Royals,2013,21614.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,467213,80491725,86,76,0.531,Missed Postseason,,0.5298458068786311,missed postseason,No,0
-Miami Marlins,2013,19584.0,LOANDEPOT PARK,"Miami, Florida",37442,415661,39621900,62,100,0.383,Missed Postseason,,0.5230489824261525,missed postseason,No,0
+Kansas City Royals,2013,21614.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,467213,80491725,86,76,0.531,Missed Postseason,,0.5298458068786311,Missed Postseason,No,0
+Miami Marlins,2013,19584.0,LOANDEPOT PARK,"Miami, Florida",37442,415661,39621900,62,100,0.383,Missed Postseason,,0.5230489824261525,Missed Postseason,No,0
 Oakland Athletics,2013,22337.0,OAKLAND COLISEUM,"Oakland, California",47170,406648,68577000,96,66,0.593,ALDS,Lost,0.4735425058299767,Lost ALDS,Yes,2
-Los Angeles Dodgers,2012,41040.0,DODGER STADIUM,"Los Angeles, California",56000,3851202,95143575,86,76,0.531,Missed Postseason,,0.7328571428571429,missed postseason,No,0
+Los Angeles Dodgers,2012,41040.0,DODGER STADIUM,"Los Angeles, California",56000,3851202,95143575,86,76,0.531,Missed Postseason,,0.7328571428571429,Missed Postseason,No,0
 New York Yankees,2012,43733.0,YANKEE STADIUM,"New York, New York",50287,8346693,197962289,95,67,0.586,ALCS,Lost,0.8696681050768589,Lost ALCS,Yes,3
-New York Mets,2012,28035.0,CITI FIELD,"New York, New York",42000,8346693,93353983,74,88,0.457,Missed Postseason,,0.6675,missed postseason,No,0
-San Diego Padres,2012,26218.0,PETCO PARK,"San Diego, California",41164,1336776,55244700,76,86,0.469,Missed Postseason,,0.6369157516276358,missed postseason,No,0
+New York Mets,2012,28035.0,CITI FIELD,"New York, New York",42000,8346693,93353983,74,88,0.457,Missed Postseason,,0.6675,Missed Postseason,No,0
+San Diego Padres,2012,26218.0,PETCO PARK,"San Diego, California",41164,1336776,55244700,76,86,0.469,Missed Postseason,,0.6369157516276358,Missed Postseason,No,0
 St. Louis Cardinals,2012,40272.0,BUSCH STADIUM,"St. Louis, Missouri",43975,319416,110300862,88,74,0.543,NLCS,Lost,0.915793064241046,Lost NLCS,Yes,3
 Atlanta Braves,2012,29878.0,TURNER FIELD,"Atlanta, Georgia",50096,449016,83309942,94,68,0.58,NLWC,Lost,0.5964148834238262,Lost NLWC,Yes,1
-Philadelphia Phillies,2012,44021.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1551824,174538938,81,81,0.5,Missed Postseason,,1.0229115835947484,missed postseason,No,0
-Houston Astros,2012,19848.0,MINUTE MAID PARK,"Houston, Texas",40963,2161593,60651000,55,107,0.34,Missed Postseason,,0.4845348241095623,missed postseason,No,0
-Toronto Blue Jays,2012,25921.0,ROGERS CENTRE,"Toronto, Canada",41500,5660142,75489200,73,89,0.451,Missed Postseason,,0.6246024096385542,missed postseason,No,0
-Chicago Cubs,2012,35589.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2719141,88197033,61,101,0.377,Missed Postseason,,0.8544983072822877,missed postseason,No,0
-Chicago White Sox,2012,24271.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2719141,96919500,85,77,0.525,Missed Postseason,,0.5975870983626739,missed postseason,No,0
-Seattle Mariners,2012,21258.0,T-MOBILE PARK,"Seattle, Washington",47574,635928,117620683,75,87,0.463,Missed Postseason,,0.446840711312902,missed postseason,No,0
-Boston Red Sox,2012,37567.0,FENWAY PARK,"Boston, Massachusetts",37673,642955,173186617,69,93,0.426,Missed Postseason,,0.9971863138056433,missed postseason,No,0
-Los Angeles Angels,2012,37799.0,ANGEL STADIUM,"Anaheim, California",45050,342071,154485166,89,73,0.549,Missed Postseason,,0.8390455049944506,missed postseason,No,0
-Colorado Rockies,2012,32474.0,COORS FIELD,"Denver, Colorado",50398,635163,78069571,64,98,0.395,Missed Postseason,,0.6443509663081868,missed postseason,No,0
-Milwaukee Brewers,2012,34955.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,598569,97653944,83,79,0.512,Missed Postseason,,0.8342482100238664,missed postseason,No,0
+Philadelphia Phillies,2012,44021.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1551824,174538938,81,81,0.5,Missed Postseason,,1.0229115835947484,Missed Postseason,No,0
+Houston Astros,2012,19848.0,MINUTE MAID PARK,"Houston, Texas",40963,2161593,60651000,55,107,0.34,Missed Postseason,,0.4845348241095623,Missed Postseason,No,0
+Toronto Blue Jays,2012,25921.0,ROGERS CENTRE,"Toronto, Canada",41500,5660142,75489200,73,89,0.451,Missed Postseason,,0.6246024096385542,Missed Postseason,No,0
+Chicago Cubs,2012,35589.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2719141,88197033,61,101,0.377,Missed Postseason,,0.8544983072822877,Missed Postseason,No,0
+Chicago White Sox,2012,24271.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2719141,96919500,85,77,0.525,Missed Postseason,,0.5975870983626739,Missed Postseason,No,0
+Seattle Mariners,2012,21258.0,T-MOBILE PARK,"Seattle, Washington",47574,635928,117620683,75,87,0.463,Missed Postseason,,0.446840711312902,Missed Postseason,No,0
+Boston Red Sox,2012,37567.0,FENWAY PARK,"Boston, Massachusetts",37673,642955,173186617,69,93,0.426,Missed Postseason,,0.9971863138056433,Missed Postseason,No,0
+Los Angeles Angels,2012,37799.0,ANGEL STADIUM,"Anaheim, California",45050,342071,154485166,89,73,0.549,Missed Postseason,,0.8390455049944506,Missed Postseason,No,0
+Colorado Rockies,2012,32474.0,COORS FIELD,"Denver, Colorado",50398,635163,78069571,64,98,0.395,Missed Postseason,,0.6443509663081868,Missed Postseason,No,0
+Milwaukee Brewers,2012,34955.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,598569,97653944,83,79,0.512,Missed Postseason,,0.8342482100238664,Missed Postseason,No,0
 Texas Rangers,2012,42719.0,GLOBE LIFE PARK,"Arlington, Texas",48114,375629,120510974,93,69,0.574,ALWC,Lost,0.8878704742902274,Lost ALWC,Yes,1
 San Francisco Giants,2012,41695.0,ORACLE PARK,"San Francisco, California",41915,828876,81978100,94,68,0.58,World Series,Won,0.9947512823571514,Won World Series,Yes,4
 Cincinnati Reds,2012,28978.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,296900,82203616,97,65,0.599,NLDS,Lost,0.6855290861347023,Lost NLDS,Yes,2
-Minnesota Twins,2012,34275.0,TARGET FIELD,"Minneapolis, Minnesota",39504,392768,94085000,66,96,0.407,Missed Postseason,,0.8676336573511543,missed postseason,No,0
-Arizona Diamondbacks,2012,26884.0,CHASE FIELD,"Phoenix, Arizona",48633,1499274,74284833,81,81,0.5,Missed Postseason,,0.5527933707564823,missed postseason,No,0
+Minnesota Twins,2012,34275.0,TARGET FIELD,"Minneapolis, Minnesota",39504,392768,94085000,66,96,0.407,Missed Postseason,,0.8676336573511543,Missed Postseason,No,0
+Arizona Diamondbacks,2012,26884.0,CHASE FIELD,"Phoenix, Arizona",48633,1499274,74284833,81,81,0.5,Missed Postseason,,0.5527933707564823,Missed Postseason,No,0
 Baltimore Orioles,2012,26610.0,CAMDEN YARDS,"Baltimore, Maryland",45971,622895,81428999,93,69,0.574,ALDS,Lost,0.5788431837462749,Lost ALDS,Yes,2
-Cleveland Guardians,2012,19797.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,391550,78430300,68,94,0.42,Missed Postseason,,0.5649667532319284,missed postseason,No,0
+Cleveland Guardians,2012,19797.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,391550,78430300,68,94,0.42,Missed Postseason,,0.5649667532319284,Missed Postseason,No,0
 Washington Nationals,2012,30010.0,NATIONALS PARK,"Washington, District of Columbia",41313,634924,81336143,98,64,0.605,NLDS,Lost,0.7264057318519594,Lost NLDS,Yes,2
 Detroit Tigers,2012,37383.0,COMERICA PARK,"Detroit, Michigan",41574,700183,132300000,88,74,0.543,World Series,Lost,0.8991918025689133,Lost World Series,Yes,4
-Pittsburgh Pirates,2012,26148.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,306355,63431999,79,83,0.488,Missed Postseason,,0.6816120118867629,missed postseason,No,0
-Tampa Bay Rays,2012,19255.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,246656,64173500,90,72,0.556,Missed Postseason,,0.7694305694305694,missed postseason,No,0
-Kansas City Royals,2012,21748.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,464595,60916225,72,90,0.444,Missed Postseason,,0.5331306841860123,missed postseason,No,0
-Miami Marlins,2012,27400.0,LOANDEPOT PARK,"Miami, Florida",37442,411149,118078000,69,93,0.426,Missed Postseason,,0.7317985150365899,missed postseason,No,0
+Pittsburgh Pirates,2012,26148.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,306355,63431999,79,83,0.488,Missed Postseason,,0.6816120118867629,Missed Postseason,No,0
+Tampa Bay Rays,2012,19255.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,246656,64173500,90,72,0.556,Missed Postseason,,0.7694305694305694,Missed Postseason,No,0
+Kansas City Royals,2012,21748.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,464595,60916225,72,90,0.444,Missed Postseason,,0.5331306841860123,Missed Postseason,No,0
+Miami Marlins,2012,27400.0,LOANDEPOT PARK,"Miami, Florida",37442,411149,118078000,69,93,0.426,Missed Postseason,,0.7317985150365899,Missed Postseason,No,0
 Oakland Athletics,2012,20728.0,OAKLAND COLISEUM,"Oakland, California",47170,401104,55372500,94,68,0.58,ALDS,Lost,0.43943184227263093,Lost ALDS,Yes,2
-Los Angeles Dodgers,2011,36236.0,DODGER STADIUM,"Los Angeles, California",56000,3820876,104188999,82,79,0.509,Missed Postseason,,0.6470714285714285,missed postseason,No,0
+Los Angeles Dodgers,2011,36236.0,DODGER STADIUM,"Los Angeles, California",56000,3820876,104188999,82,79,0.509,Missed Postseason,,0.6470714285714285,Missed Postseason,No,0
 New York Yankees,2011,45107.0,YANKEE STADIUM,"New York, New York",50287,8272948,202689028,97,65,0.599,ALDS,Lost,0.896991270109571,Lost ALDS,Yes,2
-New York Mets,2011,30108.0,CITI FIELD,"New York, New York",42000,8272948,118847309,77,85,0.475,Missed Postseason,,0.7168571428571429,missed postseason,No,0
-San Diego Padres,2011,26457.0,PETCO PARK,"San Diego, California",41164,1319592,45869140,71,91,0.438,Missed Postseason,,0.6427217957438539,missed postseason,No,0
+New York Mets,2011,30108.0,CITI FIELD,"New York, New York",42000,8272948,118847309,77,85,0.475,Missed Postseason,,0.7168571428571429,Missed Postseason,No,0
+San Diego Padres,2011,26457.0,PETCO PARK,"San Diego, California",41164,1319592,45869140,71,91,0.438,Missed Postseason,,0.6427217957438539,Missed Postseason,No,0
 St. Louis Cardinals,2011,38196.0,BUSCH STADIUM,"St. Louis, Missouri",43975,319344,105433572,90,72,0.556,World Series,Won,0.8685844229675952,Won World Series,Yes,4
-Atlanta Braves,2011,30037.0,TURNER FIELD,"Atlanta, Georgia",50096,437812,87002692,89,73,0.549,Missed Postseason,,0.5995887895241137,missed postseason,No,0
+Atlanta Braves,2011,30037.0,TURNER FIELD,"Atlanta, Georgia",50096,437812,87002692,89,73,0.549,Missed Postseason,,0.5995887895241137,Missed Postseason,No,0
 Philadelphia Phillies,2011,45440.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1540466,172976379,102,60,0.63,NLDS,Lost,1.0558847449750204,Lost NLDS,Yes,2
-Houston Astros,2011,25518.0,MINUTE MAID PARK,"Houston, Texas",40963,2126032,70694000,56,106,0.346,Missed Postseason,,0.6229524204770158,missed postseason,No,0
-Toronto Blue Jays,2011,22445.0,ROGERS CENTRE,"Toronto, Canada",41500,5592607,62567800,81,81,0.5,Missed Postseason,,0.5408433734939759,missed postseason,No,0
-Chicago Cubs,2011,37258.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2708114,125047329,71,91,0.438,Missed Postseason,,0.8945712982304497,missed postseason,No,0
-Chicago White Sox,2011,24705.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2708114,127789000,79,83,0.488,Missed Postseason,,0.6082728056136896,missed postseason,No,0
-Seattle Mariners,2011,23411.0,T-MOBILE PARK,"Seattle, Washington",47574,622694,86524600,67,95,0.414,Missed Postseason,,0.49209652331105225,missed postseason,No,0
-Boston Red Sox,2011,37703.0,FENWAY PARK,"Boston, Massachusetts",37673,630505,161762475,90,72,0.556,Missed Postseason,,1.0007963262814217,missed postseason,No,0
-Los Angeles Angels,2011,39090.0,ANGEL STADIUM,"Anaheim, California",45050,339831,138543166,86,76,0.531,Missed Postseason,,0.8677025527192009,missed postseason,No,0
-Colorado Rockies,2011,35923.0,COORS FIELD,"Denver, Colorado",50398,620530,88148071,73,89,0.451,Missed Postseason,,0.7127862216754633,missed postseason,No,0
+Houston Astros,2011,25518.0,MINUTE MAID PARK,"Houston, Texas",40963,2126032,70694000,56,106,0.346,Missed Postseason,,0.6229524204770158,Missed Postseason,No,0
+Toronto Blue Jays,2011,22445.0,ROGERS CENTRE,"Toronto, Canada",41500,5592607,62567800,81,81,0.5,Missed Postseason,,0.5408433734939759,Missed Postseason,No,0
+Chicago Cubs,2011,37258.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2708114,125047329,71,91,0.438,Missed Postseason,,0.8945712982304497,Missed Postseason,No,0
+Chicago White Sox,2011,24705.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2708114,127789000,79,83,0.488,Missed Postseason,,0.6082728056136896,Missed Postseason,No,0
+Seattle Mariners,2011,23411.0,T-MOBILE PARK,"Seattle, Washington",47574,622694,86524600,67,95,0.414,Missed Postseason,,0.49209652331105225,Missed Postseason,No,0
+Boston Red Sox,2011,37703.0,FENWAY PARK,"Boston, Massachusetts",37673,630505,161762475,90,72,0.556,Missed Postseason,,1.0007963262814217,Missed Postseason,No,0
+Los Angeles Angels,2011,39090.0,ANGEL STADIUM,"Anaheim, California",45050,339831,138543166,86,76,0.531,Missed Postseason,,0.8677025527192009,Missed Postseason,No,0
+Colorado Rockies,2011,35923.0,COORS FIELD,"Denver, Colorado",50398,620530,88148071,73,89,0.451,Missed Postseason,,0.7127862216754633,Missed Postseason,No,0
 Milwaukee Brewers,2011,37918.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,597086,85497333,96,66,0.593,NLCS,Lost,0.904964200477327,Lost NLCS,Yes,3
 Texas Rangers,2011,36382.0,GLOBE LIFE PARK,"Arlington, Texas",48114,370253,92299264,96,66,0.593,World Series,Lost,0.7561624475204722,Lost World Series,Yes,4
-San Francisco Giants,2011,41818.0,ORACLE PARK,"San Francisco, California",41915,815650,118198333,86,76,0.531,Missed Postseason,,0.9976857926756532,missed postseason,No,0
-Cincinnati Reds,2011,27327.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,296187,75947134,79,83,0.488,Missed Postseason,,0.6464715762579546,missed postseason,No,0
-Minnesota Twins,2011,39112.0,TARGET FIELD,"Minneapolis, Minnesota",39504,388052,112737000,63,99,0.389,Missed Postseason,,0.9900769542324828,missed postseason,No,0
+San Francisco Giants,2011,41818.0,ORACLE PARK,"San Francisco, California",41915,815650,118198333,86,76,0.531,Missed Postseason,,0.9976857926756532,Missed Postseason,No,0
+Cincinnati Reds,2011,27327.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,296187,75947134,79,83,0.488,Missed Postseason,,0.6464715762579546,Missed Postseason,No,0
+Minnesota Twins,2011,39112.0,TARGET FIELD,"Minneapolis, Minnesota",39504,388052,112737000,63,99,0.389,Missed Postseason,,0.9900769542324828,Missed Postseason,No,0
 Arizona Diamondbacks,2011,25992.0,CHASE FIELD,"Phoenix, Arizona",48633,1469796,53639833,94,68,0.58,NLDS,Lost,0.5344519153661095,Lost NLDS,Yes,2
-Baltimore Orioles,2011,21943.0,CAMDEN YARDS,"Baltimore, Maryland",45971,620410,85304038,69,93,0.426,Missed Postseason,,0.4773226599377869,missed postseason,No,0
-Cleveland Guardians,2011,22726.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,392667,49190566,80,82,0.494,Missed Postseason,,0.648554550383836,missed postseason,No,0
-Washington Nationals,2011,24877.0,NATIONALS PARK,"Washington, District of Columbia",41313,619800,63856928,80,81,0.497,Missed Postseason,,0.6021591266671508,missed postseason,No,0
+Baltimore Orioles,2011,21943.0,CAMDEN YARDS,"Baltimore, Maryland",45971,620410,85304038,69,93,0.426,Missed Postseason,,0.4773226599377869,Missed Postseason,No,0
+Cleveland Guardians,2011,22726.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,392667,49190566,80,82,0.494,Missed Postseason,,0.648554550383836,Missed Postseason,No,0
+Washington Nationals,2011,24877.0,NATIONALS PARK,"Washington, District of Columbia",41313,619800,63856928,80,81,0.497,Missed Postseason,,0.6021591266671508,Missed Postseason,No,0
 Detroit Tigers,2011,32617.0,COMERICA PARK,"Detroit, Michigan",41574,705118,105700231,95,67,0.586,ALCS,Lost,0.7845528455284553,Lost ALCS,Yes,3
-Pittsburgh Pirates,2011,24255.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,306012,45047000,72,90,0.444,Missed Postseason,,0.6322663051978521,missed postseason,No,0
+Pittsburgh Pirates,2011,24255.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,306012,45047000,72,90,0.444,Missed Postseason,,0.6322663051978521,Missed Postseason,No,0
 Tampa Bay Rays,2011,18878.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,245871,41053571,91,71,0.562,ALDS,Lost,0.7543656343656344,Lost ALDS,Yes,2
-Kansas City Royals,2011,21289.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,462368,36126000,71,91,0.438,Missed Postseason,,0.521878753707744,missed postseason,No,0
-Miami Marlins,2011,19007.0,SUN LIFE STADIUM,"Miami, Florida",36331,406593,56944000,72,90,0.444,Missed Postseason,,0.5231620379290414,missed postseason,No,0
-Oakland Athletics,2011,18232.0,OAKLAND COLISEUM,"Oakland, California",47170,396086,66536500,74,88,0.457,Missed Postseason,,0.3865168539325843,missed postseason,No,0
-Los Angeles Dodgers,2010,43979.0,DODGER STADIUM,"Los Angeles, California",56000,3795512,94945517,80,82,0.494,Missed Postseason,,0.7853392857142857,missed postseason,No,0
+Kansas City Royals,2011,21289.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,462368,36126000,71,91,0.438,Missed Postseason,,0.521878753707744,Missed Postseason,No,0
+Miami Marlins,2011,19007.0,SUN LIFE STADIUM,"Miami, Florida",36331,406593,56944000,72,90,0.444,Missed Postseason,,0.5231620379290414,Missed Postseason,No,0
+Oakland Athletics,2011,18232.0,OAKLAND COLISEUM,"Oakland, California",47170,396086,66536500,74,88,0.457,Missed Postseason,,0.3865168539325843,Missed Postseason,No,0
+Los Angeles Dodgers,2010,43979.0,DODGER STADIUM,"Los Angeles, California",56000,3795512,94945517,80,82,0.494,Missed Postseason,,0.7853392857142857,Missed Postseason,No,0
 New York Yankees,2010,46491.0,YANKEE STADIUM,"New York, New York",50287,8190209,206333389,95,67,0.586,ALCS,Lost,0.9245132936941953,Lost ALCS,Yes,3
-New York Mets,2010,32401.0,CITI FIELD,"New York, New York",42000,8190209,132701445,79,83,0.488,Missed Postseason,,0.771452380952381,missed postseason,No,0
-San Diego Padres,2010,26318.0,PETCO PARK,"San Diego, California",41164,1305906,37799300,90,72,0.556,Missed Postseason,,0.6393450587892333,missed postseason,No,0
-St. Louis Cardinals,2010,40755.0,BUSCH STADIUM,"St. Louis, Missouri",43975,319336,93540753,86,76,0.531,Missed Postseason,,0.9267765776009096,missed postseason,No,0
+New York Mets,2010,32401.0,CITI FIELD,"New York, New York",42000,8190209,132701445,79,83,0.488,Missed Postseason,,0.771452380952381,Missed Postseason,No,0
+San Diego Padres,2010,26318.0,PETCO PARK,"San Diego, California",41164,1305906,37799300,90,72,0.556,Missed Postseason,,0.6393450587892333,Missed Postseason,No,0
+St. Louis Cardinals,2010,40755.0,BUSCH STADIUM,"St. Louis, Missouri",43975,319336,93540753,86,76,0.531,Missed Postseason,,0.9267765776009096,Missed Postseason,No,0
 Atlanta Braves,2010,30989.0,TURNER FIELD,"Atlanta, Georgia",50096,429410,84423667,91,71,0.562,NLDS,Lost,0.618592302778665,Lost NLDS,Yes,2
 Philadelphia Phillies,2010,45027.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1528283,141927381,97,65,0.599,NLCS,Lost,1.0462879051934473,Lost NLCS,Yes,3
-Houston Astros,2010,28783.0,MINUTE MAID PARK,"Houston, Texas",40963,2100280,92355500,76,86,0.469,Missed Postseason,,0.7026584966921368,missed postseason,No,0
-Toronto Blue Jays,2010,20068.0,ROGERS CENTRE,"Toronto, Canada",41500,5499233,62689357,85,77,0.525,Missed Postseason,,0.483566265060241,missed postseason,No,0
-Chicago Cubs,2010,37814.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2697477,146859000,75,87,0.463,Missed Postseason,,0.9079209584863982,missed postseason,No,0
-Chicago White Sox,2010,27091.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2697477,108273197,88,74,0.543,Missed Postseason,,0.6670195740489967,missed postseason,No,0
-Seattle Mariners,2010,25746.0,T-MOBILE PARK,"Seattle, Washington",47574,610630,98376667,61,101,0.377,Missed Postseason,,0.5411779543448102,missed postseason,No,0
-Boston Red Sox,2010,37610.0,FENWAY PARK,"Boston, Massachusetts",37673,621048,162747333,89,73,0.549,Missed Postseason,,0.9983277148090144,missed postseason,No,0
-Los Angeles Angels,2010,40133.0,ANGEL STADIUM,"Anaheim, California",45050,336760,105013667,80,82,0.494,Missed Postseason,,0.8908546059933408,missed postseason,No,0
-Colorado Rockies,2010,35940.0,COORS FIELD,"Denver, Colorado",50398,603359,84227000,83,79,0.512,Missed Postseason,,0.7131235366482797,missed postseason,No,0
-Milwaukee Brewers,2010,34278.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,594865,81108279,77,85,0.475,Missed Postseason,,0.818090692124105,missed postseason,No,0
+Houston Astros,2010,28783.0,MINUTE MAID PARK,"Houston, Texas",40963,2100280,92355500,76,86,0.469,Missed Postseason,,0.7026584966921368,Missed Postseason,No,0
+Toronto Blue Jays,2010,20068.0,ROGERS CENTRE,"Toronto, Canada",41500,5499233,62689357,85,77,0.525,Missed Postseason,,0.483566265060241,Missed Postseason,No,0
+Chicago Cubs,2010,37814.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2697477,146859000,75,87,0.463,Missed Postseason,,0.9079209584863982,Missed Postseason,No,0
+Chicago White Sox,2010,27091.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2697477,108273197,88,74,0.543,Missed Postseason,,0.6670195740489967,Missed Postseason,No,0
+Seattle Mariners,2010,25746.0,T-MOBILE PARK,"Seattle, Washington",47574,610630,98376667,61,101,0.377,Missed Postseason,,0.5411779543448102,Missed Postseason,No,0
+Boston Red Sox,2010,37610.0,FENWAY PARK,"Boston, Massachusetts",37673,621048,162747333,89,73,0.549,Missed Postseason,,0.9983277148090144,Missed Postseason,No,0
+Los Angeles Angels,2010,40133.0,ANGEL STADIUM,"Anaheim, California",45050,336760,105013667,80,82,0.494,Missed Postseason,,0.8908546059933408,Missed Postseason,No,0
+Colorado Rockies,2010,35940.0,COORS FIELD,"Denver, Colorado",50398,603359,84227000,83,79,0.512,Missed Postseason,,0.7131235366482797,Missed Postseason,No,0
+Milwaukee Brewers,2010,34278.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,594865,81108279,77,85,0.475,Missed Postseason,,0.818090692124105,Missed Postseason,No,0
 Texas Rangers,2010,30928.0,GLOBE LIFE PARK,"Arlington, Texas",48114,365892,55250545,90,72,0.556,World Series,Lost,0.6428066674980255,Lost World Series,Yes,4
 San Francisco Giants,2010,37499.0,ORACLE PARK,"San Francisco, California",41915,805505,97828833,92,70,0.568,World Series,Won,0.8946439222235476,Won World Series,Yes,4
 Cincinnati Reds,2010,25438.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,296980,72386544,91,71,0.562,NLDS,Lost,0.6017837287975207,Lost NLDS,Yes,2
 Minnesota Twins,2010,39798.0,TARGET FIELD,"Minneapolis, Minnesota",39504,383067,97559167,94,68,0.58,ALDS,Lost,1.0074422843256379,Lost ALDS,Yes,2
-Arizona Diamondbacks,2010,25394.0,CHASE FIELD,"Phoenix, Arizona",48633,1449038,60718167,65,97,0.401,Missed Postseason,,0.5221557378734604,missed postseason,No,0
-Baltimore Orioles,2010,21662.0,CAMDEN YARDS,"Baltimore, Maryland",45971,620915,81612500,66,96,0.407,Missed Postseason,,0.4712101107219769,missed postseason,No,0
-Cleveland Guardians,2010,17435.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,395926,61203967,69,93,0.426,Missed Postseason,,0.49756000114151994,missed postseason,No,0
-Washington Nationals,2010,22568.0,NATIONALS PARK,"Washington, District of Columbia",41313,605226,61425000,69,93,0.426,Missed Postseason,,0.5462687289715101,missed postseason,No,0
-Detroit Tigers,2010,30385.0,COMERICA PARK,"Detroit, Michigan",41574,711131,122864929,81,81,0.5,Missed Postseason,,0.7308654447491221,missed postseason,No,0
-Pittsburgh Pirates,2010,19918.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,305283,34943000,57,105,0.352,Missed Postseason,,0.5192117199311819,missed postseason,No,0
+Arizona Diamondbacks,2010,25394.0,CHASE FIELD,"Phoenix, Arizona",48633,1449038,60718167,65,97,0.401,Missed Postseason,,0.5221557378734604,Missed Postseason,No,0
+Baltimore Orioles,2010,21662.0,CAMDEN YARDS,"Baltimore, Maryland",45971,620915,81612500,66,96,0.407,Missed Postseason,,0.4712101107219769,Missed Postseason,No,0
+Cleveland Guardians,2010,17435.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,395926,61203967,69,93,0.426,Missed Postseason,,0.49756000114151994,Missed Postseason,No,0
+Washington Nationals,2010,22568.0,NATIONALS PARK,"Washington, District of Columbia",41313,605226,61425000,69,93,0.426,Missed Postseason,,0.5462687289715101,Missed Postseason,No,0
+Detroit Tigers,2010,30385.0,COMERICA PARK,"Detroit, Michigan",41574,711131,122864929,81,81,0.5,Missed Postseason,,0.7308654447491221,Missed Postseason,No,0
+Pittsburgh Pirates,2010,19918.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,305283,34943000,57,105,0.352,Missed Postseason,,0.5192117199311819,Missed Postseason,No,0
 Tampa Bay Rays,2010,22758.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,245222,71923471,96,66,0.593,ALDS,Lost,0.9094105894105894,Lost ALDS,Yes,2
-Kansas City Royals,2010,20191.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,460697,72267710,67,95,0.414,Missed Postseason,,0.49496237099502366,missed postseason,No,0
-Miami Marlins,2010,18953.0,SUN LIFE STADIUM,"Miami, Florida",36331,400779,55641500,80,82,0.494,Missed Postseason,,0.52167570394429,missed postseason,No,0
-Oakland Athletics,2010,17511.0,OAKLAND COLISEUM,"Oakland, California",47170,391406,51654900,81,81,0.5,Missed Postseason,,0.37123171507313973,missed postseason,No,0
+Kansas City Royals,2010,20191.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,460697,72267710,67,95,0.414,Missed Postseason,,0.49496237099502366,Missed Postseason,No,0
+Miami Marlins,2010,18953.0,SUN LIFE STADIUM,"Miami, Florida",36331,400779,55641500,80,82,0.494,Missed Postseason,,0.52167570394429,Missed Postseason,No,0
+Oakland Athletics,2010,17511.0,OAKLAND COLISEUM,"Oakland, California",47170,391406,51654900,81,81,0.5,Missed Postseason,,0.37123171507313973,Missed Postseason,No,0
 Los Angeles Dodgers,2009,46440.0,DODGER STADIUM,"Los Angeles, California",56000,3781938,100414592,95,67,0.586,NLCS,Lost,0.8292857142857143,Lost NLCS,Yes,3
 New York Yankees,2009,45364.0,YANKEE STADIUM,"New York, New York",50287,8131574,201449189,103,59,0.636,World Series,Won,0.9021019348937102,Won World Series,Yes,4
-New York Mets,2009,38941.0,CITI FIELD,"New York, New York",42000,8131574,149373987,70,92,0.432,Missed Postseason,,0.9271666666666667,missed postseason,No,0
-San Diego Padres,2009,23735.0,PETCO PARK,"San Diego, California",41164,1295591,43734200,75,87,0.463,Missed Postseason,,0.5765960548051695,missed postseason,No,0
+New York Mets,2009,38941.0,CITI FIELD,"New York, New York",42000,8131574,149373987,70,92,0.432,Missed Postseason,,0.9271666666666667,Missed Postseason,No,0
+San Diego Padres,2009,23735.0,PETCO PARK,"San Diego, California",41164,1295591,43734200,75,87,0.463,Missed Postseason,,0.5765960548051695,Missed Postseason,No,0
 St. Louis Cardinals,2009,41274.0,BUSCH STADIUM,"St. Louis, Missouri",43975,318842,77605109,91,71,0.562,NLDS,Lost,0.9385787379192723,Lost NLDS,Yes,2
-Atlanta Braves,2009,29304.0,TURNER FIELD,"Atlanta, Georgia",50096,417090,96726166,86,76,0.531,Missed Postseason,,0.5849568827850526,missed postseason,No,0
+Atlanta Braves,2009,29304.0,TURNER FIELD,"Atlanta, Georgia",50096,417090,96726166,86,76,0.531,Missed Postseason,,0.5849568827850526,Missed Postseason,No,0
 Philadelphia Phillies,2009,44453.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1514694,113004046,93,69,0.574,World Series,Lost,1.0329499244800744,Lost World Series,Yes,4
-Houston Astros,2009,31124.0,MINUTE MAID PARK,"Houston, Texas",40963,2087334,102996414,74,88,0.457,Missed Postseason,,0.7598076312770061,missed postseason,No,0
-Toronto Blue Jays,2009,23162.0,ROGERS CENTRE,"Toronto, Canada",41500,5403064,80538300,75,87,0.463,Missed Postseason,,0.5581204819277108,missed postseason,No,0
-Chicago Cubs,2009,39610.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2697006,134809000,83,78,0.516,Missed Postseason,,0.9510432423347499,missed postseason,No,0
-Chicago White Sox,2009,28199.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2697006,96068500,79,83,0.488,Missed Postseason,,0.694300135417949,missed postseason,No,0
-Seattle Mariners,2009,27116.0,T-MOBILE PARK,"Seattle, Washington",47574,604189,98904166,85,77,0.525,Missed Postseason,,0.569975196535923,missed postseason,No,0
+Houston Astros,2009,31124.0,MINUTE MAID PARK,"Houston, Texas",40963,2087334,102996414,74,88,0.457,Missed Postseason,,0.7598076312770061,Missed Postseason,No,0
+Toronto Blue Jays,2009,23162.0,ROGERS CENTRE,"Toronto, Canada",41500,5403064,80538300,75,87,0.463,Missed Postseason,,0.5581204819277108,Missed Postseason,No,0
+Chicago Cubs,2009,39610.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2697006,134809000,83,78,0.516,Missed Postseason,,0.9510432423347499,Missed Postseason,No,0
+Chicago White Sox,2009,28199.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2697006,96068500,79,83,0.488,Missed Postseason,,0.694300135417949,Missed Postseason,No,0
+Seattle Mariners,2009,27116.0,T-MOBILE PARK,"Seattle, Washington",47574,604189,98904166,85,77,0.525,Missed Postseason,,0.569975196535923,Missed Postseason,No,0
 Boston Red Sox,2009,37811.0,FENWAY PARK,"Boston, Massachusetts",37673,612669,121745999,95,67,0.586,ALDS,Lost,1.0036631008945398,Lost ALDS,Yes,2
 Los Angeles Angels,2009,40004.0,ANGEL STADIUM,"Anaheim, California",45050,334429,113709000,97,65,0.599,ALCS,Lost,0.8879911209766925,Lost ALCS,Yes,3
 Colorado Rockies,2009,32902.0,COORS FIELD,"Denver, Colorado",50398,589011,75201000,92,70,0.568,NLDS,Lost,0.6528433668002699,Lost NLDS,Yes,2
-Milwaukee Brewers,2009,37499.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,592180,80182502,80,82,0.494,Missed Postseason,,0.8949642004773269,missed postseason,No,0
-Texas Rangers,2009,27641.0,GLOBE LIFE PARK,"Arlington, Texas",48114,363426,68178798,87,75,0.537,Missed Postseason,,0.5744897535020992,missed postseason,No,0
-San Francisco Giants,2009,35322.0,ORACLE PARK,"San Francisco, California",41915,801922,82616450,88,74,0.543,Missed Postseason,,0.8427054753668138,missed postseason,No,0
-Cincinnati Reds,2009,21579.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,298239,73558500,78,84,0.481,Missed Postseason,,0.5104918265477514,missed postseason,No,0
+Milwaukee Brewers,2009,37499.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,592180,80182502,80,82,0.494,Missed Postseason,,0.8949642004773269,Missed Postseason,No,0
+Texas Rangers,2009,27641.0,GLOBE LIFE PARK,"Arlington, Texas",48114,363426,68178798,87,75,0.537,Missed Postseason,,0.5744897535020992,Missed Postseason,No,0
+San Francisco Giants,2009,35322.0,ORACLE PARK,"San Francisco, California",41915,801922,82616450,88,74,0.543,Missed Postseason,,0.8427054753668138,Missed Postseason,No,0
+Cincinnati Reds,2009,21579.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,298239,73558500,78,84,0.481,Missed Postseason,,0.5104918265477514,Missed Postseason,No,0
 Minnesota Twins,2009,29466.0,METRODOME,"Minneapolis, Minnesota",56144,381638,65299266,87,76,0.534,ALDS,Lost,0.5248290111142776,Lost ALDS,Yes,2
-Arizona Diamondbacks,2009,26281.0,CHASE FIELD,"Phoenix, Arizona",48633,1452679,73516666,70,92,0.432,Missed Postseason,,0.5403943824152324,missed postseason,No,0
-Baltimore Orioles,2009,23545.0,CAMDEN YARDS,"Baltimore, Maryland",45971,620509,67101666,64,98,0.395,Missed Postseason,,0.512170716321159,missed postseason,No,0
-Cleveland Guardians,2009,22492.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,401770,81579166,65,97,0.401,Missed Postseason,,0.6418766587711537,missed postseason,No,0
-Washington Nationals,2009,22715.0,NATIONALS PARK,"Washington, District of Columbia",41313,592228,60328000,59,103,0.364,Missed Postseason,,0.5498269309902452,missed postseason,No,0
-Detroit Tigers,2009,31693.0,COMERICA PARK,"Detroit, Michigan",41574,731155,115085145,86,77,0.528,Missed Postseason,,0.76232741617357,missed postseason,No,0
-Pittsburgh Pirates,2009,19479.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,306570,48693000,62,99,0.385,Missed Postseason,,0.5077681038527709,missed postseason,No,0
-Tampa Bay Rays,2009,23147.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,244646,63313034,84,78,0.519,Missed Postseason,,0.924955044955045,missed postseason,No,0
-Kansas City Royals,2009,22473.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,457897,70519333,65,97,0.401,Missed Postseason,,0.5509033412595298,missed postseason,No,0
-Miami Marlins,2009,18770.0,SUN LIFE STADIUM,"Miami, Florida",36331,394347,36834000,87,75,0.537,Missed Postseason,,0.5166386832181883,missed postseason,No,0
-Oakland Athletics,2009,17392.0,OAKLAND COLISEUM,"Oakland, California",47170,389613,62310000,75,87,0.463,Missed Postseason,,0.3687089251642993,missed postseason,No,0
+Arizona Diamondbacks,2009,26281.0,CHASE FIELD,"Phoenix, Arizona",48633,1452679,73516666,70,92,0.432,Missed Postseason,,0.5403943824152324,Missed Postseason,No,0
+Baltimore Orioles,2009,23545.0,CAMDEN YARDS,"Baltimore, Maryland",45971,620509,67101666,64,98,0.395,Missed Postseason,,0.512170716321159,Missed Postseason,No,0
+Cleveland Guardians,2009,22492.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,401770,81579166,65,97,0.401,Missed Postseason,,0.6418766587711537,Missed Postseason,No,0
+Washington Nationals,2009,22715.0,NATIONALS PARK,"Washington, District of Columbia",41313,592228,60328000,59,103,0.364,Missed Postseason,,0.5498269309902452,Missed Postseason,No,0
+Detroit Tigers,2009,31693.0,COMERICA PARK,"Detroit, Michigan",41574,731155,115085145,86,77,0.528,Missed Postseason,,0.76232741617357,Missed Postseason,No,0
+Pittsburgh Pirates,2009,19479.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,306570,48693000,62,99,0.385,Missed Postseason,,0.5077681038527709,Missed Postseason,No,0
+Tampa Bay Rays,2009,23147.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,244646,63313034,84,78,0.519,Missed Postseason,,0.924955044955045,Missed Postseason,No,0
+Kansas City Royals,2009,22473.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,457897,70519333,65,97,0.401,Missed Postseason,,0.5509033412595298,Missed Postseason,No,0
+Miami Marlins,2009,18770.0,SUN LIFE STADIUM,"Miami, Florida",36331,394347,36834000,87,75,0.537,Missed Postseason,,0.5166386832181883,Missed Postseason,No,0
+Oakland Athletics,2009,17392.0,OAKLAND COLISEUM,"Oakland, California",47170,389613,62310000,75,87,0.463,Missed Postseason,,0.3687089251642993,Missed Postseason,No,0
 Los Angeles Dodgers,2008,46056.0,DODGER STADIUM,"Los Angeles, California",56000,3763566,118588536,84,78,0.519,NLCS,Lost,0.8224285714285714,Lost NLCS,Yes,3
-New York Yankees,2008,53069.0,YANKEE STADIUM,"New York, New York",56937,8068195,209081577,89,73,0.549,Missed Postseason,,0.9320652651175861,missed postseason,No,0
-New York Mets,2008,51165.0,SHEA STADIUM,"New York, New York",57333,8068195,137793376,89,73,0.549,Missed Postseason,,0.8924179791742975,missed postseason,No,0
-San Diego Padres,2008,29969.0,PETCO PARK,"San Diego, California",41164,1282692,73677616,63,99,0.389,Missed Postseason,,0.7280390632591585,missed postseason,No,0
-St. Louis Cardinals,2008,42353.0,BUSCH STADIUM,"St. Louis, Missouri",43975,317955,99624449,86,76,0.531,Missed Postseason,,0.9631154064809551,missed postseason,No,0
-Atlanta Braves,2008,31269.0,TURNER FIELD,"Atlanta, Georgia",50096,414233,102365683,72,90,0.444,Missed Postseason,,0.6241815713829447,missed postseason,No,0
+New York Yankees,2008,53069.0,YANKEE STADIUM,"New York, New York",56937,8068195,209081577,89,73,0.549,Missed Postseason,,0.9320652651175861,Missed Postseason,No,0
+New York Mets,2008,51165.0,SHEA STADIUM,"New York, New York",57333,8068195,137793376,89,73,0.549,Missed Postseason,,0.8924179791742975,Missed Postseason,No,0
+San Diego Padres,2008,29969.0,PETCO PARK,"San Diego, California",41164,1282692,73677616,63,99,0.389,Missed Postseason,,0.7280390632591585,Missed Postseason,No,0
+St. Louis Cardinals,2008,42353.0,BUSCH STADIUM,"St. Louis, Missouri",43975,317955,99624449,86,76,0.531,Missed Postseason,,0.9631154064809551,Missed Postseason,No,0
+Atlanta Braves,2008,31269.0,TURNER FIELD,"Atlanta, Georgia",50096,414233,102365683,72,90,0.444,Missed Postseason,,0.6241815713829447,Missed Postseason,No,0
 Philadelphia Phillies,2008,42254.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1499731,98269880,92,70,0.568,World Series,Won,0.9818519809457419,Won World Series,Yes,4
-Houston Astros,2008,34741.0,MINUTE MAID PARK,"Houston, Texas",40963,2060477,88930414,86,75,0.534,Missed Postseason,,0.8481068281131753,missed postseason,No,0
-Toronto Blue Jays,2008,29626.0,ROGERS CENTRE,"Toronto, Canada",41500,5308706,97793900,86,76,0.531,Missed Postseason,,0.7138795180722891,missed postseason,No,0
+Houston Astros,2008,34741.0,MINUTE MAID PARK,"Houston, Texas",40963,2060477,88930414,86,75,0.534,Missed Postseason,,0.8481068281131753,Missed Postseason,No,0
+Toronto Blue Jays,2008,29626.0,ROGERS CENTRE,"Toronto, Canada",41500,5308706,97793900,86,76,0.531,Missed Postseason,,0.7138795180722891,Missed Postseason,No,0
 Chicago Cubs,2008,40743.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2697359,118345833,97,64,0.602,NLDS,Lost,0.9782467766332925,Lost NLDS,Yes,2
 Chicago White Sox,2008,30877.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2697359,121189332,89,74,0.546,ALDS,Lost,0.7602363658746768,Lost ALDS,Yes,2
-Seattle Mariners,2008,28761.0,T-MOBILE PARK,"Seattle, Washington",47574,593588,117666482,61,101,0.377,Missed Postseason,,0.6045529070500694,missed postseason,No,0
+Seattle Mariners,2008,28761.0,T-MOBILE PARK,"Seattle, Washington",47574,593588,117666482,61,101,0.377,Missed Postseason,,0.6045529070500694,Missed Postseason,No,0
 Boston Red Sox,2008,37632.0,FENWAY PARK,"Boston, Massachusetts",37673,600685,133390035,95,67,0.586,ALCS,Lost,0.9989116874153904,Lost ALCS,Yes,3
 Los Angeles Angels,2008,41194.0,ANGEL STADIUM,"Anaheim, California",45050,332102,119216333,100,62,0.617,ALDS,Lost,0.9144062153163152,Lost ALDS,Yes,2
-Colorado Rockies,2008,33127.0,COORS FIELD,"Denver, Colorado",50398,575721,68655500,74,88,0.457,Missed Postseason,,0.6573078296757808,missed postseason,No,0
+Colorado Rockies,2008,33127.0,COORS FIELD,"Denver, Colorado",50398,575721,68655500,74,88,0.457,Missed Postseason,,0.6573078296757808,Missed Postseason,No,0
 Milwaukee Brewers,2008,37882.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,587858,80937499,90,72,0.556,NLDS,Lost,0.9041050119331743,Lost NLDS,Yes,2
-Texas Rangers,2008,24320.0,GLOBE LIFE PARK,"Arlington, Texas",48114,359679,67712326,79,83,0.488,Missed Postseason,,0.5054661844785302,missed postseason,No,0
-San Francisco Giants,2008,35356.0,ORACLE PARK,"San Francisco, California",41915,791152,76594500,72,90,0.444,Missed Postseason,,0.8435166408207085,missed postseason,No,0
-Cincinnati Reds,2008,25415.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,299145,74117695,74,88,0.457,Missed Postseason,,0.6012396205436351,missed postseason,No,0
-Minnesota Twins,2008,28425.0,METRODOME,"Minneapolis, Minnesota",56144,379185,56932766,88,75,0.54,Missed Postseason,,0.5062874038187518,missed postseason,No,0
-Arizona Diamondbacks,2008,30986.0,CHASE FIELD,"Phoenix, Arizona",48633,1456729,66202712,82,80,0.506,Missed Postseason,,0.6371393909485329,missed postseason,No,0
-Baltimore Orioles,2008,25000.0,CAMDEN YARDS,"Baltimore, Maryland",45971,620184,67196246,68,93,0.422,Missed Postseason,,0.5438211046094277,missed postseason,No,0
-Cleveland Guardians,2008,27122.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,408261,78970066,81,81,0.5,Missed Postseason,,0.7740075911075597,missed postseason,No,0
-Washington Nationals,2008,29005.0,NATIONALS PARK,"Washington, District of Columbia",41313,580236,54961000,59,102,0.366,Missed Postseason,,0.7020792486626486,missed postseason,No,0
-Detroit Tigers,2008,39538.0,COMERICA PARK,"Detroit, Michigan",41574,756383,137685196,74,88,0.457,Missed Postseason,,0.9510270842353394,missed postseason,No,0
-Pittsburgh Pirates,2008,20113.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,307673,48689783,67,95,0.414,Missed Postseason,,0.5242948751368541,missed postseason,No,0
+Texas Rangers,2008,24320.0,GLOBE LIFE PARK,"Arlington, Texas",48114,359679,67712326,79,83,0.488,Missed Postseason,,0.5054661844785302,Missed Postseason,No,0
+San Francisco Giants,2008,35356.0,ORACLE PARK,"San Francisco, California",41915,791152,76594500,72,90,0.444,Missed Postseason,,0.8435166408207085,Missed Postseason,No,0
+Cincinnati Reds,2008,25415.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,299145,74117695,74,88,0.457,Missed Postseason,,0.6012396205436351,Missed Postseason,No,0
+Minnesota Twins,2008,28425.0,METRODOME,"Minneapolis, Minnesota",56144,379185,56932766,88,75,0.54,Missed Postseason,,0.5062874038187518,Missed Postseason,No,0
+Arizona Diamondbacks,2008,30986.0,CHASE FIELD,"Phoenix, Arizona",48633,1456729,66202712,82,80,0.506,Missed Postseason,,0.6371393909485329,Missed Postseason,No,0
+Baltimore Orioles,2008,25000.0,CAMDEN YARDS,"Baltimore, Maryland",45971,620184,67196246,68,93,0.422,Missed Postseason,,0.5438211046094277,Missed Postseason,No,0
+Cleveland Guardians,2008,27122.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,408261,78970066,81,81,0.5,Missed Postseason,,0.7740075911075597,Missed Postseason,No,0
+Washington Nationals,2008,29005.0,NATIONALS PARK,"Washington, District of Columbia",41313,580236,54961000,59,102,0.366,Missed Postseason,,0.7020792486626486,Missed Postseason,No,0
+Detroit Tigers,2008,39538.0,COMERICA PARK,"Detroit, Michigan",41574,756383,137685196,74,88,0.457,Missed Postseason,,0.9510270842353394,Missed Postseason,No,0
+Pittsburgh Pirates,2008,20113.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,307673,48689783,67,95,0.414,Missed Postseason,,0.5242948751368541,Missed Postseason,No,0
 Tampa Bay Rays,2008,22259.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,245195,43820597,97,65,0.599,World Series,Lost,0.8894705294705295,Lost World Series,Yes,4
-Kansas City Royals,2008,19986.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,454348,58245500,75,87,0.463,Missed Postseason,,0.4899369989949256,missed postseason,No,0
-Miami Marlins,2008,16688.0,SUN LIFE STADIUM,"Miami, Florida",36331,389996,21811500,84,77,0.522,Missed Postseason,,0.4593322506949988,missed postseason,No,0
-Oakland Athletics,2008,20558.0,OAKLAND COLISEUM,"Oakland, California",47170,386589,47967126,75,86,0.466,Missed Postseason,,0.43582785668857327,missed postseason,No,0
-Los Angeles Dodgers,2007,47617.0,DODGER STADIUM,"Los Angeles, California",56000,3751872,108454524,82,80,0.506,Missed Postseason,,0.8503035714285714,missed postseason,No,0
+Kansas City Royals,2008,19986.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,454348,58245500,75,87,0.463,Missed Postseason,,0.4899369989949256,Missed Postseason,No,0
+Miami Marlins,2008,16688.0,SUN LIFE STADIUM,"Miami, Florida",36331,389996,21811500,84,77,0.522,Missed Postseason,,0.4593322506949988,Missed Postseason,No,0
+Oakland Athletics,2008,20558.0,OAKLAND COLISEUM,"Oakland, California",47170,386589,47967126,75,86,0.466,Missed Postseason,,0.43582785668857327,Missed Postseason,No,0
+Los Angeles Dodgers,2007,47617.0,DODGER STADIUM,"Los Angeles, California",56000,3751872,108454524,82,80,0.506,Missed Postseason,,0.8503035714285714,Missed Postseason,No,0
 New York Yankees,2007,52729.0,YANKEE STADIUM,"New York, New York",56937,8013775,189259045,94,68,0.58,ALDS,Lost,0.9260937527442612,Lost ALDS,Yes,2
-New York Mets,2007,47579.0,SHEA STADIUM,"New York, New York",57333,8013775,115231663,88,74,0.543,Missed Postseason,,0.8298711039017669,missed postseason,No,0
-San Diego Padres,2007,34445.0,PETCO PARK,"San Diego, California",41164,1266198,58110567,89,74,0.546,Missed Postseason,,0.8367748518122632,missed postseason,No,0
-St. Louis Cardinals,2007,43854.0,BUSCH STADIUM,"St. Louis, Missouri",43975,317959,90286823,78,84,0.481,Missed Postseason,,0.9972484366117113,missed postseason,No,0
-Atlanta Braves,2007,33891.0,TURNER FIELD,"Atlanta, Georgia",50096,410086,87290833,84,78,0.519,Missed Postseason,,0.6765210795273076,missed postseason,No,0
+New York Mets,2007,47579.0,SHEA STADIUM,"New York, New York",57333,8013775,115231663,88,74,0.543,Missed Postseason,,0.8298711039017669,Missed Postseason,No,0
+San Diego Padres,2007,34445.0,PETCO PARK,"San Diego, California",41164,1266198,58110567,89,74,0.546,Missed Postseason,,0.8367748518122632,Missed Postseason,No,0
+St. Louis Cardinals,2007,43854.0,BUSCH STADIUM,"St. Louis, Missouri",43975,317959,90286823,78,84,0.481,Missed Postseason,,0.9972484366117113,Missed Postseason,No,0
+Atlanta Braves,2007,33891.0,TURNER FIELD,"Atlanta, Georgia",50096,410086,87290833,84,78,0.519,Missed Postseason,,0.6765210795273076,Missed Postseason,No,0
 Philadelphia Phillies,2007,38374.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1493309,89428213,89,73,0.549,NLDS,Lost,0.8916928081793889,Lost NLDS,Yes,2
-Houston Astros,2007,37288.0,MINUTE MAID PARK,"Houston, Texas",40963,2044612,87759000,73,89,0.451,Missed Postseason,,0.9102848912433171,missed postseason,No,0
-Toronto Blue Jays,2007,29143.0,ROGERS CENTRE,"Toronto, Canada",41500,5215742,81942800,83,79,0.512,Missed Postseason,,0.7022409638554217,missed postseason,No,0
+Houston Astros,2007,37288.0,MINUTE MAID PARK,"Houston, Texas",40963,2044612,87759000,73,89,0.451,Missed Postseason,,0.9102848912433171,Missed Postseason,No,0
+Toronto Blue Jays,2007,29143.0,ROGERS CENTRE,"Toronto, Canada",41500,5215742,81942800,83,79,0.512,Missed Postseason,,0.7022409638554217,Missed Postseason,No,0
 Chicago Cubs,2007,40153.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2703991,99670332,85,77,0.525,NLDS,Lost,0.9640807702465846,Lost NLDS,Yes,2
-Chicago White Sox,2007,33140.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2703991,108671833,72,90,0.444,Missed Postseason,,0.815954696540687,missed postseason,No,0
-Seattle Mariners,2007,32993.0,T-MOBILE PARK,"Seattle, Washington",47574,586956,106460833,88,74,0.543,Missed Postseason,,0.6935090595703536,missed postseason,No,0
+Chicago White Sox,2007,33140.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2703991,108671833,72,90,0.444,Missed Postseason,,0.815954696540687,Missed Postseason,No,0
+Seattle Mariners,2007,32993.0,T-MOBILE PARK,"Seattle, Washington",47574,586956,106460833,88,74,0.543,Missed Postseason,,0.6935090595703536,Missed Postseason,No,0
 Boston Red Sox,2007,36679.0,FENWAY PARK,"Boston, Massachusetts",37673,593136,143026214,96,66,0.593,World Series,Won,0.9736150558755607,Won World Series,Yes,4
 Los Angeles Angels,2007,41551.0,ANGEL STADIUM,"Anaheim, California",45050,330178,109251333,94,68,0.58,ALDS,Lost,0.922330743618202,Lost ALDS,Yes,2
 Colorado Rockies,2007,28978.0,COORS FIELD,"Denver, Colorado",50398,564395,54041000,90,73,0.552,World Series,Lost,0.5749831342513592,Lost World Series,Yes,4
-Milwaukee Brewers,2007,35421.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,586445,70986500,83,79,0.512,Missed Postseason,,0.8453699284009547,missed postseason,No,0
-Texas Rangers,2007,29795.0,GLOBE LIFE PARK,"Arlington, Texas",48114,355940,68318675,75,87,0.463,Missed Postseason,,0.6192584279004032,missed postseason,No,0
-San Francisco Giants,2007,39792.0,ORACLE PARK,"San Francisco, California",41915,778673,90219056,71,91,0.438,Missed Postseason,,0.9493498747465108,missed postseason,No,0
-Cincinnati Reds,2007,25414.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,301824,68524980,72,90,0.444,Missed Postseason,,0.6012159636630314,missed postseason,No,0
-Minnesota Twins,2007,28349.0,METRODOME,"Minneapolis, Minnesota",56144,377575,71439500,79,83,0.488,Missed Postseason,,0.5049337418067825,missed postseason,No,0
+Milwaukee Brewers,2007,35421.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,586445,70986500,83,79,0.512,Missed Postseason,,0.8453699284009547,Missed Postseason,No,0
+Texas Rangers,2007,29795.0,GLOBE LIFE PARK,"Arlington, Texas",48114,355940,68318675,75,87,0.463,Missed Postseason,,0.6192584279004032,Missed Postseason,No,0
+San Francisco Giants,2007,39792.0,ORACLE PARK,"San Francisco, California",41915,778673,90219056,71,91,0.438,Missed Postseason,,0.9493498747465108,Missed Postseason,No,0
+Cincinnati Reds,2007,25414.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,301824,68524980,72,90,0.444,Missed Postseason,,0.6012159636630314,Missed Postseason,No,0
+Minnesota Twins,2007,28349.0,METRODOME,"Minneapolis, Minnesota",56144,377575,71439500,79,83,0.488,Missed Postseason,,0.5049337418067825,Missed Postseason,No,0
 Arizona Diamondbacks,2007,28708.0,CHASE FIELD,"Phoenix, Arizona",48633,1450901,52067546,90,72,0.556,NLCS,Lost,0.5902987683260338,Lost NLCS,Yes,3
-Baltimore Orioles,2007,27060.0,CAMDEN YARDS,"Baltimore, Maryland",45971,620306,93174808,69,93,0.426,Missed Postseason,,0.5886319636292445,missed postseason,No,0
+Baltimore Orioles,2007,27060.0,CAMDEN YARDS,"Baltimore, Maryland",45971,620306,93174808,69,93,0.426,Missed Postseason,,0.5886319636292445,Missed Postseason,No,0
 Cleveland Guardians,2007,28448.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,415865,61673267,96,66,0.593,ALCS,Lost,0.8118489769127594,Lost ALCS,Yes,3
-Washington Nationals,2007,24217.0,RFK STADIUM,"Washington, District of Columbia",46382,574404,36947500,73,89,0.451,Missed Postseason,,0.5221206502522531,missed postseason,No,0
-Detroit Tigers,2007,37619.0,COMERICA PARK,"Detroit, Michigan",41574,784998,94800369,88,74,0.543,Missed Postseason,,0.9048684273824987,missed postseason,No,0
-Pittsburgh Pirates,2007,22141.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,308999,38537833,68,94,0.42,Missed Postseason,,0.5771596892758459,missed postseason,No,0
-Tampa Bay Rays,2007,17130.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,246037,24123500,66,96,0.407,Missed Postseason,,0.6845154845154845,missed postseason,No,0
-Kansas City Royals,2007,19961.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,452322,67116500,69,93,0.426,Missed Postseason,,0.4893241487510112,missed postseason,No,0
-Miami Marlins,2007,16919.0,SUN LIFE STADIUM,"Miami, Florida",36331,386814,30507000,71,91,0.438,Missed Postseason,,0.4656904571853238,missed postseason,No,0
-Oakland Athletics,2007,23726.0,OAKLAND COLISEUM,"Oakland, California",47170,383500,79366940,76,86,0.469,Missed Postseason,,0.5029891880432479,missed postseason,No,0
+Washington Nationals,2007,24217.0,RFK STADIUM,"Washington, District of Columbia",46382,574404,36947500,73,89,0.451,Missed Postseason,,0.5221206502522531,Missed Postseason,No,0
+Detroit Tigers,2007,37619.0,COMERICA PARK,"Detroit, Michigan",41574,784998,94800369,88,74,0.543,Missed Postseason,,0.9048684273824987,Missed Postseason,No,0
+Pittsburgh Pirates,2007,22141.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,308999,38537833,68,94,0.42,Missed Postseason,,0.5771596892758459,Missed Postseason,No,0
+Tampa Bay Rays,2007,17130.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,246037,24123500,66,96,0.407,Missed Postseason,,0.6845154845154845,Missed Postseason,No,0
+Kansas City Royals,2007,19961.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,452322,67116500,69,93,0.426,Missed Postseason,,0.4893241487510112,Missed Postseason,No,0
+Miami Marlins,2007,16919.0,SUN LIFE STADIUM,"Miami, Florida",36331,386814,30507000,71,91,0.438,Missed Postseason,,0.4656904571853238,Missed Postseason,No,0
+Oakland Athletics,2007,23726.0,OAKLAND COLISEUM,"Oakland, California",47170,383500,79366940,76,86,0.469,Missed Postseason,,0.5029891880432479,Missed Postseason,No,0
 Los Angeles Dodgers,2006,46401.0,DODGER STADIUM,"Los Angeles, California",56000,3767960,98447187,88,74,0.543,NLDS,Lost,0.8285892857142857,Lost NLDS,Yes,2
 New York Yankees,2006,52392.0,YANKEE STADIUM,"New York, New York",56937,7993906,194663079,97,65,0.599,ALDS,Lost,0.920174930185995,Lost ALDS,Yes,2
 New York Mets,2006,43327.0,SHEA STADIUM,"New York, New York",57333,7993906,101084963,97,65,0.599,NLCS,Lost,0.7557078820225699,Lost NLCS,Yes,3
 San Diego Padres,2006,32836.0,PETCO PARK,"San Diego, California",41164,1257625,69896141,88,74,0.543,NLDS,Lost,0.7976872995821591,Lost NLDS,Yes,2
 St. Louis Cardinals,2006,42588.0,BUSCH STADIUM,"St. Louis, Missouri",43975,320131,88891371,83,78,0.516,World Series,Won,0.9684593519044912,Won World Series,Yes,4
-Atlanta Braves,2006,31881.0,TURNER FIELD,"Atlanta, Georgia",50096,403548,90156876,79,83,0.488,Missed Postseason,,0.6363981156180134,missed postseason,No,0
-Philadelphia Phillies,2006,34200.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1488710,88273333,85,77,0.525,Missed Postseason,,0.7947019867549668,missed postseason,No,0
-Houston Astros,2006,37318.0,MINUTE MAID PARK,"Houston, Texas",40963,2038721,92551503,82,80,0.506,Missed Postseason,,0.9110172594780656,missed postseason,No,0
-Toronto Blue Jays,2006,28422.0,ROGERS CENTRE,"Toronto, Canada",41500,5124530,71915000,87,75,0.537,Missed Postseason,,0.6848674698795181,missed postseason,No,0
-Chicago Cubs,2006,39040.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2720181,94424499,66,96,0.407,Missed Postseason,,0.937357439554371,missed postseason,No,0
-Chicago White Sox,2006,36511.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2720181,102750667,90,72,0.556,Missed Postseason,,0.8989535885756494,missed postseason,No,0
-Seattle Mariners,2006,30634.0,T-MOBILE PARK,"Seattle, Washington",47574,580609,87959833,78,84,0.481,Missed Postseason,,0.6439231513011309,missed postseason,No,0
-Boston Red Sox,2006,36189.0,FENWAY PARK,"Boston, Massachusetts",37673,587816,120099824,86,76,0.531,Missed Postseason,,0.9606083932790062,missed postseason,No,0
-Los Angeles Angels,2006,42059.0,ANGEL STADIUM,"Anaheim, California",45050,331261,103472000,89,73,0.549,Missed Postseason,,0.9336071032186459,missed postseason,No,0
-Colorado Rockies,2006,25979.0,COORS FIELD,"Denver, Colorado",50398,556895,41233000,76,86,0.469,Missed Postseason,,0.5154768046351046,missed postseason,No,0
-Milwaukee Brewers,2006,28835.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,586395,57568333,75,87,0.463,Missed Postseason,,0.6881861575178998,missed postseason,No,0
-Texas Rangers,2006,29490.0,GLOBE LIFE PARK,"Arlington, Texas",48114,350759,68228662,80,82,0.494,Missed Postseason,,0.6129193166230203,missed postseason,No,0
-San Francisco Giants,2006,38639.0,ORACLE PARK,"San Francisco, California",41915,768650,90056419,76,85,0.472,Missed Postseason,,0.9218418227364905,missed postseason,No,0
-Cincinnati Reds,2006,26353.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,304713,60909519,80,82,0.494,Missed Postseason,,0.6234297745499279,missed postseason,No,0
+Atlanta Braves,2006,31881.0,TURNER FIELD,"Atlanta, Georgia",50096,403548,90156876,79,83,0.488,Missed Postseason,,0.6363981156180134,Missed Postseason,No,0
+Philadelphia Phillies,2006,34200.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1488710,88273333,85,77,0.525,Missed Postseason,,0.7947019867549668,Missed Postseason,No,0
+Houston Astros,2006,37318.0,MINUTE MAID PARK,"Houston, Texas",40963,2038721,92551503,82,80,0.506,Missed Postseason,,0.9110172594780656,Missed Postseason,No,0
+Toronto Blue Jays,2006,28422.0,ROGERS CENTRE,"Toronto, Canada",41500,5124530,71915000,87,75,0.537,Missed Postseason,,0.6848674698795181,Missed Postseason,No,0
+Chicago Cubs,2006,39040.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2720181,94424499,66,96,0.407,Missed Postseason,,0.937357439554371,Missed Postseason,No,0
+Chicago White Sox,2006,36511.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2720181,102750667,90,72,0.556,Missed Postseason,,0.8989535885756494,Missed Postseason,No,0
+Seattle Mariners,2006,30634.0,T-MOBILE PARK,"Seattle, Washington",47574,580609,87959833,78,84,0.481,Missed Postseason,,0.6439231513011309,Missed Postseason,No,0
+Boston Red Sox,2006,36189.0,FENWAY PARK,"Boston, Massachusetts",37673,587816,120099824,86,76,0.531,Missed Postseason,,0.9606083932790062,Missed Postseason,No,0
+Los Angeles Angels,2006,42059.0,ANGEL STADIUM,"Anaheim, California",45050,331261,103472000,89,73,0.549,Missed Postseason,,0.9336071032186459,Missed Postseason,No,0
+Colorado Rockies,2006,25979.0,COORS FIELD,"Denver, Colorado",50398,556895,41233000,76,86,0.469,Missed Postseason,,0.5154768046351046,Missed Postseason,No,0
+Milwaukee Brewers,2006,28835.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,586395,57568333,75,87,0.463,Missed Postseason,,0.6881861575178998,Missed Postseason,No,0
+Texas Rangers,2006,29490.0,GLOBE LIFE PARK,"Arlington, Texas",48114,350759,68228662,80,82,0.494,Missed Postseason,,0.6129193166230203,Missed Postseason,No,0
+San Francisco Giants,2006,38639.0,ORACLE PARK,"San Francisco, California",41915,768650,90056419,76,85,0.472,Missed Postseason,,0.9218418227364905,Missed Postseason,No,0
+Cincinnati Reds,2006,26353.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,304713,60909519,80,82,0.494,Missed Postseason,,0.6234297745499279,Missed Postseason,No,0
 Minnesota Twins,2006,28210.0,METRODOME,"Minneapolis, Minnesota",56144,376495,63396006,96,66,0.593,ALDS,Lost,0.5024579652322599,Lost ALDS,Yes,2
-Arizona Diamondbacks,2006,25829.0,CHASE FIELD,"Phoenix, Arizona",48633,1441241,59684226,76,86,0.469,Missed Postseason,,0.5311002817017252,missed postseason,No,0
-Baltimore Orioles,2006,26581.0,CAMDEN YARDS,"Baltimore, Maryland",45971,621109,72585582,70,92,0.432,Missed Postseason,,0.5782123512649279,missed postseason,No,0
-Cleveland Guardians,2006,24666.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,423831,56031500,78,84,0.481,Missed Postseason,,0.7039182671727405,missed postseason,No,0
-Washington Nationals,2006,26580.0,RFK STADIUM,"Washington, District of Columbia",46382,570681,63143000,71,91,0.438,Missed Postseason,,0.5730671381139235,missed postseason,No,0
+Arizona Diamondbacks,2006,25829.0,CHASE FIELD,"Phoenix, Arizona",48633,1441241,59684226,76,86,0.469,Missed Postseason,,0.5311002817017252,Missed Postseason,No,0
+Baltimore Orioles,2006,26581.0,CAMDEN YARDS,"Baltimore, Maryland",45971,621109,72585582,70,92,0.432,Missed Postseason,,0.5782123512649279,Missed Postseason,No,0
+Cleveland Guardians,2006,24666.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,423831,56031500,78,84,0.481,Missed Postseason,,0.7039182671727405,Missed Postseason,No,0
+Washington Nationals,2006,26580.0,RFK STADIUM,"Washington, District of Columbia",46382,570681,63143000,71,91,0.438,Missed Postseason,,0.5730671381139235,Missed Postseason,No,0
 Detroit Tigers,2006,32048.0,COMERICA PARK,"Detroit, Michigan",41574,811922,82612866,95,67,0.586,World Series,Lost,0.7708664068889209,Lost World Series,Yes,4
-Pittsburgh Pirates,2006,23269.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,311016,46717750,67,95,0.414,Missed Postseason,,0.6065637870809656,missed postseason,No,0
-Tampa Bay Rays,2006,16925.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,247788,35417967,61,101,0.377,Missed Postseason,,0.6763236763236763,missed postseason,No,0
-Kansas City Royals,2006,17157.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,449652,47294000,62,100,0.383,Missed Postseason,,0.42058686539357243,missed postseason,No,0
-Miami Marlins,2006,14372.0,SUN LIFE STADIUM,"Miami, Florida",36331,385314,14998500,78,84,0.481,Missed Postseason,,0.39558503757122015,missed postseason,No,0
+Pittsburgh Pirates,2006,23269.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,311016,46717750,67,95,0.414,Missed Postseason,,0.6065637870809656,Missed Postseason,No,0
+Tampa Bay Rays,2006,16925.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,247788,35417967,61,101,0.377,Missed Postseason,,0.6763236763236763,Missed Postseason,No,0
+Kansas City Royals,2006,17157.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,449652,47294000,62,100,0.383,Missed Postseason,,0.42058686539357243,Missed Postseason,No,0
+Miami Marlins,2006,14372.0,SUN LIFE STADIUM,"Miami, Florida",36331,385314,14998500,78,84,0.481,Missed Postseason,,0.39558503757122015,Missed Postseason,No,0
 Oakland Athletics,2006,24402.0,OAKLAND COLISEUM,"Oakland, California",47170,383107,62243079,93,69,0.574,ALCS,Lost,0.5173203307186771,Lost ALCS,Yes,3
-Los Angeles Dodgers,2005,44489.0,DODGER STADIUM,"Los Angeles, California",56000,3788197,83039000,71,91,0.438,Missed Postseason,,0.7944464285714286,missed postseason,No,0
+Los Angeles Dodgers,2005,44489.0,DODGER STADIUM,"Los Angeles, California",56000,3788197,83039000,71,91,0.438,Missed Postseason,,0.7944464285714286,Missed Postseason,No,0
 New York Yankees,2005,50502.0,YANKEE STADIUM,"New York, New York",56937,8013368,208306817,95,67,0.586,ALDS,Lost,0.8869803466989831,Lost ALDS,Yes,2
-New York Mets,2005,35374.0,SHEA STADIUM,"New York, New York",57333,8013368,101305821,83,79,0.512,Missed Postseason,,0.616991959255577,missed postseason,No,0
+New York Mets,2005,35374.0,SHEA STADIUM,"New York, New York",57333,8013368,101305821,83,79,0.512,Missed Postseason,,0.616991959255577,Missed Postseason,No,0
 San Diego Padres,2005,35429.0,PETCO PARK,"San Diego, California",41164,1257278,63290833,82,80,0.506,NLDS,Lost,0.8606792342823827,Lost NLDS,Yes,2
 St. Louis Cardinals,2005,43691.0,BUSCH STADIUM,"St. Louis, Missouri",50345,324945,92106833,100,62,0.617,NLCS,Lost,0.8678319594795908,Lost NLCS,Yes,3
 Atlanta Braves,2005,31514.0,TURNER FIELD,"Atlanta, Georgia",50096,396311,86457302,90,72,0.556,NLDS,Lost,0.6290721814116895,Lost NLDS,Yes,2
-Philadelphia Phillies,2005,33316.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1490861,95522000,88,74,0.543,Missed Postseason,,0.7741605669803648,missed postseason,No,0
+Philadelphia Phillies,2005,33316.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1490861,95522000,88,74,0.543,Missed Postseason,,0.7741605669803648,Missed Postseason,No,0
 Houston Astros,2005,34626.0,MINUTE MAID PARK,"Houston, Texas",40963,1995773,76779000,89,73,0.549,World Series,Lost,0.8452994165466396,Lost World Series,Yes,4
-Toronto Blue Jays,2005,24876.0,ROGERS CENTRE,"Toronto, Canada",41500,5035232,45719500,80,82,0.494,Missed Postseason,,0.5994216867469879,missed postseason,No,0
-Chicago Cubs,2005,38749.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2752523,87032933,79,83,0.488,Missed Postseason,,0.9303704770822829,missed postseason,No,0
+Toronto Blue Jays,2005,24876.0,ROGERS CENTRE,"Toronto, Canada",41500,5035232,45719500,80,82,0.494,Missed Postseason,,0.5994216867469879,Missed Postseason,No,0
+Chicago Cubs,2005,38749.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2752523,87032933,79,83,0.488,Missed Postseason,,0.9303704770822829,Missed Postseason,No,0
 Chicago White Sox,2005,28923.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2752523,75178000,99,63,0.611,World Series,Won,0.7121260617998276,Won World Series,Yes,4
-Seattle Mariners,2005,33648.0,T-MOBILE PARK,"Seattle, Washington",47574,573336,87754334,69,93,0.426,Missed Postseason,,0.707277084121579,missed postseason,No,0
+Seattle Mariners,2005,33648.0,T-MOBILE PARK,"Seattle, Washington",47574,573336,87754334,69,93,0.426,Missed Postseason,,0.707277084121579,Missed Postseason,No,0
 Boston Red Sox,2005,35159.0,FENWAY PARK,"Boston, Massachusetts",37673,587260,123505125,95,67,0.586,ALDS,Lost,0.9332678576168609,Lost ALDS,Yes,2
 Los Angeles Angels,2005,42033.0,ANGEL STADIUM,"Anaheim, California",45050,333165,97725322,95,67,0.586,ALCS,Lost,0.9330299667036626,Lost ALCS,Yes,3
-Colorado Rockies,2005,23929.0,COORS FIELD,"Denver, Colorado",50398,551691,48155000,67,95,0.414,Missed Postseason,,0.47480058732489383,missed postseason,No,0
-Milwaukee Brewers,2005,27296.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,588565,39934833,81,81,0.5,Missed Postseason,,0.65145584725537,missed postseason,No,0
-Texas Rangers,2005,31565.0,GLOBE LIFE PARK,"Arlington, Texas",48114,344472,55849000,79,83,0.488,Missed Postseason,,0.6560460572806252,missed postseason,No,0
-San Francisco Giants,2005,39271.0,ORACLE PARK,"San Francisco, California",41915,763016,90199500,75,87,0.463,Missed Postseason,,0.9369199570559466,missed postseason,No,0
-Cincinnati Reds,2005,23988.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,308398,61892583,73,89,0.451,Missed Postseason,,0.5674812519221215,missed postseason,No,0
-Minnesota Twins,2005,25114.0,METRODOME,"Minneapolis, Minnesota",56144,376937,56186000,83,79,0.512,Missed Postseason,,0.44731404958677684,missed postseason,No,0
-Arizona Diamondbacks,2005,25416.0,CHASE FIELD,"Phoenix, Arizona",48633,1417720,62329166,77,85,0.475,Missed Postseason,,0.5226081056073036,missed postseason,No,0
-Baltimore Orioles,2005,32404.0,CAMDEN YARDS,"Baltimore, Maryland",45971,621560,73914333,74,88,0.457,Missed Postseason,,0.7048791629505557,missed postseason,No,0
-Cleveland Guardians,2005,24861.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,433919,41502500,93,69,0.574,Missed Postseason,,0.7094831768499757,missed postseason,No,0
-Washington Nationals,2005,33728.0,RFK STADIUM,"Washington, District of Columbia",46382,567136,48581500,81,81,0.5,Missed Postseason,,0.7271786468888793,missed postseason,No,0
-Detroit Tigers,2005,25306.0,COMERICA PARK,"Detroit, Michigan",41574,837407,69092000,71,91,0.438,Missed Postseason,,0.6086977437821716,missed postseason,No,0
-Pittsburgh Pirates,2005,23003.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,314412,38133000,67,95,0.414,Missed Postseason,,0.5996298420311766,missed postseason,No,0
-Tampa Bay Rays,2005,14232.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,249457,29679067,67,95,0.414,Missed Postseason,,0.5687112887112887,missed postseason,No,0
-Kansas City Royals,2005,17356.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,447015,36881000,56,106,0.346,Missed Postseason,,0.425465153335131,missed postseason,No,0
-Miami Marlins,2005,22871.0,SUN LIFE STADIUM,"Miami, Florida",36331,382198,60408834,83,79,0.512,Missed Postseason,,0.6295174919490243,missed postseason,No,0
-Oakland Athletics,2005,26038.0,OAKLAND COLISEUM,"Oakland, California",47170,384931,55425762,88,74,0.543,Missed Postseason,,0.552003391986432,missed postseason,No,0
+Colorado Rockies,2005,23929.0,COORS FIELD,"Denver, Colorado",50398,551691,48155000,67,95,0.414,Missed Postseason,,0.47480058732489383,Missed Postseason,No,0
+Milwaukee Brewers,2005,27296.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,588565,39934833,81,81,0.5,Missed Postseason,,0.65145584725537,Missed Postseason,No,0
+Texas Rangers,2005,31565.0,GLOBE LIFE PARK,"Arlington, Texas",48114,344472,55849000,79,83,0.488,Missed Postseason,,0.6560460572806252,Missed Postseason,No,0
+San Francisco Giants,2005,39271.0,ORACLE PARK,"San Francisco, California",41915,763016,90199500,75,87,0.463,Missed Postseason,,0.9369199570559466,Missed Postseason,No,0
+Cincinnati Reds,2005,23988.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,308398,61892583,73,89,0.451,Missed Postseason,,0.5674812519221215,Missed Postseason,No,0
+Minnesota Twins,2005,25114.0,METRODOME,"Minneapolis, Minnesota",56144,376937,56186000,83,79,0.512,Missed Postseason,,0.44731404958677684,Missed Postseason,No,0
+Arizona Diamondbacks,2005,25416.0,CHASE FIELD,"Phoenix, Arizona",48633,1417720,62329166,77,85,0.475,Missed Postseason,,0.5226081056073036,Missed Postseason,No,0
+Baltimore Orioles,2005,32404.0,CAMDEN YARDS,"Baltimore, Maryland",45971,621560,73914333,74,88,0.457,Missed Postseason,,0.7048791629505557,Missed Postseason,No,0
+Cleveland Guardians,2005,24861.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,433919,41502500,93,69,0.574,Missed Postseason,,0.7094831768499757,Missed Postseason,No,0
+Washington Nationals,2005,33728.0,RFK STADIUM,"Washington, District of Columbia",46382,567136,48581500,81,81,0.5,Missed Postseason,,0.7271786468888793,Missed Postseason,No,0
+Detroit Tigers,2005,25306.0,COMERICA PARK,"Detroit, Michigan",41574,837407,69092000,71,91,0.438,Missed Postseason,,0.6086977437821716,Missed Postseason,No,0
+Pittsburgh Pirates,2005,23003.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,314412,38133000,67,95,0.414,Missed Postseason,,0.5996298420311766,Missed Postseason,No,0
+Tampa Bay Rays,2005,14232.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,249457,29679067,67,95,0.414,Missed Postseason,,0.5687112887112887,Missed Postseason,No,0
+Kansas City Royals,2005,17356.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,447015,36881000,56,106,0.346,Missed Postseason,,0.425465153335131,Missed Postseason,No,0
+Miami Marlins,2005,22871.0,SUN LIFE STADIUM,"Miami, Florida",36331,382198,60408834,83,79,0.512,Missed Postseason,,0.6295174919490243,Missed Postseason,No,0
+Oakland Athletics,2005,26038.0,OAKLAND COLISEUM,"Oakland, California",47170,384931,55425762,88,74,0.543,Missed Postseason,,0.552003391986432,Missed Postseason,No,0
 Los Angeles Dodgers,2004,43065.0,DODGER STADIUM,"Los Angeles, California",56000,3792650,92902001,93,69,0.574,NLDS,Lost,0.7690178571428572,Lost NLDS,Yes,2
 New York Yankees,2004,47788.0,YANKEE STADIUM,"New York, New York",56937,8043366,184193950,101,61,0.623,ALCS,Lost,0.8393136273425014,Lost ALCS,Yes,3
-New York Mets,2004,28979.0,SHEA STADIUM,"New York, New York",57333,8043366,96660970,71,91,0.438,Missed Postseason,,0.5054506130849598,missed postseason,No,0
-San Diego Padres,2004,37243.0,PETCO PARK,"San Diego, California",41164,1256969,55384833,87,75,0.537,Missed Postseason,,0.9047468661937615,missed postseason,No,0
+New York Mets,2004,28979.0,SHEA STADIUM,"New York, New York",57333,8043366,96660970,71,91,0.438,Missed Postseason,,0.5054506130849598,Missed Postseason,No,0
+San Diego Padres,2004,37243.0,PETCO PARK,"San Diego, California",41164,1256969,55384833,87,75,0.537,Missed Postseason,,0.9047468661937615,Missed Postseason,No,0
 St. Louis Cardinals,2004,37634.0,BUSCH STADIUM,"St. Louis, Missouri",50345,330988,83228333,105,57,0.648,World Series,Lost,0.7475220975270632,Lost World Series,Yes,4
 Atlanta Braves,2004,29399.0,TURNER FIELD,"Atlanta, Georgia",50096,397365,90182500,96,66,0.593,NLDS,Lost,0.5868532417757905,Lost NLDS,Yes,2
-Philadelphia Phillies,2004,40626.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1492882,93219167,86,76,0.531,Missed Postseason,,0.9440223074241896,missed postseason,No,0
+Philadelphia Phillies,2004,40626.0,CITIZENS BANK PARK,"Philadelphia, Pennsylvania",43035,1492882,93219167,86,76,0.531,Missed Postseason,,0.9440223074241896,Missed Postseason,No,0
 Houston Astros,2004,38121.0,MINUTE MAID PARK,"Houston, Texas",40963,1991817,75397000,92,70,0.568,NLCS,Lost,0.930620315894832,Lost NLCS,Yes,3
-Toronto Blue Jays,2004,23457.0,ROGERS CENTRE,"Toronto, Canada",41500,4947655,50017000,67,94,0.416,Missed Postseason,,0.5652289156626507,missed postseason,No,0
-Chicago Cubs,2004,39138.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2786291,90560000,89,73,0.549,Missed Postseason,,0.9397104372253836,missed postseason,No,0
-Chicago White Sox,2004,24437.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2786291,65212500,83,79,0.512,Missed Postseason,,0.6016742582789609,missed postseason,No,0
-Seattle Mariners,2004,36305.0,T-MOBILE PARK,"Seattle, Washington",47574,568719,81515834,63,99,0.389,Missed Postseason,,0.763126918064489,missed postseason,No,0
+Toronto Blue Jays,2004,23457.0,ROGERS CENTRE,"Toronto, Canada",41500,4947655,50017000,67,94,0.416,Missed Postseason,,0.5652289156626507,Missed Postseason,No,0
+Chicago Cubs,2004,39138.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2786291,90560000,89,73,0.549,Missed Postseason,,0.9397104372253836,Missed Postseason,No,0
+Chicago White Sox,2004,24437.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2786291,65212500,83,79,0.512,Missed Postseason,,0.6016742582789609,Missed Postseason,No,0
+Seattle Mariners,2004,36305.0,T-MOBILE PARK,"Seattle, Washington",47574,568719,81515834,63,99,0.389,Missed Postseason,,0.763126918064489,Missed Postseason,No,0
 Boston Red Sox,2004,35028.0,FENWAY PARK,"Boston, Massachusetts",37673,591166,127298500,98,64,0.605,World Series,Won,0.9297905661879861,Won World Series,Yes,4
 Los Angeles Angels,2004,41675.0,ANGEL STADIUM,"Anaheim, California",45050,334392,100534667,92,70,0.568,ALDS,Lost,0.9250832408435072,Lost ALDS,Yes,2
-Colorado Rockies,2004,29595.0,COORS FIELD,"Denver, Colorado",50398,550756,65445167,68,94,0.42,Missed Postseason,,0.5872256835588714,missed postseason,No,0
-Milwaukee Brewers,2004,25461.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,592008,27528500,67,94,0.416,Missed Postseason,,0.6076610978520286,missed postseason,No,0
-Texas Rangers,2004,31818.0,GLOBE LIFE PARK,"Arlington, Texas",48114,342162,55050417,89,73,0.549,Missed Postseason,,0.6613044020451427,missed postseason,No,0
-San Francisco Giants,2004,40208.0,ORACLE PARK,"San Francisco, California",41915,761325,82019166,91,71,0.562,Missed Postseason,,0.9592747226529882,missed postseason,No,0
-Cincinnati Reds,2004,28237.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,312648,46615250,76,86,0.469,Missed Postseason,,0.6679993376073431,missed postseason,No,0
+Colorado Rockies,2004,29595.0,COORS FIELD,"Denver, Colorado",50398,550756,65445167,68,94,0.42,Missed Postseason,,0.5872256835588714,Missed Postseason,No,0
+Milwaukee Brewers,2004,25461.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,592008,27528500,67,94,0.416,Missed Postseason,,0.6076610978520286,Missed Postseason,No,0
+Texas Rangers,2004,31818.0,GLOBE LIFE PARK,"Arlington, Texas",48114,342162,55050417,89,73,0.549,Missed Postseason,,0.6613044020451427,Missed Postseason,No,0
+San Francisco Giants,2004,40208.0,ORACLE PARK,"San Francisco, California",41915,761325,82019166,91,71,0.562,Missed Postseason,,0.9592747226529882,Missed Postseason,No,0
+Cincinnati Reds,2004,28237.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,312648,46615250,76,86,0.469,Missed Postseason,,0.6679993376073431,Missed Postseason,No,0
 Minnesota Twins,2004,23597.0,METRODOME,"Minneapolis, Minnesota",56144,378749,53585000,92,70,0.568,ALDS,Lost,0.4202942433741807,Lost ALDS,Yes,2
-Arizona Diamondbacks,2004,31105.0,CHASE FIELD,"Phoenix, Arizona",48633,1386945,69780750,51,111,0.315,Missed Postseason,,0.6395862891452306,missed postseason,No,0
-Baltimore Orioles,2004,34344.0,CAMDEN YARDS,"Baltimore, Maryland",45971,624222,51623333,78,84,0.481,Missed Postseason,,0.7470796806682474,missed postseason,No,0
-Cleveland Guardians,2004,22400.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,443502,34319300,80,82,0.494,Missed Postseason,,0.6392511629234325,missed postseason,No,0
-Detroit Tigers,2004,23962.0,COMERICA PARK,"Detroit, Michigan",41574,861186,46832000,72,90,0.444,Missed Postseason,,0.576369846538702,missed postseason,No,0
-Pittsburgh Pirates,2004,21107.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,318960,32227929,72,89,0.447,Missed Postseason,,0.5502059329544862,missed postseason,No,0
-Tampa Bay Rays,2004,16139.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,249423,29556667,70,91,0.435,Missed Postseason,,0.6449150849150849,missed postseason,No,0
-Kansas City Royals,2004,21031.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,445928,47609000,58,104,0.358,Missed Postseason,,0.5155541391905474,missed postseason,No,0
-Miami Marlins,2004,22091.0,SUN LIFE STADIUM,"Miami, Florida",36331,377924,42143042,83,79,0.512,Missed Postseason,,0.6080482232803942,missed postseason,No,0
-Oakland Athletics,2004,27179.0,OAKLAND COLISEUM,"Oakland, California",47170,388633,59425667,91,71,0.562,Missed Postseason,,0.576192495230019,missed postseason,No,0
-Montreal Expos,2004,9356.0,OLYMPIC STADIUM,"Montreal, Canada",46500,3618746,41197500,67,95,0.414,Missed Postseason,,0.20120430107526882,missed postseason,No,0
-Los Angeles Dodgers,2003,38748.0,DODGER STADIUM,"Los Angeles, California",56000,3784279,105872620,85,77,0.525,Missed Postseason,,0.6919285714285714,missed postseason,No,0
+Arizona Diamondbacks,2004,31105.0,CHASE FIELD,"Phoenix, Arizona",48633,1386945,69780750,51,111,0.315,Missed Postseason,,0.6395862891452306,Missed Postseason,No,0
+Baltimore Orioles,2004,34344.0,CAMDEN YARDS,"Baltimore, Maryland",45971,624222,51623333,78,84,0.481,Missed Postseason,,0.7470796806682474,Missed Postseason,No,0
+Cleveland Guardians,2004,22400.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,443502,34319300,80,82,0.494,Missed Postseason,,0.6392511629234325,Missed Postseason,No,0
+Detroit Tigers,2004,23962.0,COMERICA PARK,"Detroit, Michigan",41574,861186,46832000,72,90,0.444,Missed Postseason,,0.576369846538702,Missed Postseason,No,0
+Pittsburgh Pirates,2004,21107.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,318960,32227929,72,89,0.447,Missed Postseason,,0.5502059329544862,Missed Postseason,No,0
+Tampa Bay Rays,2004,16139.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,249423,29556667,70,91,0.435,Missed Postseason,,0.6449150849150849,Missed Postseason,No,0
+Kansas City Royals,2004,21031.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,445928,47609000,58,104,0.358,Missed Postseason,,0.5155541391905474,Missed Postseason,No,0
+Miami Marlins,2004,22091.0,SUN LIFE STADIUM,"Miami, Florida",36331,377924,42143042,83,79,0.512,Missed Postseason,,0.6080482232803942,Missed Postseason,No,0
+Oakland Athletics,2004,27179.0,OAKLAND COLISEUM,"Oakland, California",47170,388633,59425667,91,71,0.562,Missed Postseason,,0.576192495230019,Missed Postseason,No,0
+Montreal Expos,2004,9356.0,OLYMPIC STADIUM,"Montreal, Canada",46500,3618746,41197500,67,95,0.414,Missed Postseason,,0.20120430107526882,Missed Postseason,No,0
+Los Angeles Dodgers,2003,38748.0,DODGER STADIUM,"Los Angeles, California",56000,3784279,105872620,85,77,0.525,Missed Postseason,,0.6919285714285714,Missed Postseason,No,0
 New York Yankees,2003,42785.0,YANKEE STADIUM,"New York, New York",56937,8068073,152749814,101,61,0.623,World Series,Lost,0.751444579096194,Lost World Series,Yes,4
-New York Mets,2003,28406.0,SHEA STADIUM,"New York, New York",57333,8068073,117176429,66,95,0.41,Missed Postseason,,0.4954563689323775,missed postseason,No,0
-San Diego Padres,2003,25024.0,JACK MURPHY STADIUM,"San Diego, California",47972,1254603,47928000,64,98,0.395,Missed Postseason,,0.5216376219461353,missed postseason,No,0
-St. Louis Cardinals,2003,35930.0,BUSCH STADIUM,"St. Louis, Missouri",50345,334893,83486666,85,77,0.525,Missed Postseason,,0.7136756380971297,missed postseason,No,0
+New York Mets,2003,28406.0,SHEA STADIUM,"New York, New York",57333,8068073,117176429,66,95,0.41,Missed Postseason,,0.4954563689323775,Missed Postseason,No,0
+San Diego Padres,2003,25024.0,JACK MURPHY STADIUM,"San Diego, California",47972,1254603,47928000,64,98,0.395,Missed Postseason,,0.5216376219461353,Missed Postseason,No,0
+St. Louis Cardinals,2003,35930.0,BUSCH STADIUM,"St. Louis, Missouri",50345,334893,83486666,85,77,0.525,Missed Postseason,,0.7136756380971297,Missed Postseason,No,0
 Atlanta Braves,2003,30393.0,TURNER FIELD,"Atlanta, Georgia",50096,403080,106243667,101,61,0.623,NLDS,Lost,0.6066951453209837,Lost NLDS,Yes,2
-Philadelphia Phillies,2003,28973.0,VETERANS STADIUM,"Philadelphia, Pennsylvania",62623,1493802,70780000,86,76,0.531,Missed Postseason,,0.4626574900595628,missed postseason,No,0
-Houston Astros,2003,30299.0,MINUTE MAID PARK,"Houston, Texas",40963,1992464,71040000,87,75,0.537,Missed Postseason,,0.7396675048214242,missed postseason,No,0
-Toronto Blue Jays,2003,22215.0,ROGERS CENTRE,"Toronto, Canada",41500,4861366,51269000,86,76,0.531,Missed Postseason,,0.5353012048192771,missed postseason,No,0
+Philadelphia Phillies,2003,28973.0,VETERANS STADIUM,"Philadelphia, Pennsylvania",62623,1493802,70780000,86,76,0.531,Missed Postseason,,0.4626574900595628,Missed Postseason,No,0
+Houston Astros,2003,30299.0,MINUTE MAID PARK,"Houston, Texas",40963,1992464,71040000,87,75,0.537,Missed Postseason,,0.7396675048214242,Missed Postseason,No,0
+Toronto Blue Jays,2003,22215.0,ROGERS CENTRE,"Toronto, Canada",41500,4861366,51269000,86,76,0.531,Missed Postseason,,0.5353012048192771,Missed Postseason,No,0
 Chicago Cubs,2003,37032.0,WRIGLEY FIELD,"Chicago, Illinois",41649,2819117,79868333,88,74,0.543,NLCS,Lost,0.889144997478931,Lost NLCS,Yes,3
-Chicago White Sox,2003,23945.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2819117,51010000,86,76,0.531,Missed Postseason,,0.5895605072017728,missed postseason,No,0
-Seattle Mariners,2003,40351.0,T-MOBILE PARK,"Seattle, Washington",47574,566751,86959167,93,69,0.574,Missed Postseason,,0.8481733720099214,missed postseason,No,0
+Chicago White Sox,2003,23945.0,GUARANTEED RATE FIELD,"Chicago, Illinois",40615,2819117,51010000,86,76,0.531,Missed Postseason,,0.5895605072017728,Missed Postseason,No,0
+Seattle Mariners,2003,40351.0,T-MOBILE PARK,"Seattle, Washington",47574,566751,86959167,93,69,0.574,Missed Postseason,,0.8481733720099214,Missed Postseason,No,0
 Boston Red Sox,2003,33631.0,FENWAY PARK,"Boston, Massachusetts",37673,595864,99946500,95,67,0.586,ALCS,Lost,0.8927083056831152,Lost ALCS,Yes,3
-Los Angeles Angels,2003,37791.0,ANGEL STADIUM,"Anaheim, California",45050,334029,79031667,77,85,0.475,Missed Postseason,,0.8388679245283018,missed postseason,No,0
-Colorado Rockies,2003,28815.0,COORS FIELD,"Denver, Colorado",50398,552588,67179667,74,88,0.457,Missed Postseason,,0.5717488789237668,missed postseason,No,0
-Milwaukee Brewers,2003,20992.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,594303,40627000,68,94,0.42,Missed Postseason,,0.5010023866348449,missed postseason,No,0
-Texas Rangers,2003,25856.0,GLOBE LIFE PARK,"Arlington, Texas",48114,340699,103491667,71,91,0.438,Missed Postseason,,0.5373903645508584,missed postseason,No,0
+Los Angeles Angels,2003,37791.0,ANGEL STADIUM,"Anaheim, California",45050,334029,79031667,77,85,0.475,Missed Postseason,,0.8388679245283018,Missed Postseason,No,0
+Colorado Rockies,2003,28815.0,COORS FIELD,"Denver, Colorado",50398,552588,67179667,74,88,0.457,Missed Postseason,,0.5717488789237668,Missed Postseason,No,0
+Milwaukee Brewers,2003,20992.0,AMERICAN FAMILY FIELD,"Milwaukee, Wisconsin",41900,594303,40627000,68,94,0.42,Missed Postseason,,0.5010023866348449,Missed Postseason,No,0
+Texas Rangers,2003,25856.0,GLOBE LIFE PARK,"Arlington, Texas",48114,340699,103491667,71,91,0.438,Missed Postseason,,0.5373903645508584,Missed Postseason,No,0
 San Francisco Giants,2003,40304.0,ORACLE PARK,"San Francisco, California",41915,766160,82852167,100,61,0.621,NLDS,Lost,0.9615650721698676,Lost NLDS,Yes,2
-Cincinnati Reds,2003,29077.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,317432,59355667,69,93,0.426,Missed Postseason,,0.6878711173144709,missed postseason,No,0
+Cincinnati Reds,2003,29077.0,GREAT AMERICAN BALL PARK,"Cincinnati, Ohio",42271,317432,59355667,69,93,0.426,Missed Postseason,,0.6878711173144709,Missed Postseason,No,0
 Minnesota Twins,2003,24024.0,METRODOME,"Minneapolis, Minnesota",56144,380189,55505000,90,72,0.556,ALDS,Lost,0.4278996865203762,Lost ALDS,Yes,2
-Arizona Diamondbacks,2003,34636.0,CHASE FIELD,"Phoenix, Arizona",48633,1368806,80640333,84,78,0.519,Missed Postseason,,0.7121913104270763,missed postseason,No,0
-Baltimore Orioles,2003,30297.0,CAMDEN YARDS,"Baltimore, Maryland",45971,629033,73877500,71,91,0.438,Missed Postseason,,0.6590459202540733,missed postseason,No,0
-Cleveland Guardians,2003,21358.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,452228,45584834,68,94,0.42,Missed Postseason,,0.609514568648155,missed postseason,No,0
-Detroit Tigers,2003,17103.0,COMERICA PARK,"Detroit, Michigan",41574,884411,49168000,43,119,0.265,Missed Postseason,,0.41138692452013276,missed postseason,No,0
-Pittsburgh Pirates,2003,20983.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,323589,54812429,75,87,0.463,Missed Postseason,,0.5469735675929305,missed postseason,No,0
-Tampa Bay Rays,2003,13070.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,249142,19630000,63,99,0.389,Missed Postseason,,0.5222777222777223,missed postseason,No,0
-Kansas City Royals,2003,22732.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,445623,40518000,83,79,0.512,Missed Postseason,,0.557252469786483,missed postseason,No,0
+Arizona Diamondbacks,2003,34636.0,CHASE FIELD,"Phoenix, Arizona",48633,1368806,80640333,84,78,0.519,Missed Postseason,,0.7121913104270763,Missed Postseason,No,0
+Baltimore Orioles,2003,30297.0,CAMDEN YARDS,"Baltimore, Maryland",45971,629033,73877500,71,91,0.438,Missed Postseason,,0.6590459202540733,Missed Postseason,No,0
+Cleveland Guardians,2003,21358.0,PROGRESSIVE FIELD,"Cleveland, Ohio",35041,452228,45584834,68,94,0.42,Missed Postseason,,0.609514568648155,Missed Postseason,No,0
+Detroit Tigers,2003,17103.0,COMERICA PARK,"Detroit, Michigan",41574,884411,49168000,43,119,0.265,Missed Postseason,,0.41138692452013276,Missed Postseason,No,0
+Pittsburgh Pirates,2003,20983.0,PNC PARK,"Pittsburgh, Pennsylvania",38362,323589,54812429,75,87,0.463,Missed Postseason,,0.5469735675929305,Missed Postseason,No,0
+Tampa Bay Rays,2003,13070.0,TROPICANA FIELD,"St. Petersburg, Florida",25025,249142,19630000,63,99,0.389,Missed Postseason,,0.5222777222777223,Missed Postseason,No,0
+Kansas City Royals,2003,22732.0,KAUFFMAN STADIUM,"Kansas, Missouri",40793,445623,40518000,83,79,0.512,Missed Postseason,,0.557252469786483,Missed Postseason,No,0
 Miami Marlins,2003,16290.0,SUN LIFE STADIUM,"Miami, Florida",36331,374387,49050000,91,71,0.562,World Series,Won,0.44837741873331316,Won World Series,Yes,4
 Oakland Athletics,2003,27365.0,OAKLAND COLISEUM,"Oakland, California",47170,393538,50260834,96,66,0.593,ALDS,Lost,0.5801356794572822,Lost ALDS,Yes,2
-Montreal Expos,2003,12662.0,OLYMPIC STADIUM,"Montreal, Canada",46500,3564175,51948500,83,79,0.512,Missed Postseason,,0.2723010752688172,missed postseason,No,0
+Montreal Expos,2003,12662.0,OLYMPIC STADIUM,"Montreal, Canada",46500,3564175,51948500,83,79,0.512,Missed Postseason,,0.2723010752688172,Missed Postseason,No,0

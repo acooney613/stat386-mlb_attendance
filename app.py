@@ -81,8 +81,9 @@ cols = st.columns([2, 1])
 fig1.update_layout(width=800, height=500)
 test.update_layout(width = 450, height = 500)
 cols[0].plotly_chart(fig1, config = {'displayModeBar' : False})
-cols[0].info("This is a scatterplot showing, on average, what percent of the stadium a team will fill per game, by a team's payroll")
+cols[0].info("This shows the percent of the stadium filled (on average) by total payroll, colored by team \n\nNOTE: Hovering over each point will show more information about that team's season")
 cols[1].plotly_chart(test, config = {'displayModeBar' : False})
+cols[1].info(f"This is a bar chart comparing the overall average attendance and the current year's average attendance")
 
 options = data['team'].unique()
 options.sort()
@@ -112,6 +113,7 @@ fig2.update_layout(
 )
 
 cols[0].plotly_chart(fig2)
+cols[0].info("Boxplot for the selected team's average attendance")
 
 if not selected:
     fig3 = px.scatter(df2, x = 'wins', y = 'proportion', color = 'team', 
@@ -142,6 +144,7 @@ fig3.update_layout(
 )
 
 cols[1].plotly_chart(fig3)
+cols[1].info("This shows the percent of the stadium filled (on average) by total wins, colored by team")
 
 st.subheader('Filter Dataset')
 col1, col2, col3 = st.columns(3)
