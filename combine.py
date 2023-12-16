@@ -15,7 +15,7 @@ class combine():
         data['proportion'] = data['average attendance'] / data['capacity']
         data['series result'] = data['result'] + ' ' + data['series']
         data['series result'] = data['series result'].fillna('Missed Postseason')
-        order = ['Won World Series', 'Lost World Series', 'Lost ALCS', 'Lost NLCS', 'Lost ALDS', 'Lost NLDS', 'Lost ALWC', 'Lost NLWC']
+        order = ['Won World Series', 'Lost World Series', 'Lost ALCS', 'Lost NLCS', 'Lost ALDS', 'Lost NLDS', 'Lost ALWC', 'Lost NLWC', 'Missed Postseason']
         data['series result'] = pd.Categorical(data['series result'], categories=order, ordered=True)
         data['made postseason'] = np.where(data['series'] != 'Missed Postseason', 'Yes', 'No')
         numbering = {'World Series' : 4, 'NLCS' : 3, 'ALCS' : 3, 'ALDS' : 2, 'NLDS' : 2, 'NLWC' : 1, 'ALWC' : 1, 'Missed Postseason' : 0}
