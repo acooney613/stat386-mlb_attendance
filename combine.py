@@ -63,6 +63,7 @@ class combine():
                             data = pd.concat([data, pd.DataFrame(data = row, index = [len(data) + 1])], ignore_index = True)
         return data
 
+# must create these CSV's using the respective files
 df_payroll = pd.read_csv('DATA/payroll.csv')
 df_stadium = pd.read_csv('DATA/stadiums.csv')
 df_pop = pd.read_csv('DATA/population.csv')
