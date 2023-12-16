@@ -6,12 +6,6 @@ import plotly.express as px
 
 # read in the data
 df = pd.read_csv('mlb_attendance.csv')
-df['proportion'] = df['average attendance'] / df['capacity']
-df['series_result'] = df['result'] + ' ' + df['series']
-df['series_result'] = df['series_result'].fillna('missed postseason')
-df['made postseason'] = np.where(df['series'] != 'Missed Postseason', 'Yes', 'No')
-numbering = {'World Series' : 4, 'NLCS' : 3, 'ALCS' : 3, 'ALDS' : 2, 'NLDS' : 2, 'NLWC' : 1, 'ALWC' : 1, 'Missed Postseason' : 0}
-df['postseason'] = df['series'].map(numbering)
 
 # proportion of fan attendance by payroll with helpful hover data
 fig = px.scatter(df, x = 'wins', y = 'proportion', color = 'team', hover_data = ['year'], trendline = 'lowess',
@@ -80,13 +74,13 @@ plt.ylabel('End of Season Result')
 plt.title('Effects of Fan Attendance on Season Result')
 plt.tight_layout()
 #plt.savefig('result.png')
-plt.show()
+#plt.show()
 plt.close()
 
 # barplot of series result by payroll
 #order = ['won World Series', 'lost World Series', 'lost ALCS', 'lost NLCS', 'lost ALDS', 'lost NLDS', 'lost ALWC', 'lost NLWC', 'missed postseason']
 df_agg = df.groupby(['series_result'])['payroll'].mean().reset_index().sort_values('payroll', ascending = False)
-fig = sns.barplot(df, y = 'series_result', x = 'payroll', palette = 'husl', errorbar = None, order = df_agg['series_result'])
+fig = sns.barplot(df, y = 'series_result', x = 'payroll', palette = 'tab10', errorbar = None, order = df_agg['series_result'])
 plt.xlabel('Average Team Payroll')
 plt.ylabel('End of Season Result')
 plt.title('Effects of Payroll on Season Result')

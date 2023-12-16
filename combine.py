@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 class combine():
     def __init__(self, payroll, attendance, stadium, population, season):
@@ -10,6 +11,13 @@ class combine():
     def combine_season(self, data, season):
         data['team'] = data['team'].str.replace('A’s', 'Athletics')
         data = pd.merge(data, season, on = ['team', 'year'])
+
+        data['proportion'] = data['average attendance'] / data['capacity']
+        data['series_result'] = data['result'] + ' ' + data['series']
+        data['series_result'] = data['series_result'].fillna('missed postseason')
+        data['made postseason'] = np.where(data['series'] != 'Missed Postseason', 'Yes', 'No')
+        numbering = {'World Series' : 4, 'NLCS' : 3, 'ALCS' : 3, 'ALDS' : 2, 'NLDS' : 2, 'NLWC' : 1, 'ALWC' : 1, 'Missed Postseason' : 0}
+        data['postseason'] = data['series'].map(numbering)
 
         data.to_csv('mlb_attendance.csv', index = False)
 
