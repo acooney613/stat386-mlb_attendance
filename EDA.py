@@ -21,7 +21,7 @@ fig.update_layout(showlegend = False)
 
 # scatterplot for payroll and proportion colored by postseason
 fig = px.scatter(df, x = 'payroll', y = 'proportion', trendline = 'ols', color = 'made postseason',
-                 hover_data = ['year', 'team', 'series_result'])
+                 hover_data = ['year', 'team', 'series result'])
 #fig.show()
 
 # table to see the average payroll for each postseason category
@@ -67,8 +67,8 @@ plt.ylabel('Proportion of Stadium Filled (on Average)')
 plt.close()
 
 # barplot for series result by proportion
-df_agg = df.groupby(['series_result'])['proportion'].mean().reset_index().sort_values('proportion', ascending = False)
-fig = sns.barplot(df, y = 'series_result', x = 'proportion', palette = 'husl', errorbar = None, order = df_agg['series_result'])
+df_agg = df.groupby(['series result'])['proportion'].mean().reset_index().sort_values('proportion', ascending = False)
+fig = sns.barplot(df, y = 'series result', x = 'proportion', palette = 'husl', errorbar = None, order = df_agg['series result'])
 plt.xlabel('Proportion of Stadium Filled')
 plt.ylabel('End of Season Result')
 plt.title('Effects of Fan Attendance on Season Result')
@@ -79,8 +79,8 @@ plt.close()
 
 # barplot of series result by payroll
 #order = ['won World Series', 'lost World Series', 'lost ALCS', 'lost NLCS', 'lost ALDS', 'lost NLDS', 'lost ALWC', 'lost NLWC', 'missed postseason']
-df_agg = df.groupby(['series_result'])['payroll'].mean().reset_index().sort_values('payroll', ascending = False)
-fig = sns.barplot(df, y = 'series_result', x = 'payroll', palette = 'tab10', errorbar = None, order = df_agg['series_result'])
+df_agg = df.groupby(['series result'])['payroll'].mean().reset_index().sort_values('payroll', ascending = False)
+fig = sns.barplot(df, y = 'series result', x = 'payroll', palette = 'tab10', errorbar = None, order = df_agg['series result'])
 plt.xlabel('Average Team Payroll')
 plt.ylabel('End of Season Result')
 plt.title('Effects of Payroll on Season Result')

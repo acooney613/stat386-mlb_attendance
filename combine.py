@@ -13,8 +13,8 @@ class combine():
         data = pd.merge(data, season, on = ['team', 'year'])
         data['result'] = data['result'].str.capitalize()
         data['proportion'] = data['average attendance'] / data['capacity']
-        data['series_result'] = data['result'] + ' ' + data['series']
-        data['series_result'] = data['series_result'].fillna('Missed Postseason')
+        data['series result'] = data['result'] + ' ' + data['series']
+        data['series result'] = data['series result'].fillna('Missed Postseason')
         data['made postseason'] = np.where(data['series'] != 'Missed Postseason', 'Yes', 'No')
         numbering = {'World Series' : 4, 'NLCS' : 3, 'ALCS' : 3, 'ALDS' : 2, 'NLDS' : 2, 'NLWC' : 1, 'ALWC' : 1, 'Missed Postseason' : 0}
         data['postseason'] = data['series'].map(numbering)

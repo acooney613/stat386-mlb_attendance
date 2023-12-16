@@ -24,12 +24,6 @@ text6 = '\n\nHave fun exploring the data below!!'
 cols[1].markdown(text+text2+text3+text4+text5+text6, unsafe_allow_html=True)
 
 data = pd.read_csv('mlb_attendance.csv')
-numbering = {'World Series' : 4, 'NLCS' : 3, 'ALCS' : 3, 'ALDS' : 2, 'NLDS' : 2, 'NLWC' : 1, 'ALWC' : 1, 'Missed Postseason' : 0}
-data['postseason'] = data['series'].map(numbering)
-data['proportion'] = data['average attendance'] / data['capacity']
-data['series_result'] = data['result'] + ' ' + data['series']
-data['series_result'] = data['series_result'].fillna('missed postseason')
-data['made postseason'] = np.where(data['series'] != 'Missed Postseason', 'Yes', 'No')
 
 avg = data.groupby('made postseason').mean('average attendance')[['average attendance']].reset_index()
 avg['year'] = 'Overall'
