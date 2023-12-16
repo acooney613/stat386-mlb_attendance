@@ -11,7 +11,7 @@ class combine():
     def combine_season(self, data, season):
         data['team'] = data['team'].str.replace('A’s', 'Athletics')
         data = pd.merge(data, season, on = ['team', 'year'])
-
+        data['result'] = data['result'].str.capitalize()
         data['proportion'] = data['average attendance'] / data['capacity']
         data['series_result'] = data['result'] + ' ' + data['series']
         data['series_result'] = data['series_result'].fillna('missed postseason')

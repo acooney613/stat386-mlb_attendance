@@ -73,8 +73,8 @@ plt.xlabel('Proportion of Stadium Filled')
 plt.ylabel('End of Season Result')
 plt.title('Effects of Fan Attendance on Season Result')
 plt.tight_layout()
-plt.savefig('result.png')
-plt.show()
+#plt.savefig('results.png')
+#plt.show()
 plt.close()
 
 # barplot of series result by payroll
