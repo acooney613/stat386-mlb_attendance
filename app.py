@@ -81,6 +81,7 @@ cols = st.columns([2, 1])
 fig1.update_layout(width=800, height=500)
 test.update_layout(width = 450, height = 500)
 cols[0].plotly_chart(fig1, config = {'displayModeBar' : False})
+cols[0].info("This is a scatterplot showing, on average, what percent of the stadium a team will fill per game, by a team's payroll")
 cols[1].plotly_chart(test, config = {'displayModeBar' : False})
 
 options = data['team'].unique()
