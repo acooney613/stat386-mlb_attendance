@@ -145,7 +145,8 @@ cols[1].info("This shows the percent of the stadium filled (on average) by total
 
 st.subheader('Filter Dataset')
 col1, col2, col3 = st.columns(3)
-
+data['average attendance'].fillna(value = 'COVID-19', inplace = True)
+data['proportion'].fillna(value = 'COVID-19', inplace = True)
 with col1:
     years = data['year'].unique()
     year = st.selectbox('Select Year To Look At: ', options = years, index = None)
@@ -170,7 +171,8 @@ value = not st.checkbox('Sort Highest To Lowest', value = True)
 if column:
     df3 = df3.sort_values(by = column, ascending = value)
 
-df3 = df3.fillna('COVID-19')
+
+#df3 = df3.fillna('COVID-19')
 df3 = df3.reset_index(drop = True)
 
 st.table(df3)
